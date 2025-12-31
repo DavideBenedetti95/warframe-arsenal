@@ -2,8 +2,6 @@
 
 Un'applicazione web per esplorare le armi disponibili in Warframe filtrate per Mastery Rank.
 
-![Warframe Arsenal](https://cdn.warframestat.us/img/warframe-logo.png)
-
 ## ✨ Funzionalità
 
 - 🔍 **Filtra per Mastery Rank** - Visualizza solo le armi sbloccate al tuo livello
