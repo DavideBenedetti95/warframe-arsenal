@@ -1,0 +1,297 @@
+/* Warframes Page */
+.warframes-page {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 24px 32px 64px;
+  min-height: 100vh;
+}
+
+/* Page Header */
+.page-header {
+  text-align: center;
+  margin-bottom: 48px;
+  padding: 48px 0;
+  position: relative;
+}
+
+.page-header::before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 200px;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, var(--wf-gold), transparent);
+}
+
+.page-header__subtitle {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 11px;
+  letter-spacing: 6px;
+  text-transform: uppercase;
+  color: var(--wf-gold);
+  margin-bottom: 8px;
+  font-weight: 500;
+}
+
+.page-header__title {
+  font-family: 'Orbitron', sans-serif;
+  font-size: clamp(28px, 5vw, 48px);
+  font-weight: 700;
+  margin: 0;
+  color: var(--wf-text-bright);
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  text-shadow: 0 0 40px rgba(240, 160, 64, 0.3);
+}
+
+.page-header__description {
+  margin-top: 16px;
+  color: var(--wf-text-dim);
+  font-size: 16px;
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Search Input */
+.search-group {
+  flex: 1;
+  max-width: 300px;
+}
+
+.search-input {
+  width: 100%;
+  padding: 12px 16px;
+  font-family: 'Rajdhani', sans-serif;
+  font-size: 15px;
+  background: var(--wf-bg-elevated);
+  border: 1px solid var(--wf-border);
+  border-radius: 4px;
+  color: var(--wf-text);
+  outline: none;
+  transition: all 0.2s ease;
+}
+
+.search-input:focus {
+  border-color: var(--wf-gold);
+  box-shadow: 0 0 20px rgba(240, 160, 64, 0.2);
+}
+
+.search-input::placeholder {
+  color: var(--wf-text-dim);
+}
+
+/* Warframes Grid */
+.warframes-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 20px;
+}
+
+/* Warframe Card */
+.warframe-card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  background: var(--wf-bg-card);
+  border: 1px solid var(--wf-border);
+  transition: all 0.3s ease;
+  overflow: hidden;
+  clip-path: polygon(0 0, calc(100% - 20px) 0, 100% 20px, 100% 100%, 20px 100%, 0 calc(100% - 20px));
+}
+
+.warframe-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background: linear-gradient(90deg, var(--wf-gold), transparent);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.warframe-card:hover {
+  border-color: var(--wf-gold-dark);
+  transform: translateY(-4px);
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.5), 0 0 0 1px rgba(240, 160, 64, 0.1);
+}
+
+.warframe-card:hover::before {
+  opacity: 1;
+}
+
+/* Warframe Image */
+.warframe-card__image-container {
+  position: relative;
+  width: 100%;
+  height: 160px;
+  background: var(--wf-bg-elevated);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.warframe-card__image-container::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: 
+    linear-gradient(135deg, rgba(240, 160, 64, 0.1) 0%, transparent 40%),
+    linear-gradient(to bottom, transparent 60%, var(--wf-bg-card) 100%);
+  z-index: 1;
+}
+
+.warframe-card__image {
+  max-width: 80%;
+  max-height: 140px;
+  object-fit: contain;
+  filter: drop-shadow(0 4px 12px rgba(0, 0, 0, 0.5));
+  transition: transform 0.3s ease;
+}
+
+.warframe-card:hover .warframe-card__image {
+  transform: scale(1.08);
+}
+
+.warframe-card__no-image {
+  font-size: 48px;
+  opacity: 0.3;
+}
+
+.warframe-card__vaulted {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  padding: 4px 10px;
+  font-size: 10px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: var(--wf-gold);
+  background: rgba(0, 0, 0, 0.7);
+  border: 1px solid var(--wf-gold-dark);
+  border-radius: 2px;
+  z-index: 2;
+}
+
+/* Warframe Info */
+.warframe-card__info {
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.warframe-card__name-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.warframe-card__name {
+  font-family: 'Rajdhani', sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  color: var(--wf-text-bright);
+  margin: 0;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.warframe-card__variant {
+  padding: 3px 8px;
+  font-size: 10px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  color: var(--wf-bg-deep);
+  border-radius: 2px;
+}
+
+.warframe-card__stats {
+  display: flex;
+  gap: 16px;
+}
+
+.warframe-card__stat {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  font-size: 13px;
+  color: var(--wf-text-dim);
+}
+
+.warframe-card__mr {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 13px;
+  color: var(--wf-text-dim);
+}
+
+.warframe-card__mr-icon {
+  width: 14px;
+  height: 14px;
+}
+
+/* Arrow */
+.warframe-card__arrow {
+  position: absolute;
+  right: 16px;
+  bottom: 16px;
+  font-size: 20px;
+  color: var(--wf-text-dim);
+  opacity: 0;
+  transition: all 0.3s ease;
+}
+
+.warframe-card:hover .warframe-card__arrow {
+  opacity: 1;
+  color: var(--wf-gold);
+  transform: translateX(4px);
+}
+
+/* Animation */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.warframe-card {
+  animation: fadeInUp 0.4s ease backwards;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .warframes-page {
+    padding: 16px;
+  }
+  
+  .page-header {
+    padding: 32px 0;
+    margin-bottom: 32px;
+  }
+  
+  .search-group {
+    max-width: 100%;
+    width: 100%;
+  }
+  
+  .warframes-grid {
+    grid-template-columns: 1fr;
+  }
+}
+

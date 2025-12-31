@@ -1,0 +1,125 @@
+/* Navbar */
+.navbar {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background: var(--wf-bg-deep);
+  border-bottom: 1px solid var(--wf-border);
+  backdrop-filter: blur(10px);
+}
+
+.navbar__container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 32px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 64px;
+}
+
+/* Logo */
+.navbar__logo {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  text-decoration: none;
+  transition: all 0.2s ease;
+}
+
+.navbar__logo:hover {
+  transform: scale(1.02);
+}
+
+.navbar__logo-icon {
+  font-size: 24px;
+  filter: drop-shadow(0 0 8px rgba(240, 160, 64, 0.5));
+}
+
+.navbar__logo-text {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  color: var(--wf-gold);
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+/* Navigation Links */
+.navbar__links {
+  display: flex;
+  gap: 8px;
+}
+
+.navbar__link {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 20px;
+  font-family: 'Rajdhani', sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: var(--wf-text-dim);
+  text-decoration: none;
+  border: 1px solid transparent;
+  transition: all 0.2s ease;
+  position: relative;
+}
+
+.navbar__link::after {
+  content: '';
+  position: absolute;
+  bottom: -1px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 0;
+  height: 2px;
+  background: var(--wf-gold);
+  transition: width 0.2s ease;
+}
+
+.navbar__link:hover {
+  color: var(--wf-text);
+}
+
+.navbar__link:hover::after {
+  width: 60%;
+}
+
+.navbar__link--active {
+  color: var(--wf-gold);
+}
+
+.navbar__link--active::after {
+  width: 80%;
+}
+
+.navbar__link-icon {
+  font-size: 16px;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  .navbar__container {
+    padding: 0 16px;
+  }
+  
+  .navbar__logo-text {
+    display: none;
+  }
+  
+  .navbar__link {
+    padding: 10px 14px;
+  }
+  
+  .navbar__link span:not(.navbar__link-icon) {
+    display: none;
+  }
+  
+  .navbar__link-icon {
+    font-size: 20px;
+  }
+}
+

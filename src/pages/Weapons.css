@@ -1,0 +1,48 @@
+/* Weapons Page */
+.weapons-page {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 24px 32px 64px;
+  min-height: 100vh;
+}
+
+/* Search Input */
+.search-group {
+  flex: 1;
+  max-width: 300px;
+}
+
+.search-input {
+  width: 100%;
+  padding: 12px 16px;
+  font-family: 'Rajdhani', sans-serif;
+  font-size: 15px;
+  background: var(--wf-bg-elevated);
+  border: 1px solid var(--wf-border);
+  border-radius: 4px;
+  color: var(--wf-text);
+  outline: none;
+  transition: all 0.2s ease;
+}
+
+.search-input:focus {
+  border-color: var(--wf-gold);
+  box-shadow: 0 0 20px rgba(240, 160, 64, 0.2);
+}
+
+.search-input::placeholder {
+  color: var(--wf-text-dim);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .weapons-page {
+    padding: 16px;
+  }
+  
+  .search-group {
+    max-width: 100%;
+    width: 100%;
+  }
+}
+

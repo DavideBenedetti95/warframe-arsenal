@@ -1,20 +1,28 @@
-/* App Container */
-.app {
-  max-width: 1400px;
-  margin: 0 auto;
-  padding: 24px 32px 64px;
+/* App Layout */
+.app-layout {
   min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
-/* Header */
-.header {
+.app-main {
+  flex: 1;
+}
+
+/* ========================================
+   SHARED COMPONENTS
+   Used by both Weapons and Warframes pages
+   ======================================== */
+
+/* Page Header */
+.page-header {
   text-align: center;
   margin-bottom: 48px;
   padding: 48px 0;
   position: relative;
 }
 
-.header::before {
+.page-header::before {
   content: '';
   position: absolute;
   bottom: 0;
@@ -25,7 +33,7 @@
   background: linear-gradient(90deg, transparent, var(--wf-gold), transparent);
 }
 
-.header__subtitle {
+.page-header__subtitle {
   font-family: 'Orbitron', sans-serif;
   font-size: 11px;
   letter-spacing: 6px;
@@ -35,7 +43,7 @@
   font-weight: 500;
 }
 
-.header__title {
+.page-header__title {
   font-family: 'Orbitron', sans-serif;
   font-size: clamp(28px, 5vw, 48px);
   font-weight: 700;
@@ -46,7 +54,7 @@
   text-shadow: 0 0 40px rgba(240, 160, 64, 0.3);
 }
 
-.header__description {
+.page-header__description {
   margin-top: 16px;
   color: var(--wf-text-dim);
   font-size: 16px;
@@ -66,7 +74,7 @@
   background: var(--wf-bg-card);
   border: 1px solid var(--wf-border);
   border-radius: 4px;
-  margin-bottom: 32px;
+  margin-bottom: 0;
   position: relative;
 }
 
@@ -203,6 +211,87 @@
   color: var(--wf-cyan);
 }
 
+/* Filters Panel */
+.filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  align-items: flex-start;
+  padding: 20px 24px;
+  background: var(--wf-bg-card);
+  border: 1px solid var(--wf-border);
+  border-top: none;
+  margin-bottom: 32px;
+}
+
+.filter-group {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.filter-group__label {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 10px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: var(--wf-text-dim);
+}
+
+.filter-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.filter-chip {
+  --chip-color: var(--wf-gold);
+  padding: 6px 14px;
+  font-family: 'Rajdhani', sans-serif;
+  font-size: 13px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  background: transparent;
+  border: 1px solid var(--wf-border);
+  color: var(--wf-text-dim);
+  cursor: pointer;
+  transition: all 0.2s ease;
+  border-radius: 2px;
+}
+
+.filter-chip:hover {
+  border-color: var(--chip-color);
+  color: var(--wf-text);
+}
+
+.filter-chip--active {
+  background: var(--chip-color);
+  border-color: var(--chip-color);
+  color: var(--wf-bg-deep);
+  font-weight: 700;
+}
+
+.clear-filters-btn {
+  margin-left: auto;
+  padding: 8px 16px;
+  font-family: 'Rajdhani', sans-serif;
+  font-size: 13px;
+  font-weight: 600;
+  background: transparent;
+  border: 1px solid var(--wf-border);
+  color: var(--wf-text-dim);
+  cursor: pointer;
+  transition: all 0.2s ease;
+  align-self: center;
+}
+
+.clear-filters-btn:hover {
+  border-color: #d04040;
+  color: #d04040;
+}
+
 /* Weapons Grid */
 .weapons-grid {
   display: grid;
@@ -213,12 +302,15 @@
 /* Weapon Card */
 .weapon-card {
   position: relative;
+  display: block;
+  text-decoration: none;
   background: var(--wf-bg-card);
   border: 1px solid var(--wf-border);
   padding: 16px;
   transition: all 0.3s ease;
   overflow: hidden;
   clip-path: polygon(0 0, calc(100% - 16px) 0, 100% 16px, 100% 100%, 16px 100%, 0 calc(100% - 16px));
+  cursor: pointer;
 }
 
 .weapon-card::before {
@@ -311,15 +403,51 @@
   min-width: 0;
 }
 
+.weapon-card__name-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 8px;
+  flex-wrap: wrap;
+}
+
 .weapon-card__name {
   font-family: 'Rajdhani', sans-serif;
   font-size: 18px;
   font-weight: 700;
   color: var(--wf-text-bright);
-  margin: 0 0 8px 0;
+  margin: 0;
   line-height: 1.2;
   text-transform: uppercase;
   letter-spacing: 0.5px;
+}
+
+.weapon-card__variant {
+  padding: 2px 8px;
+  font-size: 10px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  color: var(--wf-bg-deep);
+  border-radius: 2px;
+}
+
+/* Card Arrow */
+.weapon-card__arrow {
+  position: absolute;
+  right: 16px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 20px;
+  color: var(--wf-text-dim);
+  opacity: 0;
+  transition: all 0.3s ease;
+}
+
+.weapon-card:hover .weapon-card__arrow {
+  opacity: 1;
+  color: var(--wf-gold);
+  transform: translateY(-50%) translateX(4px);
 }
 
 .weapon-card__meta {
@@ -405,13 +533,300 @@
   animation: fadeInUp 0.4s ease backwards;
 }
 
+/* Stat Card - shared for detail pages */
+.stats-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+  gap: 24px;
+}
+
+.stat-card {
+  background: var(--wf-bg-card);
+  border: 1px solid var(--wf-border);
+  padding: 24px;
+  position: relative;
+}
+
+.stat-card--wide {
+  grid-column: span 2;
+}
+
+.stat-card--full {
+  grid-column: 1 / -1;
+}
+
+.stat-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 24px;
+  right: 24px;
+  height: 1px;
+  background: linear-gradient(90deg, var(--wf-gold-dark), transparent);
+}
+
+.stat-card__title {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 13px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  color: var(--wf-gold);
+  margin: 0 0 12px;
+}
+
+.stat-card__hint {
+  font-size: 12px;
+  color: var(--wf-text-dim);
+  margin: 0 0 16px;
+  font-style: italic;
+}
+
+/* Components Grid */
+.components-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 16px;
+}
+
+.component-card {
+  background: var(--wf-bg-elevated);
+  border: 1px solid var(--wf-border);
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.component-card__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 16px;
+  background: var(--wf-bg-card);
+  border-bottom: 1px solid var(--wf-border);
+}
+
+.component-card__name {
+  font-family: 'Rajdhani', sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  color: var(--wf-text-bright);
+  text-transform: uppercase;
+}
+
+.component-card__ducats {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--wf-gold);
+  padding: 4px 8px;
+  background: rgba(240, 160, 64, 0.1);
+  border-radius: 2px;
+}
+
+.component-card__no-relics {
+  padding: 16px;
+  font-size: 13px;
+  color: var(--wf-text-dim);
+  font-style: italic;
+  margin: 0;
+}
+
+/* Relics List */
+.relics-list {
+  padding: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  max-height: 300px;
+  overflow-y: auto;
+}
+
+.relic-item {
+  display: block;
+  padding: 10px 12px;
+  background: var(--wf-bg-card);
+  border: 1px solid var(--wf-border);
+  border-left-width: 3px;
+  border-radius: 2px;
+  text-decoration: none;
+  transition: all 0.2s ease;
+  cursor: pointer;
+}
+
+.relic-item:hover {
+  background: var(--wf-bg-elevated);
+  border-color: var(--wf-gold-dark);
+  transform: translateX(4px);
+}
+
+.relic-item__main {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.relic-item__era {
+  padding: 3px 8px;
+  font-size: 10px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  color: var(--wf-bg-deep);
+  border-radius: 2px;
+}
+
+.relic-item__name {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--wf-text);
+}
+
+.relic-item__rarity {
+  margin-left: auto;
+  font-size: 11px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.relic-item__wiki-icon {
+  font-size: 14px;
+  color: var(--wf-text-dim);
+  margin-left: 8px;
+  opacity: 0;
+  transition: all 0.2s ease;
+}
+
+.relic-item:hover .relic-item__wiki-icon {
+  opacity: 1;
+  color: var(--wf-cyan);
+}
+
+/* Variants List */
+.variants-list {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.variant-link {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 12px 16px;
+  background: var(--wf-bg-elevated);
+  border: 1px solid var(--wf-border);
+  border-left-width: 3px;
+  text-decoration: none;
+  transition: all 0.2s ease;
+}
+
+.variant-link:hover {
+  background: var(--wf-bg-card);
+  transform: translateX(4px);
+}
+
+.variant-link__badge {
+  padding: 4px 10px;
+  font-size: 10px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: var(--wf-bg-deep);
+  border-radius: 2px;
+}
+
+.variant-link__name {
+  font-size: 15px;
+  font-weight: 600;
+  color: var(--wf-text);
+}
+
+/* Polarities */
+.polarities-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.polarity-badge {
+  padding: 8px 16px;
+  font-size: 14px;
+  font-weight: 600;
+  text-transform: capitalize;
+  background: var(--wf-bg-elevated);
+  border: 1px solid var(--wf-border);
+  color: var(--wf-text);
+}
+
+/* Acquisition */
+.acquisition-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.acquisition-item {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 12px 16px;
+  background: var(--wf-bg-elevated);
+  border-left: 3px solid var(--wf-gold-dark);
+}
+
+.acquisition-item__type {
+  font-size: 11px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: var(--wf-gold);
+  min-width: 80px;
+}
+
+.acquisition-item__info {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.acquisition-item__method {
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--wf-text);
+}
+
+.acquisition-item__detail {
+  font-size: 12px;
+  color: var(--wf-text-dim);
+}
+
+.acquisition-item__chance {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 12px;
+  color: var(--wf-cyan);
+}
+
 /* Responsive */
-@media (max-width: 768px) {
-  .app {
-    padding: 16px;
+@media (max-width: 900px) {
+  .stat-card--wide,
+  .stat-card--full {
+    grid-column: span 1;
   }
   
-  .header {
+  .stats-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .components-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 768px) {
+  .page-header {
     padding: 32px 0;
     margin-bottom: 32px;
   }
@@ -424,6 +839,20 @@
   .mr-group {
     flex-direction: column;
     gap: 8px;
+  }
+  
+  .filters {
+    padding: 16px;
+    gap: 16px;
+  }
+  
+  .filter-group {
+    width: 100%;
+  }
+  
+  .clear-filters-btn {
+    margin-left: 0;
+    width: 100%;
   }
   
   .weapons-grid {

@@ -1,0 +1,276 @@
+import { useParams, Link } from "react-router-dom";
+import { getWarframeBySlug, WARFRAME_VARIANT_COLORS, WARFRAME_STATS } from "../lib/warframe";
+import "./WarframeDetail.css";
+
+// Relic Era Colors
+const RELIC_ERA_COLORS = {
+  Lith: "#9c7a4a",
+  Meso: "#7a9c7a",
+  Neo: "#4a7a9c",
+  Axi: "#9c4a7a",
+};
+
+// Rarity Colors
+const RARITY_COLORS = {
+  Common: "#c2a36e",
+  Uncommon: "#b0b0b0",
+  Rare: "#e8c252",
+};
+
+// MR Icon
+const MRIcon = () => (
+  <svg viewBox="0 0 24 24" fill="currentColor" width="20" height="20">
+    <path d="M12 2L15.09 8.26L22 9.27L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.27L8.91 8.26L12 2Z" fill="var(--wf-gold)" />
+  </svg>
+);
+
+export default function WarframeDetail() {
+  const { slug } = useParams();
+  const warframe = getWarframeBySlug(slug);
+
+  if (!warframe) {
+    return (
+      <div className="warframe-detail">
+        <div className="warframe-detail__not-found">
+          <h1>Warframe non trovato</h1>
+          <p>Il Warframe richiesto non esiste nel database.</p>
+          <Link to="/warframes" className="back-btn">← Torna ai Warframes</Link>
+        </div>
+      </div>
+    );
+  }
+
+  const { abilities, variants, acquisition, components } = warframe;
+
+  return (
+    <div className="warframe-detail">
+      {/* Back Navigation */}
+      <Link to="/warframes" className="back-btn">
+        <span className="back-btn__arrow">←</span>
+        <span>Warframes</span>
+      </Link>
+
+      {/* Header Section */}
+      <header className="warframe-header">
+        <div className="warframe-header__image-container">
+          {warframe.imageUrl ? (
+            <img src={warframe.imageUrl} alt={warframe.name} className="warframe-header__image" />
+          ) : (
+            <div className="warframe-header__no-image">?</div>
+          )}
+        </div>
+        
+        <div className="warframe-header__info">
+          <div className="warframe-header__meta">
+            {warframe.variantType && (
+              <span 
+                className="warframe-header__variant-badge"
+                style={{ backgroundColor: WARFRAME_VARIANT_COLORS[warframe.variantType] || "#666" }}
+              >
+                {warframe.variantType}
+              </span>
+            )}
+            {warframe.sex && <span className="warframe-header__sex">{warframe.sex}</span>}
+            {warframe.vaulted && <span className="warframe-header__vaulted">Vaulted</span>}
+          </div>
+          
+          <h1 className="warframe-header__name">{warframe.name}</h1>
+          
+          <div className="warframe-header__mr">
+            <MRIcon />
+            <span>Mastery Rank {warframe.masteryReq}</span>
+          </div>
+          
+          {warframe.description && (
+            <p className="warframe-header__description">{warframe.description}</p>
+          )}
+          
+          {warframe.wikiUrl && (
+            <a href={warframe.wikiUrl} target="_blank" rel="noopener noreferrer" className="wiki-link">
+              Leggi su Wiki →
+            </a>
+          )}
+        </div>
+      </header>
+
+      {/* Stats Grid */}
+      <div className="stats-grid">
+        {/* Base Stats */}
+        <section className="stat-card">
+          <h2 className="stat-card__title">Statistiche Base</h2>
+          <div className="base-stats">
+            {WARFRAME_STATS.map((stat) => (
+              <div key={stat.key} className="base-stat">
+                <div className="base-stat__header">
+                  <span className="base-stat__icon">{stat.icon}</span>
+                  <span className="base-stat__label">{stat.label}</span>
+                </div>
+                <div className="base-stat__bar-container">
+                  <div 
+                    className="base-stat__bar"
+                    style={{ 
+                      width: `${Math.min((warframe[stat.key] / (stat.key === 'sprint' ? 1.5 : 600)) * 100, 100)}%`,
+                      backgroundColor: stat.color
+                    }}
+                  />
+                </div>
+                <span className="base-stat__value" style={{ color: stat.color }}>
+                  {stat.key === 'sprint' ? warframe[stat.key].toFixed(2) : warframe[stat.key]}
+                </span>
+              </div>
+            ))}
+          </div>
+        </section>
+
+        {/* Passive */}
+        {warframe.passiveDescription && (
+          <section className="stat-card">
+            <h2 className="stat-card__title">Passiva</h2>
+            <p className="passive-text">{warframe.passiveDescription}</p>
+          </section>
+        )}
+
+        {/* Abilities */}
+        {abilities.length > 0 && (
+          <section className="stat-card stat-card--wide">
+            <h2 className="stat-card__title">Abilità</h2>
+            <div className="abilities-grid">
+              {abilities.map((ability, i) => (
+                <div key={i} className="ability-card">
+                  <div className="ability-card__number">{i + 1}</div>
+                  <div className="ability-card__content">
+                    <h3 className="ability-card__name">{ability.name}</h3>
+                    {ability.description && (
+                      <p className="ability-card__description">{ability.description}</p>
+                    )}
+                  </div>
+                </div>
+              ))}
+            </div>
+          </section>
+        )}
+
+        {/* Acquisition */}
+        {acquisition.length > 0 && (
+          <section className="stat-card">
+            <h2 className="stat-card__title">Come Ottenerlo</h2>
+            <div className="acquisition-list">
+              {acquisition.map((acq, i) => (
+                <div key={i} className="acquisition-item">
+                  <span className="acquisition-item__type">{acq.type}</span>
+                  <div className="acquisition-item__info">
+                    <span className="acquisition-item__method">{acq.method}</span>
+                    {acq.detail !== acq.method && (
+                      <span className="acquisition-item__detail">{acq.detail}</span>
+                    )}
+                  </div>
+                  {acq.chance && <span className="acquisition-item__chance">{acq.chance}</span>}
+                </div>
+              ))}
+            </div>
+          </section>
+        )}
+
+        {/* Prime Components with Relic Info */}
+        {warframe.isPrime && components.length > 0 && (
+          <section className="stat-card stat-card--full">
+            <h2 className="stat-card__title">Componenti & Reliquie</h2>
+            <p className="stat-card__hint">Clicca su una reliquia per vedere dove droppa su Wiki ↗</p>
+            <div className="components-grid">
+              {components.map((comp, i) => (
+                <div key={i} className="component-card">
+                  <div className="component-card__header">
+                    <span className="component-card__name">{comp.fullName}</span>
+                    {comp.ducats && (
+                      <span className="component-card__ducats">{comp.ducats} Ducats</span>
+                    )}
+                  </div>
+                  
+                  {comp.relics.length > 0 ? (
+                    <div className="relics-list">
+                      {comp.relics.map((relic, j) => (
+                        <a 
+                          key={j} 
+                          href={`https://wiki.warframe.com/w/${relic.era}_${relic.code}`}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="relic-item"
+                          style={{ borderLeftColor: RELIC_ERA_COLORS[relic.era] || "#666" }}
+                        >
+                          <div className="relic-item__main">
+                            <span 
+                              className="relic-item__era"
+                              style={{ backgroundColor: RELIC_ERA_COLORS[relic.era] || "#666" }}
+                            >
+                              {relic.era}
+                            </span>
+                            <span className="relic-item__name">{relic.code}</span>
+                            <span 
+                              className="relic-item__rarity"
+                              style={{ color: RARITY_COLORS[relic.rarity] }}
+                            >
+                              {relic.rarity}
+                            </span>
+                            <span className="relic-item__wiki-icon" title="Apri su Wiki">↗</span>
+                          </div>
+                        </a>
+                      ))}
+                    </div>
+                  ) : (
+                    <p className="component-card__no-relics">Nessuna reliquia disponibile</p>
+                  )}
+                </div>
+              ))}
+            </div>
+          </section>
+        )}
+
+        {/* Variants */}
+        {variants.length > 0 && (
+          <section className="stat-card">
+            <h2 className="stat-card__title">Varianti</h2>
+            <div className="variants-list">
+              {variants.map((variant) => (
+                <Link 
+                  key={variant.slug} 
+                  to={`/warframe/${variant.slug}`}
+                  className="variant-link"
+                  style={{ borderColor: WARFRAME_VARIANT_COLORS[variant.type] || "#666" }}
+                >
+                  <span 
+                    className="variant-link__badge"
+                    style={{ backgroundColor: WARFRAME_VARIANT_COLORS[variant.type] || "#666" }}
+                  >
+                    {variant.type}
+                  </span>
+                  <span className="variant-link__name">{variant.name}</span>
+                </Link>
+              ))}
+            </div>
+          </section>
+        )}
+
+        {/* Polarities */}
+        {warframe.polarities && warframe.polarities.length > 0 && (
+          <section className="stat-card">
+            <h2 className="stat-card__title">Polarità</h2>
+            <div className="polarities-list">
+              {warframe.polarities.map((polarity, i) => (
+                <span key={i} className="polarity-badge">
+                  {polarity}
+                </span>
+              ))}
+            </div>
+            {warframe.aura && (
+              <div className="aura-info">
+                <span className="aura-info__label">Aura:</span>
+                <span className="aura-info__value">{warframe.aura}</span>
+              </div>
+            )}
+          </section>
+        )}
+      </div>
+    </div>
+  );
+}
+
