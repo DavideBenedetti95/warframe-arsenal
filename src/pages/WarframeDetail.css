@@ -341,6 +341,196 @@
   text-transform: capitalize;
 }
 
+/* Relic Status Legend */
+.relic-status-legend {
+  display: flex;
+  gap: 16px;
+  font-size: 12px;
+}
+
+.relic-status-active {
+  color: #4ade80;
+}
+
+.relic-status-vaulted {
+  color: #888;
+}
+
+/* Relic Items */
+.relic-item {
+  display: block;
+  padding: 12px;
+  background: var(--wf-bg-card);
+  border: 1px solid var(--wf-border);
+  border-left-width: 3px;
+  border-radius: 2px;
+  transition: all 0.2s ease;
+}
+
+.relic-item--active {
+  background: rgba(74, 222, 128, 0.05);
+}
+
+.relic-item--vaulted {
+  opacity: 0.7;
+  background: rgba(100, 100, 100, 0.1);
+}
+
+.relic-item:hover {
+  background: var(--wf-bg-elevated);
+  border-color: var(--wf-gold-dark);
+}
+
+.relic-item__main {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.relic-item__era {
+  padding: 3px 8px;
+  font-size: 10px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  color: var(--wf-bg-deep);
+  border-radius: 2px;
+}
+
+.relic-item__name {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--wf-text);
+}
+
+.relic-item__rarity {
+  font-size: 11px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.relic-item__vaulted-badge {
+  margin-left: auto;
+  padding: 2px 8px;
+  font-size: 10px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  color: #888;
+  background: rgba(100, 100, 100, 0.3);
+  border-radius: 2px;
+}
+
+.relic-item__active-badge {
+  margin-left: auto;
+  padding: 2px 8px;
+  font-size: 10px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  color: #4ade80;
+  background: rgba(74, 222, 128, 0.2);
+  border-radius: 2px;
+}
+
+.relic-item__wiki-link {
+  padding: 2px 8px;
+  font-size: 11px;
+  color: var(--wf-cyan);
+  text-decoration: none;
+  background: rgba(0, 212, 255, 0.1);
+  border-radius: 2px;
+  transition: all 0.2s ease;
+}
+
+.relic-item__wiki-link:hover {
+  background: rgba(0, 212, 255, 0.2);
+  color: var(--wf-text-bright);
+}
+
+/* Relic Farm Locations */
+.relic-item__farms {
+  margin-top: 10px;
+  padding-top: 10px;
+  border-top: 1px solid var(--wf-border);
+}
+
+.relic-item__farms-label {
+  display: block;
+  font-size: 10px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #4ade80;
+  margin-bottom: 8px;
+}
+
+.relic-farm-location {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 6px 8px;
+  background: var(--wf-bg-elevated);
+  border-radius: 2px;
+  margin-bottom: 4px;
+  font-size: 12px;
+}
+
+.relic-farm-location:last-child {
+  margin-bottom: 0;
+}
+
+.relic-farm-location__mission {
+  flex: 1;
+  color: var(--wf-text);
+}
+
+.relic-farm-location__rotation {
+  font-size: 10px;
+  padding: 2px 6px;
+  background: var(--wf-bg-card);
+  border-radius: 2px;
+  color: var(--wf-text-dim);
+}
+
+.relic-farm-location__chance {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 11px;
+  font-weight: 600;
+  color: var(--wf-gold);
+}
+
+/* Relic Chances */
+.relic-item__chances {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 10px;
+  padding-top: 10px;
+  border-top: 1px solid var(--wf-border);
+  align-items: center;
+}
+
+.relic-item__chances-label {
+  font-size: 10px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: var(--wf-text-dim);
+  margin-right: 4px;
+}
+
+.relic-chance {
+  font-size: 11px;
+  color: var(--wf-text-dim);
+  padding: 2px 6px;
+  background: var(--wf-bg-elevated);
+  border-radius: 2px;
+}
+
 /* Responsive */
 @media (max-width: 900px) {
   .warframe-header {

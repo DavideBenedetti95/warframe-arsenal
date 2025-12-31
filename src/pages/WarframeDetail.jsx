@@ -1,5 +1,6 @@
 import { useParams, Link } from "react-router-dom";
 import { getWarframeBySlug, WARFRAME_VARIANT_COLORS, WARFRAME_STATS } from "../lib/warframe";
+import { getRelicInfo } from "../lib/relic";
 import "./WarframeDetail.css";
 
 // Relic Era Colors
@@ -175,7 +176,12 @@ export default function WarframeDetail() {
         {warframe.isPrime && components.length > 0 && (
           <section className="stat-card stat-card--full">
             <h2 className="stat-card__title">Componenti & Reliquie</h2>
-            <p className="stat-card__hint">Clicca su una reliquia per vedere dove droppa su Wiki ↗</p>
+            <p className="stat-card__hint">
+              <span className="relic-status-legend">
+                <span className="relic-status-active">● Farmabile</span>
+                <span className="relic-status-vaulted">● Vaulted</span>
+              </span>
+            </p>
             <div className="components-grid">
               {components.map((comp, i) => (
                 <div key={i} className="component-card">
@@ -188,33 +194,79 @@ export default function WarframeDetail() {
                   
                   {comp.relics.length > 0 ? (
                     <div className="relics-list">
-                      {comp.relics.map((relic, j) => (
-                        <a 
-                          key={j} 
-                          href={`https://wiki.warframe.com/w/${relic.era}_${relic.code}`}
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          className="relic-item"
-                          style={{ borderLeftColor: RELIC_ERA_COLORS[relic.era] || "#666" }}
-                        >
-                          <div className="relic-item__main">
-                            <span 
-                              className="relic-item__era"
-                              style={{ backgroundColor: RELIC_ERA_COLORS[relic.era] || "#666" }}
-                            >
-                              {relic.era}
-                            </span>
-                            <span className="relic-item__name">{relic.code}</span>
-                            <span 
-                              className="relic-item__rarity"
-                              style={{ color: RARITY_COLORS[relic.rarity] }}
-                            >
-                              {relic.rarity}
-                            </span>
-                            <span className="relic-item__wiki-icon" title="Apri su Wiki">↗</span>
+                      {comp.relics.map((relic, j) => {
+                        const relicInfo = getRelicInfo(`${relic.era} ${relic.code}`);
+                        const isVaulted = !relicInfo.isActive;
+                        
+                        return (
+                          <div 
+                            key={j} 
+                            className={`relic-item ${isVaulted ? 'relic-item--vaulted' : 'relic-item--active'}`}
+                            style={{ borderLeftColor: isVaulted ? '#666' : RELIC_ERA_COLORS[relic.era] || "#666" }}
+                          >
+                            <div className="relic-item__main">
+                              <span 
+                                className="relic-item__era"
+                                style={{ backgroundColor: RELIC_ERA_COLORS[relic.era] || "#666" }}
+                              >
+                                {relic.era}
+                              </span>
+                              <span className="relic-item__name">{relic.code}</span>
+                              <span 
+                                className="relic-item__rarity"
+                                style={{ color: RARITY_COLORS[relic.rarity] }}
+                              >
+                                {relic.rarity}
+                              </span>
+                              {isVaulted ? (
+                                <span className="relic-item__vaulted-badge">Vaulted</span>
+                              ) : (
+                                <span className="relic-item__active-badge">Farmabile</span>
+                              )}
+                              <a 
+                                href={`https://wiki.warframe.com/w/${relic.era}_${relic.code}`}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="relic-item__wiki-link"
+                                title="Apri su Wiki"
+                                onClick={(e) => e.stopPropagation()}
+                              >
+                                Wiki ↗
+                              </a>
+                            </div>
+                            
+                            {/* Show drop locations for active relics */}
+                            {!isVaulted && relicInfo.dropLocations.length > 0 && (
+                              <div className="relic-item__farms">
+                                <span className="relic-item__farms-label">Dove farmare:</span>
+                                {relicInfo.dropLocations.slice(0, 3).map((loc, k) => (
+                                  <div key={k} className="relic-farm-location">
+                                    <span className="relic-farm-location__mission">{loc.mission}</span>
+                                    {loc.rotation && (
+                                      <span className="relic-farm-location__rotation">{loc.rotation}</span>
+                                    )}
+                                    {loc.chance && (
+                                      <span className="relic-farm-location__chance">{loc.chance}%</span>
+                                    )}
+                                  </div>
+                                ))}
+                              </div>
+                            )}
+                            
+                            {/* Show relic drop chances */}
+                            {relic.chances && Object.keys(relic.chances).length > 0 && (
+                              <div className="relic-item__chances">
+                                <span className="relic-item__chances-label">Drop da reliquia:</span>
+                                {Object.entries(relic.chances).map(([refinement, chance]) => (
+                                  <span key={refinement} className="relic-chance">
+                                    {refinement}: {(chance * 100).toFixed(1)}%
+                                  </span>
+                                ))}
+                              </div>
+                            )}
                           </div>
-                        </a>
-                      ))}
+                        );
+                      })}
                     </div>
                   ) : (
                     <p className="component-card__no-relics">Nessuna reliquia disponibile</p>
