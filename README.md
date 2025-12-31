@@ -8,17 +8,19 @@ Un'applicazione web completa per esplorare armi e Warframe disponibili in Warfra
 
 ### 🔫 Armi
 - **Filtra per Mastery Rank** - Visualizza solo le armi sbloccate al tuo livello
-- **Categorie** - Passa rapidamente tra armi Primarie e Secondarie
-- **Filtri Tipo** - Filtra per Rifle, Shotgun, Sniper, Bow, Launcher, Pistol, etc.
+- **Categorie** - Passa rapidamente tra armi Primarie, Secondarie e Corpo a Corpo
+- **Filtri Tipo** - Filtra per tipo specifico (Rifle, Shotgun, Pistol, Sword, Polearm, etc.)
 - **Filtri Variante** - Filtra per Prime, Kuva, Tenet, Wraith, Vandal, Prisma, Syndicate
 - **Ricerca** - Cerca direttamente un'arma per nome
 - **Pagina Dettaglio** con:
-  - Statistiche complete (danno, critico, status, fire rate, etc.)
+  - Statistiche complete (danno, critico, status, fire rate/attack speed, range, etc.)
+  - **Statistiche Melee** dedicate (Attack Speed, Range, Combo Duration, Slam Attack, Heavy Attack, Block Angle, Stance Polarity)
   - Tipi di danno (Impact, Puncture, Slash, Elemental)
   - Come ottenere l'arma (Market, Dojo Lab, Quest, Lich/Sister, Mission Drop)
   - Componenti necessari per il crafting
   - Drop delle Reliquie per armi Prime
   - **Status Reliquia** (Farmabile/Vaulted) con location di farm
+  - **Toggle "Solo Farmabili"** per filtrare reliquie attive
   - Varianti disponibili
 
 ### 🎭 Warframe
@@ -216,10 +218,13 @@ Dopo l'aggiornamento, verifica:
 
 ## 📊 Dati Estratti
 
-### Armi (336+ totali)
-- 62+ armi Prime con info sulle Reliquie
-- 285+ armi con componenti di crafting
-- Info dettagliate su: danno, statistiche, varianti, acquisizione
+### Armi (600+ totali)
+- 101+ armi Prime con info sulle Reliquie
+- 514+ armi con componenti di crafting
+- **Primarie**: Rifle, Shotgun, Sniper, Bow, Launcher
+- **Secondarie**: Pistol, Dual Pistols, Throwing
+- **Corpo a Corpo**: Sword, Dual Swords, Heavy Blade, Nikana, Rapier, Machete, Dagger, Dual Daggers, Fist, Claws, Sparring, Glaive, Polearm, Staff, Scythe, Whip, Blade and Whip, Nunchaku, Hammer, Gunblade, Tonfa, Warfan, Two-Handed Nikana
+- Info dettagliate su: danno, statistiche ranged/melee, varianti, acquisizione
 - Rilevamento automatico Dojo Lab (Bio Lab, Chem Lab, Energy Lab)
 - Drop location per componenti (es: Higasa da Shrine Defense)
 
@@ -237,7 +242,7 @@ Dopo l'aggiornamento, verifica:
 
 ## 🗺️ Roadmap
 
-- [ ] Aggiungere categoria Melee
+- [x] ~~Aggiungere categoria Melee~~ ✅
 - [ ] Comparazione tra armi/Warframe
 - [ ] Build calculator
 - [ ] Mod database
