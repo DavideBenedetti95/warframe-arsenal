@@ -364,6 +364,11 @@
   color: var(--wf-cyan);
 }
 
+.stat-row__value--polarity {
+  color: var(--wf-gold);
+  text-transform: capitalize;
+}
+
 /* Acquisition */
 .acquisition-list {
   display: flex;

@@ -9,7 +9,7 @@ const __dirname = dirname(fileURLToPath(import.meta.url));
 const allItems = new Items();
 
 const items = new Items({
-  category: ["Primary", "Secondary"],
+  category: ["Primary", "Secondary", "Melee"],
 });
 
 // Helper to create a URL-friendly slug
@@ -63,7 +63,7 @@ function getBaseWeaponName(name) {
 // Build a map of weapon names for finding variants
 const weaponNames = new Set(
   items
-    .filter((i) => i?.name && (i.category === "Primary" || i.category === "Secondary"))
+    .filter((i) => i?.name && (i.category === "Primary" || i.category === "Secondary" || i.category === "Melee"))
     .map((i) => i.name)
 );
 
@@ -133,21 +133,49 @@ function extractDamage(item) {
   };
 }
 
-// Extract attack stats
+// Extract attack stats (handles both ranged and melee)
 function extractAttackStats(item) {
-  return {
-    fireRate: item.fireRate || null,
+  const isMelee = item.category === "Melee";
+  
+  // Base stats common to all weapons
+  const stats = {
     criticalChance: item.criticalChance || null,
     criticalMultiplier: item.criticalMultiplier || null,
     statusChance: item.procChance || item.statusChance || null,
-    magazine: item.magazineSize || null,
-    reload: item.reloadTime || null,
-    accuracy: item.accuracy || null,
-    multishot: item.multishot || null,
-    punchThrough: item.punchThrough || null,
-    noise: item.noise || null,
-    trigger: item.trigger || null,
   };
+  
+  if (isMelee) {
+    // Melee-specific stats
+    return {
+      ...stats,
+      attackSpeed: item.fireRate || item.attackSpeed || null, // fireRate is used for melee attack speed
+      range: item.range || null,
+      slamAttack: item.slamAttack || null,
+      slamRadialDmg: item.slamRadialDmg || null,
+      slamRadius: item.slamRadius || null,
+      heavyAttack: item.heavyAttackDamage || null,
+      heavySlamAttack: item.heavySlamAttack || null,
+      heavySlamRadius: item.heavySlamRadius || null,
+      windUp: item.windUp || null,
+      comboDuration: item.comboDuration || null,
+      followThrough: item.followThrough || null,
+      blockAngle: item.blockAngle || null,
+      stancePolarity: item.stancePolarity || null,
+    };
+  } else {
+    // Ranged weapon stats
+    return {
+      ...stats,
+      fireRate: item.fireRate || null,
+      magazine: item.magazineSize || null,
+      reload: item.reloadTime || null,
+      accuracy: item.accuracy || null,
+      multishot: item.multishot || null,
+      punchThrough: item.punchThrough || null,
+      noise: item.noise || null,
+      trigger: item.trigger || null,
+    };
+  }
 }
 
 // Parse relic name to extract era and code
@@ -368,6 +396,8 @@ function getAcquisitionInfo(item) {
 }
 
 function normalizeWeapon(item) {
+  const isMelee = item.category === "Melee";
+  
   return {
     name: item.name,
     slug: createSlug(item.name),
@@ -385,6 +415,7 @@ function normalizeWeapon(item) {
     variantType: getVariantType(item.name),
     variants: findVariants(item.name),
     isPrime: item.isPrime || false,
+    isMelee,
     acquisition: getAcquisitionInfo(item),
     components: extractComponents(item),
     buildTime: item.buildTime || null,
@@ -398,7 +429,7 @@ function normalizeWeapon(item) {
 }
 
 const weapons = items
-  .filter((i) => i?.name && (i.category === "Primary" || i.category === "Secondary"))
+  .filter((i) => i?.name && (i.category === "Primary" || i.category === "Secondary" || i.category === "Melee"))
   .map(normalizeWeapon);
 
 const outPath = join(__dirname, "../src/data/weapons.json");

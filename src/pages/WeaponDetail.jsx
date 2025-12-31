@@ -138,6 +138,7 @@ export default function WeaponDetail() {
           <section className="stat-card">
             <h2 className="stat-card__title">Statistiche</h2>
             <div className="stats-list">
+              {/* Common Stats */}
               {attackStats.criticalChance && (
                 <div className="stat-row">
                   <span className="stat-row__label">Critical Chance</span>
@@ -162,48 +163,121 @@ export default function WeaponDetail() {
                   </span>
                 </div>
               )}
-              {attackStats.fireRate && (
-                <div className="stat-row">
-                  <span className="stat-row__label">Fire Rate</span>
-                  <span className="stat-row__value">{formatNumber(attackStats.fireRate, 2)}/s</span>
-                </div>
+              
+              {/* Melee-specific Stats */}
+              {weapon.isMelee && (
+                <>
+                  {attackStats.attackSpeed && (
+                    <div className="stat-row">
+                      <span className="stat-row__label">Attack Speed</span>
+                      <span className="stat-row__value">{formatNumber(attackStats.attackSpeed, 2)}</span>
+                    </div>
+                  )}
+                  {attackStats.range && (
+                    <div className="stat-row">
+                      <span className="stat-row__label">Range</span>
+                      <span className="stat-row__value">{formatNumber(attackStats.range, 2)}m</span>
+                    </div>
+                  )}
+                  {attackStats.comboDuration && (
+                    <div className="stat-row">
+                      <span className="stat-row__label">Combo Duration</span>
+                      <span className="stat-row__value">{formatNumber(attackStats.comboDuration, 0)}s</span>
+                    </div>
+                  )}
+                  {attackStats.followThrough && (
+                    <div className="stat-row">
+                      <span className="stat-row__label">Follow Through</span>
+                      <span className="stat-row__value">{formatNumber(attackStats.followThrough, 1)}</span>
+                    </div>
+                  )}
+                  {attackStats.slamAttack && (
+                    <div className="stat-row">
+                      <span className="stat-row__label">Slam Attack</span>
+                      <span className="stat-row__value">{formatNumber(attackStats.slamAttack, 0)}</span>
+                    </div>
+                  )}
+                  {attackStats.slamRadius && (
+                    <div className="stat-row">
+                      <span className="stat-row__label">Slam Radius</span>
+                      <span className="stat-row__value">{formatNumber(attackStats.slamRadius, 1)}m</span>
+                    </div>
+                  )}
+                  {attackStats.heavyAttack && (
+                    <div className="stat-row">
+                      <span className="stat-row__label">Heavy Attack</span>
+                      <span className="stat-row__value">{formatNumber(attackStats.heavyAttack, 0)}</span>
+                    </div>
+                  )}
+                  {attackStats.windUp && (
+                    <div className="stat-row">
+                      <span className="stat-row__label">Heavy Wind Up</span>
+                      <span className="stat-row__value">{formatNumber(attackStats.windUp, 2)}s</span>
+                    </div>
+                  )}
+                  {attackStats.blockAngle && (
+                    <div className="stat-row">
+                      <span className="stat-row__label">Block Angle</span>
+                      <span className="stat-row__value">{attackStats.blockAngle}°</span>
+                    </div>
+                  )}
+                  {attackStats.stancePolarity && (
+                    <div className="stat-row">
+                      <span className="stat-row__label">Stance Polarity</span>
+                      <span className="stat-row__value stat-row__value--polarity">{attackStats.stancePolarity}</span>
+                    </div>
+                  )}
+                </>
               )}
-              {attackStats.magazine && (
-                <div className="stat-row">
-                  <span className="stat-row__label">Magazine</span>
-                  <span className="stat-row__value">{attackStats.magazine}</span>
-                </div>
+              
+              {/* Ranged-specific Stats */}
+              {!weapon.isMelee && (
+                <>
+                  {attackStats.fireRate && (
+                    <div className="stat-row">
+                      <span className="stat-row__label">Fire Rate</span>
+                      <span className="stat-row__value">{formatNumber(attackStats.fireRate, 2)}/s</span>
+                    </div>
+                  )}
+                  {attackStats.magazine && (
+                    <div className="stat-row">
+                      <span className="stat-row__label">Magazine</span>
+                      <span className="stat-row__value">{attackStats.magazine}</span>
+                    </div>
+                  )}
+                  {attackStats.reload && (
+                    <div className="stat-row">
+                      <span className="stat-row__label">Reload</span>
+                      <span className="stat-row__value">{formatNumber(attackStats.reload, 1)}s</span>
+                    </div>
+                  )}
+                  {attackStats.accuracy && (
+                    <div className="stat-row">
+                      <span className="stat-row__label">Accuracy</span>
+                      <span className="stat-row__value">{formatNumber(attackStats.accuracy, 1)}</span>
+                    </div>
+                  )}
+                  {attackStats.multishot && attackStats.multishot > 1 && (
+                    <div className="stat-row">
+                      <span className="stat-row__label">Multishot</span>
+                      <span className="stat-row__value">{formatNumber(attackStats.multishot, 1)}</span>
+                    </div>
+                  )}
+                  {attackStats.trigger && (
+                    <div className="stat-row">
+                      <span className="stat-row__label">Trigger</span>
+                      <span className="stat-row__value">{attackStats.trigger}</span>
+                    </div>
+                  )}
+                  {attackStats.noise && (
+                    <div className="stat-row">
+                      <span className="stat-row__label">Noise</span>
+                      <span className="stat-row__value">{attackStats.noise}</span>
+                    </div>
+                  )}
+                </>
               )}
-              {attackStats.reload && (
-                <div className="stat-row">
-                  <span className="stat-row__label">Reload</span>
-                  <span className="stat-row__value">{formatNumber(attackStats.reload, 1)}s</span>
-                </div>
-              )}
-              {attackStats.accuracy && (
-                <div className="stat-row">
-                  <span className="stat-row__label">Accuracy</span>
-                  <span className="stat-row__value">{formatNumber(attackStats.accuracy, 1)}</span>
-                </div>
-              )}
-              {attackStats.multishot && attackStats.multishot > 1 && (
-                <div className="stat-row">
-                  <span className="stat-row__label">Multishot</span>
-                  <span className="stat-row__value">{formatNumber(attackStats.multishot, 1)}</span>
-                </div>
-              )}
-              {attackStats.trigger && (
-                <div className="stat-row">
-                  <span className="stat-row__label">Trigger</span>
-                  <span className="stat-row__value">{attackStats.trigger}</span>
-                </div>
-              )}
-              {attackStats.noise && (
-                <div className="stat-row">
-                  <span className="stat-row__label">Noise</span>
-                  <span className="stat-row__value">{attackStats.noise}</span>
-                </div>
-              )}
+              
               {weapon.disposition && (
                 <div className="stat-row">
                   <span className="stat-row__label">Riven Disposition</span>

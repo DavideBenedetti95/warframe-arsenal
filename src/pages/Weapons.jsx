@@ -14,6 +14,12 @@ const MRIcon = () => (
 const WEAPON_TYPES = {
   Primary: ["Rifle", "Shotgun", "Sniper", "Bow", "Launcher"],
   Secondary: ["Pistol", "Dual Pistols", "Throwing"],
+  Melee: [
+    "Sword", "Dual Swords", "Heavy Blade", "Nikana", "Rapier", "Machete",
+    "Dagger", "Dual Daggers", "Fist", "Claws", "Sparring", "Glaive",
+    "Polearm", "Staff", "Scythe", "Whip", "Blade and Whip", "Nunchaku",
+    "Hammer", "Gunblade", "Tonfa", "Warfan", "Two-Handed Nikana"
+  ],
 };
 
 // All variant types
@@ -135,6 +141,15 @@ export default function Weapons() {
           >
             Secondarie
           </button>
+          <button
+            className={`slot-btn ${slot === "Melee" ? "slot-btn--active" : ""}`}
+            onClick={() => {
+              setSlot("Melee");
+              setSelectedTypes([]);
+            }}
+          >
+            Corpo a Corpo
+          </button>
         </div>
 
         <div className="search-group">
@@ -246,7 +261,7 @@ export default function Weapons() {
                       <span className="weapon-card__mr-value">{w.masteryReq}</span>
                     </div>
                     <span className="weapon-card__slot">
-                      {w.type || (w.slot === "Primary" ? "Primaria" : "Secondaria")}
+                      {w.type || (w.slot === "Primary" ? "Primaria" : w.slot === "Secondary" ? "Secondaria" : "Corpo a Corpo")}
                     </span>
                   </div>
                 </div>
