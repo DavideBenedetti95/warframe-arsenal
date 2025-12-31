@@ -1,3 +1,4 @@
+import { useState } from "react";
 import { useParams, Link } from "react-router-dom";
 import { getWeaponBySlug, DAMAGE_COLORS, DAMAGE_LABELS, VARIANT_COLORS } from "../lib/weapon";
 import { getRelicInfo } from "../lib/relic";
@@ -33,6 +34,7 @@ const RARITY_COLORS = {
 export default function WeaponDetail() {
   const { slug } = useParams();
   const weapon = getWeaponBySlug(slug);
+  const [showOnlyFarmable, setShowOnlyFarmable] = useState(false);
 
   if (!weapon) {
     return (
@@ -237,14 +239,29 @@ export default function WeaponDetail() {
         {weapon.isPrime && components.length > 0 && (
           <section className="stat-card stat-card--full">
             <h2 className="stat-card__title">Componenti & Reliquie</h2>
-            <p className="stat-card__hint">
+            <div className="relic-controls">
               <span className="relic-status-legend">
                 <span className="relic-status-active">● Farmabile</span>
                 <span className="relic-status-vaulted">● Vaulted</span>
               </span>
-            </p>
+              <label className="relic-filter-toggle">
+                <input 
+                  type="checkbox" 
+                  checked={showOnlyFarmable}
+                  onChange={(e) => setShowOnlyFarmable(e.target.checked)}
+                />
+                <span className="relic-filter-toggle__slider"></span>
+                <span className="relic-filter-toggle__label">Solo farmabili</span>
+              </label>
+            </div>
             <div className="components-grid">
-              {components.map((comp, i) => (
+              {components.map((comp, i) => {
+                // Filter relics based on toggle
+                const filteredRelics = showOnlyFarmable 
+                  ? comp.relics.filter(r => getRelicInfo(`${r.era} ${r.code}`).isActive)
+                  : comp.relics;
+                
+                return (
                 <div key={i} className="component-card">
                   <div className="component-card__header">
                     <span className="component-card__name">{comp.fullName}</span>
@@ -253,9 +270,9 @@ export default function WeaponDetail() {
                     )}
                   </div>
                   
-                  {comp.relics.length > 0 ? (
+                  {filteredRelics.length > 0 ? (
                     <div className="relics-list">
-                      {comp.relics.map((relic, j) => {
+                      {filteredRelics.map((relic, j) => {
                         const relicInfo = getRelicInfo(`${relic.era} ${relic.code}`);
                         const isVaulted = !relicInfo.isActive;
                         
@@ -330,10 +347,13 @@ export default function WeaponDetail() {
                       })}
                     </div>
                   ) : (
-                    <p className="component-card__no-relics">Nessuna reliquia disponibile</p>
+                    <p className="component-card__no-relics">
+                      {showOnlyFarmable ? "Nessuna reliquia farmabile" : "Nessuna reliquia disponibile"}
+                    </p>
                   )}
                 </div>
-              ))}
+              );
+              })}
             </div>
           </section>
         )}
