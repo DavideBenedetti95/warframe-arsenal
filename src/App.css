@@ -834,11 +834,35 @@
   .controls {
     padding: 16px;
     gap: 16px;
+    flex-direction: column;
   }
   
   .mr-group {
-    flex-direction: column;
-    gap: 8px;
+    flex-direction: row;
+    gap: 12px;
+    width: 100%;
+    justify-content: center;
+  }
+  
+  .slot-group {
+    width: 100%;
+    justify-content: center;
+  }
+  
+  .search-group {
+    width: 100%;
+    max-width: 100%;
+    order: 10; /* Push search bar to the end */
+  }
+  
+  .search-input {
+    width: 100%;
+    padding: 14px 16px;
+    font-size: 16px; /* Prevents zoom on iOS */
+  }
+  
+  .results-counter {
+    order: 5;
   }
   
   .filters {
