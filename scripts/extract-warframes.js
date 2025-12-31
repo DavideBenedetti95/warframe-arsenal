@@ -154,7 +154,7 @@ function getAcquisitionInfo(warframe) {
     });
   }
   
-  // Check drops
+  // Check drops directly on warframe
   const drops = warframe.drops || [];
   for (const drop of drops.slice(0, 5)) {
     if (drop.location) {
@@ -164,6 +164,32 @@ function getAcquisitionInfo(warframe) {
         detail: drop.location,
         chance: drop.chance ? `${(drop.chance * 100).toFixed(2)}%` : null,
       });
+    }
+  }
+  
+  // For non-Prime warframes, also check component drops (e.g., Nokko, Oraxia bounties)
+  if (!warframe.isPrime && warframe.components) {
+    const componentDropLocations = new Set();
+    
+    for (const comp of warframe.components) {
+      if (comp.drops && comp.drops.length > 0) {
+        for (const drop of comp.drops) {
+          // Skip if it's a relic drop
+          if (drop.location && !drop.location.includes("Relic")) {
+            // Create a unique key to avoid duplicates
+            const locationKey = drop.location.split(",")[0];
+            if (!componentDropLocations.has(locationKey)) {
+              componentDropLocations.add(locationKey);
+              acquisition.push({
+                type: "Bounty",
+                method: locationKey,
+                detail: drop.location,
+                chance: drop.chance ? `${(drop.chance * 100).toFixed(2)}%` : null,
+              });
+            }
+          }
+        }
+      }
     }
   }
   
@@ -177,17 +203,6 @@ function getAcquisitionInfo(warframe) {
       });
     }
   }
-  
-  // Quest warframes - check description or wiki
-  const questWarframes = [
-    "Excalibur", "Mag", "Volt", // Starter
-    "Rhino", "Valkyr", "Frost", "Ember", // Planet bosses
-    "Mirage", "Limbo", "Chroma", "Atlas", "Inaros", "Titania", "Gara", 
-    "Harrow", "Octavia", "Nidus", "Khora", "Garuda", "Baruuk", "Hildryn",
-    "Wisp", "Gauss", "Grendel", "Protea", "Xaku", "Lavos", "Yareli",
-    "Caliban", "Gyre", "Styanax", "Voruna", "Citrine", "Kullervo", "Dagath",
-    "Qorvex", "Dante", "Jade",
-  ];
   
   return acquisition;
 }

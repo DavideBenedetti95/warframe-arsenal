@@ -49,6 +49,78 @@
         "type": "Blueprint",
         "method": "Market Blueprint",
         "detail": "35000 Credits"
+      },
+      {
+        "type": "Bounty",
+        "method": "Pluto/Profit Margin (Skirmish)",
+        "detail": "Pluto/Profit Margin (Skirmish)",
+        "chance": "4.82%"
+      },
+      {
+        "type": "Bounty",
+        "method": "Pluto/Seven Sirens (Skirmish)",
+        "detail": "Pluto/Seven Sirens (Skirmish)",
+        "chance": "4.82%"
+      },
+      {
+        "type": "Bounty",
+        "method": "Pluto/Fenton's Field (Skirmish)",
+        "detail": "Pluto/Fenton's Field (Skirmish), Rotation A",
+        "chance": "13.33%"
+      },
+      {
+        "type": "Bounty",
+        "method": "Pluto/Obol Crossing (Skirmish)",
+        "detail": "Pluto/Obol Crossing (Skirmish), Rotation A",
+        "chance": "13.33%"
+      },
+      {
+        "type": "Bounty",
+        "method": "Neptune/Nu-Gua Mines (Skirmish)",
+        "detail": "Neptune/Nu-Gua Mines (Skirmish)",
+        "chance": "4.71%"
+      },
+      {
+        "type": "Bounty",
+        "method": "Neptune/Sovereign Grasp (Skirmish)",
+        "detail": "Neptune/Sovereign Grasp (Skirmish)",
+        "chance": "4.71%"
+      },
+      {
+        "type": "Bounty",
+        "method": "Neptune/Arva Vector (Skirmish)",
+        "detail": "Neptune/Arva Vector (Skirmish), Rotation A",
+        "chance": "12.50%"
+      },
+      {
+        "type": "Bounty",
+        "method": "Neptune/Enkidu Ice Drifts (Skirmish)",
+        "detail": "Neptune/Enkidu Ice Drifts (Skirmish), Rotation A",
+        "chance": "12.50%"
+      },
+      {
+        "type": "Bounty",
+        "method": "Venus/Beacon Shield Ring (Skirmish)",
+        "detail": "Venus/Beacon Shield Ring (Skirmish)",
+        "chance": "4.88%"
+      },
+      {
+        "type": "Bounty",
+        "method": "Venus/Bifrost Echo (Skirmish)",
+        "detail": "Venus/Bifrost Echo (Skirmish)",
+        "chance": "4.88%"
+      },
+      {
+        "type": "Bounty",
+        "method": "Venus/Falling Glory (Skirmish)",
+        "detail": "Venus/Falling Glory (Skirmish), Rotation A",
+        "chance": "13.33%"
+      },
+      {
+        "type": "Bounty",
+        "method": "Venus/Luckless Expanse (Skirmish)",
+        "detail": "Venus/Luckless Expanse (Skirmish), Rotation A",
+        "chance": "13.33%"
       }
     ],
     "components": [
@@ -482,6 +554,18 @@
         "type": "Market",
         "method": "Acquisto diretto",
         "detail": "275 Platinum"
+      },
+      {
+        "type": "Bounty",
+        "method": "Cephalon Simaris",
+        "detail": "Cephalon Simaris, Complete The Jordas Precept",
+        "chance": "100.00%"
+      },
+      {
+        "type": "Bounty",
+        "method": "Jordas Golem Assassinate",
+        "detail": "Jordas Golem Assassinate, Rotation C",
+        "chance": "38.72%"
       }
     ],
     "components": [
@@ -1458,6 +1542,12 @@
         "type": "Market",
         "method": "Acquisto diretto",
         "detail": "325 Platinum"
+      },
+      {
+        "type": "Bounty",
+        "method": "Vox Solaris",
+        "detail": "Vox Solaris, Agent",
+        "chance": "100.00%"
       }
     ],
     "components": [
@@ -1968,6 +2058,18 @@
         "type": "Blueprint",
         "method": "Market Blueprint",
         "detail": "50000 Credits"
+      },
+      {
+        "type": "Bounty",
+        "method": "Earth/Cetus (Level 50 - 70 Cetus Bounty)",
+        "detail": "Earth/Cetus (Level 50 - 70 Cetus Bounty), Rotation B",
+        "chance": "5.45%"
+      },
+      {
+        "type": "Bounty",
+        "method": "Venus/Orb Vallis (Level 50 - 70 Orb Vallis Bounty)",
+        "detail": "Venus/Orb Vallis (Level 50 - 70 Orb Vallis Bounty), Rotation B",
+        "chance": "5.45%"
       }
     ],
     "components": [
@@ -2232,6 +2334,12 @@
         "type": "Market",
         "method": "Acquisto diretto",
         "detail": "375 Platinum"
+      },
+      {
+        "type": "Bounty",
+        "method": "Cephalon Simaris",
+        "detail": "Cephalon Simaris, Complete The New Strange",
+        "chance": "100.00%"
       }
     ],
     "components": [
@@ -2691,6 +2799,12 @@
         "type": "Market",
         "method": "Acquisto diretto",
         "detail": "325 Platinum"
+      },
+      {
+        "type": "Bounty",
+        "method": "Mars/Tyana Pass (Defense)",
+        "detail": "Mars/Tyana Pass (Defense), Rotation C",
+        "chance": "9.30%"
       }
     ],
     "components": [
@@ -2773,6 +2887,24 @@
         "type": "Market",
         "method": "Acquisto diretto",
         "detail": "370 Platinum"
+      },
+      {
+        "type": "Bounty",
+        "method": "Höllvania (Level  55 - 60 WF1999 Bounty)",
+        "detail": "Höllvania (Level  55 - 60 WF1999 Bounty), Rotation C",
+        "chance": "12.20%"
+      },
+      {
+        "type": "Bounty",
+        "method": "Höllvania (Level  65 - 70 WF1999 Bounty)",
+        "detail": "Höllvania (Level  65 - 70 WF1999 Bounty), Rotation C",
+        "chance": "11.63%"
+      },
+      {
+        "type": "Bounty",
+        "method": "Höllvania (Level  75 - 80 WF1999 Bounty)",
+        "detail": "Höllvania (Level  75 - 80 WF1999 Bounty), Rotation C",
+        "chance": "13.33%"
       }
     ],
     "components": [
@@ -2937,6 +3069,12 @@
         "type": "Market",
         "method": "Acquisto diretto",
         "detail": "350 Platinum"
+      },
+      {
+        "type": "Bounty",
+        "method": "Deimos/Armatus (Disruption)",
+        "detail": "Deimos/Armatus (Disruption), Rotation C",
+        "chance": "7.50%"
       }
     ],
     "components": [
@@ -3030,6 +3168,12 @@
         "type": "Blueprint",
         "method": "Market Blueprint",
         "detail": "25000 Credits"
+      },
+      {
+        "type": "Bounty",
+        "method": "Saturn/Tethys (Assassination)",
+        "detail": "Saturn/Tethys (Assassination)",
+        "chance": "38.72%"
       }
     ],
     "components": [
@@ -3366,6 +3510,12 @@
         "type": "Blueprint",
         "method": "Market Blueprint",
         "detail": "25000 Credits"
+      },
+      {
+        "type": "Bounty",
+        "method": "Uranus/Titania (Assassination)",
+        "detail": "Uranus/Titania (Assassination)",
+        "chance": "11.28%"
       }
     ],
     "components": [
@@ -3846,6 +3996,12 @@
         "type": "Blueprint",
         "method": "Market Blueprint",
         "detail": "35000 Credits"
+      },
+      {
+        "type": "Bounty",
+        "method": "Mars/War (Assassination)",
+        "detail": "Mars/War (Assassination)",
+        "chance": "38.72%"
       }
     ],
     "components": [
@@ -4093,6 +4249,12 @@
         "type": "Blueprint",
         "method": "Market Blueprint",
         "detail": "25000 Credits"
+      },
+      {
+        "type": "Bounty",
+        "method": "Ceres/Exta (Assassination)",
+        "detail": "Ceres/Exta (Assassination)",
+        "chance": "38.72%"
       }
     ],
     "components": [
@@ -4430,6 +4592,30 @@
         "type": "Market",
         "method": "Acquisto diretto",
         "detail": "225 Platinum"
+      },
+      {
+        "type": "Bounty",
+        "method": "Cephalon Simaris",
+        "detail": "Cephalon Simaris, Complete Saya's Vigil",
+        "chance": "100.00%"
+      },
+      {
+        "type": "Bounty",
+        "method": "Earth/Cetus (Level 5 - 15 Cetus Bounty)",
+        "detail": "Earth/Cetus (Level 5 - 15 Cetus Bounty), Rotation A",
+        "chance": "7.37%"
+      },
+      {
+        "type": "Bounty",
+        "method": "Earth/Cetus (Level 20 - 40 Cetus Bounty)",
+        "detail": "Earth/Cetus (Level 20 - 40 Cetus Bounty), Rotation A",
+        "chance": "8.84%"
+      },
+      {
+        "type": "Bounty",
+        "method": "Earth/Cetus (Level 10 - 30 Cetus Bounty)",
+        "detail": "Earth/Cetus (Level 10 - 30 Cetus Bounty), Rotation A",
+        "chance": "9.68%"
       }
     ],
     "components": [
@@ -4923,6 +5109,30 @@
         "type": "Market",
         "method": "Acquisto diretto",
         "detail": "325 Platinum"
+      },
+      {
+        "type": "Bounty",
+        "method": "Cephalon Simaris",
+        "detail": "Cephalon Simaris, Complete Vox Solaris (Quest)",
+        "chance": "100.00%"
+      },
+      {
+        "type": "Bounty",
+        "method": "Venus/Orb Vallis (Level 5 - 15 Orb Vallis Bounty)",
+        "detail": "Venus/Orb Vallis (Level 5 - 15 Orb Vallis Bounty), Rotation A",
+        "chance": "11.60%"
+      },
+      {
+        "type": "Bounty",
+        "method": "Venus/Orb Vallis (Level 20 - 40 Orb Vallis Bounty)",
+        "detail": "Venus/Orb Vallis (Level 20 - 40 Orb Vallis Bounty), Rotation A",
+        "chance": "10.59%"
+      },
+      {
+        "type": "Bounty",
+        "method": "Venus/Orb Vallis (Level 10 - 30 Orb Vallis Bounty)",
+        "detail": "Venus/Orb Vallis (Level 10 - 30 Orb Vallis Bounty), Rotation A",
+        "chance": "10.59%"
       }
     ],
     "components": [
@@ -5440,6 +5650,12 @@
         "type": "Blueprint",
         "method": "Market Blueprint",
         "detail": "30000 Credits"
+      },
+      {
+        "type": "Bounty",
+        "method": "Sedna/Kappa (Disruption)",
+        "detail": "Sedna/Kappa (Disruption), Rotation C",
+        "chance": "7.84%"
       }
     ],
     "components": [
@@ -6325,6 +6541,36 @@
         "type": "Market",
         "method": "Acquisto diretto",
         "detail": "325 Platinum"
+      },
+      {
+        "type": "Bounty",
+        "method": "Zariman Ten Zero (Level  110 - 115 Zariman Bounty)",
+        "detail": "Zariman Ten Zero (Level  110 - 115 Zariman Bounty), Rotation C",
+        "chance": "12.99%"
+      },
+      {
+        "type": "Bounty",
+        "method": "Zariman Ten Zero (Level  90 - 95 Zariman Bounty)",
+        "detail": "Zariman Ten Zero (Level  90 - 95 Zariman Bounty), Rotation C",
+        "chance": "12.99%"
+      },
+      {
+        "type": "Bounty",
+        "method": "Zariman Ten Zero (Level  60 - 65 Zariman Bounty)",
+        "detail": "Zariman Ten Zero (Level  60 - 65 Zariman Bounty), Rotation C",
+        "chance": "13.56%"
+      },
+      {
+        "type": "Bounty",
+        "method": "Zariman Ten Zero (Level  50 - 55 Zariman Bounty)",
+        "detail": "Zariman Ten Zero (Level  50 - 55 Zariman Bounty), Rotation C",
+        "chance": "13.04%"
+      },
+      {
+        "type": "Bounty",
+        "method": "Zariman Ten Zero (Level  70 - 75 Zariman Bounty)",
+        "detail": "Zariman Ten Zero (Level  70 - 75 Zariman Bounty), Rotation C",
+        "chance": "11.90%"
       }
     ],
     "components": [
@@ -6553,6 +6799,48 @@
         "type": "Market",
         "method": "Acquisto diretto",
         "detail": "225 Platinum"
+      },
+      {
+        "type": "Bounty",
+        "method": "Cephalon Simaris",
+        "detail": "Cephalon Simaris, Complete Chains of Harrow",
+        "chance": "100.00%"
+      },
+      {
+        "type": "Bounty",
+        "method": "Void Fissure Corrupted Enemy",
+        "detail": "Void Fissure Corrupted Enemy",
+        "chance": "3.00%"
+      },
+      {
+        "type": "Bounty",
+        "method": "Kuva Fortress/Taveuni (Survival)",
+        "detail": "Kuva Fortress/Taveuni (Survival), Rotation C",
+        "chance": "12.00%"
+      },
+      {
+        "type": "Bounty",
+        "method": "Kuva Fortress/Pago (Spy)",
+        "detail": "Kuva Fortress/Pago (Spy), Rotation A",
+        "chance": "16.67%"
+      },
+      {
+        "type": "Bounty",
+        "method": "Saturn/Caracol (Defection)",
+        "detail": "Saturn/Caracol (Defection), Rotation B",
+        "chance": "5.45%"
+      },
+      {
+        "type": "Bounty",
+        "method": "Neptune/Yursa (Defection)",
+        "detail": "Neptune/Yursa (Defection), Rotation B",
+        "chance": "6.00%"
+      },
+      {
+        "type": "Bounty",
+        "method": "Phobos/Memphis (Defection)",
+        "detail": "Phobos/Memphis (Defection), Rotation B",
+        "chance": "6.00%"
       }
     ],
     "components": [
@@ -7101,6 +7389,18 @@
         "type": "Market",
         "method": "Acquisto diretto",
         "detail": "325 Platinum"
+      },
+      {
+        "type": "Bounty",
+        "method": "Vox Solaris",
+        "detail": "Vox Solaris, Agent",
+        "chance": "100.00%"
+      },
+      {
+        "type": "Bounty",
+        "method": "Exploiter Orb",
+        "detail": "Exploiter Orb",
+        "chance": "38.72%"
       }
     ],
     "components": [
@@ -7623,6 +7923,18 @@
         "type": "Blueprint",
         "method": "Market Blueprint",
         "detail": "50000 Credits"
+      },
+      {
+        "type": "Bounty",
+        "method": "Earth/Oro (Assassination)",
+        "detail": "Earth/Oro (Assassination)",
+        "chance": "38.72%"
+      },
+      {
+        "type": "Bounty",
+        "method": "Vay Hek Frequency Triangulator",
+        "detail": "Vay Hek Frequency Triangulator, Rotation C",
+        "chance": "38.72%"
       }
     ],
     "components": [
@@ -8069,6 +8381,12 @@
         "type": "Market",
         "method": "Acquisto diretto",
         "detail": "225 Platinum"
+      },
+      {
+        "type": "Bounty",
+        "method": "Cephalon Simaris",
+        "detail": "Cephalon Simaris, Complete Sands of Inaros",
+        "chance": "100.00%"
       }
     ],
     "components": [
@@ -8574,6 +8892,156 @@
         "type": "Market",
         "method": "Acquisto diretto",
         "detail": "325 Platinum"
+      },
+      {
+        "type": "Bounty",
+        "method": "Eris/Cyath (Spy)",
+        "detail": "Eris/Cyath (Spy), Rotation C",
+        "chance": "7.52%"
+      },
+      {
+        "type": "Bounty",
+        "method": "Eris/Gnathos (Spy)",
+        "detail": "Eris/Gnathos (Spy), Rotation C",
+        "chance": "7.52%"
+      },
+      {
+        "type": "Bounty",
+        "method": "Neptune/Nereid (Spy)",
+        "detail": "Neptune/Nereid (Spy), Rotation C",
+        "chance": "7.52%"
+      },
+      {
+        "type": "Bounty",
+        "method": "Pluto/Oceanum (Spy)",
+        "detail": "Pluto/Oceanum (Spy), Rotation C",
+        "chance": "7.52%"
+      },
+      {
+        "type": "Bounty",
+        "method": "Sedna/Kelpie (Spy)",
+        "detail": "Sedna/Kelpie (Spy), Rotation C",
+        "chance": "7.52%"
+      },
+      {
+        "type": "Bounty",
+        "method": "Sedna/Tikoloshe (Spy)",
+        "detail": "Sedna/Tikoloshe (Spy), Rotation C",
+        "chance": "7.52%"
+      },
+      {
+        "type": "Bounty",
+        "method": "Uranus/Rosalind (Spy)",
+        "detail": "Uranus/Rosalind (Spy), Rotation C",
+        "chance": "7.52%"
+      },
+      {
+        "type": "Bounty",
+        "method": "Veil/Sabmir Cloud (Skirmish)",
+        "detail": "Veil/Sabmir Cloud (Skirmish), Rotation C",
+        "chance": "12.00%"
+      },
+      {
+        "type": "Bounty",
+        "method": "Ceres/Bode (Spy)",
+        "detail": "Ceres/Bode (Spy), Rotation C",
+        "chance": "5.64%"
+      },
+      {
+        "type": "Bounty",
+        "method": "Europa/Valac (Spy)",
+        "detail": "Europa/Valac (Spy), Rotation C",
+        "chance": "5.64%"
+      },
+      {
+        "type": "Bounty",
+        "method": "Jupiter/Amalthea (Spy)",
+        "detail": "Jupiter/Amalthea (Spy), Rotation C",
+        "chance": "5.64%"
+      },
+      {
+        "type": "Bounty",
+        "method": "Saturn/Aegaeon (Spy)",
+        "detail": "Saturn/Aegaeon (Spy), Rotation C",
+        "chance": "5.64%"
+      },
+      {
+        "type": "Bounty",
+        "method": "Saturn/Dione (Spy)",
+        "detail": "Saturn/Dione (Spy), Rotation C",
+        "chance": "5.64%"
+      },
+      {
+        "type": "Bounty",
+        "method": "Lua/Pavlov (Spy)",
+        "detail": "Lua/Pavlov (Spy), Rotation C",
+        "chance": "7.37%"
+      },
+      {
+        "type": "Bounty",
+        "method": "Neptune/Brom Cluster (Skirmish)",
+        "detail": "Neptune/Brom Cluster (Skirmish), Rotation C",
+        "chance": "12.00%"
+      },
+      {
+        "type": "Bounty",
+        "method": "Pluto/Peregrine Axis (Skirmish)",
+        "detail": "Pluto/Peregrine Axis (Skirmish), Rotation C",
+        "chance": "12.00%"
+      },
+      {
+        "type": "Bounty",
+        "method": "Ceres/Hapke (Spy)",
+        "detail": "Ceres/Hapke (Spy), Rotation C",
+        "chance": "10.00%"
+      },
+      {
+        "type": "Bounty",
+        "method": "Earth/Cambria (Spy)",
+        "detail": "Earth/Cambria (Spy), Rotation C",
+        "chance": "10.00%"
+      },
+      {
+        "type": "Bounty",
+        "method": "Mars/Arval (Spy)",
+        "detail": "Mars/Arval (Spy), Rotation C",
+        "chance": "10.00%"
+      },
+      {
+        "type": "Bounty",
+        "method": "Mercury/Suisei (Spy)",
+        "detail": "Mercury/Suisei (Spy), Rotation C",
+        "chance": "10.00%"
+      },
+      {
+        "type": "Bounty",
+        "method": "Phobos/Grildrig (Spy)",
+        "detail": "Phobos/Grildrig (Spy), Rotation C",
+        "chance": "10.00%"
+      },
+      {
+        "type": "Bounty",
+        "method": "Phobos/Shklovsky (Spy)",
+        "detail": "Phobos/Shklovsky (Spy), Rotation C",
+        "chance": "10.00%"
+      },
+      {
+        "type": "Bounty",
+        "method": "Venus/Unda (Spy)",
+        "detail": "Venus/Unda (Spy), Rotation C",
+        "chance": "10.00%"
+      },
+      {
+        "type": "Bounty",
+        "method": "Venus/Vesper (Spy)",
+        "detail": "Venus/Vesper (Spy), Rotation C",
+        "chance": "10.00%"
+      },
+      {
+        "type": "Bounty",
+        "method": "Venus/Orvin-Haarc (Skirmish)",
+        "detail": "Venus/Orvin-Haarc (Skirmish), Rotation C",
+        "chance": "12.00%"
       }
     ],
     "components": [
@@ -9049,6 +9517,12 @@
         "type": "Market",
         "method": "Acquisto diretto",
         "detail": "325 Platinum"
+      },
+      {
+        "type": "Bounty",
+        "method": "Uranus/Brutus (Ascension)",
+        "detail": "Uranus/Brutus (Ascension)",
+        "chance": "4.63%"
       }
     ],
     "components": [
@@ -9139,6 +9613,12 @@
         "type": "Market",
         "method": "Acquisto diretto",
         "detail": "325 Platinum"
+      },
+      {
+        "type": "Bounty",
+        "method": "Sanctuary Onslaught",
+        "detail": "Sanctuary Onslaught, Rotation C",
+        "chance": "11.28%"
       }
     ],
     "components": [
@@ -9590,6 +10070,12 @@
         "type": "Market",
         "method": "Acquisto diretto",
         "detail": "370 Platinum"
+      },
+      {
+        "type": "Bounty",
+        "method": "Earth/Saya's Visions (Shrine Defense)",
+        "detail": "Earth/Saya's Visions (Shrine Defense)",
+        "chance": "4.09%"
       }
     ],
     "components": [
@@ -9774,6 +10260,18 @@
         "type": "Market",
         "method": "Acquisto diretto",
         "detail": "325 Platinum"
+      },
+      {
+        "type": "Bounty",
+        "method": "Operation: Orphix Venom",
+        "detail": "Operation: Orphix Venom, Rotation C",
+        "chance": "5.56%"
+      },
+      {
+        "type": "Bounty",
+        "method": "Entrati (Father)",
+        "detail": "Entrati (Father), Acquaintance",
+        "chance": "100.00%"
       }
     ],
     "components": [
@@ -10080,6 +10578,12 @@
         "type": "Blueprint",
         "method": "Market Blueprint",
         "detail": "35000 Credits"
+      },
+      {
+        "type": "Bounty",
+        "method": "Cephalon Simaris",
+        "detail": "Cephalon Simaris, Complete The Limbo Theorem",
+        "chance": "100.00%"
       }
     ],
     "components": [
@@ -10579,6 +11083,12 @@
         "type": "Blueprint",
         "method": "Market Blueprint",
         "detail": "35000 Credits"
+      },
+      {
+        "type": "Bounty",
+        "method": "Neptune/Psamathe (Assassination)",
+        "detail": "Neptune/Psamathe (Assassination)",
+        "chance": "38.72%"
       }
     ],
     "components": [
@@ -10874,6 +11384,12 @@
         "type": "Blueprint",
         "method": "Market Blueprint",
         "detail": "25000 Credits"
+      },
+      {
+        "type": "Bounty",
+        "method": "Phobos/Iliad (Assassination)",
+        "detail": "Phobos/Iliad (Assassination)",
+        "chance": "38.72%"
       }
     ],
     "components": [
@@ -11247,6 +11763,12 @@
         "type": "Market",
         "method": "Acquisto diretto",
         "detail": "325 Platinum"
+      },
+      {
+        "type": "Bounty",
+        "method": "Mutalist Alad V Assassinate",
+        "detail": "Mutalist Alad V Assassinate, Rotation C",
+        "chance": "38.72%"
       }
     ],
     "components": [
@@ -11753,6 +12275,12 @@
         "type": "Market",
         "method": "Acquisto diretto",
         "detail": "275 Platinum"
+      },
+      {
+        "type": "Bounty",
+        "method": "Cephalon Simaris",
+        "detail": "Cephalon Simaris, Complete Hidden Messages",
+        "chance": "100.00%"
       }
     ],
     "components": [
@@ -12240,6 +12768,18 @@
         "type": "Blueprint",
         "method": "Market Blueprint",
         "detail": "100000 Credits"
+      },
+      {
+        "type": "Bounty",
+        "method": "Deimos/Magnacidium (Assassination)",
+        "detail": "Deimos/Magnacidium (Assassination)",
+        "chance": "33.33%"
+      },
+      {
+        "type": "Bounty",
+        "method": "Orokin Derelict Assassinate",
+        "detail": "Orokin Derelict Assassinate, Rotation C",
+        "chance": "33.33%"
       }
     ],
     "components": [
@@ -13243,6 +13783,18 @@
         "type": "Market",
         "method": "Acquisto diretto",
         "detail": "225 Platinum"
+      },
+      {
+        "type": "Bounty",
+        "method": "Cephalon Simaris",
+        "detail": "Cephalon Simaris, Complete The Glast Gambit",
+        "chance": "100.00%"
+      },
+      {
+        "type": "Bounty",
+        "method": "Eris/Oestrus (Infested Salvage)",
+        "detail": "Eris/Oestrus (Infested Salvage), Rotation C",
+        "chance": "14.29%"
       }
     ],
     "components": [
@@ -13737,6 +14289,42 @@
         "type": "Market",
         "method": "Acquisto diretto",
         "detail": "370 Platinum"
+      },
+      {
+        "type": "Bounty",
+        "method": "Nokko: Corporate Restructuring Rewards",
+        "detail": "Nokko: Corporate Restructuring Rewards, Rotation C",
+        "chance": "5.00%"
+      },
+      {
+        "type": "Bounty",
+        "method": "Nokko: Critter Liberation Rewards",
+        "detail": "Nokko: Critter Liberation Rewards, Rotation C",
+        "chance": "5.00%"
+      },
+      {
+        "type": "Bounty",
+        "method": "Nokko: Weed The Gardens Rewards",
+        "detail": "Nokko: Weed The Gardens Rewards, Rotation C",
+        "chance": "5.00%"
+      },
+      {
+        "type": "Bounty",
+        "method": "Nokko: Corporate Restructuring (Steel Path)",
+        "detail": "Nokko: Corporate Restructuring (Steel Path), Rotation C",
+        "chance": "8.00%"
+      },
+      {
+        "type": "Bounty",
+        "method": "Nokko: Critter Liberation Rewards (Steel Path)",
+        "detail": "Nokko: Critter Liberation Rewards (Steel Path), Rotation C",
+        "chance": "8.00%"
+      },
+      {
+        "type": "Bounty",
+        "method": "Nokko: Weed The Gardens Rewards (Steel Path)",
+        "detail": "Nokko: Weed The Gardens Rewards (Steel Path), Rotation C",
+        "chance": "8.00%"
       }
     ],
     "components": [
@@ -13830,6 +14418,12 @@
         "type": "Blueprint",
         "method": "Market Blueprint",
         "detail": "35000 Credits"
+      },
+      {
+        "type": "Bounty",
+        "method": "Europa/Naamah (Assassination)",
+        "detail": "Europa/Naamah (Assassination)",
+        "chance": "38.72%"
       }
     ],
     "components": [
@@ -14208,6 +14802,12 @@
         "type": "Blueprint",
         "method": "Market Blueprint",
         "detail": "25000 Credits"
+      },
+      {
+        "type": "Bounty",
+        "method": "Phorid Assassination",
+        "detail": "Phorid Assassination",
+        "chance": "38.72%"
       }
     ],
     "components": [
@@ -14550,6 +15150,66 @@
         "type": "Blueprint",
         "method": "Market Blueprint",
         "detail": "30000 Credits"
+      },
+      {
+        "type": "Bounty",
+        "method": "Saturn/Kasio's Rest (Caches)",
+        "detail": "Saturn/Kasio's Rest (Caches)",
+        "chance": "10.00%"
+      },
+      {
+        "type": "Bounty",
+        "method": "Saturn/Lupal Pass (Caches)",
+        "detail": "Saturn/Lupal Pass (Caches)",
+        "chance": "10.00%"
+      },
+      {
+        "type": "Bounty",
+        "method": "Saturn/Mordo Cluster (Caches)",
+        "detail": "Saturn/Mordo Cluster (Caches)",
+        "chance": "10.00%"
+      },
+      {
+        "type": "Bounty",
+        "method": "Saturn/Nodo Gap (Caches)",
+        "detail": "Saturn/Nodo Gap (Caches)",
+        "chance": "10.00%"
+      },
+      {
+        "type": "Bounty",
+        "method": "Saturn/Vand Cluster (Caches)",
+        "detail": "Saturn/Vand Cluster (Caches)",
+        "chance": "10.00%"
+      },
+      {
+        "type": "Bounty",
+        "method": "Earth/Bendar Cluster (Caches)",
+        "detail": "Earth/Bendar Cluster (Caches)",
+        "chance": "10.00%"
+      },
+      {
+        "type": "Bounty",
+        "method": "Earth/Iota Temple (Caches)",
+        "detail": "Earth/Iota Temple (Caches)",
+        "chance": "10.00%"
+      },
+      {
+        "type": "Bounty",
+        "method": "Earth/Korm's Belt (Caches)",
+        "detail": "Earth/Korm's Belt (Caches)",
+        "chance": "10.00%"
+      },
+      {
+        "type": "Bounty",
+        "method": "Earth/Ogal Cluster (Caches)",
+        "detail": "Earth/Ogal Cluster (Caches)",
+        "chance": "10.00%"
+      },
+      {
+        "type": "Bounty",
+        "method": "Earth/Sover Strait (Caches)",
+        "detail": "Earth/Sover Strait (Caches)",
+        "chance": "10.00%"
       }
     ],
     "components": [
@@ -15032,6 +15692,30 @@
         "type": "Market",
         "method": "Acquisto diretto",
         "detail": "225 Platinum"
+      },
+      {
+        "type": "Bounty",
+        "method": "Cephalon Simaris",
+        "detail": "Cephalon Simaris, Complete Octavia's Anthem",
+        "chance": "100.00%"
+      },
+      {
+        "type": "Bounty",
+        "method": "Orokin Storage Container",
+        "detail": "Orokin Storage Container",
+        "chance": "100.00%"
+      },
+      {
+        "type": "Bounty",
+        "method": "Deimos/Terrorem (Survival)",
+        "detail": "Deimos/Terrorem (Survival), Rotation C",
+        "chance": "22.56%"
+      },
+      {
+        "type": "Bounty",
+        "method": "Lua/Plato (Caches)",
+        "detail": "Lua/Plato (Caches), Rotation A",
+        "chance": "22.56%"
       }
     ],
     "components": [
@@ -15514,6 +16198,18 @@
         "type": "Market",
         "method": "Acquisto diretto",
         "detail": "370 Platinum"
+      },
+      {
+        "type": "Bounty",
+        "method": "Duviri Murmur Invasion Rewards (Steel Path)",
+        "detail": "Duviri Murmur Invasion Rewards (Steel Path), Rotation A",
+        "chance": "7.69%"
+      },
+      {
+        "type": "Bounty",
+        "method": "Duviri Murmur Invasion Rewards",
+        "detail": "Duviri Murmur Invasion Rewards, Rotation A",
+        "chance": "7.69%"
       }
     ],
     "components": [
@@ -15607,6 +16303,30 @@
         "type": "Blueprint",
         "method": "Market Blueprint",
         "detail": "35000 Credits"
+      },
+      {
+        "type": "Bounty",
+        "method": "Cephalon Simaris",
+        "detail": "Cephalon Simaris, Complete The Deadlock Protocol",
+        "chance": "100.00%"
+      },
+      {
+        "type": "Bounty",
+        "method": "Extended Granum Void",
+        "detail": "Extended Granum Void, Rotation C",
+        "chance": "11.11%"
+      },
+      {
+        "type": "Bounty",
+        "method": "Granum Void",
+        "detail": "Granum Void, Rotation C",
+        "chance": "11.11%"
+      },
+      {
+        "type": "Bounty",
+        "method": "Nightmare Granum Void",
+        "detail": "Nightmare Granum Void, Rotation C",
+        "chance": "11.11%"
       }
     ],
     "components": [
@@ -16070,6 +16790,24 @@
         "type": "Market",
         "method": "Acquisto diretto",
         "detail": "325 Platinum"
+      },
+      {
+        "type": "Bounty",
+        "method": "Deimos/Albrecht's Laboratories (Level  65 - 70 Entrati Lab Bounty)",
+        "detail": "Deimos/Albrecht's Laboratories (Level  65 - 70 Entrati Lab Bounty), Rotation C",
+        "chance": "13.56%"
+      },
+      {
+        "type": "Bounty",
+        "method": "Deimos/Albrecht's Laboratories (Level  55 - 60 Entrati Lab Bounty)",
+        "detail": "Deimos/Albrecht's Laboratories (Level  55 - 60 Entrati Lab Bounty), Rotation C",
+        "chance": "13.04%"
+      },
+      {
+        "type": "Bounty",
+        "method": "Deimos/Albrecht's Laboratories (Level  75 - 80 Entrati Lab Bounty)",
+        "detail": "Deimos/Albrecht's Laboratories (Level  75 - 80 Entrati Lab Bounty), Rotation C",
+        "chance": "12.40%"
       }
     ],
     "components": [
@@ -16165,6 +16903,42 @@
         "type": "Market",
         "method": "Acquisto diretto",
         "detail": "325 Platinum"
+      },
+      {
+        "type": "Bounty",
+        "method": "Cephalon Simaris",
+        "detail": "Cephalon Simaris, Complete Mask of the Revenant",
+        "chance": "100.00%"
+      },
+      {
+        "type": "Bounty",
+        "method": "Earth/Cetus (Level 30 - 50 Cetus Bounty)",
+        "detail": "Earth/Cetus (Level 30 - 50 Cetus Bounty), Rotation C",
+        "chance": "8.51%"
+      },
+      {
+        "type": "Bounty",
+        "method": "Earth/Cetus (Level 15 - 25 Plague Star)",
+        "detail": "Earth/Cetus (Level 15 - 25 Plague Star), Rotation A",
+        "chance": "10.13%"
+      },
+      {
+        "type": "Bounty",
+        "method": "Earth/Cetus (Level 100 - 100 Cetus Bounty)",
+        "detail": "Earth/Cetus (Level 100 - 100 Cetus Bounty), Rotation A",
+        "chance": "6.76%"
+      },
+      {
+        "type": "Bounty",
+        "method": "Earth/Cetus (Level 40 - 60 Cetus Bounty)",
+        "detail": "Earth/Cetus (Level 40 - 60 Cetus Bounty), Rotation A",
+        "chance": "6.76%"
+      },
+      {
+        "type": "Bounty",
+        "method": "Earth/Cetus (Level 20 - 40 Cetus Bounty)",
+        "detail": "Earth/Cetus (Level 20 - 40 Cetus Bounty), Rotation A",
+        "chance": "8.84%"
       }
     ],
     "components": [
@@ -16675,6 +17449,12 @@
         "type": "Blueprint",
         "method": "Market Blueprint",
         "detail": "35000 Credits"
+      },
+      {
+        "type": "Bounty",
+        "method": "Venus/Fossa (Assassination)",
+        "detail": "Venus/Fossa (Assassination)",
+        "chance": "38.72%"
       }
     ],
     "components": [
@@ -17012,6 +17792,12 @@
         "type": "Blueprint",
         "method": "Market Blueprint",
         "detail": "35000 Credits"
+      },
+      {
+        "type": "Bounty",
+        "method": "Sedna/Merrow (Assassination)",
+        "detail": "Sedna/Merrow (Assassination)",
+        "chance": "38.72%"
       }
     ],
     "components": [
@@ -17553,6 +18339,30 @@
         "type": "Market",
         "method": "Acquisto diretto",
         "detail": "325 Platinum"
+      },
+      {
+        "type": "Bounty",
+        "method": "Cephalon Simaris",
+        "detail": "Cephalon Simaris, Complete Call of the Tempestarii",
+        "chance": "100.00%"
+      },
+      {
+        "type": "Bounty",
+        "method": "Void Storm (Neptune)",
+        "detail": "Void Storm (Neptune)",
+        "chance": "9.52%"
+      },
+      {
+        "type": "Bounty",
+        "method": "Void Storm (Pluto)",
+        "detail": "Void Storm (Pluto)",
+        "chance": "10.00%"
+      },
+      {
+        "type": "Bounty",
+        "method": "Void Storm (Veil Proxima)",
+        "detail": "Void Storm (Veil Proxima)",
+        "chance": "10.00%"
       }
     ],
     "components": [
@@ -17980,6 +18790,12 @@
         "type": "Market",
         "method": "Acquisto diretto",
         "detail": "175 Platinum"
+      },
+      {
+        "type": "Bounty",
+        "method": "Kahl's Garrison (Chipper)",
+        "detail": "Kahl's Garrison (Chipper), Home",
+        "chance": "100.00%"
       }
     ],
     "components": [
@@ -18062,6 +18878,12 @@
         "type": "Market",
         "method": "Acquisto diretto",
         "detail": "370 Platinum"
+      },
+      {
+        "type": "Bounty",
+        "method": "Höllvania/Solstice Square (Defense)",
+        "detail": "Höllvania/Solstice Square (Defense), Rotation A",
+        "chance": "0.97%"
       }
     ],
     "components": [
@@ -18150,6 +18972,12 @@
         "type": "Market",
         "method": "Acquisto diretto",
         "detail": "275 Platinum"
+      },
+      {
+        "type": "Bounty",
+        "method": "Cephalon Simaris",
+        "detail": "Cephalon Simaris, Complete The Silver Grove",
+        "chance": "100.00%"
       }
     ],
     "components": [
@@ -18673,6 +19501,12 @@
         "type": "Blueprint",
         "method": "Market Blueprint",
         "detail": "25000 Credits"
+      },
+      {
+        "type": "Bounty",
+        "method": "Pluto/Hades (Assassination)",
+        "detail": "Pluto/Hades (Assassination)",
+        "chance": "38.72%"
       }
     ],
     "components": [
@@ -19266,6 +20100,12 @@
         "type": "Blueprint",
         "method": "Market Blueprint",
         "detail": "35000 Credits"
+      },
+      {
+        "type": "Bounty",
+        "method": "Jupiter/Themisto (Assassination)",
+        "detail": "Jupiter/Themisto (Assassination)",
+        "chance": "38.72%"
       }
     ],
     "components": [
@@ -20564,6 +21404,18 @@
         "type": "Market",
         "method": "Acquisto diretto",
         "detail": "325 Platinum"
+      },
+      {
+        "type": "Bounty",
+        "method": "Lua/Yuvarium (Survival)",
+        "detail": "Lua/Yuvarium (Survival), Rotation C",
+        "chance": "6.82%"
+      },
+      {
+        "type": "Bounty",
+        "method": "Lua/Circulus (Survival)",
+        "detail": "Lua/Circulus (Survival), Rotation C",
+        "chance": "12.24%"
       }
     ],
     "components": [
@@ -20659,6 +21511,12 @@
         "type": "Market",
         "method": "Acquisto diretto",
         "detail": "325 Platinum"
+      },
+      {
+        "type": "Bounty",
+        "method": "Jupiter/The Ropalolyst (Assassination)",
+        "detail": "Jupiter/The Ropalolyst (Assassination)",
+        "chance": "22.56%"
       }
     ],
     "components": [
@@ -21662,6 +22520,36 @@
         "type": "Market",
         "method": "Acquisto diretto",
         "detail": "325 Platinum"
+      },
+      {
+        "type": "Bounty",
+        "method": "Cephalon Simaris",
+        "detail": "Cephalon Simaris, Complete Heart of Deimos",
+        "chance": "100.00%"
+      },
+      {
+        "type": "Bounty",
+        "method": "Deimos/Cambion Drift (Level 100 - 100 Cambion Drift Bounty)",
+        "detail": "Deimos/Cambion Drift (Level 100 - 100 Cambion Drift Bounty), Rotation A",
+        "chance": "6.67%"
+      },
+      {
+        "type": "Bounty",
+        "method": "Deimos/Cambion Drift (Level 40 - 60 Cambion Drift Bounty)",
+        "detail": "Deimos/Cambion Drift (Level 40 - 60 Cambion Drift Bounty), Rotation A",
+        "chance": "6.67%"
+      },
+      {
+        "type": "Bounty",
+        "method": "Deimos/Cambion Drift (Level 15 - 25 Cambion Drift Bounty)",
+        "detail": "Deimos/Cambion Drift (Level 15 - 25 Cambion Drift Bounty), Rotation A",
+        "chance": "6.82%"
+      },
+      {
+        "type": "Bounty",
+        "method": "Deimos/Cambion Drift (Level 30 - 40 Cambion Drift Bounty)",
+        "detail": "Deimos/Cambion Drift (Level 30 - 40 Cambion Drift Bounty), Rotation A",
+        "chance": "6.45%"
       }
     ],
     "components": [
@@ -22047,6 +22935,12 @@
         "type": "Market",
         "method": "Acquisto diretto",
         "detail": "325 Platinum"
+      },
+      {
+        "type": "Bounty",
+        "method": "Cephalon Simaris",
+        "detail": "Cephalon Simaris, Complete The Waverider",
+        "chance": "100.00%"
       }
     ],
     "components": [
