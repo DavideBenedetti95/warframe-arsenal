@@ -1,0 +1,2018 @@
+[
+  {
+    "name": "Acceltra",
+    "masteryReq": 8,
+    "slot": "Primary",
+    "imageUrl": "https://cdn.warframestat.us/img/acceltra-f87797699a.png"
+  },
+  {
+    "name": "Acceltra Prime",
+    "masteryReq": 14,
+    "slot": "Primary",
+    "imageUrl": "https://cdn.warframestat.us/img/acceltra-prime-5628f3e466.png"
+  },
+  {
+    "name": "Acrid",
+    "masteryReq": 7,
+    "slot": "Secondary",
+    "imageUrl": "https://cdn.warframestat.us/img/acrid-6363c31728.png"
+  },
+  {
+    "name": "Aegrit",
+    "masteryReq": 11,
+    "slot": "Secondary",
+    "imageUrl": "https://cdn.warframestat.us/img/aegrit-fe86bbbea4.png"
+  },
+  {
+    "name": "Aeolak",
+    "masteryReq": 10,
+    "slot": "Primary",
+    "imageUrl": "https://cdn.warframestat.us/img/aeolak-98339f06d2.png"
+  },
+  {
+    "name": "Afentis",
+    "masteryReq": 8,
+    "slot": "Primary",
+    "imageUrl": "https://cdn.warframestat.us/img/afentis-a053c519b8.png"
+  },
+  {
+    "name": "Afuris",
+    "masteryReq": 4,
+    "slot": "Secondary",
+    "imageUrl": "https://cdn.warframestat.us/img/afuris-c36c694ba4.png"
+  },
+  {
+    "name": "Afuris Prime",
+    "masteryReq": 12,
+    "slot": "Secondary",
+    "imageUrl": "https://cdn.warframestat.us/img/afuris-prime-abcebdfbfa.png"
+  },
+  {
+    "name": "Akarius",
+    "masteryReq": 8,
+    "slot": "Secondary",
+    "imageUrl": "https://cdn.warframestat.us/img/akarius-2009d8750f.png"
+  },
+  {
+    "name": "Akarius Prime",
+    "masteryReq": 14,
+    "slot": "Secondary",
+    "imageUrl": "https://cdn.warframestat.us/img/akarius-prime-7d8f0a0779.png"
+  },
+  {
+    "name": "Akbolto",
+    "masteryReq": 8,
+    "slot": "Secondary",
+    "imageUrl": "https://cdn.warframestat.us/img/akbolto-6b0f3d7ac2.png"
+  },
+  {
+    "name": "Akbolto Prime",
+    "masteryReq": 13,
+    "slot": "Secondary",
+    "imageUrl": "https://cdn.warframestat.us/img/akbolto-prime-1bf267febc.png"
+  },
+  {
+    "name": "Akbronco",
+    "masteryReq": 2,
+    "slot": "Secondary",
+    "imageUrl": "https://cdn.warframestat.us/img/akbronco-2345401e0c.png"
+  },
+  {
+    "name": "Akbronco Prime",
+    "masteryReq": 10,
+    "slot": "Secondary",
+    "imageUrl": "https://cdn.warframestat.us/img/akbronco-prime-e0b3fd0788.png"
+  },
+  {
+    "name": "Akjagara",
+    "masteryReq": 8,
+    "slot": "Secondary",
+    "imageUrl": "https://cdn.warframestat.us/img/akjagara-091d3b6fa7.png"
+  },
+  {
+    "name": "Akjagara Prime",
+    "masteryReq": 12,
+    "slot": "Secondary",
+    "imageUrl": "https://cdn.warframestat.us/img/akjagara-prime-c44280a30c.png"
+  },
+  {
+    "name": "Aklato",
+    "masteryReq": 3,
+    "slot": "Secondary",
+    "imageUrl": "https://cdn.warframestat.us/img/aklato-c5ecafca06.png"
+  },
+  {
+    "name": "Aklex",
+    "masteryReq": 4,
+    "slot": "Secondary",
+    "imageUrl": "https://cdn.warframestat.us/img/aklex-20f578f0e2.png"
+  },
+  {
+    "name": "Aklex Prime",
+    "masteryReq": 15,
+    "slot": "Secondary",
+    "imageUrl": "https://cdn.warframestat.us/img/aklex-prime-3ba6556b1f.png"
+  },
+  {
+    "name": "Akmagnus",
+    "masteryReq": 12,
+    "slot": "Secondary",
+    "imageUrl": "https://cdn.warframestat.us/img/akmagnus-98e45bbf74.png"
+  },
+  {
+    "name": "Akmagnus Prime",
+    "masteryReq": 15,
+    "slot": "Secondary",
+    "imageUrl": "https://cdn.warframestat.us/img/akmagnus-prime-641a54e112.png"
+  },
+  {
+    "name": "Aksomati",
+    "masteryReq": 9,
+    "slot": "Secondary",
+    "imageUrl": "https://cdn.warframestat.us/img/aksomati-452d3d8d0e.png"
+  },
+  {
+    "name": "Aksomati Prime",
+    "masteryReq": 12,
+    "slot": "Secondary",
+    "imageUrl": "https://cdn.warframestat.us/img/aksomati-prime-8fc151cef1.png"
+  },
+  {
+    "name": "Akstiletto",
+    "masteryReq": 8,
+    "slot": "Secondary",
+    "imageUrl": "https://cdn.warframestat.us/img/akstiletto-5d5e77400c.png"
+  },
+  {
+    "name": "Akstiletto Prime",
+    "masteryReq": 10,
+    "slot": "Secondary",
+    "imageUrl": "https://cdn.warframestat.us/img/akstiletto-prime-a45f9d4e38.png"
+  },
+  {
+    "name": "Akvasto",
+    "masteryReq": 8,
+    "slot": "Secondary",
+    "imageUrl": "https://cdn.warframestat.us/img/akvasto-7e279725d8.png"
+  },
+  {
+    "name": "Akvasto Prime",
+    "masteryReq": 12,
+    "slot": "Secondary",
+    "imageUrl": "https://cdn.warframestat.us/img/akvasto-prime-9416a0a363.png"
+  },
+  {
+    "name": "Akzani",
+    "masteryReq": 4,
+    "slot": "Secondary",
+    "imageUrl": "https://cdn.warframestat.us/img/akzani-127d132ec5.png"
+  },
+  {
+    "name": "Alternox",
+    "masteryReq": 8,
+    "slot": "Primary",
+    "imageUrl": "https://cdn.warframestat.us/img/alternox-448bc76586.png"
+  },
+  {
+    "name": "Alternox Prime",
+    "masteryReq": 13,
+    "slot": "Primary",
+    "imageUrl": "https://cdn.warframestat.us/img/alternox-prime-d1224efc39.png"
+  },
+  {
+    "name": "Ambassador",
+    "masteryReq": 10,
+    "slot": "Primary",
+    "imageUrl": "https://cdn.warframestat.us/img/ambassador-0ff82bef8f.png"
+  },
+  {
+    "name": "Amprex",
+    "masteryReq": 10,
+    "slot": "Primary",
+    "imageUrl": "https://cdn.warframestat.us/img/amprex-9e41d98a19.png"
+  },
+  {
+    "name": "Angstrum",
+    "masteryReq": 4,
+    "slot": "Secondary",
+    "imageUrl": "https://cdn.warframestat.us/img/angstrum-296fd1e714.png"
+  },
+  {
+    "name": "Arca Plasmor",
+    "masteryReq": 10,
+    "slot": "Primary",
+    "imageUrl": "https://cdn.warframestat.us/img/arca-plasmor-22aeed29c6.png"
+  },
+  {
+    "name": "Arca Scisco",
+    "masteryReq": 10,
+    "slot": "Secondary",
+    "imageUrl": "https://cdn.warframestat.us/img/arca-scisco-10a8f96db3.png"
+  },
+  {
+    "name": "Argonak",
+    "masteryReq": 7,
+    "slot": "Primary",
+    "imageUrl": "https://cdn.warframestat.us/img/argonak-0823371815.png"
+  },
+  {
+    "name": "Astilla",
+    "masteryReq": 10,
+    "slot": "Primary",
+    "imageUrl": "https://cdn.warframestat.us/img/astilla-c74cffb34c.png"
+  },
+  {
+    "name": "Astilla Prime",
+    "masteryReq": 14,
+    "slot": "Primary",
+    "imageUrl": "https://cdn.warframestat.us/img/astilla-prime-41ef61f4d6.png"
+  },
+  {
+    "name": "Athodai",
+    "masteryReq": 10,
+    "slot": "Secondary",
+    "imageUrl": "https://cdn.warframestat.us/img/athodai-88e24e43f3.png"
+  },
+  {
+    "name": "Atomos",
+    "masteryReq": 5,
+    "slot": "Secondary",
+    "imageUrl": "https://cdn.warframestat.us/img/atomos-97563b3008.png"
+  },
+  {
+    "name": "Attica",
+    "masteryReq": 7,
+    "slot": "Primary",
+    "imageUrl": "https://cdn.warframestat.us/img/attica-325c1cffcc.png"
+  },
+  {
+    "name": "Ax-52",
+    "masteryReq": 12,
+    "slot": "Primary",
+    "imageUrl": "https://cdn.warframestat.us/img/ax-52-7ebc7ac6cc.png"
+  },
+  {
+    "name": "Azima",
+    "masteryReq": 6,
+    "slot": "Secondary",
+    "imageUrl": "https://cdn.warframestat.us/img/azima-7045ece43c.png"
+  },
+  {
+    "name": "Ballistica",
+    "masteryReq": 2,
+    "slot": "Secondary",
+    "imageUrl": "https://cdn.warframestat.us/img/ballistica-a88d0d1bea.png"
+  },
+  {
+    "name": "Ballistica Prime",
+    "masteryReq": 14,
+    "slot": "Secondary",
+    "imageUrl": "https://cdn.warframestat.us/img/ballistica-prime-81feb66ef9.png"
+  },
+  {
+    "name": "Basmu",
+    "masteryReq": 11,
+    "slot": "Primary",
+    "imageUrl": "https://cdn.warframestat.us/img/basmu-436ead3ef5.png"
+  },
+  {
+    "name": "Battacor",
+    "masteryReq": 10,
+    "slot": "Primary",
+    "imageUrl": "https://cdn.warframestat.us/img/battacor-d2bf15dcde.png"
+  },
+  {
+    "name": "Baza",
+    "masteryReq": 7,
+    "slot": "Primary",
+    "imageUrl": "https://cdn.warframestat.us/img/baza-288fcce16f.png"
+  },
+  {
+    "name": "Baza Prime",
+    "masteryReq": 10,
+    "slot": "Primary",
+    "imageUrl": "https://cdn.warframestat.us/img/baza-prime-a05bfd6bfc.png"
+  },
+  {
+    "name": "Boar",
+    "masteryReq": 2,
+    "slot": "Primary",
+    "imageUrl": "https://cdn.warframestat.us/img/boar-8c3c569383.png"
+  },
+  {
+    "name": "Boar Prime",
+    "masteryReq": 11,
+    "slot": "Primary",
+    "imageUrl": "https://cdn.warframestat.us/img/boar-prime-d357b12d62.png"
+  },
+  {
+    "name": "Bolto",
+    "masteryReq": 7,
+    "slot": "Secondary",
+    "imageUrl": "https://cdn.warframestat.us/img/bolto-39106d806a.png"
+  },
+  {
+    "name": "Boltor",
+    "masteryReq": 2,
+    "slot": "Primary",
+    "imageUrl": "https://cdn.warframestat.us/img/boltor-4e53e6186d.png"
+  },
+  {
+    "name": "Boltor Prime",
+    "masteryReq": 13,
+    "slot": "Primary",
+    "imageUrl": "https://cdn.warframestat.us/img/boltor-prime-5340f53738.png"
+  },
+  {
+    "name": "Brakk",
+    "masteryReq": 6,
+    "slot": "Secondary",
+    "imageUrl": "https://cdn.warframestat.us/img/brakk-251ecec36e.png"
+  },
+  {
+    "name": "Braton",
+    "masteryReq": 0,
+    "slot": "Primary",
+    "imageUrl": "https://cdn.warframestat.us/img/braton-3e4617eb07.png"
+  },
+  {
+    "name": "Braton Prime",
+    "masteryReq": 8,
+    "slot": "Primary",
+    "imageUrl": "https://cdn.warframestat.us/img/braton-prime-f3ebb072cb.png"
+  },
+  {
+    "name": "Braton Vandal",
+    "masteryReq": 4,
+    "slot": "Primary",
+    "imageUrl": "https://cdn.warframestat.us/img/braton-vandal-ce1731f85a.png"
+  },
+  {
+    "name": "Bronco",
+    "masteryReq": 0,
+    "slot": "Secondary",
+    "imageUrl": "https://cdn.warframestat.us/img/bronco-65d3eb546d.png"
+  },
+  {
+    "name": "Bronco Prime",
+    "masteryReq": 4,
+    "slot": "Secondary",
+    "imageUrl": "https://cdn.warframestat.us/img/bronco-prime-22492b5f01.png"
+  },
+  {
+    "name": "Bubonico",
+    "masteryReq": 13,
+    "slot": "Primary",
+    "imageUrl": "https://cdn.warframestat.us/img/bubonico-0b3130d7c8.png"
+  },
+  {
+    "name": "Burston",
+    "masteryReq": 0,
+    "slot": "Primary",
+    "imageUrl": "https://cdn.warframestat.us/img/burston-14c0cde636.png"
+  },
+  {
+    "name": "Burston Prime",
+    "masteryReq": 12,
+    "slot": "Primary",
+    "imageUrl": "https://cdn.warframestat.us/img/burston-prime-f8bc26c184.png"
+  },
+  {
+    "name": "Buzlok",
+    "masteryReq": 11,
+    "slot": "Primary",
+    "imageUrl": "https://cdn.warframestat.us/img/buzlok-e0a2b0d88f.png"
+  },
+  {
+    "name": "Cantare",
+    "masteryReq": 10,
+    "slot": "Secondary",
+    "imageUrl": "https://cdn.warframestat.us/img/cantare-480f4a6fc2.png"
+  },
+  {
+    "name": "Carmine Penta",
+    "masteryReq": 6,
+    "slot": "Primary",
+    "imageUrl": "https://cdn.warframestat.us/img/carmine-penta-7534ca6319.png"
+  },
+  {
+    "name": "Castanas",
+    "masteryReq": 3,
+    "slot": "Secondary",
+    "imageUrl": "https://cdn.warframestat.us/img/castanas-2fd0ffe61a.png"
+  },
+  {
+    "name": "Catabolyst",
+    "masteryReq": 11,
+    "slot": "Secondary",
+    "imageUrl": "https://cdn.warframestat.us/img/catabolyst-6a7047b949.png"
+  },
+  {
+    "name": "Cedo",
+    "masteryReq": 8,
+    "slot": "Primary",
+    "imageUrl": "https://cdn.warframestat.us/img/cedo-02506f3d01.png"
+  },
+  {
+    "name": "Cedo Prime",
+    "masteryReq": 15,
+    "slot": "Primary",
+    "imageUrl": "https://cdn.warframestat.us/img/cedo-prime-348235f853.png"
+  },
+  {
+    "name": "Cernos",
+    "masteryReq": 6,
+    "slot": "Primary",
+    "imageUrl": "https://cdn.warframestat.us/img/cernos-c01dea74b2.png"
+  },
+  {
+    "name": "Cernos Prime",
+    "masteryReq": 12,
+    "slot": "Primary",
+    "imageUrl": "https://cdn.warframestat.us/img/cernos-prime-e0019e3c84.png"
+  },
+  {
+    "name": "Cestra",
+    "masteryReq": 4,
+    "slot": "Secondary",
+    "imageUrl": "https://cdn.warframestat.us/img/cestra-de053fcf83.png"
+  },
+  {
+    "name": "Cinta",
+    "masteryReq": 6,
+    "slot": "Primary",
+    "imageUrl": "https://cdn.warframestat.us/img/cinta-50b4c86898.png"
+  },
+  {
+    "name": "Coda Bassocyst",
+    "masteryReq": 17,
+    "slot": "Primary",
+    "imageUrl": "https://cdn.warframestat.us/img/coda-bassocyst-90c0e70718.png"
+  },
+  {
+    "name": "Coda Catabolyst",
+    "masteryReq": 17,
+    "slot": "Secondary",
+    "imageUrl": "https://cdn.warframestat.us/img/coda-catabolyst-fc6b5e3e63.png"
+  },
+  {
+    "name": "Coda Hema",
+    "masteryReq": 17,
+    "slot": "Primary",
+    "imageUrl": "https://cdn.warframestat.us/img/coda-hema-eda9bfa56a.png"
+  },
+  {
+    "name": "Coda Pox",
+    "masteryReq": 17,
+    "slot": "Secondary",
+    "imageUrl": "https://cdn.warframestat.us/img/coda-pox-9603c6b1e9.png"
+  },
+  {
+    "name": "Coda Sporothrix",
+    "masteryReq": 17,
+    "slot": "Primary",
+    "imageUrl": "https://cdn.warframestat.us/img/coda-sporothrix-b0976a87f9.png"
+  },
+  {
+    "name": "Coda Synapse",
+    "masteryReq": 17,
+    "slot": "Primary",
+    "imageUrl": "https://cdn.warframestat.us/img/coda-synapse-72028210ad.png"
+  },
+  {
+    "name": "Coda Tysis",
+    "masteryReq": 17,
+    "slot": "Secondary",
+    "imageUrl": "https://cdn.warframestat.us/img/coda-tysis-674ee70828.png"
+  },
+  {
+    "name": "Convectrix",
+    "masteryReq": 7,
+    "slot": "Primary",
+    "imageUrl": "https://cdn.warframestat.us/img/convectrix-32577a6926.png"
+  },
+  {
+    "name": "Corinth",
+    "masteryReq": 8,
+    "slot": "Primary",
+    "imageUrl": "https://cdn.warframestat.us/img/corinth-cd2d0831f4.png"
+  },
+  {
+    "name": "Corinth Prime",
+    "masteryReq": 14,
+    "slot": "Primary",
+    "imageUrl": "https://cdn.warframestat.us/img/corinth-prime-cacf3e9a9f.png"
+  },
+  {
+    "name": "Cyanex",
+    "masteryReq": 8,
+    "slot": "Secondary",
+    "imageUrl": "https://cdn.warframestat.us/img/cyanex-1c118ccf60.png"
+  },
+  {
+    "name": "Cycron",
+    "masteryReq": 8,
+    "slot": "Secondary",
+    "imageUrl": "https://cdn.warframestat.us/img/cycron-207a11874d.png"
+  },
+  {
+    "name": "Daikyu",
+    "masteryReq": 10,
+    "slot": "Primary",
+    "imageUrl": "https://cdn.warframestat.us/img/daikyu-7d251e8941.png"
+  },
+  {
+    "name": "Daikyu Prime",
+    "masteryReq": 15,
+    "slot": "Primary",
+    "imageUrl": "https://cdn.warframestat.us/img/daikyu-prime-f768625a93.png"
+  },
+  {
+    "name": "Dera",
+    "masteryReq": 4,
+    "slot": "Primary",
+    "imageUrl": "https://cdn.warframestat.us/img/dera-64d79d44e1.png"
+  },
+  {
+    "name": "Dera Vandal",
+    "masteryReq": 7,
+    "slot": "Primary",
+    "imageUrl": "https://cdn.warframestat.us/img/dera-vandal-fa64fda12e.png"
+  },
+  {
+    "name": "Despair",
+    "masteryReq": 4,
+    "slot": "Secondary",
+    "imageUrl": "https://cdn.warframestat.us/img/despair-abc763c0f4.png"
+  },
+  {
+    "name": "Detron",
+    "masteryReq": 6,
+    "slot": "Secondary",
+    "imageUrl": "https://cdn.warframestat.us/img/detron-4fb4cc5584.png"
+  },
+  {
+    "name": "Dex Furis",
+    "masteryReq": 10,
+    "slot": "Secondary",
+    "imageUrl": "https://cdn.warframestat.us/img/dex-furis-7f661820c6.png"
+  },
+  {
+    "name": "Dex Sybaris",
+    "masteryReq": 7,
+    "slot": "Primary",
+    "imageUrl": "https://cdn.warframestat.us/img/dex-sybaris-e1be4d45a0.png"
+  },
+  {
+    "name": "Drakgoon",
+    "masteryReq": 5,
+    "slot": "Primary",
+    "imageUrl": "https://cdn.warframestat.us/img/drakgoon-9da8bc59fb.png"
+  },
+  {
+    "name": "Dread",
+    "masteryReq": 5,
+    "slot": "Primary",
+    "imageUrl": "https://cdn.warframestat.us/img/dread-ce937b379d.png"
+  },
+  {
+    "name": "Dual Cestra",
+    "masteryReq": 7,
+    "slot": "Secondary",
+    "imageUrl": "https://cdn.warframestat.us/img/dual-cestra-04d7cc079c.png"
+  },
+  {
+    "name": "Dual Coda Torxica",
+    "masteryReq": 17,
+    "slot": "Secondary",
+    "imageUrl": "https://cdn.warframestat.us/img/dual-coda-torxica-5efb171272.png"
+  },
+  {
+    "name": "Dual Toxocyst",
+    "masteryReq": 11,
+    "slot": "Secondary",
+    "imageUrl": "https://cdn.warframestat.us/img/dual-toxocyst-e89c00d6b5.png"
+  },
+  {
+    "name": "Efv-5 Jupiter",
+    "masteryReq": 14,
+    "slot": "Primary",
+    "imageUrl": "https://cdn.warframestat.us/img/efv-5-jupiter-e993642339.png"
+  },
+  {
+    "name": "Efv-8 Mars",
+    "masteryReq": 14,
+    "slot": "Secondary",
+    "imageUrl": "https://cdn.warframestat.us/img/efv-8-mars-bda55bc38c.png"
+  },
+  {
+    "name": "Embolist",
+    "masteryReq": 9,
+    "slot": "Secondary",
+    "imageUrl": "https://cdn.warframestat.us/img/embolist-2dcf599ad8.png"
+  },
+  {
+    "name": "Epitaph",
+    "masteryReq": 8,
+    "slot": "Secondary",
+    "imageUrl": "https://cdn.warframestat.us/img/epitaph-b49e30b4ec.png"
+  },
+  {
+    "name": "Epitaph Prime",
+    "masteryReq": 14,
+    "slot": "Secondary",
+    "imageUrl": "https://cdn.warframestat.us/img/epitaph-prime-dbe8d7bab0.png"
+  },
+  {
+    "name": "Euphona Prime",
+    "masteryReq": 14,
+    "slot": "Secondary",
+    "imageUrl": "https://cdn.warframestat.us/img/euphona-prime-258bec05a5.png"
+  },
+  {
+    "name": "Evensong",
+    "masteryReq": 10,
+    "slot": "Primary",
+    "imageUrl": "https://cdn.warframestat.us/img/evensong-d10f6a1e78.png"
+  },
+  {
+    "name": "Exergis",
+    "masteryReq": 8,
+    "slot": "Primary",
+    "imageUrl": "https://cdn.warframestat.us/img/exergis-1a341582c9.png"
+  },
+  {
+    "name": "Felarx",
+    "masteryReq": 14,
+    "slot": "Primary",
+    "imageUrl": "https://cdn.warframestat.us/img/felarx-1df1ee184f.png"
+  },
+  {
+    "name": "Ferrox",
+    "masteryReq": 14,
+    "slot": "Primary",
+    "imageUrl": "https://cdn.warframestat.us/img/ferrox-43de4de20e.png"
+  },
+  {
+    "name": "Flux Rifle",
+    "masteryReq": 6,
+    "slot": "Primary",
+    "imageUrl": "https://cdn.warframestat.us/img/flux-rifle-79615a53ed.png"
+  },
+  {
+    "name": "Fulmin",
+    "masteryReq": 8,
+    "slot": "Primary",
+    "imageUrl": "https://cdn.warframestat.us/img/fulmin-65c9477900.png"
+  },
+  {
+    "name": "Fulmin Prime",
+    "masteryReq": 12,
+    "slot": "Primary",
+    "imageUrl": "https://cdn.warframestat.us/img/fulmin-prime-15bc184b1c.png"
+  },
+  {
+    "name": "Furis",
+    "masteryReq": 1,
+    "slot": "Secondary",
+    "imageUrl": "https://cdn.warframestat.us/img/furis-5bb7021b86.png"
+  },
+  {
+    "name": "Fusilai",
+    "masteryReq": 7,
+    "slot": "Secondary",
+    "imageUrl": "https://cdn.warframestat.us/img/fusilai-83082d8f95.png"
+  },
+  {
+    "name": "Gammacor",
+    "masteryReq": 2,
+    "slot": "Secondary",
+    "imageUrl": "https://cdn.warframestat.us/img/gammacor-67eb299154.png"
+  },
+  {
+    "name": "Glaxion",
+    "masteryReq": 8,
+    "slot": "Primary",
+    "imageUrl": "https://cdn.warframestat.us/img/glaxion-0d0d150e30.png"
+  },
+  {
+    "name": "Glaxion Vandal",
+    "masteryReq": 12,
+    "slot": "Primary",
+    "imageUrl": "https://cdn.warframestat.us/img/glaxion-vandal-a688a13488.png"
+  },
+  {
+    "name": "Gorgon",
+    "masteryReq": 3,
+    "slot": "Primary",
+    "imageUrl": "https://cdn.warframestat.us/img/gorgon-71592be274.png"
+  },
+  {
+    "name": "Gorgon Wraith",
+    "masteryReq": 7,
+    "slot": "Primary",
+    "imageUrl": "https://cdn.warframestat.us/img/gorgon-wraith-c4203ce84d.png"
+  },
+  {
+    "name": "Gotva Prime",
+    "masteryReq": 14,
+    "slot": "Primary",
+    "imageUrl": "https://cdn.warframestat.us/img/gotva-prime-034c90b3d0.png"
+  },
+  {
+    "name": "Grakata",
+    "masteryReq": 5,
+    "slot": "Primary",
+    "imageUrl": "https://cdn.warframestat.us/img/grakata-217dd84e27.png"
+  },
+  {
+    "name": "Grimoire",
+    "masteryReq": 10,
+    "slot": "Secondary",
+    "imageUrl": "https://cdn.warframestat.us/img/grimoire-6267fa2ae0.png"
+  },
+  {
+    "name": "Grimoire",
+    "masteryReq": 10,
+    "slot": "Secondary",
+    "imageUrl": "https://cdn.warframestat.us/img/grimoire-32049e9432.png"
+  },
+  {
+    "name": "Grinlok",
+    "masteryReq": 7,
+    "slot": "Primary",
+    "imageUrl": "https://cdn.warframestat.us/img/grinlok-5e66b615e9.png"
+  },
+  {
+    "name": "Harpak",
+    "masteryReq": 7,
+    "slot": "Primary",
+    "imageUrl": "https://cdn.warframestat.us/img/harpak-c600486d27.png"
+  },
+  {
+    "name": "Hek",
+    "masteryReq": 4,
+    "slot": "Primary",
+    "imageUrl": "https://cdn.warframestat.us/img/hek-2b2c31c1f4.png"
+  },
+  {
+    "name": "Hema",
+    "masteryReq": 7,
+    "slot": "Primary",
+    "imageUrl": "https://cdn.warframestat.us/img/hema-6087206be7.png"
+  },
+  {
+    "name": "Higasa",
+    "masteryReq": 2,
+    "slot": "Primary",
+    "imageUrl": "https://cdn.warframestat.us/img/higasa-a7bc564af2.png"
+  },
+  {
+    "name": "Hikou",
+    "masteryReq": 2,
+    "slot": "Secondary",
+    "imageUrl": "https://cdn.warframestat.us/img/hikou-a08f2c85e2.png"
+  },
+  {
+    "name": "Hikou Prime",
+    "masteryReq": 4,
+    "slot": "Secondary",
+    "imageUrl": "https://cdn.warframestat.us/img/hikou-prime-784b21f94c.png"
+  },
+  {
+    "name": "Hind",
+    "masteryReq": 0,
+    "slot": "Primary",
+    "imageUrl": "https://cdn.warframestat.us/img/hind-833c41d865.png"
+  },
+  {
+    "name": "Hystrix",
+    "masteryReq": 7,
+    "slot": "Secondary",
+    "imageUrl": "https://cdn.warframestat.us/img/hystrix-9ceb9a9a5c.png"
+  },
+  {
+    "name": "Hystrix Prime",
+    "masteryReq": 12,
+    "slot": "Secondary",
+    "imageUrl": "https://cdn.warframestat.us/img/hystrix-prime-234976e66a.png"
+  },
+  {
+    "name": "Ignis",
+    "masteryReq": 5,
+    "slot": "Primary",
+    "imageUrl": "https://cdn.warframestat.us/img/ignis-d9c0e80dba.png"
+  },
+  {
+    "name": "Ignis Wraith",
+    "masteryReq": 9,
+    "slot": "Primary",
+    "imageUrl": "https://cdn.warframestat.us/img/ignis-wraith-5654d84ee2.png"
+  },
+  {
+    "name": "Javlok",
+    "masteryReq": 7,
+    "slot": "Primary",
+    "imageUrl": "https://cdn.warframestat.us/img/javlok-d5d80c28db.png"
+  },
+  {
+    "name": "Karak",
+    "masteryReq": 1,
+    "slot": "Primary",
+    "imageUrl": "https://cdn.warframestat.us/img/karak-fa5ee22d86.png"
+  },
+  {
+    "name": "Karak Wraith",
+    "masteryReq": 7,
+    "slot": "Primary",
+    "imageUrl": "https://cdn.warframestat.us/img/karak-wraith-d9830ab5ca.png"
+  },
+  {
+    "name": "Knell",
+    "masteryReq": 10,
+    "slot": "Secondary",
+    "imageUrl": "https://cdn.warframestat.us/img/knell-c585400249.png"
+  },
+  {
+    "name": "Knell Prime",
+    "masteryReq": 14,
+    "slot": "Secondary",
+    "imageUrl": "https://cdn.warframestat.us/img/knell-prime-f5518c4cac.png"
+  },
+  {
+    "name": "Kohm",
+    "masteryReq": 5,
+    "slot": "Primary",
+    "imageUrl": "https://cdn.warframestat.us/img/kohm-4679277fd3.png"
+  },
+  {
+    "name": "Kohmak",
+    "masteryReq": 5,
+    "slot": "Secondary",
+    "imageUrl": "https://cdn.warframestat.us/img/kohmak-7d5125f399.png"
+  },
+  {
+    "name": "Komorex",
+    "masteryReq": 8,
+    "slot": "Primary",
+    "imageUrl": "https://cdn.warframestat.us/img/komorex-1388959bc3.png"
+  },
+  {
+    "name": "Kompressa",
+    "masteryReq": 8,
+    "slot": "Secondary",
+    "imageUrl": "https://cdn.warframestat.us/img/kompressa-c2ab392144.png"
+  },
+  {
+    "name": "Kompressa Prime",
+    "masteryReq": 13,
+    "slot": "Secondary",
+    "imageUrl": "https://cdn.warframestat.us/img/kompressa-prime-2facb539ea.png"
+  },
+  {
+    "name": "Kraken",
+    "masteryReq": 0,
+    "slot": "Secondary",
+    "imageUrl": "https://cdn.warframestat.us/img/kraken-0cda31a615.png"
+  },
+  {
+    "name": "Kulstar",
+    "masteryReq": 5,
+    "slot": "Secondary",
+    "imageUrl": "https://cdn.warframestat.us/img/kulstar-d571661f73.png"
+  },
+  {
+    "name": "Kunai",
+    "masteryReq": 0,
+    "slot": "Secondary",
+    "imageUrl": "https://cdn.warframestat.us/img/kunai-355eb5dcab.png"
+  },
+  {
+    "name": "Kuva Brakk",
+    "masteryReq": 13,
+    "slot": "Secondary",
+    "imageUrl": "https://cdn.warframestat.us/img/kuva-brakk-2e49f213ac.png"
+  },
+  {
+    "name": "Kuva Bramma",
+    "masteryReq": 15,
+    "slot": "Primary",
+    "imageUrl": "https://cdn.warframestat.us/img/kuva-bramma-71777b6b0f.png"
+  },
+  {
+    "name": "Kuva Chakkhurr",
+    "masteryReq": 15,
+    "slot": "Primary",
+    "imageUrl": "https://cdn.warframestat.us/img/kuva-chakkhurr-b047965182.png"
+  },
+  {
+    "name": "Kuva Drakgoon",
+    "masteryReq": 13,
+    "slot": "Primary",
+    "imageUrl": "https://cdn.warframestat.us/img/kuva-drakgoon-fb643c315f.png"
+  },
+  {
+    "name": "Kuva Hek",
+    "masteryReq": 15,
+    "slot": "Primary",
+    "imageUrl": "https://cdn.warframestat.us/img/kuva-hek-66bf5f6bcf.png"
+  },
+  {
+    "name": "Kuva Hind",
+    "masteryReq": 15,
+    "slot": "Primary",
+    "imageUrl": "https://cdn.warframestat.us/img/kuva-hind-c616ac2f49.png"
+  },
+  {
+    "name": "Kuva Karak",
+    "masteryReq": 13,
+    "slot": "Primary",
+    "imageUrl": "https://cdn.warframestat.us/img/kuva-karak-7e2d8b29a9.png"
+  },
+  {
+    "name": "Kuva Kohm",
+    "masteryReq": 13,
+    "slot": "Primary",
+    "imageUrl": "https://cdn.warframestat.us/img/kuva-kohm-bc73fd8e3e.png"
+  },
+  {
+    "name": "Kuva Kraken",
+    "masteryReq": 15,
+    "slot": "Secondary",
+    "imageUrl": "https://cdn.warframestat.us/img/kuva-kraken-9e37ee7e99.png"
+  },
+  {
+    "name": "Kuva Nukor",
+    "masteryReq": 13,
+    "slot": "Secondary",
+    "imageUrl": "https://cdn.warframestat.us/img/kuva-nukor-59d60648d3.png"
+  },
+  {
+    "name": "Kuva Ogris",
+    "masteryReq": 15,
+    "slot": "Primary",
+    "imageUrl": "https://cdn.warframestat.us/img/kuva-ogris-bdcb7f621b.png"
+  },
+  {
+    "name": "Kuva Quartakk",
+    "masteryReq": 13,
+    "slot": "Primary",
+    "imageUrl": "https://cdn.warframestat.us/img/kuva-quartakk-e5d77095e8.png"
+  },
+  {
+    "name": "Kuva Seer",
+    "masteryReq": 15,
+    "slot": "Secondary",
+    "imageUrl": "https://cdn.warframestat.us/img/kuva-seer-a827acd957.png"
+  },
+  {
+    "name": "Kuva Sobek",
+    "masteryReq": 15,
+    "slot": "Primary",
+    "imageUrl": "https://cdn.warframestat.us/img/kuva-sobek-083b987193.png"
+  },
+  {
+    "name": "Kuva Tonkor",
+    "masteryReq": 13,
+    "slot": "Primary",
+    "imageUrl": "https://cdn.warframestat.us/img/kuva-tonkor-9ae9d48224.png"
+  },
+  {
+    "name": "Kuva Twin Stubbas",
+    "masteryReq": 13,
+    "slot": "Secondary",
+    "imageUrl": "https://cdn.warframestat.us/img/kuva-twin-stubbas-d66662bcef.png"
+  },
+  {
+    "name": "Kuva Zarr",
+    "masteryReq": 15,
+    "slot": "Primary",
+    "imageUrl": "https://cdn.warframestat.us/img/kuva-zarr-8d631dc1a1.png"
+  },
+  {
+    "name": "Laetum",
+    "masteryReq": 14,
+    "slot": "Secondary",
+    "imageUrl": "https://cdn.warframestat.us/img/laetum-d2ba8e800b.png"
+  },
+  {
+    "name": "Lanka",
+    "masteryReq": 10,
+    "slot": "Primary",
+    "imageUrl": "https://cdn.warframestat.us/img/lanka-49355e9fbb.png"
+  },
+  {
+    "name": "Lato",
+    "masteryReq": 0,
+    "slot": "Secondary",
+    "imageUrl": "https://cdn.warframestat.us/img/lato-352acc2de0.png"
+  },
+  {
+    "name": "Lato Prime",
+    "masteryReq": 14,
+    "slot": "Secondary",
+    "imageUrl": "https://cdn.warframestat.us/img/lato-prime-184c228f25.png"
+  },
+  {
+    "name": "Lato Vandal",
+    "masteryReq": 7,
+    "slot": "Secondary",
+    "imageUrl": "https://cdn.warframestat.us/img/lato-vandal-7dcc9dde42.png"
+  },
+  {
+    "name": "Latron",
+    "masteryReq": 0,
+    "slot": "Primary",
+    "imageUrl": "https://cdn.warframestat.us/img/latron-19592d27da.png"
+  },
+  {
+    "name": "Latron Prime",
+    "masteryReq": 10,
+    "slot": "Primary",
+    "imageUrl": "https://cdn.warframestat.us/img/latron-prime-aaf23a9b9f.png"
+  },
+  {
+    "name": "Latron Wraith",
+    "masteryReq": 7,
+    "slot": "Primary",
+    "imageUrl": "https://cdn.warframestat.us/img/latron-wraith-f37270321b.png"
+  },
+  {
+    "name": "Lenz",
+    "masteryReq": 8,
+    "slot": "Primary",
+    "imageUrl": "https://cdn.warframestat.us/img/lenz-3ae618622a.png"
+  },
+  {
+    "name": "Lex",
+    "masteryReq": 3,
+    "slot": "Secondary",
+    "imageUrl": "https://cdn.warframestat.us/img/lex-815d312d76.png"
+  },
+  {
+    "name": "Lex Prime",
+    "masteryReq": 8,
+    "slot": "Secondary",
+    "imageUrl": "https://cdn.warframestat.us/img/lex-prime-547afa0c65.png"
+  },
+  {
+    "name": "Magnus",
+    "masteryReq": 10,
+    "slot": "Secondary",
+    "imageUrl": "https://cdn.warframestat.us/img/magnus-2726d45d02.png"
+  },
+  {
+    "name": "Magnus Prime",
+    "masteryReq": 14,
+    "slot": "Secondary",
+    "imageUrl": "https://cdn.warframestat.us/img/magnus-prime-1700bfd0c2.png"
+  },
+  {
+    "name": "Mara Detron",
+    "masteryReq": 9,
+    "slot": "Secondary",
+    "imageUrl": "https://cdn.warframestat.us/img/mara-detron-2958414847.png"
+  },
+  {
+    "name": "Marelok",
+    "masteryReq": 7,
+    "slot": "Secondary",
+    "imageUrl": "https://cdn.warframestat.us/img/marelok-9bc76bd64a.png"
+  },
+  {
+    "name": "Miter",
+    "masteryReq": 6,
+    "slot": "Primary",
+    "imageUrl": "https://cdn.warframestat.us/img/miter-0e90938cdd.png"
+  },
+  {
+    "name": "Mk1-Braton",
+    "masteryReq": 0,
+    "slot": "Primary",
+    "imageUrl": "https://cdn.warframestat.us/img/mk1-braton-c0c71253c0.png"
+  },
+  {
+    "name": "Mk1-Furis",
+    "masteryReq": 0,
+    "slot": "Secondary",
+    "imageUrl": "https://cdn.warframestat.us/img/mk1-furis-0ae7df5a0f.png"
+  },
+  {
+    "name": "Mk1-Kunai",
+    "masteryReq": 0,
+    "slot": "Secondary",
+    "imageUrl": "https://cdn.warframestat.us/img/mk1-kunai-0607aa3953.png"
+  },
+  {
+    "name": "Mk1-Paris",
+    "masteryReq": 0,
+    "slot": "Primary",
+    "imageUrl": "https://cdn.warframestat.us/img/mk1-paris-75283dc75d.png"
+  },
+  {
+    "name": "Mk1-Strun",
+    "masteryReq": 0,
+    "slot": "Primary",
+    "imageUrl": "https://cdn.warframestat.us/img/mk1-strun-5030224711.png"
+  },
+  {
+    "name": "Mutalist Cernos",
+    "masteryReq": 7,
+    "slot": "Primary",
+    "imageUrl": "https://cdn.warframestat.us/img/mutalist-cernos-9c41c757fc.png"
+  },
+  {
+    "name": "Mutalist Quanta",
+    "masteryReq": 2,
+    "slot": "Primary",
+    "imageUrl": "https://cdn.warframestat.us/img/mutalist-quanta-930c8241b7.png"
+  },
+  {
+    "name": "Nagantaka",
+    "masteryReq": 9,
+    "slot": "Primary",
+    "imageUrl": "https://cdn.warframestat.us/img/nagantaka-8722c7da0f.png"
+  },
+  {
+    "name": "Nagantaka Prime",
+    "masteryReq": 12,
+    "slot": "Primary",
+    "imageUrl": "https://cdn.warframestat.us/img/nagantaka-prime-3505ebdbfa.png"
+  },
+  {
+    "name": "Nataruk",
+    "masteryReq": 0,
+    "slot": "Primary",
+    "imageUrl": "https://cdn.warframestat.us/img/nataruk-39097570a7.png"
+  },
+  {
+    "name": "Nukor",
+    "masteryReq": 4,
+    "slot": "Secondary",
+    "imageUrl": "https://cdn.warframestat.us/img/nukor-b1882490d6.png"
+  },
+  {
+    "name": "Ocucor",
+    "masteryReq": 8,
+    "slot": "Secondary",
+    "imageUrl": "https://cdn.warframestat.us/img/ocucor-92e124c6fb.png"
+  },
+  {
+    "name": "Ogris",
+    "masteryReq": 9,
+    "slot": "Primary",
+    "imageUrl": "https://cdn.warframestat.us/img/ogris-8133344510.png"
+  },
+  {
+    "name": "Onos",
+    "masteryReq": 14,
+    "slot": "Secondary",
+    "imageUrl": "https://cdn.warframestat.us/img/onos-8f623016f7.png"
+  },
+  {
+    "name": "Opticor",
+    "masteryReq": 14,
+    "slot": "Primary",
+    "imageUrl": "https://cdn.warframestat.us/img/opticor-167e48eb52.png"
+  },
+  {
+    "name": "Opticor Vandal",
+    "masteryReq": 14,
+    "slot": "Primary",
+    "imageUrl": "https://cdn.warframestat.us/img/opticor-vandal-303084c984.png"
+  },
+  {
+    "name": "Pandero",
+    "masteryReq": 8,
+    "slot": "Secondary",
+    "imageUrl": "https://cdn.warframestat.us/img/pandero-7c0ad54feb.png"
+  },
+  {
+    "name": "Pandero Prime",
+    "masteryReq": 14,
+    "slot": "Secondary",
+    "imageUrl": "https://cdn.warframestat.us/img/pandero-prime-fad4842362.png"
+  },
+  {
+    "name": "Panthera",
+    "masteryReq": 7,
+    "slot": "Primary",
+    "imageUrl": "https://cdn.warframestat.us/img/panthera-59d06a174f.png"
+  },
+  {
+    "name": "Panthera Prime",
+    "masteryReq": 14,
+    "slot": "Primary",
+    "imageUrl": "https://cdn.warframestat.us/img/panthera-prime-02f5cc4156.png"
+  },
+  {
+    "name": "Paracyst",
+    "masteryReq": 7,
+    "slot": "Primary",
+    "imageUrl": "https://cdn.warframestat.us/img/paracyst-6ece783e5b.png"
+  },
+  {
+    "name": "Paris",
+    "masteryReq": 0,
+    "slot": "Primary",
+    "imageUrl": "https://cdn.warframestat.us/img/paris-236b0318e4.png"
+  },
+  {
+    "name": "Paris Prime",
+    "masteryReq": 8,
+    "slot": "Primary",
+    "imageUrl": "https://cdn.warframestat.us/img/paris-prime-0423f3edf6.png"
+  },
+  {
+    "name": "Penta",
+    "masteryReq": 6,
+    "slot": "Primary",
+    "imageUrl": "https://cdn.warframestat.us/img/penta-5329710362.png"
+  },
+  {
+    "name": "Perigale",
+    "masteryReq": 8,
+    "slot": "Primary",
+    "imageUrl": "https://cdn.warframestat.us/img/perigale-ea7219b8d0.png"
+  },
+  {
+    "name": "Phage",
+    "masteryReq": 11,
+    "slot": "Primary",
+    "imageUrl": "https://cdn.warframestat.us/img/phage-5cf65499b3.png"
+  },
+  {
+    "name": "Phantasma",
+    "masteryReq": 9,
+    "slot": "Primary",
+    "imageUrl": "https://cdn.warframestat.us/img/phantasma-dccca8f9e5.png"
+  },
+  {
+    "name": "Phantasma Prime",
+    "masteryReq": 14,
+    "slot": "Primary",
+    "imageUrl": "https://cdn.warframestat.us/img/phantasma-prime-e76512a07d.png"
+  },
+  {
+    "name": "Phenmor",
+    "masteryReq": 14,
+    "slot": "Primary",
+    "imageUrl": "https://cdn.warframestat.us/img/phenmor-a24d538533.png"
+  },
+  {
+    "name": "Plinx",
+    "masteryReq": 6,
+    "slot": "Secondary",
+    "imageUrl": "https://cdn.warframestat.us/img/plinx-3134170f92.png"
+  },
+  {
+    "name": "Pox",
+    "masteryReq": 9,
+    "slot": "Secondary",
+    "imageUrl": "https://cdn.warframestat.us/img/pox-b061c04510.png"
+  },
+  {
+    "name": "Prisma Angstrum",
+    "masteryReq": 8,
+    "slot": "Secondary",
+    "imageUrl": "https://cdn.warframestat.us/img/prisma-angstrum-57ba91885e.png"
+  },
+  {
+    "name": "Prisma Gorgon",
+    "masteryReq": 11,
+    "slot": "Primary",
+    "imageUrl": "https://cdn.warframestat.us/img/prisma-gorgon-b7bb39c89d.png"
+  },
+  {
+    "name": "Prisma Grakata",
+    "masteryReq": 11,
+    "slot": "Primary",
+    "imageUrl": "https://cdn.warframestat.us/img/prisma-grakata-ae8f90655d.png"
+  },
+  {
+    "name": "Prisma Grinlok",
+    "masteryReq": 11,
+    "slot": "Primary",
+    "imageUrl": "https://cdn.warframestat.us/img/prisma-grinlok-3b093dd9b9.png"
+  },
+  {
+    "name": "Prisma Lenz",
+    "masteryReq": 12,
+    "slot": "Primary",
+    "imageUrl": "https://cdn.warframestat.us/img/prisma-lenz-ecf5cbfed0.png"
+  },
+  {
+    "name": "Prisma Tetra",
+    "masteryReq": 4,
+    "slot": "Primary",
+    "imageUrl": "https://cdn.warframestat.us/img/prisma-tetra-206f7886e9.png"
+  },
+  {
+    "name": "Prisma Twin Gremlins",
+    "masteryReq": 11,
+    "slot": "Secondary",
+    "imageUrl": "https://cdn.warframestat.us/img/prisma-twin-gremlins-ee94faf3ba.png"
+  },
+  {
+    "name": "Proboscis Cernos",
+    "masteryReq": 15,
+    "slot": "Primary",
+    "imageUrl": "https://cdn.warframestat.us/img/proboscis-cernos-9fa202f9e7.png"
+  },
+  {
+    "name": "Purgator 1",
+    "masteryReq": 14,
+    "slot": "Primary",
+    "imageUrl": "https://cdn.warframestat.us/img/purgator-1-75a267df15.png"
+  },
+  {
+    "name": "Pyrana",
+    "masteryReq": 12,
+    "slot": "Secondary",
+    "imageUrl": "https://cdn.warframestat.us/img/pyrana-f2049c9ca6.png"
+  },
+  {
+    "name": "Pyrana Prime",
+    "masteryReq": 13,
+    "slot": "Secondary",
+    "imageUrl": "https://cdn.warframestat.us/img/pyrana-prime-ecb8c95a9d.png"
+  },
+  {
+    "name": "Quanta",
+    "masteryReq": 4,
+    "slot": "Primary",
+    "imageUrl": "https://cdn.warframestat.us/img/quanta-be0abe2f6a.png"
+  },
+  {
+    "name": "Quanta Vandal",
+    "masteryReq": 10,
+    "slot": "Primary",
+    "imageUrl": "https://cdn.warframestat.us/img/quanta-vandal-0afacef7c8.png"
+  },
+  {
+    "name": "Quartakk",
+    "masteryReq": 10,
+    "slot": "Primary",
+    "imageUrl": "https://cdn.warframestat.us/img/quartakk-a9f55e0df8.png"
+  },
+  {
+    "name": "Quatz",
+    "masteryReq": 9,
+    "slot": "Secondary",
+    "imageUrl": "https://cdn.warframestat.us/img/quatz-ef293ab5be.png"
+  },
+  {
+    "name": "Quellor",
+    "masteryReq": 12,
+    "slot": "Primary",
+    "imageUrl": "https://cdn.warframestat.us/img/quellor-18785323c2.png"
+  },
+  {
+    "name": "Rakta Ballistica",
+    "masteryReq": 6,
+    "slot": "Secondary",
+    "imageUrl": "https://cdn.warframestat.us/img/rakta-ballistica-39303c333a.png"
+  },
+  {
+    "name": "Rakta Cernos",
+    "masteryReq": 12,
+    "slot": "Primary",
+    "imageUrl": "https://cdn.warframestat.us/img/rakta-cernos-1f148e5ebd.png"
+  },
+  {
+    "name": "Rauta",
+    "masteryReq": 8,
+    "slot": "Primary",
+    "imageUrl": "https://cdn.warframestat.us/img/rauta-690de20bfb.png"
+  },
+  {
+    "name": "Reconifex",
+    "masteryReq": 14,
+    "slot": "Primary",
+    "imageUrl": "https://cdn.warframestat.us/img/reconifex-ad08aef093.png"
+  },
+  {
+    "name": "Riot-848",
+    "masteryReq": 14,
+    "slot": "Secondary",
+    "imageUrl": "https://cdn.warframestat.us/img/riot-848-6f7d41c42c.png"
+  },
+  {
+    "name": "Rubico",
+    "masteryReq": 6,
+    "slot": "Primary",
+    "imageUrl": "https://cdn.warframestat.us/img/rubico-d3c3d07208.png"
+  },
+  {
+    "name": "Rubico Prime",
+    "masteryReq": 12,
+    "slot": "Primary",
+    "imageUrl": "https://cdn.warframestat.us/img/rubico-prime-1ea479c379.png"
+  },
+  {
+    "name": "Sagek Prime",
+    "masteryReq": 14,
+    "slot": "Secondary",
+    "imageUrl": "https://cdn.warframestat.us/img/sagek-prime-b32c6fddb7.png"
+  },
+  {
+    "name": "Sancti Castanas",
+    "masteryReq": 10,
+    "slot": "Secondary",
+    "imageUrl": "https://cdn.warframestat.us/img/sancti-castanas-3d6951c043.png"
+  },
+  {
+    "name": "Sancti Tigris",
+    "masteryReq": 12,
+    "slot": "Primary",
+    "imageUrl": "https://cdn.warframestat.us/img/sancti-tigris-2b0dd379b8.png"
+  },
+  {
+    "name": "Scourge",
+    "masteryReq": 6,
+    "slot": "Primary",
+    "imageUrl": "https://cdn.warframestat.us/img/scourge-075d7af31e.png"
+  },
+  {
+    "name": "Scourge Prime",
+    "masteryReq": 14,
+    "slot": "Primary",
+    "imageUrl": "https://cdn.warframestat.us/img/scourge-prime-6c0e894c91.png"
+  },
+  {
+    "name": "Scyotid",
+    "masteryReq": 12,
+    "slot": "Secondary",
+    "imageUrl": "https://cdn.warframestat.us/img/scyotid-367bd62ed6.png"
+  },
+  {
+    "name": "Secura Dual Cestra",
+    "masteryReq": 10,
+    "slot": "Secondary",
+    "imageUrl": "https://cdn.warframestat.us/img/secura-dual-cestra-810e479b60.png"
+  },
+  {
+    "name": "Secura Penta",
+    "masteryReq": 12,
+    "slot": "Primary",
+    "imageUrl": "https://cdn.warframestat.us/img/secura-penta-63168ca5a8.png"
+  },
+  {
+    "name": "Seer",
+    "masteryReq": 0,
+    "slot": "Secondary",
+    "imageUrl": "https://cdn.warframestat.us/img/seer-afdd75b43d.png"
+  },
+  {
+    "name": "Sepulcrum",
+    "masteryReq": 14,
+    "slot": "Secondary",
+    "imageUrl": "https://cdn.warframestat.us/img/sepulcrum-3b8f358552.png"
+  },
+  {
+    "name": "Shedu",
+    "masteryReq": 13,
+    "slot": "Primary",
+    "imageUrl": "https://cdn.warframestat.us/img/shedu-d2d1c0c38d.png"
+  },
+  {
+    "name": "Sicarus",
+    "masteryReq": 3,
+    "slot": "Secondary",
+    "imageUrl": "https://cdn.warframestat.us/img/sicarus-fc588c27f8.png"
+  },
+  {
+    "name": "Sicarus Prime",
+    "masteryReq": 14,
+    "slot": "Secondary",
+    "imageUrl": "https://cdn.warframestat.us/img/sicarus-prime-1447e9c80e.png"
+  },
+  {
+    "name": "Simulor",
+    "masteryReq": 5,
+    "slot": "Primary",
+    "imageUrl": "https://cdn.warframestat.us/img/simulor-b5d00441df.png"
+  },
+  {
+    "name": "Sirocco",
+    "masteryReq": 0,
+    "slot": "Primary",
+    "imageUrl": "https://cdn.warframestat.us/img/sirocco-5e978fb468.png"
+  },
+  {
+    "name": "Snipetron",
+    "masteryReq": 0,
+    "slot": "Primary",
+    "imageUrl": "https://cdn.warframestat.us/img/snipetron-0f587c4490.png"
+  },
+  {
+    "name": "Snipetron Vandal",
+    "masteryReq": 5,
+    "slot": "Primary",
+    "imageUrl": "https://cdn.warframestat.us/img/snipetron-vandal-883d7276fb.png"
+  },
+  {
+    "name": "Sobek",
+    "masteryReq": 7,
+    "slot": "Primary",
+    "imageUrl": "https://cdn.warframestat.us/img/sobek-61244846cd.png"
+  },
+  {
+    "name": "Soma",
+    "masteryReq": 6,
+    "slot": "Primary",
+    "imageUrl": "https://cdn.warframestat.us/img/soma-71f2434a0a.png"
+  },
+  {
+    "name": "Soma Prime",
+    "masteryReq": 7,
+    "slot": "Primary",
+    "imageUrl": "https://cdn.warframestat.us/img/soma-prime-16e75e3a35.png"
+  },
+  {
+    "name": "Sonicor",
+    "masteryReq": 2,
+    "slot": "Secondary",
+    "imageUrl": "https://cdn.warframestat.us/img/sonicor-9245ce743a.png"
+  },
+  {
+    "name": "Spectra",
+    "masteryReq": 4,
+    "slot": "Secondary",
+    "imageUrl": "https://cdn.warframestat.us/img/spectra-d7a9a2ad92.png"
+  },
+  {
+    "name": "Spectra Vandal",
+    "masteryReq": 10,
+    "slot": "Secondary",
+    "imageUrl": "https://cdn.warframestat.us/img/spectra-vandal-8e11a25192.png"
+  },
+  {
+    "name": "Spira",
+    "masteryReq": 8,
+    "slot": "Secondary",
+    "imageUrl": "https://cdn.warframestat.us/img/spira-35f294fde6.png"
+  },
+  {
+    "name": "Spira Prime",
+    "masteryReq": 10,
+    "slot": "Secondary",
+    "imageUrl": "https://cdn.warframestat.us/img/spira-prime-6c77a3d5b4.png"
+  },
+  {
+    "name": "Sporothrix",
+    "masteryReq": 13,
+    "slot": "Primary",
+    "imageUrl": "https://cdn.warframestat.us/img/sporothrix-b7ac62464a.png"
+  },
+  {
+    "name": "Stahlta",
+    "masteryReq": 10,
+    "slot": "Primary",
+    "imageUrl": "https://cdn.warframestat.us/img/stahlta-c12c06b094.png"
+  },
+  {
+    "name": "Staticor",
+    "masteryReq": 10,
+    "slot": "Secondary",
+    "imageUrl": "https://cdn.warframestat.us/img/staticor-2a2222aa2e.png"
+  },
+  {
+    "name": "Steflos",
+    "masteryReq": 8,
+    "slot": "Primary",
+    "imageUrl": "https://cdn.warframestat.us/img/steflos-2444088d3f.png"
+  },
+  {
+    "name": "Stradavar",
+    "masteryReq": 8,
+    "slot": "Primary",
+    "imageUrl": "https://cdn.warframestat.us/img/stradavar-0ff7688b1f.png"
+  },
+  {
+    "name": "Stradavar Prime",
+    "masteryReq": 12,
+    "slot": "Primary",
+    "imageUrl": "https://cdn.warframestat.us/img/stradavar-prime-150ba6fb80.png"
+  },
+  {
+    "name": "Strun",
+    "masteryReq": 1,
+    "slot": "Primary",
+    "imageUrl": "https://cdn.warframestat.us/img/strun-12937e9e52.png"
+  },
+  {
+    "name": "Strun Prime",
+    "masteryReq": 14,
+    "slot": "Primary",
+    "imageUrl": "https://cdn.warframestat.us/img/strun-prime-32870cfe57.png"
+  },
+  {
+    "name": "Strun Wraith",
+    "masteryReq": 10,
+    "slot": "Primary",
+    "imageUrl": "https://cdn.warframestat.us/img/strun-wraith-1ec54edc8d.png"
+  },
+  {
+    "name": "Stubba",
+    "masteryReq": 7,
+    "slot": "Secondary",
+    "imageUrl": "https://cdn.warframestat.us/img/stubba-0d74e5294f.png"
+  },
+  {
+    "name": "Stug",
+    "masteryReq": 2,
+    "slot": "Secondary",
+    "imageUrl": "https://cdn.warframestat.us/img/stug-aae9c4cb46.png"
+  },
+  {
+    "name": "Supra",
+    "masteryReq": 12,
+    "slot": "Primary",
+    "imageUrl": "https://cdn.warframestat.us/img/supra-02cc80bc5b.png"
+  },
+  {
+    "name": "Supra Vandal",
+    "masteryReq": 14,
+    "slot": "Primary",
+    "imageUrl": "https://cdn.warframestat.us/img/supra-vandal-a1297d8609.png"
+  },
+  {
+    "name": "Sybaris",
+    "masteryReq": 5,
+    "slot": "Primary",
+    "imageUrl": "https://cdn.warframestat.us/img/sybaris-af73df59a0.png"
+  },
+  {
+    "name": "Sybaris Prime",
+    "masteryReq": 12,
+    "slot": "Primary",
+    "imageUrl": "https://cdn.warframestat.us/img/sybaris-prime-42f220480d.png"
+  },
+  {
+    "name": "Synapse",
+    "masteryReq": 11,
+    "slot": "Primary",
+    "imageUrl": "https://cdn.warframestat.us/img/synapse-83cde9ed76.png"
+  },
+  {
+    "name": "Synoid Gammacor",
+    "masteryReq": 7,
+    "slot": "Secondary",
+    "imageUrl": "https://cdn.warframestat.us/img/synoid-gammacor-02823b6001.png"
+  },
+  {
+    "name": "Synoid Simulor",
+    "masteryReq": 12,
+    "slot": "Primary",
+    "imageUrl": "https://cdn.warframestat.us/img/synoid-simulor-16a8baa8b0.png"
+  },
+  {
+    "name": "Talons",
+    "masteryReq": 8,
+    "slot": "Secondary",
+    "imageUrl": "https://cdn.warframestat.us/img/talons-25982555f3.png"
+  },
+  {
+    "name": "Telos Akbolto",
+    "masteryReq": 11,
+    "slot": "Secondary",
+    "imageUrl": "https://cdn.warframestat.us/img/telos-akbolto-ef8aa48303.png"
+  },
+  {
+    "name": "Telos Boltor",
+    "masteryReq": 12,
+    "slot": "Primary",
+    "imageUrl": "https://cdn.warframestat.us/img/telos-boltor-111b9c4941.png"
+  },
+  {
+    "name": "Tenet Arca Plasmor",
+    "masteryReq": 16,
+    "slot": "Primary",
+    "imageUrl": "https://cdn.warframestat.us/img/tenet-arca-plasmor-711b009551.png"
+  },
+  {
+    "name": "Tenet Cycron",
+    "masteryReq": 14,
+    "slot": "Secondary",
+    "imageUrl": "https://cdn.warframestat.us/img/tenet-cycron-2d3f1b3281.png"
+  },
+  {
+    "name": "Tenet Detron",
+    "masteryReq": 16,
+    "slot": "Secondary",
+    "imageUrl": "https://cdn.warframestat.us/img/tenet-detron-b4d3acd4e1.png"
+  },
+  {
+    "name": "Tenet Diplos",
+    "masteryReq": 16,
+    "slot": "Secondary",
+    "imageUrl": "https://cdn.warframestat.us/img/tenet-diplos-48514b24c4.png"
+  },
+  {
+    "name": "Tenet Envoy",
+    "masteryReq": 16,
+    "slot": "Primary",
+    "imageUrl": "https://cdn.warframestat.us/img/tenet-envoy-ac79f3d3e2.png"
+  },
+  {
+    "name": "Tenet Ferrox",
+    "masteryReq": 16,
+    "slot": "Primary",
+    "imageUrl": "https://cdn.warframestat.us/img/tenet-ferrox-011ccea0e2.png"
+  },
+  {
+    "name": "Tenet Flux Rifle",
+    "masteryReq": 16,
+    "slot": "Primary",
+    "imageUrl": "https://cdn.warframestat.us/img/tenet-flux-rifle-0332ab5202.png"
+  },
+  {
+    "name": "Tenet Glaxion",
+    "masteryReq": 16,
+    "slot": "Primary",
+    "imageUrl": "https://cdn.warframestat.us/img/tenet-glaxion-7236ec1e72.png"
+  },
+  {
+    "name": "Tenet Plinx",
+    "masteryReq": 6,
+    "slot": "Secondary",
+    "imageUrl": "https://cdn.warframestat.us/img/tenet-plinx-6a1f29a3a6.png"
+  },
+  {
+    "name": "Tenet Spirex",
+    "masteryReq": 14,
+    "slot": "Secondary",
+    "imageUrl": "https://cdn.warframestat.us/img/tenet-spirex-ac682cb56e.png"
+  },
+  {
+    "name": "Tenet Tetra",
+    "masteryReq": 16,
+    "slot": "Primary",
+    "imageUrl": "https://cdn.warframestat.us/img/tenet-tetra-2659bb14a6.png"
+  },
+  {
+    "name": "Tenora",
+    "masteryReq": 10,
+    "slot": "Primary",
+    "imageUrl": "https://cdn.warframestat.us/img/tenora-0980845df3.png"
+  },
+  {
+    "name": "Tenora Prime",
+    "masteryReq": 14,
+    "slot": "Primary",
+    "imageUrl": "https://cdn.warframestat.us/img/tenora-prime-88bf75873a.png"
+  },
+  {
+    "name": "Tetra",
+    "masteryReq": 3,
+    "slot": "Primary",
+    "imageUrl": "https://cdn.warframestat.us/img/tetra-551b2b3792.png"
+  },
+  {
+    "name": "Thornbak",
+    "masteryReq": 0,
+    "slot": "Primary",
+    "imageUrl": "https://cdn.warframestat.us/img/thornbak-2b716e3252.png"
+  },
+  {
+    "name": "Tiberon",
+    "masteryReq": 10,
+    "slot": "Primary",
+    "imageUrl": "https://cdn.warframestat.us/img/tiberon-9bea2c1863.png"
+  },
+  {
+    "name": "Tiberon Prime",
+    "masteryReq": 14,
+    "slot": "Primary",
+    "imageUrl": "https://cdn.warframestat.us/img/tiberon-prime-5da4edf098.png"
+  },
+  {
+    "name": "Tigris",
+    "masteryReq": 7,
+    "slot": "Primary",
+    "imageUrl": "https://cdn.warframestat.us/img/tigris-1f7521bba5.png"
+  },
+  {
+    "name": "Tigris Prime",
+    "masteryReq": 13,
+    "slot": "Primary",
+    "imageUrl": "https://cdn.warframestat.us/img/tigris-prime-7f61d1abde.png"
+  },
+  {
+    "name": "Tonkor",
+    "masteryReq": 5,
+    "slot": "Primary",
+    "imageUrl": "https://cdn.warframestat.us/img/tonkor-f6c37f3e23.png"
+  },
+  {
+    "name": "Torid",
+    "masteryReq": 4,
+    "slot": "Primary",
+    "imageUrl": "https://cdn.warframestat.us/img/torid-76f7af07f3.png"
+  },
+  {
+    "name": "Trumna",
+    "masteryReq": 13,
+    "slot": "Primary",
+    "imageUrl": "https://cdn.warframestat.us/img/trumna-ed20f6dae6.png"
+  },
+  {
+    "name": "Trumna Prime",
+    "masteryReq": 15,
+    "slot": "Primary",
+    "imageUrl": "https://cdn.warframestat.us/img/trumna-prime-7c10f9cb60.png"
+  },
+  {
+    "name": "Twin Grakatas",
+    "masteryReq": 9,
+    "slot": "Secondary",
+    "imageUrl": "https://cdn.warframestat.us/img/twin-grakatas-a5e2f5596e.png"
+  },
+  {
+    "name": "Twin Gremlins",
+    "masteryReq": 5,
+    "slot": "Secondary",
+    "imageUrl": "https://cdn.warframestat.us/img/twin-gremlins-5cc8818865.png"
+  },
+  {
+    "name": "Twin Kohmak",
+    "masteryReq": 10,
+    "slot": "Secondary",
+    "imageUrl": "https://cdn.warframestat.us/img/twin-kohmak-f66cb319da.png"
+  },
+  {
+    "name": "Twin Rogga",
+    "masteryReq": 9,
+    "slot": "Secondary",
+    "imageUrl": "https://cdn.warframestat.us/img/twin-rogga-7847594c64.png"
+  },
+  {
+    "name": "Twin Vipers",
+    "masteryReq": 5,
+    "slot": "Secondary",
+    "imageUrl": "https://cdn.warframestat.us/img/twin-vipers-dfb6f5c5e8.png"
+  },
+  {
+    "name": "Twin Vipers Wraith",
+    "masteryReq": 7,
+    "slot": "Secondary",
+    "imageUrl": "https://cdn.warframestat.us/img/twin-vipers-wraith-1e92e7cf25.png"
+  },
+  {
+    "name": "Tysis",
+    "masteryReq": 9,
+    "slot": "Secondary",
+    "imageUrl": "https://cdn.warframestat.us/img/tysis-43b9b7c74a.png"
+  },
+  {
+    "name": "Vadarya Prime",
+    "masteryReq": 15,
+    "slot": "Primary",
+    "imageUrl": "https://cdn.warframestat.us/img/vadarya-prime-a3418fa9bb.png"
+  },
+  {
+    "name": "Vasto",
+    "masteryReq": 4,
+    "slot": "Secondary",
+    "imageUrl": "https://cdn.warframestat.us/img/vasto-a67536402c.png"
+  },
+  {
+    "name": "Vasto Prime",
+    "masteryReq": 10,
+    "slot": "Secondary",
+    "imageUrl": "https://cdn.warframestat.us/img/vasto-prime-7befca7ba9.png"
+  },
+  {
+    "name": "Vaykor Hek",
+    "masteryReq": 12,
+    "slot": "Primary",
+    "imageUrl": "https://cdn.warframestat.us/img/vaykor-hek-d30f841248.png"
+  },
+  {
+    "name": "Vaykor Marelok",
+    "masteryReq": 10,
+    "slot": "Secondary",
+    "imageUrl": "https://cdn.warframestat.us/img/vaykor-marelok-92ed1486f5.png"
+  },
+  {
+    "name": "Vectis",
+    "masteryReq": 2,
+    "slot": "Primary",
+    "imageUrl": "https://cdn.warframestat.us/img/vectis-81d8622164.png"
+  },
+  {
+    "name": "Vectis Prime",
+    "masteryReq": 14,
+    "slot": "Primary",
+    "imageUrl": "https://cdn.warframestat.us/img/vectis-prime-2029f25b9e.png"
+  },
+  {
+    "name": "Veldt",
+    "masteryReq": 8,
+    "slot": "Primary",
+    "imageUrl": "https://cdn.warframestat.us/img/veldt-f78c644647.png"
+  },
+  {
+    "name": "Velox",
+    "masteryReq": 8,
+    "slot": "Secondary",
+    "imageUrl": "https://cdn.warframestat.us/img/velox-160999bb4a.png"
+  },
+  {
+    "name": "Velox Prime",
+    "masteryReq": 13,
+    "slot": "Secondary",
+    "imageUrl": "https://cdn.warframestat.us/img/velox-prime-de13b8c526.png"
+  },
+  {
+    "name": "Vesper 77",
+    "masteryReq": 14,
+    "slot": "Secondary",
+    "imageUrl": "https://cdn.warframestat.us/img/vesper-77-0136c923d7.png"
+  },
+  {
+    "name": "Vinquibus",
+    "masteryReq": 14,
+    "slot": "Primary",
+    "imageUrl": "https://cdn.warframestat.us/img/vinquibus-51734ff1a5.png"
+  },
+  {
+    "name": "Viper",
+    "masteryReq": 4,
+    "slot": "Secondary",
+    "imageUrl": "https://cdn.warframestat.us/img/viper-246ef55b5a.png"
+  },
+  {
+    "name": "Viper Wraith",
+    "masteryReq": 4,
+    "slot": "Secondary",
+    "imageUrl": "https://cdn.warframestat.us/img/viper-wraith-b08e022cf2.png"
+  },
+  {
+    "name": "Vulkar",
+    "masteryReq": 3,
+    "slot": "Primary",
+    "imageUrl": "https://cdn.warframestat.us/img/vulkar-320bdad1d5.png"
+  },
+  {
+    "name": "Vulkar Wraith",
+    "masteryReq": 7,
+    "slot": "Primary",
+    "imageUrl": "https://cdn.warframestat.us/img/vulkar-wraith-00f7dafc90.png"
+  },
+  {
+    "name": "Zakti",
+    "masteryReq": 10,
+    "slot": "Secondary",
+    "imageUrl": "https://cdn.warframestat.us/img/zakti-30d7d92ba9.png"
+  },
+  {
+    "name": "Zakti Prime",
+    "masteryReq": 14,
+    "slot": "Secondary",
+    "imageUrl": "https://cdn.warframestat.us/img/zakti-prime-c9e28219cd.png"
+  },
+  {
+    "name": "Zarr",
+    "masteryReq": 7,
+    "slot": "Primary",
+    "imageUrl": "https://cdn.warframestat.us/img/zarr-7e10b8897d.png"
+  },
+  {
+    "name": "Zenith",
+    "masteryReq": 10,
+    "slot": "Primary",
+    "imageUrl": "https://cdn.warframestat.us/img/zenith-f5a930b480.png"
+  },
+  {
+    "name": "Zhuge",
+    "masteryReq": 10,
+    "slot": "Primary",
+    "imageUrl": "https://cdn.warframestat.us/img/zhuge-3d401a1901.png"
+  },
+  {
+    "name": "Zhuge Prime",
+    "masteryReq": 14,
+    "slot": "Primary",
+    "imageUrl": "https://cdn.warframestat.us/img/zhuge-prime-c282e9ce24.png"
+  },
+  {
+    "name": "Zylok",
+    "masteryReq": 6,
+    "slot": "Secondary",
+    "imageUrl": "https://cdn.warframestat.us/img/zylok-68fee5c4dd.png"
+  },
+  {
+    "name": "Zylok Prime",
+    "masteryReq": 13,
+    "slot": "Secondary",
+    "imageUrl": "https://cdn.warframestat.us/img/zylok-prime-8922964ebe.png"
+  },
+  {
+    "name": "Zymos",
+    "masteryReq": 11,
+    "slot": "Secondary",
+    "imageUrl": "https://cdn.warframestat.us/img/zymos-b070770a75.png"
+  }
+]

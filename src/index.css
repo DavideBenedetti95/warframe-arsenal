@@ -1,0 +1,78 @@
+:root {
+  /* Warframe Color Palette */
+  --wf-bg-deep: #050507;
+  --wf-bg-dark: #0a0b0d;
+  --wf-bg-card: #12141a;
+  --wf-bg-elevated: #1a1c24;
+  
+  --wf-gold: #f0a040;
+  --wf-gold-light: #ffc864;
+  --wf-gold-dark: #c07820;
+  
+  --wf-cyan: #00d4ff;
+  --wf-cyan-dim: #0099bb;
+  
+  --wf-text: #e8e6e3;
+  --wf-text-dim: #8a8a8a;
+  --wf-text-bright: #ffffff;
+  
+  --wf-border: #2a2d38;
+  --wf-border-glow: rgba(240, 160, 64, 0.3);
+  
+  /* Typography */
+  font-family: 'Rajdhani', sans-serif;
+  line-height: 1.5;
+  font-weight: 500;
+  
+  color-scheme: dark;
+  color: var(--wf-text);
+  background-color: var(--wf-bg-deep);
+  
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  background: 
+    radial-gradient(ellipse at 50% 0%, rgba(240, 160, 64, 0.03) 0%, transparent 50%),
+    radial-gradient(ellipse at 80% 80%, rgba(0, 212, 255, 0.02) 0%, transparent 40%),
+    var(--wf-bg-deep);
+  background-attachment: fixed;
+}
+
+#root {
+  width: 100%;
+}
+
+/* Scrollbar Styling */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--wf-bg-dark);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--wf-border);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--wf-gold-dark);
+}
+
+/* Selection */
+::selection {
+  background: var(--wf-gold);
+  color: var(--wf-bg-deep);
+}
