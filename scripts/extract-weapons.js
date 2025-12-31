@@ -172,10 +172,13 @@ function extractComponents(item) {
   return item.components.map(comp => {
     // Group drops by relic
     const relicDrops = {};
+    // Track mission/location drops (non-relic)
+    const missionDrops = [];
     
     if (comp.drops) {
       for (const drop of comp.drops) {
         if (drop.location && drop.location.includes("Relic")) {
+          // Relic drop
           const relicInfo = parseRelicName(drop.location);
           if (relicInfo) {
             const key = relicInfo.fullName;
@@ -191,6 +194,14 @@ function extractComponents(item) {
             // Store chance by refinement level
             relicDrops[key].chances[relicInfo.refinement] = drop.chance;
           }
+        } else if (drop.location) {
+          // Mission/Location drop (non-relic)
+          missionDrops.push({
+            location: drop.location,
+            chance: drop.chance,
+            rarity: drop.rarity,
+            type: drop.type,
+          });
         }
       }
     }
@@ -202,6 +213,7 @@ function extractComponents(item) {
       ducats: comp.ducats || comp.primeSellingPrice || null,
       tradable: comp.tradable || false,
       relics: Object.values(relicDrops),
+      drops: missionDrops, // Add mission drops
     };
   }).filter(c => c.name);
 }
@@ -296,6 +308,32 @@ function getAcquisitionInfo(item) {
         detail: source.location,
         chance: source.chance ? `${(source.chance * 100).toFixed(2)}%` : null,
       });
+    }
+  }
+  
+  // Check for component drops from missions (like Higasa from Shrine Defense)
+  if (item.components) {
+    const componentDropLocations = new Set();
+    for (const comp of item.components) {
+      if (comp.drops) {
+        for (const drop of comp.drops) {
+          if (drop.location && !drop.location.includes("Relic")) {
+            componentDropLocations.add(drop.location);
+          }
+        }
+      }
+    }
+    // Add unique drop locations as acquisition methods
+    for (const location of componentDropLocations) {
+      // Don't add if we already have this location
+      const alreadyHas = acquisition.some(a => a.detail && a.detail.includes(location));
+      if (!alreadyHas) {
+        acquisition.push({
+          type: "Mission Drop",
+          method: location.split("/").pop().split(" (")[0] || location,
+          detail: location,
+        });
+      }
     }
   }
   

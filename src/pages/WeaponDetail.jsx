@@ -297,13 +297,45 @@ export default function WeaponDetail() {
 
         {/* Non-Prime Crafting Components */}
         {!weapon.isPrime && components.length > 0 && (
-          <section className="stat-card">
+          <section className="stat-card stat-card--full">
             <h2 className="stat-card__title">Componenti per Crafting</h2>
-            <div className="crafting-list">
+            {components.some(c => c.drops && c.drops.length > 0) && (
+              <p className="stat-card__hint">I componenti possono essere ottenuti dalle missioni indicate</p>
+            )}
+            <div className="components-grid">
               {components.map((comp, i) => (
-                <div key={i} className="crafting-item">
-                  <span className="crafting-item__count">{comp.count}x</span>
-                  <span className="crafting-item__name">{comp.name}</span>
+                <div key={i} className="component-card">
+                  <div className="component-card__header">
+                    <span className="component-card__name">{comp.name}</span>
+                    <span className="component-card__count">{comp.count}x</span>
+                  </div>
+                  
+                  {comp.drops && comp.drops.length > 0 ? (
+                    <div className="drops-list">
+                      {comp.drops.map((drop, j) => (
+                        <div key={j} className="drop-item">
+                          <div className="drop-item__location">{drop.location}</div>
+                          <div className="drop-item__meta">
+                            {drop.rarity && (
+                              <span 
+                                className="drop-item__rarity"
+                                style={{ color: RARITY_COLORS[drop.rarity] }}
+                              >
+                                {drop.rarity}
+                              </span>
+                            )}
+                            {drop.chance && (
+                              <span className="drop-item__chance">
+                                {(drop.chance * 100).toFixed(2)}%
+                              </span>
+                            )}
+                          </div>
+                        </div>
+                      ))}
+                    </div>
+                  ) : (
+                    <p className="component-card__no-relics">Risorsa standard</p>
+                  )}
                 </div>
               ))}
             </div>

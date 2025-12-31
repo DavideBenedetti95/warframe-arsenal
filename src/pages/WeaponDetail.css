@@ -550,6 +550,58 @@
   margin: 0;
 }
 
+.component-card__count {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--wf-cyan);
+  padding: 4px 8px;
+  background: rgba(0, 212, 255, 0.1);
+  border-radius: 2px;
+}
+
+/* Drops List (for mission drops) */
+.drops-list {
+  padding: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.drop-item {
+  padding: 10px 12px;
+  background: var(--wf-bg-card);
+  border: 1px solid var(--wf-border);
+  border-left: 3px solid var(--wf-cyan);
+  border-radius: 2px;
+}
+
+.drop-item__location {
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--wf-text);
+  margin-bottom: 4px;
+}
+
+.drop-item__meta {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+
+.drop-item__rarity {
+  font-size: 11px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.drop-item__chance {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 12px;
+  color: var(--wf-gold);
+}
+
 /* Relics List */
 .relics-list {
   padding: 8px;
