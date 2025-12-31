@@ -1,0 +1,143 @@
+/* Terms Page */
+.terms-page {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 24px 32px 64px;
+  min-height: 100vh;
+}
+
+.terms-header {
+  text-align: center;
+  margin: 48px 0;
+  padding-bottom: 32px;
+  border-bottom: 1px solid var(--wf-border);
+  position: relative;
+}
+
+.terms-header::after {
+  content: '';
+  position: absolute;
+  bottom: -1px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100px;
+  height: 1px;
+  background: var(--wf-gold);
+}
+
+.terms-header__title {
+  font-family: 'Orbitron', sans-serif;
+  font-size: clamp(28px, 5vw, 40px);
+  font-weight: 700;
+  margin: 0;
+  color: var(--wf-text-bright);
+  text-transform: uppercase;
+  letter-spacing: 4px;
+}
+
+.terms-header__updated {
+  margin-top: 12px;
+  font-size: 13px;
+  color: var(--wf-text-dim);
+}
+
+.terms-content {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.terms-section {
+  background: var(--wf-bg-card);
+  border: 1px solid var(--wf-border);
+  padding: 24px 32px;
+  position: relative;
+}
+
+.terms-section::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 3px;
+  height: 100%;
+  background: var(--wf-gold-dark);
+}
+
+.terms-section--highlight {
+  background: rgba(240, 160, 64, 0.05);
+  border-color: var(--wf-gold-dark);
+}
+
+.terms-section--highlight::before {
+  background: var(--wf-gold);
+}
+
+.terms-section h2 {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: var(--wf-gold);
+  margin: 0 0 16px;
+}
+
+.terms-section p {
+  font-size: 14px;
+  line-height: 1.8;
+  color: var(--wf-text);
+  margin: 0 0 12px;
+}
+
+.terms-section p:last-child {
+  margin-bottom: 0;
+}
+
+.terms-section ul {
+  margin: 12px 0;
+  padding-left: 24px;
+}
+
+.terms-section li {
+  font-size: 14px;
+  line-height: 1.8;
+  color: var(--wf-text-dim);
+  margin-bottom: 8px;
+}
+
+.terms-section li:last-child {
+  margin-bottom: 0;
+}
+
+.terms-section a {
+  color: var(--wf-cyan);
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.terms-section a:hover {
+  color: var(--wf-gold);
+  text-decoration: underline;
+}
+
+.terms-section strong {
+  color: var(--wf-text-bright);
+  font-weight: 600;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .terms-page {
+    padding: 16px;
+  }
+  
+  .terms-section {
+    padding: 20px 24px;
+  }
+  
+  .terms-header {
+    margin: 32px 0;
+  }
+}
+
