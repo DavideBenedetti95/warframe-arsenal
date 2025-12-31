@@ -11,6 +11,7 @@
     "preview": "vite preview",
     "extract-weapons": "node scripts/extract-weapons.js",
     "extract-warframes": "node scripts/extract-warframes.js",
+    "extract-relics": "node scripts/extract-relics.js",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
   },
