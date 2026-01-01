@@ -43,6 +43,7 @@ export default function Weapons() {
   const [selectedTypes, setSelectedTypes] = useState([]);
   const [selectedVariants, setSelectedVariants] = useState([]);
   const [searchQuery, setSearchQuery] = useState("");
+  const [showZawComponents, setShowZawComponents] = useState(false);
 
   const weapons = useMemo(() => getWeapons(), []);
 
@@ -81,6 +82,13 @@ export default function Weapons() {
     return weapons
       .filter((w) => w.slot === slot)
       .filter((w) => w.masteryReq <= mr)
+      .filter((w) => {
+        // Hide Zaw components if showZawComponents is false (only when slot is Melee)
+        if (slot === "Melee" && !showZawComponents && w.type === "Zaw Component") {
+          return false;
+        }
+        return true;
+      })
       .filter((w) => selectedTypes.length === 0 || selectedTypes.includes(w.type))
       .filter(matchesVariant)
       .filter((w) => 
@@ -88,7 +96,7 @@ export default function Weapons() {
         w.name.toLowerCase().includes(searchQuery.toLowerCase())
       )
       .sort((a, b) => a.masteryReq - b.masteryReq || a.name.localeCompare(b.name));
-  }, [weapons, mr, slot, selectedTypes, selectedVariants, searchQuery]);
+  }, [weapons, mr, slot, selectedTypes, selectedVariants, searchQuery, showZawComponents]);
 
   const hasActiveFilters = selectedTypes.length > 0 || selectedVariants.length > 0 || searchQuery !== "";
 
@@ -161,6 +169,18 @@ export default function Weapons() {
             onChange={(e) => setSearchQuery(e.target.value)}
           />
         </div>
+
+        {slot === "Melee" && (
+          <label className="zaw-toggle">
+            <input 
+              type="checkbox" 
+              checked={showZawComponents}
+              onChange={(e) => setShowZawComponents(e.target.checked)}
+            />
+            <span className="zaw-toggle__slider"></span>
+            <span className="zaw-toggle__label">Mostra componenti Zaw</span>
+          </label>
+        )}
 
         <div className="results-counter">
           <span className="results-counter__label">Armi trovate</span>

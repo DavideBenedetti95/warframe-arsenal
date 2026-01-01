@@ -34,6 +34,65 @@
   color: var(--wf-text-dim);
 }
 
+/* Zaw Components Toggle */
+.zaw-toggle {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+  user-select: none;
+}
+
+.zaw-toggle input {
+  display: none;
+}
+
+.zaw-toggle__slider {
+  position: relative;
+  width: 44px;
+  height: 24px;
+  background: var(--wf-bg-elevated);
+  border: 1px solid var(--wf-border);
+  border-radius: 12px;
+  transition: all 0.3s ease;
+}
+
+.zaw-toggle__slider::before {
+  content: '';
+  position: absolute;
+  top: 3px;
+  left: 3px;
+  width: 16px;
+  height: 16px;
+  background: var(--wf-text-dim);
+  border-radius: 50%;
+  transition: all 0.3s ease;
+}
+
+.zaw-toggle input:checked + .zaw-toggle__slider {
+  background: rgba(74, 222, 128, 0.2);
+  border-color: #4ade80;
+}
+
+.zaw-toggle input:checked + .zaw-toggle__slider::before {
+  transform: translateX(20px);
+  background: #4ade80;
+}
+
+.zaw-toggle__label {
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--wf-text-dim);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  transition: color 0.2s ease;
+  white-space: nowrap;
+}
+
+.zaw-toggle input:checked ~ .zaw-toggle__label {
+  color: #4ade80;
+}
+
 /* Responsive */
 @media (max-width: 768px) {
   .weapons-page {
