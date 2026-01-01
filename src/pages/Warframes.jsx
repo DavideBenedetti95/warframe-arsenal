@@ -17,9 +17,16 @@ const VARIANT_TYPES = [
   { id: "Umbra", label: "Umbra", color: WARFRAME_VARIANT_COLORS.Umbra },
 ];
 
+// Vault status options
+const VAULT_STATUS = [
+  { id: "vaulted", label: "Vaulted", color: "#b8860b" },
+  { id: "available", label: "Non Vaulted", color: "#2ecc71" },
+];
+
 export default function Warframes() {
   const [mr, setMr] = useState(8);
   const [selectedVariants, setSelectedVariants] = useState([]);
+  const [selectedVaultStatus, setSelectedVaultStatus] = useState([]);
   const [searchQuery, setSearchQuery] = useState("");
 
   const warframes = useMemo(() => getWarframes(), []);
@@ -31,9 +38,17 @@ export default function Warframes() {
     );
   };
 
+  // Toggle vault status filter
+  const toggleVaultStatus = (status) => {
+    setSelectedVaultStatus((prev) =>
+      prev.includes(status) ? prev.filter((s) => s !== status) : [...prev, status]
+    );
+  };
+
   // Clear all filters
   const clearFilters = () => {
     setSelectedVariants([]);
+    setSelectedVaultStatus([]);
     setSearchQuery("");
   };
 
@@ -44,18 +59,28 @@ export default function Warframes() {
     return selectedVariants.includes(wfVariant);
   };
 
+  // Check if warframe matches vault status filter
+  const matchesVaultStatus = (warframe) => {
+    if (selectedVaultStatus.length === 0) return true;
+    const isVaulted = warframe.vaulted === true;
+    if (selectedVaultStatus.includes("vaulted") && isVaulted) return true;
+    if (selectedVaultStatus.includes("available") && !isVaulted) return true;
+    return false;
+  };
+
   const filtered = useMemo(() => {
     return warframes
       .filter((w) => w.masteryReq <= mr)
       .filter(matchesVariant)
+      .filter(matchesVaultStatus)
       .filter((w) => 
         searchQuery === "" || 
         w.name.toLowerCase().includes(searchQuery.toLowerCase())
       )
       .sort((a, b) => a.name.localeCompare(b.name));
-  }, [warframes, mr, selectedVariants, searchQuery]);
+  }, [warframes, mr, selectedVariants, selectedVaultStatus, searchQuery]);
 
-  const hasActiveFilters = selectedVariants.length > 0 || searchQuery !== "";
+  const hasActiveFilters = selectedVariants.length > 0 || selectedVaultStatus.length > 0 || searchQuery !== "";
 
   return (
     <div className="warframes-page">
@@ -116,6 +141,22 @@ export default function Warframes() {
                 onClick={() => toggleVariant(variant.id)}
               >
                 {variant.label}
+              </button>
+            ))}
+          </div>
+        </div>
+
+        <div className="filter-group">
+          <span className="filter-group__label">Vault Status</span>
+          <div className="filter-chips">
+            {VAULT_STATUS.map((status) => (
+              <button
+                key={status.id}
+                className={`filter-chip ${selectedVaultStatus.includes(status.id) ? "filter-chip--active" : ""}`}
+                style={{ "--chip-color": status.color }}
+                onClick={() => toggleVaultStatus(status.id)}
+              >
+                {status.label}
               </button>
             ))}
           </div>
