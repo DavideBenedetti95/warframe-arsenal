@@ -67,18 +67,9 @@ export default function Weapons() {
     setSearchQuery("");
   };
 
-  const matchesVariant = (weapon) => {
-    if (selectedVariants.length === 0) return true;
-    const weaponVariant = weapon.variantType || "Base";
-    if (selectedVariants.includes("Syndicate")) {
-      if (SYNDICATE_VARIANTS.includes(weaponVariant)) return true;
-    }
-    if (selectedVariants.includes(weaponVariant)) return true;
-    if (selectedVariants.includes("Base") && !weapon.variantType) return true;
-    return false;
-  };
-
   const filtered = useMemo(() => {
+    const seenZawComponents = new Set();
+    
     return weapons
       .filter((w) => w.slot === slot)
       .filter((w) => w.masteryReq <= mr)
@@ -87,10 +78,27 @@ export default function Weapons() {
         if (slot === "Melee" && !showZawComponents && w.type === "Zaw Component") {
           return false;
         }
+        // Deduplicate Zaw components by name (keep only first occurrence)
+        if (slot === "Melee" && w.type === "Zaw Component") {
+          if (seenZawComponents.has(w.name)) {
+            return false;
+          }
+          seenZawComponents.add(w.name);
+        }
         return true;
       })
       .filter((w) => selectedTypes.length === 0 || selectedTypes.includes(w.type))
-      .filter(matchesVariant)
+      .filter((w) => {
+        // Matches variant filter
+        if (selectedVariants.length === 0) return true;
+        const weaponVariant = w.variantType || "Base";
+        if (selectedVariants.includes("Syndicate")) {
+          if (SYNDICATE_VARIANTS.includes(weaponVariant)) return true;
+        }
+        if (selectedVariants.includes(weaponVariant)) return true;
+        if (selectedVariants.includes("Base") && !w.variantType) return true;
+        return false;
+      })
       .filter((w) => 
         searchQuery === "" || 
         w.name.toLowerCase().includes(searchQuery.toLowerCase())
@@ -244,7 +252,7 @@ export default function Weapons() {
         ) : (
           filtered.map((w, index) => (
             <Link
-              key={`${w.slot}-${w.name}`}
+              key={w.slug}
               to={`/weapon/${w.slug}`}
               className="weapon-card"
               style={{ animationDelay: `${Math.min(index * 30, 300)}ms` }}
