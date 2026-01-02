@@ -11,7 +11,7 @@ export default function Privacy() {
 
       <header className="privacy-header">
         <h1 className="privacy-header__title">Privacy Policy</h1>
-        <p className="privacy-header__updated">Last updated: {new Date().toLocaleDateString('it-IT')}</p>
+        <p className="privacy-header__updated">Last updated: {new Date().toLocaleDateString('en-US')}</p>
       </header>
 
       <div className="privacy-content">

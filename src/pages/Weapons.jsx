@@ -31,7 +31,7 @@ const VARIANT_TYPES = [
   { id: "Wraith", label: "Wraith", color: VARIANT_COLORS.Wraith },
   { id: "Vandal", label: "Vandal", color: VARIANT_COLORS.Vandal },
   { id: "Prisma", label: "Prisma", color: VARIANT_COLORS.Prisma },
-  { id: "Syndicate", label: "Sindacato", color: "#8080d0" },
+  { id: "Syndicate", label: "Syndicate", color: "#8080d0" },
 ];
 
 // Syndicate variant types for grouping
@@ -113,9 +113,9 @@ export default function Weapons() {
       {/* Header */}
       <header className="page-header">
         <div className="page-header__subtitle">Arsenal Database</div>
-        <h1 className="page-header__title">Armi</h1>
+        <h1 className="page-header__title">Weapons</h1>
         <p className="page-header__description">
-          Scopri le armi disponibili per il tuo livello di Mastery Rank
+          Discover weapons available for your Mastery Rank level
         </p>
       </header>
 
@@ -146,7 +146,7 @@ export default function Weapons() {
               setSelectedTypes([]);
             }}
           >
-            Primarie
+            Primary
           </button>
           <button
             className={`slot-btn ${slot === "Secondary" ? "slot-btn--active" : ""}`}
@@ -155,7 +155,7 @@ export default function Weapons() {
               setSelectedTypes([]);
             }}
           >
-            Secondarie
+            Secondary
           </button>
           <button
             className={`slot-btn ${slot === "Melee" ? "slot-btn--active" : ""}`}
@@ -164,7 +164,7 @@ export default function Weapons() {
               setSelectedTypes([]);
             }}
           >
-            Corpo a Corpo
+            Melee
           </button>
         </div>
 
@@ -172,7 +172,7 @@ export default function Weapons() {
           <input
             type="text"
             className="search-input"
-            placeholder="Cerca arma..."
+            placeholder="Search weapon..."
             value={searchQuery}
             onChange={(e) => setSearchQuery(e.target.value)}
           />
@@ -186,12 +186,12 @@ export default function Weapons() {
               onChange={(e) => setShowZawComponents(e.target.checked)}
             />
             <span className="zaw-toggle__slider"></span>
-            <span className="zaw-toggle__label">Mostra componenti Zaw</span>
+            <span className="zaw-toggle__label">Show Zaw Components</span>
           </label>
         )}
 
         <div className="results-counter">
-          <span className="results-counter__label">Armi trovate</span>
+          <span className="results-counter__label">Weapons found</span>
           <span className="results-counter__value">{filtered.length}</span>
         </div>
       </div>
@@ -199,7 +199,7 @@ export default function Weapons() {
       {/* Advanced Filters */}
       <div className="filters">
         <div className="filter-group">
-          <span className="filter-group__label">Tipo</span>
+          <span className="filter-group__label">Type</span>
           <div className="filter-chips">
             {availableTypes.map((type) => (
               <button
@@ -214,7 +214,7 @@ export default function Weapons() {
         </div>
 
         <div className="filter-group">
-          <span className="filter-group__label">Variante</span>
+          <span className="filter-group__label">Variant</span>
           <div className="filter-chips">
             {VARIANT_TYPES.map((variant) => (
               <button
@@ -231,7 +231,7 @@ export default function Weapons() {
 
         {hasActiveFilters && (
           <button className="clear-filters-btn" onClick={clearFilters}>
-            ✕ Rimuovi filtri
+            ✕ Clear filters
           </button>
         )}
       </div>
@@ -241,11 +241,11 @@ export default function Weapons() {
         {filtered.length === 0 ? (
           <div className="empty-state">
             <div className="empty-state__icon">⚔</div>
-            <h3 className="empty-state__title">Nessuna arma trovata</h3>
+            <h3 className="empty-state__title">No weapons found</h3>
             <p className="empty-state__text">
               {hasActiveFilters 
-                ? "Prova a rimuovere alcuni filtri"
-                : "Aumenta il tuo Mastery Rank per sbloccare nuove armi"
+                ? "Try removing some filters"
+                : "Increase your Mastery Rank to unlock new weapons"
               }
             </p>
           </div>
@@ -289,7 +289,7 @@ export default function Weapons() {
                       <span className="weapon-card__mr-value">{w.masteryReq}</span>
                     </div>
                     <span className="weapon-card__slot">
-                      {w.type || (w.slot === "Primary" ? "Primaria" : w.slot === "Secondary" ? "Secondaria" : "Corpo a Corpo")}
+                      {w.type || (w.slot === "Primary" ? "Primary" : w.slot === "Secondary" ? "Secondary" : "Melee")}
                     </span>
                   </div>
                 </div>

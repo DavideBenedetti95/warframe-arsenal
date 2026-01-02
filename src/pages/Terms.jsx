@@ -11,7 +11,7 @@ export default function Terms() {
 
       <header className="terms-header">
         <h1 className="terms-header__title">Terms of Service</h1>
-        <p className="terms-header__updated">Last updated: {new Date().toLocaleDateString('it-IT')}</p>
+        <p className="terms-header__updated">Last updated: {new Date().toLocaleDateString('en-US')}</p>
       </header>
 
       <div className="terms-content">

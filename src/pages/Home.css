@@ -1,0 +1,220 @@
+/* Home Page */
+.home-page {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Hero Section */
+.home-hero {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 80px 32px;
+  position: relative;
+  overflow: hidden;
+}
+
+.home-hero::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: 
+    radial-gradient(circle at 20% 50%, rgba(240, 160, 64, 0.1) 0%, transparent 50%),
+    radial-gradient(circle at 80% 50%, rgba(240, 160, 64, 0.1) 0%, transparent 50%);
+  z-index: 0;
+}
+
+.home-hero > * {
+  position: relative;
+  z-index: 1;
+}
+
+.home-hero__title {
+  font-family: 'Orbitron', sans-serif;
+  font-size: clamp(48px, 8vw, 96px);
+  font-weight: 900;
+  color: var(--wf-text-bright);
+  text-transform: uppercase;
+  letter-spacing: 8px;
+  margin: 0 0 24px;
+  text-shadow: 0 0 60px rgba(240, 160, 64, 0.5);
+  animation: fadeInUp 0.8s ease;
+}
+
+.home-hero__subtitle {
+  font-size: clamp(16px, 2.5vw, 22px);
+  color: var(--wf-text-dim);
+  max-width: 700px;
+  line-height: 1.6;
+  margin: 0 0 48px;
+  animation: fadeInUp 0.8s ease 0.2s backwards;
+}
+
+.home-hero__actions {
+  display: flex;
+  gap: 24px;
+  flex-wrap: wrap;
+  justify-content: center;
+  animation: fadeInUp 0.8s ease 0.4s backwards;
+}
+
+.home-hero__button {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  padding: 16px 32px;
+  font-family: 'Rajdhani', sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-decoration: none;
+  border: 2px solid;
+  border-radius: 4px;
+  transition: all 0.3s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+.home-hero__button::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.1), transparent);
+  transition: left 0.5s ease;
+}
+
+.home-hero__button:hover::before {
+  left: 100%;
+}
+
+.home-hero__button--primary {
+  background: var(--wf-gold);
+  border-color: var(--wf-gold);
+  color: var(--wf-bg-deep);
+}
+
+.home-hero__button--primary:hover {
+  background: var(--wf-gold-dark);
+  border-color: var(--wf-gold-dark);
+  transform: translateY(-2px);
+  box-shadow: 0 8px 24px rgba(240, 160, 64, 0.4);
+}
+
+.home-hero__button--secondary {
+  background: transparent;
+  border-color: var(--wf-gold);
+  color: var(--wf-gold);
+}
+
+.home-hero__button--secondary:hover {
+  background: rgba(240, 160, 64, 0.1);
+  transform: translateY(-2px);
+  box-shadow: 0 8px 24px rgba(240, 160, 64, 0.2);
+}
+
+.home-hero__button-icon {
+  font-size: 24px;
+}
+
+/* Features Section */
+.home-features {
+  padding: 80px 32px;
+  background: var(--wf-bg-card);
+  border-top: 1px solid var(--wf-border);
+}
+
+.home-features__grid {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 32px;
+}
+
+.home-feature {
+  text-align: center;
+  padding: 32px 24px;
+  background: var(--wf-bg-elevated);
+  border: 1px solid var(--wf-border);
+  border-radius: 4px;
+  transition: all 0.3s ease;
+}
+
+.home-feature:hover {
+  border-color: var(--wf-gold-dark);
+  transform: translateY(-4px);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3);
+}
+
+.home-feature__icon {
+  font-size: 48px;
+  margin-bottom: 16px;
+}
+
+.home-feature__title {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--wf-text-bright);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin: 0 0 12px;
+}
+
+.home-feature__description {
+  font-size: 14px;
+  color: var(--wf-text-dim);
+  line-height: 1.6;
+  margin: 0;
+}
+
+/* Animations */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .home-hero {
+    padding: 60px 16px;
+  }
+  
+  .home-hero__actions {
+    flex-direction: column;
+    width: 100%;
+    max-width: 300px;
+  }
+  
+  .home-hero__button {
+    width: 100%;
+    justify-content: center;
+  }
+  
+  .home-features {
+    padding: 60px 16px;
+  }
+  
+  .home-features__grid {
+    grid-template-columns: 1fr;
+    gap: 24px;
+  }
+}
+

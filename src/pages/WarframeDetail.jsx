@@ -100,7 +100,7 @@ export default function WarframeDetail() {
       <div className="stats-grid">
         {/* Base Stats */}
         <section className="stat-card">
-          <h2 className="stat-card__title">Statistiche Base</h2>
+          <h2 className="stat-card__title">Base Statistics</h2>
           <div className="base-stats">
             {WARFRAME_STATS.map((stat) => (
               <div key={stat.key} className="base-stat">
@@ -136,7 +136,7 @@ export default function WarframeDetail() {
         {/* Abilities */}
         {abilities.length > 0 && (
           <section className="stat-card stat-card--wide">
-            <h2 className="stat-card__title">Abilità</h2>
+            <h2 className="stat-card__title">Abilities</h2>
             <div className="abilities-grid">
               {abilities.map((ability, i) => (
                 <div key={i} className="ability-card">
@@ -156,7 +156,7 @@ export default function WarframeDetail() {
         {/* Acquisition */}
         {acquisition.length > 0 && (
           <section className="stat-card">
-            <h2 className="stat-card__title">Come Ottenerlo</h2>
+            <h2 className="stat-card__title">How to Obtain</h2>
             <div className="acquisition-list">
               {acquisition.map((acq, i) => (
                 <div key={i} className="acquisition-item">
@@ -177,10 +177,10 @@ export default function WarframeDetail() {
         {/* Prime Components with Relic Info */}
         {warframe.isPrime && components.length > 0 && (
           <section className="stat-card stat-card--full">
-            <h2 className="stat-card__title">Componenti & Reliquie</h2>
+            <h2 className="stat-card__title">Components & Relics</h2>
             <div className="relic-controls">
               <span className="relic-status-legend">
-                <span className="relic-status-active">● Farmabile</span>
+                <span className="relic-status-active">● Farmable</span>
                 <span className="relic-status-vaulted">● Vaulted</span>
               </span>
               <label className="relic-filter-toggle">
@@ -190,7 +190,7 @@ export default function WarframeDetail() {
                   onChange={(e) => setShowOnlyFarmable(e.target.checked)}
                 />
                 <span className="relic-filter-toggle__slider"></span>
-                <span className="relic-filter-toggle__label">Solo farmabili</span>
+                <span className="relic-filter-toggle__label">Farmable only</span>
               </label>
             </div>
             <div className="components-grid">
@@ -238,7 +238,7 @@ export default function WarframeDetail() {
                               {isVaulted ? (
                                 <span className="relic-item__vaulted-badge">Vaulted</span>
                               ) : (
-                                <span className="relic-item__active-badge">Farmabile</span>
+                                <span className="relic-item__active-badge">Farmable</span>
                               )}
                               <a 
                                 href={`https://wiki.warframe.com/w/${relic.era}_${relic.code}`}
@@ -287,7 +287,7 @@ export default function WarframeDetail() {
                     </div>
                   ) : (
                     <p className="component-card__no-relics">
-                      {showOnlyFarmable ? "Nessuna reliquia farmabile" : "Nessuna reliquia disponibile"}
+                      {showOnlyFarmable ? "No farmable relics" : "No relics available"}
                     </p>
                   )}
                 </div>

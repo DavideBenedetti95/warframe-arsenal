@@ -15,13 +15,13 @@ export default function Navbar() {
             to="/weapons" 
             className={({ isActive }) => `navbar__link ${isActive ? "navbar__link--active" : ""}`}
           >
-            Armi
+            Weapons
           </NavLink>
           <NavLink 
             to="/warframes" 
             className={({ isActive }) => `navbar__link ${isActive ? "navbar__link--active" : ""}`}
           >
-            Warframe
+            Warframes
           </NavLink>
         </div>
       </div>

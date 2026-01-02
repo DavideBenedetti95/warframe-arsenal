@@ -106,10 +106,10 @@ export default function WeaponDetail() {
         {/* Damage Section */}
         {damage && damage.total > 0 && (
           <section className="stat-card">
-            <h2 className="stat-card__title">Danno</h2>
+            <h2 className="stat-card__title">Damage</h2>
             <div className="damage-total">
               <span className="damage-total__value">{damage.total}</span>
-              <span className="damage-total__label">Danno Totale</span>
+              <span className="damage-total__label">Total Damage</span>
             </div>
             <div className="damage-types">
               {Object.entries(damage.types).map(([type, value]) => (
@@ -136,7 +136,7 @@ export default function WeaponDetail() {
         {/* Attack Stats */}
         {attackStats && (
           <section className="stat-card">
-            <h2 className="stat-card__title">Statistiche</h2>
+            <h2 className="stat-card__title">Statistics</h2>
             <div className="stats-list">
               {/* Common Stats */}
               {attackStats.criticalChance && (
@@ -291,7 +291,7 @@ export default function WeaponDetail() {
         {/* Acquisition Methods */}
         {acquisition.length > 0 && (
           <section className="stat-card">
-            <h2 className="stat-card__title">Come Ottenerla</h2>
+            <h2 className="stat-card__title">How to Obtain</h2>
             <div className="acquisition-list">
               {acquisition.map((acq, i) => (
                 <div key={i} className="acquisition-item">
@@ -312,10 +312,10 @@ export default function WeaponDetail() {
         {/* Prime Components with Relic Info */}
         {weapon.isPrime && components.length > 0 && (
           <section className="stat-card stat-card--full">
-            <h2 className="stat-card__title">Componenti & Reliquie</h2>
+            <h2 className="stat-card__title">Components & Relics</h2>
             <div className="relic-controls">
               <span className="relic-status-legend">
-                <span className="relic-status-active">● Farmabile</span>
+                <span className="relic-status-active">● Farmable</span>
                 <span className="relic-status-vaulted">● Vaulted</span>
               </span>
               <label className="relic-filter-toggle">
@@ -325,7 +325,7 @@ export default function WeaponDetail() {
                   onChange={(e) => setShowOnlyFarmable(e.target.checked)}
                 />
                 <span className="relic-filter-toggle__slider"></span>
-                <span className="relic-filter-toggle__label">Solo farmabili</span>
+                <span className="relic-filter-toggle__label">Farmable only</span>
               </label>
             </div>
             <div className="components-grid">
@@ -373,7 +373,7 @@ export default function WeaponDetail() {
                               {isVaulted ? (
                                 <span className="relic-item__vaulted-badge">Vaulted</span>
                               ) : (
-                                <span className="relic-item__active-badge">Farmabile</span>
+                                <span className="relic-item__active-badge">Farmable</span>
                               )}
                               <a 
                                 href={`https://wiki.warframe.com/w/${relic.era}_${relic.code}`}
@@ -422,7 +422,7 @@ export default function WeaponDetail() {
                     </div>
                   ) : (
                     <p className="component-card__no-relics">
-                      {showOnlyFarmable ? "Nessuna reliquia farmabile" : "Nessuna reliquia disponibile"}
+                      {showOnlyFarmable ? "No farmable relics" : "No relics available"}
                     </p>
                   )}
                 </div>
@@ -435,9 +435,9 @@ export default function WeaponDetail() {
         {/* Non-Prime Crafting Components */}
         {!weapon.isPrime && components.length > 0 && (
           <section className="stat-card stat-card--full">
-            <h2 className="stat-card__title">Componenti per Crafting</h2>
+            <h2 className="stat-card__title">Crafting Components</h2>
             {components.some(c => c.drops && c.drops.length > 0) && (
-              <p className="stat-card__hint">I componenti possono essere ottenuti dalle missioni indicate</p>
+              <p className="stat-card__hint">Components can be obtained from the indicated missions</p>
             )}
             <div className="components-grid">
               {components.map((comp, i) => (

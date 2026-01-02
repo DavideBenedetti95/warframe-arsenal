@@ -89,7 +89,7 @@ export default function Warframes() {
         <div className="page-header__subtitle">Arsenal Database</div>
         <h1 className="page-header__title">Warframes</h1>
         <p className="page-header__description">
-          Esplora tutti i Warframe disponibili e le loro varianti
+          Explore all available Warframes and their variants
         </p>
       </header>
 
@@ -116,14 +116,14 @@ export default function Warframes() {
           <input
             type="text"
             className="search-input"
-            placeholder="Cerca Warframe..."
+            placeholder="Search Warframe..."
             value={searchQuery}
             onChange={(e) => setSearchQuery(e.target.value)}
           />
         </div>
 
         <div className="results-counter">
-          <span className="results-counter__label">Trovati</span>
+          <span className="results-counter__label">Found</span>
           <span className="results-counter__value">{filtered.length}</span>
         </div>
       </div>
@@ -131,7 +131,7 @@ export default function Warframes() {
       {/* Filters */}
       <div className="filters">
         <div className="filter-group">
-          <span className="filter-group__label">Variante</span>
+          <span className="filter-group__label">Variant</span>
           <div className="filter-chips">
             {VARIANT_TYPES.map((variant) => (
               <button
@@ -164,7 +164,7 @@ export default function Warframes() {
 
         {hasActiveFilters && (
           <button className="clear-filters-btn" onClick={clearFilters}>
-            ✕ Rimuovi filtri
+            ✕ Clear filters
           </button>
         )}
       </div>
@@ -174,11 +174,11 @@ export default function Warframes() {
         {filtered.length === 0 ? (
           <div className="empty-state">
             <div className="empty-state__icon">🎭</div>
-            <h3 className="empty-state__title">Nessun Warframe trovato</h3>
+            <h3 className="empty-state__title">No Warframes found</h3>
             <p className="empty-state__text">
               {hasActiveFilters 
-                ? "Prova a rimuovere alcuni filtri"
-                : "Aumenta il tuo Mastery Rank per sbloccare nuovi Warframe"
+                ? "Try removing some filters"
+                : "Increase your Mastery Rank to unlock new Warframes"
               }
             </p>
           </div>
@@ -218,13 +218,13 @@ export default function Warframes() {
                 </div>
                 
                 <div className="warframe-card__stats">
-                  <span className="warframe-card__stat" title="Salute">
+                  <span className="warframe-card__stat" title="Health">
                     <span style={{ color: "#d04040" }}>❤️</span> {w.health}
                   </span>
-                  <span className="warframe-card__stat" title="Scudo">
+                  <span className="warframe-card__stat" title="Shield">
                     <span style={{ color: "#4080d0" }}>🛡️</span> {w.shield}
                   </span>
-                  <span className="warframe-card__stat" title="Armatura">
+                  <span className="warframe-card__stat" title="Armor">
                     <span style={{ color: "#d0a040" }}>🔰</span> {w.armor}
                   </span>
                 </div>
