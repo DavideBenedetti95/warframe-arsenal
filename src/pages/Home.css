@@ -123,9 +123,6 @@
   box-shadow: 0 8px 24px rgba(240, 160, 64, 0.2);
 }
 
-.home-hero__button-icon {
-  font-size: 24px;
-}
 
 /* Features Section */
 .home-features {
@@ -157,10 +154,6 @@
   box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3);
 }
 
-.home-feature__icon {
-  font-size: 48px;
-  margin-bottom: 16px;
-}
 
 .home-feature__title {
   font-family: 'Orbitron', sans-serif;

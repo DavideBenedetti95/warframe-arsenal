@@ -12,12 +12,10 @@ export default function Home() {
         </p>
         <div className="home-hero__actions">
           <Link to="/weapons" className="home-hero__button home-hero__button--primary">
-            <span className="home-hero__button-icon">⚔</span>
-            <span>Weapons</span>
+            Weapons
           </Link>
           <Link to="/warframes" className="home-hero__button home-hero__button--secondary">
-            <span className="home-hero__button-icon">🎭</span>
-            <span>Warframes</span>
+            Warframes
           </Link>
         </div>
       </div>
@@ -25,7 +23,6 @@ export default function Home() {
       <div className="home-features">
         <div className="home-features__grid">
           <div className="home-feature">
-            <div className="home-feature__icon">🔫</div>
             <h3 className="home-feature__title">600+ Weapons</h3>
             <p className="home-feature__description">
               Browse Primary, Secondary, and Melee weapons with detailed stats, 
@@ -34,7 +31,6 @@ export default function Home() {
           </div>
           
           <div className="home-feature">
-            <div className="home-feature__icon">🎭</div>
             <h3 className="home-feature__title">All Warframes</h3>
             <p className="home-feature__description">
               Explore Base, Prime, and Umbra variants with complete stats, 
@@ -43,7 +39,6 @@ export default function Home() {
           </div>
           
           <div className="home-feature">
-            <div className="home-feature__icon">⭐</div>
             <h3 className="home-feature__title">Mastery Rank Filter</h3>
             <p className="home-feature__description">
               Filter items by your Mastery Rank to see only what you can unlock 
@@ -52,7 +47,6 @@ export default function Home() {
           </div>
           
           <div className="home-feature">
-            <div className="home-feature__icon">💎</div>
             <h3 className="home-feature__title">Relic Tracking</h3>
             <p className="home-feature__description">
               Find which relics drop Prime parts, their locations, and whether 
