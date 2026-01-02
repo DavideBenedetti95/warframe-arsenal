@@ -8,15 +8,22 @@ export default function Footer() {
         <div className="footer__disclaimer">
           <h3 className="footer__title">Disclaimer</h3>
           <p className="footer__text">
+            <strong>Warframe Arsenal is a non-commercial, fan-made project.</strong> This site is 
+            <strong> not affiliated with, endorsed by, or sponsored by Digital Extremes Ltd</strong>. 
+            This project is <strong>completely free, contains no advertisements, and is not monetized</strong> in any way.
+          </p>
+          <p className="footer__text">
             Digital Extremes Ltd, Warframe and the logo Warframe are registered trademarks. 
-            All rights are reserved worldwide. This site has no official link with Digital Extremes Ltd or Warframe. 
-            All artwork, screenshots, characters or other recognizable features of the intellectual property 
-            relating to these trademarks are likewise the intellectual property of Digital Extremes Ltd.
+            All rights are reserved worldwide. All artwork, screenshots, characters or other recognizable 
+            features of the intellectual property relating to these trademarks are the intellectual property 
+            of Digital Extremes Ltd.
           </p>
         </div>
         
         <div className="footer__links">
           <Link to="/terms" className="footer__link">Terms of Service</Link>
+          <span className="footer__separator">•</span>
+          <Link to="/privacy" className="footer__link">Privacy Policy</Link>
           <span className="footer__separator">•</span>
           <a 
             href="https://www.warframe.com" 

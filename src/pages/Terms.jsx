@@ -31,11 +31,16 @@ export default function Terms() {
             and entertainment purposes only. This Website is:
           </p>
           <ul>
-            <li>Not affiliated with, endorsed by, or sponsored by Digital Extremes Ltd.</li>
-            <li>Not monetized in any way - no advertisements, subscriptions, or paid features</li>
-            <li>An open-source project available on GitHub</li>
-            <li>Developed and maintained by fans of the Warframe game</li>
+            <li><strong>Not affiliated with, endorsed by, or sponsored by Digital Extremes Ltd.</strong></li>
+            <li><strong>Completely free</strong> - no cost to use any features</li>
+            <li><strong>No advertisements</strong> - this site contains zero ads, ad networks, or sponsored content</li>
+            <li><strong>Not monetized</strong> - no subscriptions, paid features, donations, or revenue of any kind</li>
+            <li><strong>Open-source</strong> - available on GitHub for the community</li>
+            <li><strong>Fan-made</strong> - developed and maintained by fans of the Warframe game, for fans</li>
           </ul>
+          <p>
+            This is a passion project created to help the Warframe community, with no commercial interests whatsoever.
+          </p>
         </section>
 
         <section className="terms-section">
