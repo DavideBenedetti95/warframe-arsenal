@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+
+# Sitemap (se aggiungerai una sitemap in futuro)
+# Sitemap: https://warframe-arsenal.com/sitemap.xml
+
