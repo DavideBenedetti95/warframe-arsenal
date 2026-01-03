@@ -8,6 +8,7 @@ import Warframes from "./pages/Warframes";
 import WarframeDetail from "./pages/WarframeDetail";
 import Terms from "./pages/Terms";
 import Privacy from "./pages/Privacy";
+import Relics from "./pages/Relics";
 import "./App.css";
 
 export default function App() {
@@ -21,6 +22,7 @@ export default function App() {
           <Route path="/weapon/:slug" element={<WeaponDetail />} />
           <Route path="/warframes" element={<Warframes />} />
           <Route path="/warframe/:slug" element={<WarframeDetail />} />
+          <Route path="/relics" element={<Relics />} />
           <Route path="/terms" element={<Terms />} />
           <Route path="/privacy" element={<Privacy />} />
         </Routes>

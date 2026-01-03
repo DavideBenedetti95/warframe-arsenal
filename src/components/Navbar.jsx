@@ -23,6 +23,12 @@ export default function Navbar() {
           >
             Warframes
           </NavLink>
+          <NavLink 
+            to="/relics" 
+            className={({ isActive }) => `navbar__link ${isActive ? "navbar__link--active" : ""}`}
+          >
+            Relics
+          </NavLink>
         </div>
       </div>
     </nav>

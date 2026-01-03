@@ -1,0 +1,302 @@
+/* Relics Page */
+.relics-page {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 24px 32px 64px;
+  min-height: 100vh;
+}
+
+/* Stats */
+.relics-stats {
+  display: flex;
+  gap: 32px;
+  justify-content: center;
+  margin-bottom: 32px;
+  padding: 24px;
+  background: var(--wf-bg-card);
+  border: 1px solid var(--wf-border);
+  border-radius: 4px;
+}
+
+.relics-stat {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+}
+
+.relics-stat__value {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+  color: var(--wf-gold);
+}
+
+.relics-stat__label {
+  font-size: 13px;
+  color: var(--wf-text-dim);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+/* Search */
+.relics-search {
+  margin-bottom: 24px;
+}
+
+.relics-search__input {
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+  display: block;
+  padding: 16px 20px;
+  font-family: 'Rajdhani', sans-serif;
+  font-size: 16px;
+  background: var(--wf-bg-elevated);
+  border: 1px solid var(--wf-border);
+  border-radius: 4px;
+  color: var(--wf-text);
+  outline: none;
+  transition: all 0.2s ease;
+}
+
+.relics-search__input:focus {
+  border-color: var(--wf-gold);
+  box-shadow: 0 0 20px rgba(240, 160, 64, 0.2);
+}
+
+.relics-search__input::placeholder {
+  color: var(--wf-text-dim);
+}
+
+/* Results Counter */
+.relics-results-counter {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 24px;
+  padding: 12px 20px;
+  background: var(--wf-bg-card);
+  border: 1px solid var(--wf-border);
+  border-radius: 4px;
+  width: fit-content;
+}
+
+.relics-results-counter__label {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 11px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: var(--wf-text-dim);
+}
+
+.relics-results-counter__value {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--wf-gold);
+}
+
+/* Relics List */
+.relics-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/* Relic Card */
+.relic-card {
+  background: var(--wf-bg-card);
+  border: 1px solid var(--wf-border);
+  border-radius: 4px;
+  padding: 24px;
+  transition: all 0.3s ease;
+}
+
+.relic-card:hover {
+  border-color: var(--wf-gold-dark);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+}
+
+.relic-card__header {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 20px;
+  padding-bottom: 16px;
+  border-bottom: 1px solid var(--wf-border);
+}
+
+.relic-card__era-badge {
+  padding: 6px 12px;
+  font-family: 'Orbitron', sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: var(--wf-bg-deep);
+  border-radius: 2px;
+  min-width: 60px;
+  text-align: center;
+}
+
+.relic-card__name {
+  font-family: 'Rajdhani', sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  color: var(--wf-text-bright);
+  margin: 0;
+  flex: 1;
+}
+
+.relic-card__status-badge {
+  padding: 4px 12px;
+  font-size: 11px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  border-radius: 2px;
+}
+
+.relic-card__status-badge--active {
+  background: rgba(74, 222, 128, 0.2);
+  border: 1px solid #4ade80;
+  color: #4ade80;
+}
+
+.relic-card__drops {
+  margin-top: 20px;
+}
+
+.relic-card__drops-title {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: var(--wf-gold);
+  margin: 0 0 16px;
+}
+
+.relic-card__drops-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.relic-drop-item {
+  display: grid;
+  grid-template-columns: 2fr 1fr auto auto;
+  gap: 16px;
+  align-items: center;
+  padding: 12px 16px;
+  background: var(--wf-bg-elevated);
+  border: 1px solid var(--wf-border);
+  border-radius: 4px;
+  transition: all 0.2s ease;
+}
+
+.relic-drop-item:hover {
+  border-color: var(--wf-gold-dark);
+  background: rgba(240, 160, 64, 0.05);
+}
+
+.relic-drop-item__mission {
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--wf-text-bright);
+}
+
+.relic-drop-item__rotation {
+  font-size: 12px;
+  color: var(--wf-text-dim);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.relic-drop-item__chance {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  color: var(--wf-gold);
+  text-align: right;
+  min-width: 60px;
+}
+
+.relic-drop-item__rarity {
+  font-size: 11px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  color: var(--wf-text-dim);
+  padding: 4px 8px;
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 2px;
+  white-space: nowrap;
+}
+
+.relic-card__no-drops {
+  padding: 20px;
+  text-align: center;
+  color: var(--wf-text-dim);
+  font-style: italic;
+}
+
+/* Empty State */
+.relics-empty {
+  text-align: center;
+  padding: 80px 32px;
+  background: var(--wf-bg-card);
+  border: 1px solid var(--wf-border);
+  border-radius: 4px;
+}
+
+.relics-empty__icon {
+  font-size: 64px;
+  margin-bottom: 24px;
+  opacity: 0.5;
+}
+
+.relics-empty__title {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  color: var(--wf-text-bright);
+  margin: 0 0 12px;
+}
+
+.relics-empty__text {
+  font-size: 16px;
+  color: var(--wf-text-dim);
+  margin: 0;
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .relics-page {
+    padding: 16px;
+  }
+  
+  .relics-stats {
+    flex-direction: column;
+    gap: 24px;
+  }
+  
+  .relic-card__header {
+    flex-wrap: wrap;
+  }
+  
+  .relic-drop-item {
+    grid-template-columns: 1fr;
+    gap: 8px;
+  }
+  
+  .relic-drop-item__chance {
+    text-align: left;
+  }
+}
+
