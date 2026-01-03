@@ -11,8 +11,11 @@ const RELIC_ERA_COLORS = {
   Axi: "#9c4a7a",
 };
 
+const ERAS = ["Lith", "Meso", "Neo", "Axi"];
+
 export default function Relics() {
   const [searchQuery, setSearchQuery] = useState("");
+  const [selectedEras, setSelectedEras] = useState([]);
   const stats = useMemo(() => getRelicStats(), []);
 
   // Get all active relic names
@@ -29,17 +32,38 @@ export default function Relics() {
     });
   }, []);
 
-  // Filter relics based on search
+  // Toggle era filter
+  const toggleEra = (era) => {
+    setSelectedEras((prev) =>
+      prev.includes(era) ? prev.filter((e) => e !== era) : [...prev, era]
+    );
+  };
+
+  // Filter relics based on search and era filters
   const filteredRelics = useMemo(() => {
-    if (!searchQuery.trim()) {
-      return allActiveRelics;
+    let filtered = allActiveRelics;
+    
+    // Filter by era if any selected
+    if (selectedEras.length > 0) {
+      filtered = filtered.filter(relicName => {
+        const era = relicName.split(" ")[0];
+        return selectedEras.includes(era);
+      });
     }
     
-    const query = searchQuery.toLowerCase().trim();
-    return allActiveRelics.filter(relicName => 
-      relicName.toLowerCase().includes(query)
-    );
-  }, [allActiveRelics, searchQuery]);
+    // Filter by search query
+    if (searchQuery.trim()) {
+      const query = searchQuery.toLowerCase().trim();
+      filtered = filtered.filter(relicName => 
+        relicName.toLowerCase().includes(query)
+      );
+    }
+    
+    return filtered;
+  }, [allActiveRelics, searchQuery, selectedEras]);
+
+  const hasActiveFilters = selectedEras.length > 0 || searchQuery.trim() !== "";
+  const showInitialState = !hasActiveFilters;
 
   return (
     <div className="relics-page">
@@ -64,33 +88,84 @@ export default function Relics() {
         </div>
       </div>
 
-      {/* Search */}
-      <div className="relics-search">
-        <input
-          type="text"
-          className="relics-search__input"
-          placeholder="Search relic (e.g., Axi V10, Lith A1)..."
-          value={searchQuery}
-          onChange={(e) => setSearchQuery(e.target.value)}
-        />
-      </div>
+      {/* Search and Filters */}
+      <div className="relics-controls">
+        <div className="relics-search">
+          <input
+            type="text"
+            className="relics-search__input"
+            placeholder="Search relic (e.g., Axi V10, Lith A1)..."
+            value={searchQuery}
+            onChange={(e) => setSearchQuery(e.target.value)}
+          />
+        </div>
 
-      {/* Results Counter */}
-      <div className="relics-results-counter">
-        <span className="relics-results-counter__label">Found</span>
-        <span className="relics-results-counter__value">{filteredRelics.length}</span>
+        <div className="relics-era-filters">
+          <span className="relics-era-filters__label">Filter by Era:</span>
+          <div className="relics-era-filters__chips">
+            {ERAS.map((era) => (
+              <button
+                key={era}
+                className={`relics-era-chip ${selectedEras.includes(era) ? "relics-era-chip--active" : ""}`}
+                style={{ "--era-color": RELIC_ERA_COLORS[era] }}
+                onClick={() => toggleEra(era)}
+              >
+                {era}
+              </button>
+            ))}
+          </div>
+        </div>
+
+        {hasActiveFilters && (
+          <div className="relics-results-counter">
+            <span className="relics-results-counter__label">Found</span>
+            <span className="relics-results-counter__value">{filteredRelics.length}</span>
+          </div>
+        )}
       </div>
 
       {/* Relics List */}
       <div className="relics-list">
-        {filteredRelics.length === 0 ? (
+        {showInitialState ? (
+          <div className="relics-initial-state">
+            <div className="relics-initial-state__icon">💎</div>
+            <h3 className="relics-initial-state__title">Search for a Relic</h3>
+            <p className="relics-initial-state__text">
+              Enter a relic name in the search box above (e.g., "Axi V10" or "Lith A1") 
+              to find where it drops, or use the era filters to browse by category.
+            </p>
+            <div className="relics-initial-state__examples">
+              <span className="relics-initial-state__example-label">Try searching:</span>
+              <div className="relics-initial-state__example-chips">
+                <button 
+                  className="relics-example-chip"
+                  onClick={() => setSearchQuery("Axi V10")}
+                >
+                  Axi V10
+                </button>
+                <button 
+                  className="relics-example-chip"
+                  onClick={() => setSearchQuery("Lith A1")}
+                >
+                  Lith A1
+                </button>
+                <button 
+                  className="relics-example-chip"
+                  onClick={() => setSearchQuery("Neo Z1")}
+                >
+                  Neo Z1
+                </button>
+              </div>
+            </div>
+          </div>
+        ) : filteredRelics.length === 0 ? (
           <div className="relics-empty">
             <div className="relics-empty__icon">💎</div>
             <h3 className="relics-empty__title">No relics found</h3>
             <p className="relics-empty__text">
               {searchQuery 
                 ? `No active relics match "${searchQuery}". Try a different search term.`
-                : "No active relics available."
+                : "No relics match the selected filters. Try different era filters."
               }
             </p>
           </div>
@@ -119,26 +194,35 @@ export default function Relics() {
 
                 {relicInfo.dropLocations.length > 0 ? (
                   <div className="relic-card__drops">
-                    <h3 className="relic-card__drops-title">Drop Locations</h3>
+                    <div className="relic-card__drops-header">
+                      <h3 className="relic-card__drops-title">Drop Locations</h3>
+                      <span className="relic-card__drops-count">
+                        {relicInfo.dropLocations.length} location{relicInfo.dropLocations.length !== 1 ? 's' : ''}
+                      </span>
+                    </div>
                     <div className="relic-card__drops-list">
                       {relicInfo.dropLocations.map((drop, index) => (
                         <div key={index} className="relic-drop-item">
-                          <div className="relic-drop-item__mission">
-                            {drop.mission}
-                          </div>
-                          {drop.rotation && (
-                            <div className="relic-drop-item__rotation">
-                              {drop.rotation}
+                          <div className="relic-drop-item__main">
+                            <div className="relic-drop-item__mission">
+                              {drop.mission}
                             </div>
-                          )}
-                          <div className="relic-drop-item__chance">
-                            {drop.chance ? `${drop.chance}%` : "—"}
+                            {drop.rotation && (
+                              <div className="relic-drop-item__rotation">
+                                {drop.rotation}
+                              </div>
+                            )}
                           </div>
-                          {drop.rarity && (
-                            <div className="relic-drop-item__rarity">
-                              {drop.rarity}
+                          <div className="relic-drop-item__meta">
+                            <div className="relic-drop-item__chance">
+                              {drop.chance ? `${drop.chance}%` : "—"}
                             </div>
-                          )}
+                            {drop.rarity && (
+                              <div className="relic-drop-item__rarity">
+                                {drop.rarity}
+                              </div>
+                            )}
+                          </div>
                         </div>
                       ))}
                     </div>
