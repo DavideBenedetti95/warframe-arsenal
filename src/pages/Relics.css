@@ -253,79 +253,75 @@
   color: var(--wf-text-dim);
 }
 
-.relic-card__drops-list {
-  display: flex;
-  flex-direction: column;
+.relic-card__drops-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
   gap: 12px;
 }
 
-.relic-drop-item {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  gap: 16px;
-  padding: 12px 16px;
+.relic-drop-card {
+  padding: 12px;
   background: var(--wf-bg-elevated);
   border: 1px solid var(--wf-border);
   border-radius: 4px;
   transition: all 0.2s ease;
 }
 
-.relic-drop-item:hover {
+.relic-drop-card:hover {
   border-color: var(--wf-gold-dark);
   background: rgba(240, 160, 64, 0.05);
 }
 
-.relic-drop-item__main {
-  flex: 1;
+.relic-drop-card__mission {
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--wf-text-bright);
+  margin-bottom: 8px;
+  line-height: 1.4;
+}
+
+.relic-drop-card__details {
   display: flex;
   align-items: center;
-  gap: 12px;
+  gap: 8px;
   flex-wrap: wrap;
 }
 
-.relic-drop-item__mission {
-  font-size: 14px;
-  font-weight: 600;
-  color: var(--wf-text-bright);
-}
-
-.relic-drop-item__rotation {
-  font-size: 12px;
+.relic-drop-card__rotation {
+  font-size: 11px;
   color: var(--wf-text-dim);
   text-transform: uppercase;
   letter-spacing: 0.5px;
-  padding: 2px 8px;
+  padding: 2px 6px;
   background: rgba(255, 255, 255, 0.05);
   border-radius: 2px;
 }
 
-.relic-drop-item__meta {
-  display: flex;
-  align-items: center;
-  gap: 12px;
-  flex-shrink: 0;
-}
-
-.relic-drop-item__chance {
+.relic-drop-card__chance {
   font-family: 'Orbitron', sans-serif;
-  font-size: 14px;
+  font-size: 13px;
   font-weight: 700;
   color: var(--wf-gold);
-  min-width: 60px;
-  text-align: right;
 }
 
-.relic-drop-item__rarity {
-  font-size: 11px;
+.relic-card__show-more {
+  margin-top: 16px;
+  padding: 8px 16px;
+  font-family: 'Rajdhani', sans-serif;
+  font-size: 13px;
   font-weight: 600;
-  text-transform: uppercase;
-  letter-spacing: 0.5px;
+  background: transparent;
+  border: 1px solid var(--wf-border);
+  border-radius: 4px;
   color: var(--wf-text-dim);
-  padding: 4px 8px;
-  background: rgba(255, 255, 255, 0.05);
-  border-radius: 2px;
-  white-space: nowrap;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  width: 100%;
+}
+
+.relic-card__show-more:hover {
+  border-color: var(--wf-gold);
+  color: var(--wf-gold);
 }
 
 .relic-card__no-drops {
@@ -455,18 +451,8 @@
     flex-wrap: wrap;
   }
   
-  .relic-drop-item {
-    flex-direction: column;
-    align-items: flex-start;
-  }
-  
-  .relic-drop-item__meta {
-    width: 100%;
-    justify-content: space-between;
-  }
-  
-  .relic-drop-item__chance {
-    text-align: left;
+  .relic-card__drops-grid {
+    grid-template-columns: 1fr;
   }
   
   .relics-era-filters {

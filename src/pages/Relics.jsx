@@ -12,6 +12,79 @@ const RELIC_ERA_COLORS = {
 };
 
 const ERAS = ["Lith", "Meso", "Neo", "Axi"];
+const MAX_DROPS_TO_SHOW = 5;
+
+function RelicCard({ relicName, relicInfo, era, eraColor }) {
+  const [showAllDrops, setShowAllDrops] = useState(false);
+  const dropsToShow = showAllDrops 
+    ? relicInfo.dropLocations 
+    : relicInfo.dropLocations.slice(0, MAX_DROPS_TO_SHOW);
+  const hasMoreDrops = relicInfo.dropLocations.length > MAX_DROPS_TO_SHOW;
+
+  return (
+    <div className="relic-card">
+      <div className="relic-card__header">
+        <div 
+          className="relic-card__era-badge"
+          style={{ backgroundColor: eraColor }}
+        >
+          {era}
+        </div>
+        <h2 className="relic-card__name">
+          {relicName}
+        </h2>
+        <span className="relic-card__status-badge relic-card__status-badge--active">
+          Farmable
+        </span>
+      </div>
+
+      {relicInfo.dropLocations.length > 0 ? (
+        <div className="relic-card__drops">
+          <div className="relic-card__drops-header">
+            <h3 className="relic-card__drops-title">Drop Locations</h3>
+            <span className="relic-card__drops-count">
+              {relicInfo.dropLocations.length} location{relicInfo.dropLocations.length !== 1 ? 's' : ''}
+            </span>
+          </div>
+          <div className="relic-card__drops-grid">
+            {dropsToShow.map((drop, index) => (
+              <div key={index} className="relic-drop-card">
+                <div className="relic-drop-card__mission">
+                  {drop.mission}
+                </div>
+                <div className="relic-drop-card__details">
+                  {drop.rotation && (
+                    <span className="relic-drop-card__rotation">
+                      {drop.rotation}
+                    </span>
+                  )}
+                  <span className="relic-drop-card__chance">
+                    {drop.chance ? `${drop.chance}%` : "—"}
+                  </span>
+                </div>
+              </div>
+            ))}
+          </div>
+          {hasMoreDrops && (
+            <button 
+              className="relic-card__show-more"
+              onClick={() => setShowAllDrops(!showAllDrops)}
+            >
+              {showAllDrops 
+                ? `Show less (${MAX_DROPS_TO_SHOW} shown)`
+                : `Show all ${relicInfo.dropLocations.length} locations`
+              }
+            </button>
+          )}
+        </div>
+      ) : (
+        <div className="relic-card__no-drops">
+          No drop locations available
+        </div>
+      )}
+    </div>
+  );
+}
 
 export default function Relics() {
   const [searchQuery, setSearchQuery] = useState("");
@@ -176,63 +249,13 @@ export default function Relics() {
             const code = relicName.split(" ")[1];
             
             return (
-              <div key={relicName} className="relic-card">
-                <div className="relic-card__header">
-                  <div 
-                    className="relic-card__era-badge"
-                    style={{ backgroundColor: RELIC_ERA_COLORS[era] || "#666" }}
-                  >
-                    {era}
-                  </div>
-                  <h2 className="relic-card__name">
-                    {relicName}
-                  </h2>
-                  <span className="relic-card__status-badge relic-card__status-badge--active">
-                    Farmable
-                  </span>
-                </div>
-
-                {relicInfo.dropLocations.length > 0 ? (
-                  <div className="relic-card__drops">
-                    <div className="relic-card__drops-header">
-                      <h3 className="relic-card__drops-title">Drop Locations</h3>
-                      <span className="relic-card__drops-count">
-                        {relicInfo.dropLocations.length} location{relicInfo.dropLocations.length !== 1 ? 's' : ''}
-                      </span>
-                    </div>
-                    <div className="relic-card__drops-list">
-                      {relicInfo.dropLocations.map((drop, index) => (
-                        <div key={index} className="relic-drop-item">
-                          <div className="relic-drop-item__main">
-                            <div className="relic-drop-item__mission">
-                              {drop.mission}
-                            </div>
-                            {drop.rotation && (
-                              <div className="relic-drop-item__rotation">
-                                {drop.rotation}
-                              </div>
-                            )}
-                          </div>
-                          <div className="relic-drop-item__meta">
-                            <div className="relic-drop-item__chance">
-                              {drop.chance ? `${drop.chance}%` : "—"}
-                            </div>
-                            {drop.rarity && (
-                              <div className="relic-drop-item__rarity">
-                                {drop.rarity}
-                              </div>
-                            )}
-                          </div>
-                        </div>
-                      ))}
-                    </div>
-                  </div>
-                ) : (
-                  <div className="relic-card__no-drops">
-                    No drop locations available
-                  </div>
-                )}
-              </div>
+              <RelicCard 
+                key={relicName}
+                relicName={relicName}
+                relicInfo={relicInfo}
+                era={era}
+                eraColor={RELIC_ERA_COLORS[era] || "#666"}
+              />
             );
           })
         )}
