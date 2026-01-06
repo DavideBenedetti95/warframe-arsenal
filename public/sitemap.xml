@@ -4,7 +4,7 @@
         xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
   
-  <!-- Homepage / Weapons (main page) -->
+  <!-- Homepage -->
   <url>
     <loc>https://warframe-arsenal.com/</loc>
     <lastmod>2025-01-01</lastmod>
@@ -12,33 +12,41 @@
     <priority>1.0</priority>
   </url>
   
-  <!-- Weapons List -->
+  <!-- Weapons List (SPA hash route) -->
   <url>
-    <loc>https://warframe-arsenal.com/weapons</loc>
+    <loc>https://warframe-arsenal.com/#/weapons</loc>
     <lastmod>2025-01-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   
-  <!-- Warframes List -->
+  <!-- Warframes List (SPA hash route) -->
   <url>
-    <loc>https://warframe-arsenal.com/warframes</loc>
+    <loc>https://warframe-arsenal.com/#/warframes</loc>
     <lastmod>2025-01-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   
-  <!-- Terms of Service -->
+  <!-- Relics Page (SPA hash route) -->
   <url>
-    <loc>https://warframe-arsenal.com/terms</loc>
+    <loc>https://warframe-arsenal.com/#/relics</loc>
     <lastmod>2025-01-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.3</priority>
   </url>
   
-  <!-- Privacy Policy -->
+  <!-- Terms of Service (SPA hash route) -->
   <url>
-    <loc>https://warframe-arsenal.com/privacy</loc>
+    <loc>https://warframe-arsenal.com/#/terms</loc>
+    <lastmod>2025-01-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <!-- Privacy Policy (SPA hash route) -->
+  <url>
+    <loc>https://warframe-arsenal.com/#/privacy</loc>
     <lastmod>2025-01-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.3</priority>
