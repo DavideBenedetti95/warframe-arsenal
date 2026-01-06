@@ -1,0 +1,36 @@
+# Enable Rewrite Engine
+RewriteEngine On
+
+# Redirect base paths to hash routes
+# Weapons list
+RewriteRule ^weapons/?$ /#/weapons [R=301,L]
+
+# Warframes list
+RewriteRule ^warframes/?$ /#/warframes [R=301,L]
+
+# Relics list
+RewriteRule ^relics/?$ /#/relics [R=301,L]
+
+# Terms
+RewriteRule ^terms/?$ /#/terms [R=301,L]
+
+# Privacy
+RewriteRule ^privacy/?$ /#/privacy [R=301,L]
+
+# Dynamic weapon detail pages
+# Matches: /weapon/braton, /weapon/braton/, etc.
+RewriteRule ^weapon/([^/]+)/?$ /#/weapon/$1 [R=301,L]
+
+# Dynamic warframe detail pages
+# Matches: /warframe/ash, /warframe/ash-prime/, etc.
+RewriteRule ^warframe/([^/]+)/?$ /#/warframe/$1 [R=301,L]
+
+# Dynamic relic detail pages (if needed in the future)
+# Matches: /relic/lith-a1, /relic/meso-b2/, etc.
+RewriteRule ^relic/([^/]+)/?$ /#/relic/$1 [R=301,L]
+
+# Fallback: serve index.html for all other requests (SPA routing)
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /index.html [L]
+
