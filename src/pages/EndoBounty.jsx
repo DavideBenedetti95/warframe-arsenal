@@ -71,6 +71,18 @@ function getChallengeName(challengePath) {
   return CHALLENGE_NAMES[challengeKey] || challengeKey.replace(/Challenge$/, "").replace(/Easy|Hard|VeryHard/g, "");
 }
 
+// Estrae il numero dal nodo (es: "SolNode233" → 233)
+function getNodeNumber(node) {
+  if (!node) return 0;
+  const match = node.match(/SolNode(\d+)/);
+  return match ? parseInt(match[1], 10) : 0;
+}
+
+// Ordina le bounty per numero di nodo (crescente = dal più facile al più difficile)
+function sortBountiesByDifficulty(bounties) {
+  return [...bounties].sort((a, b) => getNodeNumber(a.node) - getNodeNumber(b.node));
+}
+
 function formatTimeRemaining(expiry) {
   const now = Date.now();
   const diff = expiry - now;
@@ -139,10 +151,14 @@ export default function EndoBounty() {
     const results = [];
     
     for (const [syndicateKey, config] of Object.entries(ENDO_BOUNTY_CONFIG)) {
-      const bounties = bountyData.bounties[syndicateKey];
-      if (!bounties) continue;
+      const rawBounties = bountyData.bounties[syndicateKey];
+      if (!rawBounties) continue;
 
-      const endoBounty = bounties[config.endoIndex];
+      // Ordina le bounty per difficoltà (numero nodo crescente)
+      const sortedBounties = sortBountiesByDifficulty(rawBounties);
+      
+      // Prendi la bounty all'indice corretto (4° = indice 3)
+      const endoBounty = sortedBounties[config.endoIndex];
       const missionType = endoBounty ? getChallengeName(endoBounty.challenge) : "N/A";
       const isExterminate = missionType.toLowerCase().includes("exterminate");
       
@@ -154,9 +170,10 @@ export default function EndoBounty() {
         endoRewards: config.endoRewards,
         hasEndoBounty: !!endoBounty,
         bountyPosition: config.endoIndex + 1,
-        allBounties: bounties.map((b, i) => ({
+        allBounties: sortedBounties.map((b, i) => ({
           position: i + 1,
           type: getChallengeName(b.challenge),
+          node: b.node,
           isEndoBounty: i === config.endoIndex,
         })),
       });
