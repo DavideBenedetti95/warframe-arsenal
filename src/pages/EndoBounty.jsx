@@ -221,9 +221,6 @@ export default function EndoBounty() {
           <span className={`endo-bounty__timer-value ${timeRemaining.expired ? "expired" : ""}`}>
             {timeRemaining.text}
           </span>
-          <button onClick={fetchBounties} className="endo-bounty__refresh-btn" title="Refresh">
-            🔄
-          </button>
         </div>
       </div>
 
