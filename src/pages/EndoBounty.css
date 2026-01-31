@@ -197,6 +197,84 @@
   font-style: italic;
 }
 
+/* Tracked Bounties */
+.endo-bounty__tracked-bounties {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-bottom: 16px;
+}
+
+.endo-bounty__tracked-item {
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  gap: 8px 12px;
+  padding: 12px;
+  background: var(--wf-bg-card);
+  border: 1px solid var(--wf-border);
+  border-radius: 6px;
+  align-items: center;
+}
+
+.endo-bounty__tracked-item.exterminate {
+  background: rgba(34, 197, 94, 0.1);
+  border-color: #22c55e;
+}
+
+.endo-bounty__tracked-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2px;
+}
+
+.endo-bounty__tracked-pos {
+  font-weight: 700;
+  color: var(--wf-gold);
+  font-size: 0.9rem;
+}
+
+.endo-bounty__tracked-level {
+  font-size: 0.75rem;
+  color: var(--wf-text-dim);
+}
+
+.endo-bounty__tracked-mission {
+  font-weight: 600;
+  color: var(--wf-text);
+  font-size: 1rem;
+}
+
+.endo-bounty__tracked-mission.exterminate {
+  color: #4ade80;
+}
+
+.endo-bounty__tracked-location {
+  font-size: 0.85rem;
+  color: var(--wf-text-dim);
+  grid-column: 2;
+}
+
+.endo-bounty__tracked-status {
+  font-weight: 700;
+  font-size: 0.85rem;
+  padding: 4px 8px;
+  border-radius: 4px;
+  grid-row: 1 / 3;
+  grid-column: 3;
+  align-self: center;
+}
+
+.endo-bounty__tracked-status.success {
+  background: rgba(34, 197, 94, 0.2);
+  color: #4ade80;
+}
+
+.endo-bounty__tracked-status.fail {
+  background: rgba(239, 68, 68, 0.1);
+  color: #f87171;
+}
+
 /* Rewards */
 .endo-bounty__rewards {
   display: flex;

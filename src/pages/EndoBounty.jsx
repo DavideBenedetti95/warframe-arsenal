@@ -30,25 +30,22 @@ const NODE_MISSION_TYPES = {
 };
 
 // Configurazione bounty con Endo per ogni faction
-// La 4° bounty (indice 3) ha sempre 3000/4000 Endo
+// Controlliamo multiple bounty che hanno buoni reward di Endo
 const ENDO_BOUNTY_CONFIG = {
   EntratiLabSyndicate: {
     name: "Cavia",
     location: "Sanctum Anatomica",
-    endoIndex: 3, // 4° bounty = 3000/4000 Endo
-    endoRewards: { common: 3000, uncommon: 4000 },
+    endoIndices: [3, 4], // #4 (95-100) e #5 (115-120)
   },
   ZarimanSyndicate: {
     name: "The Holdfast",
     location: "Zariman",
-    endoIndex: 3, // 4° bounty = 3000/4000 Endo
-    endoRewards: { common: 3000, uncommon: 4000 },
+    endoIndices: [3, 4], // #4 (90-95) e #5 (110-115)
   },
   HexSyndicate: {
     name: "The Hex",
     location: "Hollvania (1999)",
-    endoIndex: 3, // 4° bounty = 3000/4000 Endo
-    endoRewards: { common: 3000, uncommon: 4000 },
+    endoIndices: [4, 5], // #5 (105-110) e #6 (115-120)
   },
 };
 
@@ -143,21 +140,27 @@ export default function EndoBounty() {
       // Ordina le bounty per difficoltà (numero nodo crescente)
       const sortedBounties = sortBountiesByDifficulty(rawBounties);
       
-      // Prendi la bounty all'indice corretto (4° = indice 3)
-      const endoBounty = sortedBounties[config.endoIndex];
-      const missionInfo = endoBounty ? getMissionInfo(endoBounty.node) : { mission: "N/A", location: "N/A" };
-      const isExterminate = missionInfo.mission.toLowerCase().includes("exterminate");
+      // Analizza le bounty agli indici specificati
+      const endoBounties = config.endoIndices.map(index => {
+        const bounty = sortedBounties[index];
+        if (!bounty) return null;
+        const info = getMissionInfo(bounty.node);
+        return {
+          position: index + 1,
+          mission: info.mission,
+          location: info.location,
+          level: info.level,
+          isExterminate: info.mission.toLowerCase().includes("exterminate"),
+        };
+      }).filter(Boolean);
+      
+      const hasAnyExterminate = endoBounties.some(b => b.isExterminate);
       
       results.push({
         faction: config.name,
         location: config.location,
-        missionType: missionInfo.mission,
-        missionLocation: missionInfo.location,
-        missionLevel: missionInfo.level,
-        isExterminate,
-        endoRewards: config.endoRewards,
-        hasEndoBounty: !!endoBounty,
-        bountyPosition: config.endoIndex + 1,
+        endoBounties,
+        hasAnyExterminate,
         allBounties: sortedBounties.map((b, i) => {
           const info = getMissionInfo(b.node);
           return {
@@ -166,7 +169,7 @@ export default function EndoBounty() {
             location: info.location,
             level: info.level,
             node: b.node,
-            isEndoBounty: i === config.endoIndex,
+            isEndoBounty: config.endoIndices.includes(i),
           };
         }),
       });
@@ -201,7 +204,7 @@ export default function EndoBounty() {
   }
 
   const analysis = analyzeBounties();
-  const hasAnyExterminate = analysis.some(a => a.isExterminate);
+  const hasAnyExterminate = analysis.some(a => a.hasAnyExterminate);
 
   return (
     <div className="endo-bounty-page">
@@ -235,7 +238,7 @@ export default function EndoBounty() {
         {analysis.map((faction) => (
           <div 
             key={faction.faction} 
-            className={`endo-bounty__faction-card ${faction.isExterminate ? "endo-bounty__faction-card--active" : ""}`}
+            className={`endo-bounty__faction-card ${faction.hasAnyExterminate ? "endo-bounty__faction-card--active" : ""}`}
           >
             <div className="endo-bounty__faction-header">
               <h2 className="endo-bounty__faction-name">{faction.faction}</h2>
@@ -243,32 +246,33 @@ export default function EndoBounty() {
             </div>
 
             <div className="endo-bounty__endo-info">
-              <div className="endo-bounty__mission-badge">
-                <span className="endo-bounty__mission-label">Bounty #{faction.bountyPosition} ({faction.missionLevel})</span>
-                <span className={`endo-bounty__mission-type ${faction.isExterminate ? "exterminate" : ""}`}>
-                  {faction.missionType}
-                </span>
-                <span className="endo-bounty__mission-location">{faction.missionLocation}</span>
+              <div className="endo-bounty__tracked-bounties">
+                {faction.endoBounties.map((bounty) => (
+                  <div key={bounty.position} className={`endo-bounty__tracked-item ${bounty.isExterminate ? "exterminate" : ""}`}>
+                    <div className="endo-bounty__tracked-header">
+                      <span className="endo-bounty__tracked-pos">#{bounty.position}</span>
+                      <span className="endo-bounty__tracked-level">{bounty.level}</span>
+                    </div>
+                    <span className={`endo-bounty__tracked-mission ${bounty.isExterminate ? "exterminate" : ""}`}>
+                      {bounty.mission}
+                    </span>
+                    <span className="endo-bounty__tracked-location">{bounty.location}</span>
+                    {bounty.isExterminate ? (
+                      <span className="endo-bounty__tracked-status success">✓ ENDO</span>
+                    ) : (
+                      <span className="endo-bounty__tracked-status fail">✗</span>
+                    )}
+                  </div>
+                ))}
               </div>
 
-              <div className="endo-bounty__rewards">
-                <div className="endo-bounty__reward">
-                  <span className="endo-bounty__reward-rarity common">Common</span>
-                  <span className="endo-bounty__reward-value">{faction.endoRewards.common.toLocaleString()} Endo</span>
-                </div>
-                <div className="endo-bounty__reward">
-                  <span className="endo-bounty__reward-rarity uncommon">Uncommon</span>
-                  <span className="endo-bounty__reward-value">{faction.endoRewards.uncommon.toLocaleString()} Endo</span>
-                </div>
-              </div>
-
-              {faction.isExterminate ? (
+              {faction.hasAnyExterminate ? (
                 <div className="endo-bounty__status endo-bounty__status--available">
                   ✓ Exterminate Active
                 </div>
               ) : (
                 <div className="endo-bounty__status endo-bounty__status--unavailable">
-                  ✗ Not Exterminate
+                  ✗ No Exterminate
                 </div>
               )}
             </div>
@@ -297,9 +301,10 @@ export default function EndoBounty() {
       <div className="endo-bounty__info-section">
         <h3>ℹ️ How it works</h3>
         <ul>
-          <li><strong>Cavia</strong>: Bounty #4 (Nex) rewards 3000/4000 Endo</li>
-          <li><strong>The Holdfast</strong>: Bounty #4 (Oro Works) rewards 3000/4000 Endo</li>
-          <li><strong>The Hex</strong>: Bounty #4 rewards 3000/4000 Endo</li>
+          <li><strong>Cavia</strong>: Tracking bounties #4 and #5 for Exterminate</li>
+          <li><strong>The Holdfast</strong>: Tracking bounties #4 and #5 for Exterminate</li>
+          <li><strong>The Hex</strong>: Tracking bounties #5 and #6 for Exterminate</li>
+          <li>Exterminate bounties give 3000-4000+ Endo as rewards</li>
           <li>Bounties rotate approximately every 2.5 hours</li>
           <li>This page auto-refreshes when the timer expires</li>
         </ul>
