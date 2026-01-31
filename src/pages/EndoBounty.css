@@ -1,0 +1,445 @@
+/* Endo Bounty Page */
+.endo-bounty-page {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 24px 32px 64px;
+  min-height: 100vh;
+}
+
+/* Header */
+.endo-bounty__header {
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+.endo-bounty__title {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: var(--wf-text);
+  margin: 0 0 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+}
+
+.endo-bounty__icon {
+  font-size: 2rem;
+}
+
+.endo-bounty__subtitle {
+  color: var(--wf-text-dim);
+  font-size: 1.1rem;
+  margin: 0;
+}
+
+/* Timer Section */
+.endo-bounty__timer-section {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 24px;
+}
+
+.endo-bounty__timer-card {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  background: var(--wf-bg-elevated);
+  border: 1px solid var(--wf-border);
+  border-radius: 8px;
+  padding: 16px 24px;
+}
+
+.endo-bounty__timer-label {
+  color: var(--wf-text-dim);
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.endo-bounty__timer-value {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--wf-gold);
+  min-width: 140px;
+  text-align: center;
+}
+
+.endo-bounty__timer-value.expired {
+  color: #ef4444;
+  animation: pulse 1s infinite;
+}
+
+@keyframes pulse {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.5; }
+}
+
+.endo-bounty__refresh-btn {
+  background: none;
+  border: 1px solid var(--wf-border);
+  border-radius: 4px;
+  padding: 8px 12px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.endo-bounty__refresh-btn:hover {
+  border-color: var(--wf-gold);
+  transform: rotate(180deg);
+}
+
+/* Alert Banner */
+.endo-bounty__alert {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  padding: 16px 24px;
+  border-radius: 8px;
+  margin-bottom: 32px;
+  font-weight: 600;
+  font-size: 1.1rem;
+}
+
+.endo-bounty__alert--success {
+  background: rgba(34, 197, 94, 0.15);
+  border: 1px solid #22c55e;
+  color: #4ade80;
+}
+
+.endo-bounty__alert-icon {
+  font-size: 1.5rem;
+}
+
+/* Factions Grid */
+.endo-bounty__factions {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+  gap: 24px;
+  margin-bottom: 40px;
+}
+
+/* Faction Card */
+.endo-bounty__faction-card {
+  background: var(--wf-bg-elevated);
+  border: 1px solid var(--wf-border);
+  border-radius: 12px;
+  padding: 24px;
+  transition: all 0.3s ease;
+}
+
+.endo-bounty__faction-card--active {
+  border-color: #22c55e;
+  box-shadow: 0 0 30px rgba(34, 197, 94, 0.2);
+}
+
+.endo-bounty__faction-header {
+  margin-bottom: 20px;
+  padding-bottom: 16px;
+  border-bottom: 1px solid var(--wf-border);
+}
+
+.endo-bounty__faction-name {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: var(--wf-text);
+  margin: 0 0 4px;
+}
+
+.endo-bounty__faction-location {
+  color: var(--wf-text-dim);
+  font-size: 0.9rem;
+}
+
+/* Endo Info */
+.endo-bounty__endo-info {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.endo-bounty__mission-badge {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.endo-bounty__mission-label {
+  color: var(--wf-text-dim);
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.endo-bounty__mission-type {
+  background: var(--wf-bg-card);
+  padding: 6px 14px;
+  border-radius: 4px;
+  font-weight: 600;
+  color: var(--wf-text);
+  border: 1px solid var(--wf-border);
+}
+
+.endo-bounty__mission-type.exterminate {
+  background: rgba(34, 197, 94, 0.15);
+  border-color: #22c55e;
+  color: #4ade80;
+}
+
+/* Rewards */
+.endo-bounty__rewards {
+  display: flex;
+  gap: 16px;
+}
+
+.endo-bounty__reward {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  padding: 12px;
+  background: var(--wf-bg-card);
+  border-radius: 6px;
+  border: 1px solid var(--wf-border);
+}
+
+.endo-bounty__reward-rarity {
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  font-weight: 600;
+}
+
+.endo-bounty__reward-rarity.common {
+  color: #a1a1aa;
+}
+
+.endo-bounty__reward-rarity.uncommon {
+  color: #22c55e;
+}
+
+.endo-bounty__reward-value {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: var(--wf-gold);
+}
+
+/* Status */
+.endo-bounty__status {
+  text-align: center;
+  padding: 12px;
+  border-radius: 6px;
+  font-weight: 700;
+  font-size: 0.95rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.endo-bounty__status--available {
+  background: rgba(34, 197, 94, 0.15);
+  color: #4ade80;
+  border: 1px solid #22c55e;
+}
+
+.endo-bounty__status--unavailable {
+  background: rgba(239, 68, 68, 0.1);
+  color: #f87171;
+  border: 1px solid rgba(239, 68, 68, 0.3);
+}
+
+/* All Bounties Dropdown */
+.endo-bounty__all-bounties {
+  margin-top: 16px;
+}
+
+.endo-bounty__all-bounties summary {
+  cursor: pointer;
+  color: var(--wf-text-dim);
+  font-size: 0.85rem;
+  padding: 8px 0;
+  user-select: none;
+}
+
+.endo-bounty__all-bounties summary:hover {
+  color: var(--wf-gold);
+}
+
+.endo-bounty__bounty-list {
+  list-style: none;
+  padding: 0;
+  margin: 8px 0 0;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.endo-bounty__bounty-item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 8px 12px;
+  background: var(--wf-bg-card);
+  border-radius: 4px;
+  font-size: 0.9rem;
+}
+
+.endo-bounty__bounty-item.highlighted {
+  background: rgba(240, 160, 64, 0.1);
+  border: 1px solid var(--wf-gold);
+}
+
+.endo-bounty__bounty-pos {
+  color: var(--wf-text-dim);
+  font-weight: 600;
+  min-width: 30px;
+}
+
+.endo-bounty__bounty-type {
+  flex: 1;
+  color: var(--wf-text);
+}
+
+.endo-bounty__bounty-tag {
+  background: var(--wf-gold);
+  color: var(--wf-bg);
+  padding: 2px 8px;
+  border-radius: 3px;
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+}
+
+/* Info Section */
+.endo-bounty__info-section {
+  background: var(--wf-bg-elevated);
+  border: 1px solid var(--wf-border);
+  border-radius: 8px;
+  padding: 24px;
+}
+
+.endo-bounty__info-section h3 {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 1.1rem;
+  color: var(--wf-text);
+  margin: 0 0 16px;
+}
+
+.endo-bounty__info-section ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.endo-bounty__info-section li {
+  color: var(--wf-text-dim);
+  font-size: 0.95rem;
+  padding-left: 20px;
+  position: relative;
+}
+
+.endo-bounty__info-section li::before {
+  content: "•";
+  position: absolute;
+  left: 0;
+  color: var(--wf-gold);
+}
+
+.endo-bounty__info-section strong {
+  color: var(--wf-text);
+}
+
+/* Loading State */
+.endo-bounty__loading {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 50vh;
+  gap: 16px;
+}
+
+.endo-bounty__spinner {
+  width: 48px;
+  height: 48px;
+  border: 3px solid var(--wf-border);
+  border-top-color: var(--wf-gold);
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  to { transform: rotate(360deg); }
+}
+
+.endo-bounty__loading p {
+  color: var(--wf-text-dim);
+}
+
+/* Error State */
+.endo-bounty__error {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 50vh;
+  gap: 16px;
+  text-align: center;
+}
+
+.endo-bounty__error h2 {
+  color: #f87171;
+  margin: 0;
+}
+
+.endo-bounty__error p {
+  color: var(--wf-text-dim);
+}
+
+.endo-bounty__retry-btn {
+  background: var(--wf-gold);
+  color: var(--wf-bg);
+  border: none;
+  padding: 12px 24px;
+  border-radius: 6px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.endo-bounty__retry-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(240, 160, 64, 0.3);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .endo-bounty-page {
+    padding: 16px;
+  }
+
+  .endo-bounty__title {
+    font-size: 1.8rem;
+  }
+
+  .endo-bounty__factions {
+    grid-template-columns: 1fr;
+  }
+
+  .endo-bounty__timer-card {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .endo-bounty__rewards {
+    flex-direction: column;
+  }
+}

@@ -29,6 +29,12 @@ export default function Navbar() {
           >
             Relics
           </NavLink>
+          <NavLink 
+            to="/endo-bounty" 
+            className={({ isActive }) => `navbar__link ${isActive ? "navbar__link--active" : ""}`}
+          >
+            Endo Bounty
+          </NavLink>
         </div>
       </div>
     </nav>

@@ -42,6 +42,15 @@ export default function Footer() {
           >
             GitHub
           </a>
+          <span className="footer__separator">•</span>
+          <a 
+            href="https://github.com/calamity-inc/browse.wf" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="footer__link"
+          >
+            Bounty Data by browse.wf
+          </a>
         </div>
         
         <div className="footer__copyright">

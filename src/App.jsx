@@ -9,6 +9,7 @@ import WarframeDetail from "./pages/WarframeDetail";
 import Terms from "./pages/Terms";
 import Privacy from "./pages/Privacy";
 import Relics from "./pages/Relics";
+import EndoBounty from "./pages/EndoBounty";
 import "./App.css";
 
 export default function App() {
@@ -23,6 +24,7 @@ export default function App() {
           <Route path="/warframes" element={<Warframes />} />
           <Route path="/warframe/:slug" element={<WarframeDetail />} />
           <Route path="/relics" element={<Relics />} />
+          <Route path="/endo-bounty" element={<EndoBounty />} />
           <Route path="/terms" element={<Terms />} />
           <Route path="/privacy" element={<Privacy />} />
         </Routes>
