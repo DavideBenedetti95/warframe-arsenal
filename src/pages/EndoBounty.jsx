@@ -3,42 +3,30 @@ import "./EndoBounty.css";
 
 const API_URL = "https://oracle.browse.wf/bounty-cycle";
 
-// Mapping dei challenge names a nomi leggibili
-const CHALLENGE_NAMES = {
-  // Cavia (EntratiLab)
-  "EntratiLabKillVoidRigEasyChallenge": "Exterminate",
-  "EntratiLabKillVoidRigHardChallenge": "Exterminate",
-  "EntratiLabDefeatDoppelgangerChallenge": "Assassination",
-  "EntratiLabDestroyDecorationChallenge": "Mirror Defense",
-  "EntratiLabAlchemyGrenadeToxinChallenge": "Alchemy",
-  "EntratiLabActivateLohkSurgeHardChallenge": "Assassination",
-  "EntratiLabActivateLohkSurgeEasyChallenge": "Assassination",
-  // Holdfast (Zariman)
-  "ZarimanMobDefProtectShieldsChallenge": "Mobile Defense",
-  "ZarimanKillCorpusEasyChallenge": "Exterminate",
-  "ZarimanKillGrineerEasyChallenge": "Exterminate",
-  "ZarimanFloodCompleteWavesChallenge": "Void Flood",
-  "ZarimanUseVoidRiftsHardChallenge": "Void Armageddon",
-  "ZarimanUseVoidRiftsEasyChallenge": "Void Armageddon",
-  "ZarimanFindMelicaCacheChallenge": "Exterminate",
-  "ZarimanCascadeKillEasyChallenge": "Void Cascade",
-  "ZarimanCascadeKillHardChallenge": "Void Cascade",
-  // The Hex (Vania)
-  "VaniaDestroyBackpacksEasy": "Sabotage",
-  "VaniaDestroyBackpacksHard": "Sabotage",
-  "VaniaAbilityKillEasy": "Exterminate",
-  "VaniaAbilityKillHard": "Exterminate",
-  "VaniaSafeCracker": "Spy",
-  "VaniaCaptureTargetsEasy": "Capture",
-  "VaniaCaptureTargetsHard": "Capture",
-  "VaniaDestroyPropsEasy": "Sabotage",
-  "VaniaDestroyPropsHard": "Sabotage",
-  "VaniaDestroyPropsVeryHard": "Sabotage",
-  "VaniaDestroyVehiclesEasy": "Sabotage",
-  "VaniaDestroyVehiclesHard": "Sabotage",
-  "VaniaDestroyVehiclesVeryHard": "Sabotage",
-  "VaniaKillTargetEasy": "Assassination",
-  "VaniaKillTargetHard": "Assassination",
+// Mapping dei NODI ai tipi di missione (il nodo determina la missione, non la challenge)
+const NODE_MISSION_TYPES = {
+  // Holdfast (Zariman) - ordinati per difficoltà
+  "SolNode230": { mission: "Void Cascade", location: "Tuvul Commons", level: "50-55" },
+  "SolNode231": { mission: "Void Flood", location: "Everview Arc", level: "60-65" },
+  "SolNode232": { mission: "Mobile Defense", location: "The Greenway", level: "70-75" },
+  "SolNode233": { mission: "Exterminate", location: "Halako Perimeter", level: "90-95" },
+  "SolNode235": { mission: "Void Armageddon", location: "Oro Works", level: "110-115" },
+  
+  // Cavia (EntratiLab) - ordinati per difficoltà
+  "SolNode715": { mission: "Alchemy", location: "Cambire", level: "55-60" },
+  "SolNode716": { mission: "Mirror Defense", location: "Munio", level: "65-70" },
+  "SolNode718": { mission: "Disruption", location: "Armatus", level: "75-80" },
+  "SolNode719": { mission: "Assassination", location: "Effervo", level: "95-100" },
+  "SolNode721": { mission: "Exterminate", location: "Nex", level: "115-120" },
+  
+  // The Hex (Vania) - ordinati per difficoltà
+  "SolNode850": { mission: "Assassination", location: "H-09 Tank", level: "65-70" },
+  "SolNode851": { mission: "Survival", location: "Hell-Scrub: Scaldra", level: "75-80" },
+  "SolNode852": { mission: "Exterminate", location: "Exterminate: Techrot", level: "85-90" },
+  "SolNode854": { mission: "Legacyte Harvest", location: "Legacyte Harvest", level: "95-100" },
+  "SolNode855": { mission: "Defense", location: "Solstice Square", level: "105-110" },
+  "SolNode856": { mission: "Exterminate", location: "Exterminate: Scaldra", level: "115-120" },
+  "SolNode858": { mission: "Survival", location: "Hell-Scrub: Techrot", level: "125-130" },
 };
 
 // Configurazione bounty con Endo per ogni faction
@@ -64,11 +52,9 @@ const ENDO_BOUNTY_CONFIG = {
   },
 };
 
-function getChallengeName(challengePath) {
-  if (!challengePath) return "Unknown";
-  const parts = challengePath.split("/");
-  const challengeKey = parts[parts.length - 1];
-  return CHALLENGE_NAMES[challengeKey] || challengeKey.replace(/Challenge$/, "").replace(/Easy|Hard|VeryHard/g, "");
+// Ottiene info missione dal nodo
+function getMissionInfo(node) {
+  return NODE_MISSION_TYPES[node] || { mission: "Unknown", location: "Unknown", level: "?" };
 }
 
 // Estrae il numero dal nodo (es: "SolNode233" → 233)
@@ -159,23 +145,30 @@ export default function EndoBounty() {
       
       // Prendi la bounty all'indice corretto (4° = indice 3)
       const endoBounty = sortedBounties[config.endoIndex];
-      const missionType = endoBounty ? getChallengeName(endoBounty.challenge) : "N/A";
-      const isExterminate = missionType.toLowerCase().includes("exterminate");
+      const missionInfo = endoBounty ? getMissionInfo(endoBounty.node) : { mission: "N/A", location: "N/A" };
+      const isExterminate = missionInfo.mission.toLowerCase().includes("exterminate");
       
       results.push({
         faction: config.name,
         location: config.location,
-        missionType,
+        missionType: missionInfo.mission,
+        missionLocation: missionInfo.location,
+        missionLevel: missionInfo.level,
         isExterminate,
         endoRewards: config.endoRewards,
         hasEndoBounty: !!endoBounty,
         bountyPosition: config.endoIndex + 1,
-        allBounties: sortedBounties.map((b, i) => ({
-          position: i + 1,
-          type: getChallengeName(b.challenge),
-          node: b.node,
-          isEndoBounty: i === config.endoIndex,
-        })),
+        allBounties: sortedBounties.map((b, i) => {
+          const info = getMissionInfo(b.node);
+          return {
+            position: i + 1,
+            type: info.mission,
+            location: info.location,
+            level: info.level,
+            node: b.node,
+            isEndoBounty: i === config.endoIndex,
+          };
+        }),
       });
     }
 
@@ -254,10 +247,11 @@ export default function EndoBounty() {
 
             <div className="endo-bounty__endo-info">
               <div className="endo-bounty__mission-badge">
-                <span className="endo-bounty__mission-label">Bounty #{faction.bountyPosition}</span>
+                <span className="endo-bounty__mission-label">Bounty #{faction.bountyPosition} ({faction.missionLevel})</span>
                 <span className={`endo-bounty__mission-type ${faction.isExterminate ? "exterminate" : ""}`}>
                   {faction.missionType}
                 </span>
+                <span className="endo-bounty__mission-location">{faction.missionLocation}</span>
               </div>
 
               <div className="endo-bounty__rewards">
@@ -292,6 +286,8 @@ export default function EndoBounty() {
                   >
                     <span className="endo-bounty__bounty-pos">#{bounty.position}</span>
                     <span className="endo-bounty__bounty-type">{bounty.type}</span>
+                    <span className="endo-bounty__bounty-location">{bounty.location}</span>
+                    <span className="endo-bounty__bounty-level">{bounty.level}</span>
                     {bounty.isEndoBounty && <span className="endo-bounty__bounty-tag">ENDO</span>}
                   </li>
                 ))}

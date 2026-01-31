@@ -191,6 +191,12 @@
   color: #4ade80;
 }
 
+.endo-bounty__mission-location {
+  color: var(--wf-text-dim);
+  font-size: 0.85rem;
+  font-style: italic;
+}
+
 /* Rewards */
 .endo-bounty__rewards {
   display: flex;
@@ -301,8 +307,21 @@
 }
 
 .endo-bounty__bounty-type {
-  flex: 1;
   color: var(--wf-text);
+  font-weight: 600;
+  min-width: 120px;
+}
+
+.endo-bounty__bounty-location {
+  flex: 1;
+  color: var(--wf-text-dim);
+  font-size: 0.85rem;
+}
+
+.endo-bounty__bounty-level {
+  color: var(--wf-gold);
+  font-size: 0.8rem;
+  font-weight: 600;
 }
 
 .endo-bounty__bounty-tag {
