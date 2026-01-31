@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-12-31T14:20:40.512Z",
+  "lastUpdated": "2026-01-31T15:05:58.022Z",
   "sourceUrl": "https://warframe-web-assets.nyc3.cdn.digitaloceanspaces.com/uploads/cms/hnfvc0o3jnfvc873njb03enrf56.html",
   "activeRelics": {
     "Lith D7": [
@@ -312,7 +312,7 @@
         "chance": 14.29
       }
     ],
-    "Lith L6": [
+    "Lith L7": [
       {
         "mission": "Mercury/Suisei (Spy)",
         "rotation": "Rotation B",
@@ -2357,6 +2357,7 @@
     "Lith L3",
     "Lith L4",
     "Lith L5",
+    "Lith L6",
     "Lith M1",
     "Lith M10",
     "Lith M2",

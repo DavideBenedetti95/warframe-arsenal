@@ -3509,9 +3509,9 @@
             }
           },
           {
-            "relic": "Lith L6",
+            "relic": "Lith L7",
             "era": "Lith",
-            "code": "L6",
+            "code": "L7",
             "rarity": "Uncommon",
             "chances": {
               "Radiant": 0.1667,
@@ -4551,9 +4551,9 @@
             }
           },
           {
-            "relic": "Lith L6",
+            "relic": "Lith L7",
             "era": "Lith",
-            "code": "L6",
+            "code": "L7",
             "rarity": "Uncommon",
             "chances": {
               "Radiant": 0.1667,
@@ -14979,8 +14979,8 @@
         "drops": []
       },
       {
-        "name": "HöLlvanian Pitchweave Fragment",
-        "fullName": "Ax-52 HöLlvanian Pitchweave Fragment",
+        "name": "Höllvanian Pitchweave Fragment",
+        "fullName": "Ax-52 Höllvanian Pitchweave Fragment",
         "count": 60,
         "ducats": null,
         "tradable": false,
@@ -21522,9 +21522,9 @@
             }
           },
           {
-            "relic": "Lith L6",
+            "relic": "Lith L7",
             "era": "Lith",
-            "code": "L6",
+            "code": "L7",
             "rarity": "Uncommon",
             "chances": {
               "Radiant": 0.1667,
@@ -23125,6 +23125,18 @@
             "relic": "Lith H6",
             "era": "Lith",
             "code": "H6",
+            "rarity": "Uncommon",
+            "chances": {
+              "Radiant": 0.1667,
+              "Flawless": 0.2,
+              "Exceptional": 0.2333,
+              "Intact": 0.2533
+            }
+          },
+          {
+            "relic": "Lith L6",
+            "era": "Lith",
+            "code": "L6",
             "rarity": "Uncommon",
             "chances": {
               "Radiant": 0.1667,
@@ -40123,19 +40135,19 @@
         "drops": [
           {
             "location": "Dark Refractory, Deimos/Recall: Dactolyst (The Perita Rebellion), Rotation A",
-            "chance": 0.049,
+            "chance": 0.0571,
             "rarity": "Rare",
             "type": "Galariak Prime Blade Blueprint"
           },
           {
             "location": "Dark Refractory, Deimos/Recall: Hunhullus (The Perita Rebellion), Rotation A",
-            "chance": 0.049,
+            "chance": 0.0571,
             "rarity": "Rare",
             "type": "Galariak Prime Blade Blueprint"
           },
           {
             "location": "Dark Refractory, Deimos/Recall: Vanguard (The Perita Rebellion), Rotation A",
-            "chance": 0.049,
+            "chance": 0.0571,
             "rarity": "Rare",
             "type": "Galariak Prime Blade Blueprint"
           }
@@ -40151,19 +40163,19 @@
         "drops": [
           {
             "location": "Dark Refractory, Deimos/Recall: Dactolyst (The Perita Rebellion), Rotation A",
-            "chance": 0.049,
+            "chance": 0.0571,
             "rarity": "Rare",
             "type": "Galariak Prime Blueprint"
           },
           {
             "location": "Dark Refractory, Deimos/Recall: Hunhullus (The Perita Rebellion), Rotation A",
-            "chance": 0.049,
+            "chance": 0.0571,
             "rarity": "Rare",
             "type": "Galariak Prime Blueprint"
           },
           {
             "location": "Dark Refractory, Deimos/Recall: Vanguard (The Perita Rebellion), Rotation A",
-            "chance": 0.049,
+            "chance": 0.0571,
             "rarity": "Rare",
             "type": "Galariak Prime Blueprint"
           }
@@ -40179,19 +40191,19 @@
         "drops": [
           {
             "location": "Dark Refractory, Deimos/Recall: Dactolyst (The Perita Rebellion), Rotation A",
-            "chance": 0.049,
+            "chance": 0.0571,
             "rarity": "Rare",
             "type": "Galariak Prime Handle Blueprint"
           },
           {
             "location": "Dark Refractory, Deimos/Recall: Hunhullus (The Perita Rebellion), Rotation A",
-            "chance": 0.049,
+            "chance": 0.0571,
             "rarity": "Rare",
             "type": "Galariak Prime Handle Blueprint"
           },
           {
             "location": "Dark Refractory, Deimos/Recall: Vanguard (The Perita Rebellion), Rotation A",
-            "chance": 0.049,
+            "chance": 0.0571,
             "rarity": "Rare",
             "type": "Galariak Prime Handle Blueprint"
           }
@@ -43694,6 +43706,18 @@
             "relic": "Lith C11",
             "era": "Lith",
             "code": "C11",
+            "rarity": "Uncommon",
+            "chances": {
+              "Radiant": 0.1667,
+              "Flawless": 0.2,
+              "Exceptional": 0.2333,
+              "Intact": 0.2533
+            }
+          },
+          {
+            "relic": "Lith L6",
+            "era": "Lith",
+            "code": "L6",
             "rarity": "Uncommon",
             "chances": {
               "Radiant": 0.1667,
@@ -61717,9 +61741,9 @@
             }
           },
           {
-            "relic": "Lith L6",
+            "relic": "Lith L7",
             "era": "Lith",
-            "code": "L6",
+            "code": "L7",
             "rarity": "Uncommon",
             "chances": {
               "Radiant": 0.1667,
@@ -74798,19 +74822,19 @@
         "drops": [
           {
             "location": "Dark Refractory, Deimos/Recall: Dactolyst (The Perita Rebellion), Rotation A",
-            "chance": 0.049,
+            "chance": 0.0571,
             "rarity": "Rare",
             "type": "Sagek Prime Barrel Blueprint"
           },
           {
             "location": "Dark Refractory, Deimos/Recall: Hunhullus (The Perita Rebellion), Rotation A",
-            "chance": 0.049,
+            "chance": 0.0571,
             "rarity": "Rare",
             "type": "Sagek Prime Barrel Blueprint"
           },
           {
             "location": "Dark Refractory, Deimos/Recall: Vanguard (The Perita Rebellion), Rotation A",
-            "chance": 0.049,
+            "chance": 0.0571,
             "rarity": "Rare",
             "type": "Sagek Prime Barrel Blueprint"
           }
@@ -74826,19 +74850,19 @@
         "drops": [
           {
             "location": "Dark Refractory, Deimos/Recall: Dactolyst (The Perita Rebellion), Rotation A",
-            "chance": 0.049,
+            "chance": 0.0571,
             "rarity": "Rare",
             "type": "Sagek Prime Blueprint"
           },
           {
             "location": "Dark Refractory, Deimos/Recall: Hunhullus (The Perita Rebellion), Rotation A",
-            "chance": 0.049,
+            "chance": 0.0571,
             "rarity": "Rare",
             "type": "Sagek Prime Blueprint"
           },
           {
             "location": "Dark Refractory, Deimos/Recall: Vanguard (The Perita Rebellion), Rotation A",
-            "chance": 0.049,
+            "chance": 0.0571,
             "rarity": "Rare",
             "type": "Sagek Prime Blueprint"
           }
@@ -74863,19 +74887,19 @@
         "drops": [
           {
             "location": "Dark Refractory, Deimos/Recall: Dactolyst (The Perita Rebellion), Rotation A",
-            "chance": 0.049,
+            "chance": 0.0571,
             "rarity": "Rare",
             "type": "Sagek Prime Receiver Blueprint"
           },
           {
             "location": "Dark Refractory, Deimos/Recall: Hunhullus (The Perita Rebellion), Rotation A",
-            "chance": 0.049,
+            "chance": 0.0571,
             "rarity": "Rare",
             "type": "Sagek Prime Receiver Blueprint"
           },
           {
             "location": "Dark Refractory, Deimos/Recall: Vanguard (The Perita Rebellion), Rotation A",
-            "chance": 0.049,
+            "chance": 0.0571,
             "rarity": "Rare",
             "type": "Sagek Prime Receiver Blueprint"
           }
@@ -90483,9 +90507,9 @@
         "tradable": true,
         "relics": [
           {
-            "relic": "Lith L6",
+            "relic": "Lith L7",
             "era": "Lith",
-            "code": "L6",
+            "code": "L7",
             "rarity": "Uncommon",
             "chances": {
               "Intact": 0.11,
@@ -94239,7 +94263,13 @@
     "variants": [],
     "isPrime": false,
     "isMelee": false,
-    "acquisition": [],
+    "acquisition": [
+      {
+        "type": "Mission Drop",
+        "method": "Roathe",
+        "detail": "Roathe"
+      }
+    ],
     "components": [
       {
         "name": "Barrel",
@@ -94248,7 +94278,14 @@
         "ducats": null,
         "tradable": false,
         "relics": [],
-        "drops": []
+        "drops": [
+          {
+            "location": "Roathe",
+            "chance": 0.125,
+            "rarity": "Uncommon",
+            "type": "Vinquibus Barrel Blueprint"
+          }
+        ]
       },
       {
         "name": "Blade",
@@ -94257,7 +94294,14 @@
         "ducats": null,
         "tradable": false,
         "relics": [],
-        "drops": []
+        "drops": [
+          {
+            "location": "Roathe",
+            "chance": 0.125,
+            "rarity": "Uncommon",
+            "type": "Vinquibus Blade Blueprint"
+          }
+        ]
       },
       {
         "name": "Blueprint",
@@ -94266,7 +94310,14 @@
         "ducats": null,
         "tradable": false,
         "relics": [],
-        "drops": []
+        "drops": [
+          {
+            "location": "Roathe",
+            "chance": 0.125,
+            "rarity": "Uncommon",
+            "type": "Vinquibus Blueprint"
+          }
+        ]
       },
       {
         "name": "Receiver",
@@ -94275,7 +94326,14 @@
         "ducats": null,
         "tradable": false,
         "relics": [],
-        "drops": []
+        "drops": [
+          {
+            "location": "Roathe",
+            "chance": 0.125,
+            "rarity": "Uncommon",
+            "type": "Vinquibus Receiver Blueprint"
+          }
+        ]
       },
       {
         "name": "Stock",
@@ -94284,7 +94342,14 @@
         "ducats": null,
         "tradable": false,
         "relics": [],
-        "drops": []
+        "drops": [
+          {
+            "location": "Roathe",
+            "chance": 0.125,
+            "rarity": "Uncommon",
+            "type": "Vinquibus Stock Blueprint"
+          }
+        ]
       }
     ],
     "buildTime": 43200,

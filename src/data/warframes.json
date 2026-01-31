@@ -2974,7 +2974,7 @@
         "description": "Supercharge Dagath’s weapons with extra Critical Damage. The effects are doubled on Doomed enemies. Escape fatal blows by briefly assuming a spectral form."
       },
       {
-        "name": "Rakhali’S Cavalry",
+        "name": "Rakhali's Cavalry",
         "description": "Phantom Kaithes charge forth, inflicting <DT_VIRAL_COLOR>Viral Damage upon all in their path. Their attack strips the defenses of Doomed enemies."
       }
     ],
@@ -10490,9 +10490,9 @@
             }
           },
           {
-            "relic": "Lith L6",
+            "relic": "Lith L7",
             "era": "Lith",
-            "code": "L6",
+            "code": "L7",
             "rarity": "Rare",
             "chances": {
               "Intact": 0.02,
@@ -18473,9 +18473,9 @@
             }
           },
           {
-            "relic": "Lith L6",
+            "relic": "Lith L7",
             "era": "Lith",
-            "code": "L6",
+            "code": "L7",
             "rarity": "Uncommon",
             "chances": {
               "Intact": 0.11,
@@ -20007,6 +20007,12 @@
         "type": "Market",
         "method": "Acquisto diretto",
         "detail": "370 Platinum"
+      },
+      {
+        "type": "Bounty",
+        "method": "Roathe",
+        "detail": "Roathe",
+        "chance": "12.50%"
       }
     ],
     "components": [
@@ -21778,6 +21784,18 @@
             "relic": "Lith G13",
             "era": "Lith",
             "code": "G13",
+            "rarity": "Uncommon",
+            "chances": {
+              "Intact": 0.11,
+              "Exceptional": 0.13,
+              "Flawless": 0.17,
+              "Radiant": 0.2
+            }
+          },
+          {
+            "relic": "Lith L6",
+            "era": "Lith",
+            "code": "L6",
             "rarity": "Uncommon",
             "chances": {
               "Intact": 0.11,
