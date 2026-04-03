@@ -4,6 +4,13 @@ import "./Home.css";
 export default function Home() {
   return (
     <div className="home-page">
+      <aside
+        className="home-update-alert"
+        role="status"
+        aria-label="Latest Warframe update"
+      >
+        Update 42: The Shadowgrapher
+      </aside>
       <div className="home-hero">
         <h1 className="home-hero__title">Warframe Arsenal</h1>
         <p className="home-hero__subtitle">
