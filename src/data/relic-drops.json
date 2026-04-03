@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-01-31T15:05:58.022Z",
+  "lastUpdated": "2026-04-03T20:04:53.869Z",
   "sourceUrl": "https://warframe-web-assets.nyc3.cdn.digitaloceanspaces.com/uploads/cms/hnfvc0o3jnfvc873njb03enrf56.html",
   "activeRelics": {
     "Lith D7": [
@@ -462,12 +462,6 @@
         "chance": 12.91
       },
       {
-        "mission": "Sanctuary/Elite Sanctuary Onslaught (Sanctuary Onslaught)",
-        "rotation": "Rotation B",
-        "rarity": "Uncommon",
-        "chance": 12.65
-      },
-      {
         "mission": "Jupiter/Io (Defense)",
         "rotation": "Rotation A",
         "rarity": "Uncommon",
@@ -496,6 +490,12 @@
         "rotation": null,
         "rarity": "Uncommon",
         "chance": 12.5
+      },
+      {
+        "mission": "Mercury/Odin (Interception)",
+        "rotation": "Rotation C",
+        "rarity": "Uncommon",
+        "chance": 12.18
       }
     ],
     "Meso X1": [
@@ -586,12 +586,6 @@
         "chance": 12.91
       },
       {
-        "mission": "Sanctuary/Elite Sanctuary Onslaught (Sanctuary Onslaught)",
-        "rotation": "Rotation B",
-        "rarity": "Uncommon",
-        "chance": 12.65
-      },
-      {
         "mission": "Jupiter/Io (Defense)",
         "rotation": "Rotation A",
         "rarity": "Uncommon",
@@ -617,6 +611,12 @@
       },
       {
         "mission": "Mercury/Odin (Interception)",
+        "rotation": "Rotation C",
+        "rarity": "Uncommon",
+        "chance": 12.18
+      },
+      {
+        "mission": "Venus/Cytherean (Interception)",
         "rotation": "Rotation C",
         "rarity": "Uncommon",
         "chance": 12.18
@@ -648,12 +648,6 @@
         "chance": 14.29
       },
       {
-        "mission": "Sanctuary/Elite Sanctuary Onslaught (Sanctuary Onslaught)",
-        "rotation": "Rotation B",
-        "rarity": "Uncommon",
-        "chance": 12.65
-      },
-      {
         "mission": "Jupiter/Io (Defense)",
         "rotation": "Rotation A",
         "rarity": "Uncommon",
@@ -679,6 +673,12 @@
       },
       {
         "mission": "Mercury/Odin (Interception)",
+        "rotation": "Rotation C",
+        "rarity": "Uncommon",
+        "chance": 12.18
+      },
+      {
+        "mission": "Venus/Cytherean (Interception)",
         "rotation": "Rotation C",
         "rarity": "Uncommon",
         "chance": 12.18
@@ -890,12 +890,6 @@
         "chance": 14.29
       },
       {
-        "mission": "Sanctuary/Elite Sanctuary Onslaught (Sanctuary Onslaught)",
-        "rotation": "Rotation B",
-        "rarity": "Uncommon",
-        "chance": 12.65
-      },
-      {
         "mission": "Jupiter/Io (Defense)",
         "rotation": "Rotation A",
         "rarity": "Uncommon",
@@ -927,6 +921,12 @@
       },
       {
         "mission": "Venus/Cytherean (Interception)",
+        "rotation": "Rotation C",
+        "rarity": "Uncommon",
+        "chance": 12.18
+      },
+      {
+        "mission": "Earth/Gaia (Interception)",
         "rotation": "Rotation C",
         "rarity": "Uncommon",
         "chance": 12.18
@@ -1070,12 +1070,6 @@
         "chance": 17.92
       },
       {
-        "mission": "Sanctuary/Elite Sanctuary Onslaught (Sanctuary Onslaught)",
-        "rotation": "Rotation C",
-        "rarity": "Uncommon",
-        "chance": 15.18
-      },
-      {
         "mission": "Jupiter/Callisto (Interception)",
         "rotation": "Rotation C",
         "rarity": "Uncommon",
@@ -1114,6 +1108,12 @@
       {
         "mission": "Europa/Ose (Interception)",
         "rotation": "Rotation C",
+        "rarity": "Uncommon",
+        "chance": 14.29
+      },
+      {
+        "mission": "Lua/Apollo (Disruption)",
+        "rotation": "Rotation A",
         "rarity": "Uncommon",
         "chance": 14.29
       }
@@ -1250,12 +1250,6 @@
         "chance": 15.86
       },
       {
-        "mission": "Sanctuary/Elite Sanctuary Onslaught (Sanctuary Onslaught)",
-        "rotation": "Rotation C",
-        "rarity": "Uncommon",
-        "chance": 15.18
-      },
-      {
         "mission": "Jupiter/Callisto (Interception)",
         "rotation": "Rotation C",
         "rarity": "Uncommon",
@@ -1302,15 +1296,15 @@
         "rotation": "Rotation A",
         "rarity": "Uncommon",
         "chance": 14.29
+      },
+      {
+        "mission": "Uranus/Ur (Disruption)",
+        "rotation": "Rotation C",
+        "rarity": "Uncommon",
+        "chance": 13.56
       }
     ],
     "Neo K9": [
-      {
-        "mission": "Sanctuary/Elite Sanctuary Onslaught (Sanctuary Onslaught)",
-        "rotation": "Rotation C",
-        "rarity": "Uncommon",
-        "chance": 15.18
-      },
       {
         "mission": "Jupiter/Callisto (Interception)",
         "rotation": "Rotation C",
@@ -1364,6 +1358,12 @@
         "rotation": "Rotation C",
         "rarity": "Uncommon",
         "chance": 13.56
+      },
+      {
+        "mission": "Void/Mot (Survival)",
+        "rotation": "Rotation B",
+        "rarity": "Uncommon",
+        "chance": 12.5
       }
     ],
     "Neo D9": [
@@ -1430,12 +1430,6 @@
     ],
     "Neo T10": [
       {
-        "mission": "Sanctuary/Elite Sanctuary Onslaught (Sanctuary Onslaught)",
-        "rotation": "Rotation C",
-        "rarity": "Uncommon",
-        "chance": 15.18
-      },
-      {
         "mission": "Jupiter/Callisto (Interception)",
         "rotation": "Rotation C",
         "rarity": "Uncommon",
@@ -1488,6 +1482,12 @@
         "rotation": "Rotation C",
         "rarity": "Uncommon",
         "chance": 13.56
+      },
+      {
+        "mission": "Void/Mot (Survival)",
+        "rotation": "Rotation B",
+        "rarity": "Uncommon",
+        "chance": 12.5
       }
     ],
     "Axi S18": [
@@ -1962,25 +1962,25 @@
         "chance": 9.09
       },
       {
-        "mission": "Veil/Calabash (Caches)",
+        "mission": "Veil Proxima/Calabash (Caches)",
         "rotation": "Rotation B",
         "rarity": "Rare",
         "chance": 9.09
       },
       {
-        "mission": "Veil/Numina (Caches)",
+        "mission": "Veil Proxima/Numina (Caches)",
         "rotation": "Rotation B",
         "rarity": "Rare",
         "chance": 9.09
       },
       {
-        "mission": "Veil/Arc Silver (Caches)",
+        "mission": "Veil Proxima/Arc Silver (Caches)",
         "rotation": "Rotation B",
         "rarity": "Rare",
         "chance": 9.09
       },
       {
-        "mission": "Veil/Erato (Caches)",
+        "mission": "Veil Proxima/Erato (Caches)",
         "rotation": "Rotation B",
         "rarity": "Rare",
         "chance": 9.09
@@ -2024,25 +2024,25 @@
         "chance": 9.09
       },
       {
-        "mission": "Veil/Calabash (Caches)",
+        "mission": "Veil Proxima/Calabash (Caches)",
         "rotation": "Rotation B",
         "rarity": "Rare",
         "chance": 9.09
       },
       {
-        "mission": "Veil/Numina (Caches)",
+        "mission": "Veil Proxima/Numina (Caches)",
         "rotation": "Rotation B",
         "rarity": "Rare",
         "chance": 9.09
       },
       {
-        "mission": "Veil/Arc Silver (Caches)",
+        "mission": "Veil Proxima/Arc Silver (Caches)",
         "rotation": "Rotation B",
         "rarity": "Rare",
         "chance": 9.09
       },
       {
-        "mission": "Veil/Erato (Caches)",
+        "mission": "Veil Proxima/Erato (Caches)",
         "rotation": "Rotation B",
         "rarity": "Rare",
         "chance": 9.09
@@ -2050,49 +2050,49 @@
     ],
     "Neo V9": [
       {
-        "mission": "Veil/Flexa (Caches)",
+        "mission": "Veil Proxima/Flexa (Caches)",
         "rotation": "Rotation B",
         "rarity": "Rare",
         "chance": 6.52
       },
       {
-        "mission": "Veil/H-2 Cloud (Caches)",
+        "mission": "Veil Proxima/H-2 Cloud (Caches)",
         "rotation": "Rotation B",
         "rarity": "Rare",
         "chance": 6.52
       },
       {
-        "mission": "Veil/R-9 Cloud (Caches)",
+        "mission": "Veil Proxima/R-9 Cloud (Caches)",
         "rotation": "Rotation B",
         "rarity": "Rare",
         "chance": 6.52
       },
       {
-        "mission": "Veil/Nsu Grid (Caches)",
+        "mission": "Veil Proxima/Nsu Grid (Caches)",
         "rotation": "Rotation B",
         "rarity": "Rare",
         "chance": 6.52
       },
       {
-        "mission": "Veil/Flexa (Caches)",
+        "mission": "Veil Proxima/Flexa (Caches)",
         "rotation": "Rotation A",
         "rarity": "Rare",
         "chance": 4.8
       },
       {
-        "mission": "Veil/H-2 Cloud (Caches)",
+        "mission": "Veil Proxima/H-2 Cloud (Caches)",
         "rotation": "Rotation A",
         "rarity": "Rare",
         "chance": 4.8
       },
       {
-        "mission": "Veil/R-9 Cloud (Caches)",
+        "mission": "Veil Proxima/R-9 Cloud (Caches)",
         "rotation": "Rotation A",
         "rarity": "Rare",
         "chance": 4.8
       },
       {
-        "mission": "Veil/Nsu Grid (Caches)",
+        "mission": "Veil Proxima/Nsu Grid (Caches)",
         "rotation": "Rotation A",
         "rarity": "Rare",
         "chance": 4.8
@@ -2153,6 +2153,7 @@
     "Axi G12",
     "Axi G13",
     "Axi G14",
+    "Axi G15",
     "Axi G2",
     "Axi G3",
     "Axi G4",
@@ -2276,6 +2277,7 @@
     "Axi Z2",
     "Lith A1",
     "Lith A10",
+    "Lith A11",
     "Lith A2",
     "Lith A3",
     "Lith A4",
@@ -2455,6 +2457,7 @@
     "Lith Z3",
     "Lith Z4",
     "Meso A1",
+    "Meso A11",
     "Meso A2",
     "Meso A3",
     "Meso A4",
@@ -2622,6 +2625,7 @@
     "Meso Z3",
     "Meso Z4",
     "Meso Z5",
+    "Meso Z6",
     "Neo A1",
     "Neo A10",
     "Neo A11",
@@ -2668,6 +2672,7 @@
     "Neo F2",
     "Neo F3",
     "Neo G1",
+    "Neo G10",
     "Neo G2",
     "Neo G3",
     "Neo G4",
@@ -2700,6 +2705,7 @@
     "Neo M3",
     "Neo M4",
     "Neo M5",
+    "Neo M6",
     "Neo N1",
     "Neo N10",
     "Neo N11",
