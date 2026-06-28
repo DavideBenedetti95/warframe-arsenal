@@ -91,6 +91,16 @@
   opacity: 0.7;
 }
 
+.footer__update {
+  margin-bottom: 8px !important;
+  font-family: 'Orbitron', sans-serif;
+  font-size: 11px !important;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: var(--wf-gold) !important;
+}
+
 /* Responsive */
 @media (max-width: 768px) {
   .footer {

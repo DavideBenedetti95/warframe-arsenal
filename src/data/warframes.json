@@ -4,7 +4,7 @@
     "slug": "ash",
     "masteryReq": 0,
     "description": "Behold the patron saint of the Orokin school of political assassination. Ash specializes in stealth. The edge of his blade is sooner felt than seen.",
-    "imageUrl": "https://cdn.warframestat.us/img/ash-f2c6f3ab3f.png",
+    "imageUrl": "https://cdn.warframestat.us/img/Ash.png",
     "wikiUrl": "https://wiki.warframe.com/w/Ash",
     "health": 455,
     "shield": 270,
@@ -169,7 +169,7 @@
     "slug": "ash-prime",
     "masteryReq": 0,
     "description": "Distraction and subterfuge become lethal weapons with Ash Prime. Featuring altered mod polarities for greater customization.",
-    "imageUrl": "https://cdn.warframestat.us/img/ash-prime-bfcb09331e.png",
+    "imageUrl": "https://cdn.warframestat.us/img/AshPrime.png",
     "wikiUrl": "https://wiki.warframe.com/w/Ash%2FPrime",
     "health": 455,
     "shield": 365,
@@ -514,7 +514,7 @@
     "slug": "atlas",
     "masteryReq": 0,
     "description": "Enemies tremble before the brawler with fists as hard as stone. Atlas deals high damage. Command terrestrial elements that form the foundation of any battlefield.",
-    "imageUrl": "https://cdn.warframestat.us/img/atlas-a39443cc8b.png",
+    "imageUrl": "https://cdn.warframestat.us/img/Atlas.png",
     "wikiUrl": "https://wiki.warframe.com/w/Atlas",
     "health": 270,
     "shield": 270,
@@ -554,6 +554,12 @@
         "type": "Market",
         "method": "Acquisto diretto",
         "detail": "275 Platinum"
+      },
+      {
+        "type": "Bounty",
+        "method": "Cephalon Simaris",
+        "detail": "Cephalon Simaris, Complete The Jordas Precept",
+        "chance": "10000.00%"
       },
       {
         "type": "Bounty",
@@ -609,7 +615,7 @@
     "slug": "atlas-prime",
     "masteryReq": 0,
     "description": "In bygone ages, mountains were said to house warriors. In this age, the mountain has become the warrior.",
-    "imageUrl": "https://cdn.warframestat.us/img/atlas-prime-7312f6d838.png",
+    "imageUrl": "https://cdn.warframestat.us/img/AtlasPrime.png",
     "wikiUrl": "https://wiki.warframe.com/w/Atlas%2FPrime",
     "health": 550,
     "shield": 455,
@@ -1015,7 +1021,7 @@
     "slug": "banshee",
     "masteryReq": 0,
     "description": "Banshee’s call heralds death. She maintains crowd control and identifies enemy weak points with sonic attacks. Few can hold their position when struck by her force.",
-    "imageUrl": "https://cdn.warframestat.us/img/banshee-f3216d3957.png",
+    "imageUrl": "https://cdn.warframestat.us/img/Banshee.png",
     "wikiUrl": "https://wiki.warframe.com/w/Banshee",
     "health": 270,
     "shield": 270,
@@ -1103,7 +1109,7 @@
     "slug": "banshee-prime",
     "masteryReq": 0,
     "description": "Banshee Prime assails her foes by manipulating sonic forces to deadly effect. Featuring altered mod polarities for greater customization.",
-    "imageUrl": "https://cdn.warframestat.us/img/banshee-prime-7bebac6654.png",
+    "imageUrl": "https://cdn.warframestat.us/img/BansheePrime.png",
     "wikiUrl": "https://wiki.warframe.com/w/Banshee%2FPrime",
     "health": 270,
     "shield": 270,
@@ -1496,7 +1502,7 @@
     "slug": "baruuk",
     "masteryReq": 0,
     "description": "Beware the fury of the truly patient. Baruuk boasts survivability and crowd control. Pushed beyond his restraint, he unleashes the storm within.",
-    "imageUrl": "https://cdn.warframestat.us/img/baruuk-e935d0749d.png",
+    "imageUrl": "https://cdn.warframestat.us/img/Pacifist.png",
     "wikiUrl": "https://wiki.warframe.com/w/Baruuk",
     "health": 180,
     "shield": 270,
@@ -1536,6 +1542,12 @@
         "type": "Market",
         "method": "Acquisto diretto",
         "detail": "325 Platinum"
+      },
+      {
+        "type": "Bounty",
+        "method": "Vox Solaris",
+        "detail": "Vox Solaris, Agent",
+        "chance": "10000.00%"
       }
     ],
     "components": [
@@ -1584,7 +1596,7 @@
     "slug": "baruuk-prime",
     "masteryReq": 0,
     "description": "Doomed are the fools who attack the peace and exhaust the restraint of this reluctant warrior.",
-    "imageUrl": "https://cdn.warframestat.us/img/baruuk-prime-7e1a50c877.png",
+    "imageUrl": "https://cdn.warframestat.us/img/BaruukPrime.png",
     "wikiUrl": "https://wiki.warframe.com/w/Baruuk%2FPrime",
     "health": 180,
     "shield": 365,
@@ -2001,7 +2013,7 @@
     "slug": "caliban",
     "masteryReq": 0,
     "description": "The heir of twin kingdoms ascends. Biological and Sentient life meet in Caliban. An adept monarch, he offers crowd control and survivability. His creator had more than one world in mind.",
-    "imageUrl": "https://cdn.warframestat.us/img/caliban-c2f7820be2.png",
+    "imageUrl": "https://cdn.warframestat.us/img/Caliban.png",
     "wikiUrl": "https://wiki.warframe.com/w/Caliban",
     "health": 270,
     "shield": 550,
@@ -2105,7 +2117,7 @@
     "slug": "caliban-prime",
     "masteryReq": 0,
     "description": "Forged in celebration of the all-too-brief peace between the Orokin and Sentients, Caliban Prime is a true collaborative masterpiece. The heir of twin kingdoms arises in royal gold.",
-    "imageUrl": "https://cdn.warframestat.us/img/caliban-prime-6e04a41118.png",
+    "imageUrl": "https://cdn.warframestat.us/img/CalibanPrime.png",
     "wikiUrl": "https://wiki.warframe.com/w/Caliban%2FPrime",
     "health": 270,
     "shield": 640,
@@ -2155,6 +2167,18 @@
         "tradable": true,
         "relics": [
           {
+            "relic": "Lith V11",
+            "era": "Lith",
+            "code": "V11",
+            "rarity": "Uncommon",
+            "chances": {
+              "Intact": 11,
+              "Exceptional": 13,
+              "Flawless": 17,
+              "Radiant": 20
+            }
+          },
+          {
             "relic": "Meso V11",
             "era": "Meso",
             "code": "V11",
@@ -2177,6 +2201,18 @@
               "Flawless": 17,
               "Radiant": 20
             }
+          },
+          {
+            "relic": "Meso V15",
+            "era": "Meso",
+            "code": "V15",
+            "rarity": "Uncommon",
+            "chances": {
+              "Intact": 11,
+              "Exceptional": 13,
+              "Flawless": 17,
+              "Radiant": 20
+            }
           }
         ]
       },
@@ -2187,9 +2223,33 @@
         "tradable": true,
         "relics": [
           {
+            "relic": "Axi P10",
+            "era": "Axi",
+            "code": "P10",
+            "rarity": "Uncommon",
+            "chances": {
+              "Radiant": 16.67,
+              "Flawless": 20,
+              "Exceptional": 23.33,
+              "Intact": 25.33
+            }
+          },
+          {
             "relic": "Lith K12",
             "era": "Lith",
             "code": "K12",
+            "rarity": "Uncommon",
+            "chances": {
+              "Radiant": 16.67,
+              "Flawless": 20,
+              "Exceptional": 23.33,
+              "Intact": 25.33
+            }
+          },
+          {
+            "relic": "Meso V15",
+            "era": "Meso",
+            "code": "V15",
             "rarity": "Uncommon",
             "chances": {
               "Radiant": 16.67,
@@ -2261,6 +2321,30 @@
               "Exceptional": 4,
               "Flawless": 6
             }
+          },
+          {
+            "relic": "Axi C11",
+            "era": "Axi",
+            "code": "C11",
+            "rarity": "Uncommon",
+            "chances": {
+              "Radiant": 10,
+              "Intact": 2,
+              "Exceptional": 4,
+              "Flawless": 6
+            }
+          },
+          {
+            "relic": "Neo C8",
+            "era": "Neo",
+            "code": "C8",
+            "rarity": "Uncommon",
+            "chances": {
+              "Radiant": 10,
+              "Intact": 2,
+              "Exceptional": 4,
+              "Flawless": 6
+            }
           }
         ]
       }
@@ -2282,7 +2366,7 @@
     "slug": "chroma",
     "masteryReq": 0,
     "description": "Unleash the draconic. Chroma employs Heat, Electricity, Toxin, and Cold to deal high damage while maintaining survivability. Soar with winged fury.",
-    "imageUrl": "https://cdn.warframestat.us/img/chroma-2fd0ea0ba6.png",
+    "imageUrl": "https://cdn.warframestat.us/img/Chroma.png",
     "wikiUrl": "https://wiki.warframe.com/w/Chroma",
     "health": 270,
     "shield": 270,
@@ -2322,6 +2406,12 @@
         "type": "Market",
         "method": "Acquisto diretto",
         "detail": "375 Platinum"
+      },
+      {
+        "type": "Bounty",
+        "method": "Cephalon Simaris",
+        "detail": "Cephalon Simaris, Complete The New Strange",
+        "chance": "10000.00%"
       }
     ],
     "components": [
@@ -2377,7 +2467,7 @@
     "slug": "chroma-prime",
     "masteryReq": 0,
     "description": "Bind the elements and unleash untold destruction with Chroma Prime. Featuring altered mod polarities for greater customization.",
-    "imageUrl": "https://cdn.warframestat.us/img/chroma-prime-2ac05d2866.png",
+    "imageUrl": "https://cdn.warframestat.us/img/ChromaPrime.png",
     "wikiUrl": "https://wiki.warframe.com/w/Chroma%2FPrime",
     "health": 270,
     "shield": 270,
@@ -2747,7 +2837,7 @@
     "slug": "citrine",
     "masteryReq": 0,
     "description": "Gaze upon the Crystal Bastion. Citrine's crystalline might supports allies on the battlefield. Combat only enhances her fractal beauty.",
-    "imageUrl": "https://cdn.warframestat.us/img/citrine-d7392c4d7d.png",
+    "imageUrl": "https://cdn.warframestat.us/img/Citrine.png",
     "wikiUrl": "https://wiki.warframe.com/w/Citrine",
     "health": 400,
     "shield": 270,
@@ -2835,7 +2925,7 @@
     "slug": "cyte-09",
     "masteryReq": 0,
     "description": "Move like a shadow, strike with force. The Orokin created a Warframe that marries damage and stealth to eliminate sensitive problems, but he disappeared in the chaos of their demise. All that remains is a batch name: Cyte-09.",
-    "imageUrl": "https://cdn.warframestat.us/img/cyte-09-62e778e37c.png",
+    "imageUrl": "https://cdn.warframestat.us/img/Frumentarius.png",
     "wikiUrl": "https://wiki.warframe.com/w/Cyte-09",
     "health": 225,
     "shield": 135,
@@ -2935,7 +3025,7 @@
     "slug": "dagath",
     "masteryReq": 0,
     "description": "Never underestimate the power and wrath of sullen sadness. Dagath's malice deals high damage.",
-    "imageUrl": "https://cdn.warframestat.us/img/dagath-7589f2ce5b.png",
+    "imageUrl": "https://cdn.warframestat.us/img/Dagath.png",
     "wikiUrl": "https://wiki.warframe.com/w/Dagath",
     "health": 566,
     "shield": 150,
@@ -2953,7 +3043,7 @@
       },
       {
         "name": "Grave Spirit",
-        "description": "Supercharge Dagath’s weapons with extra Critical Damage. The effects are doubled on Doomed enemies. Escape fatal blows by briefly assuming a spectral form."
+        "description": "Supercharge Dagath's weapons with extra Critical Damage. The effects are doubled on Doomed enemies. Escape fatal blows by briefly assuming a spectral form."
       },
       {
         "name": "Rakhali's Cavalry",
@@ -3017,7 +3107,7 @@
     "slug": "dante",
     "masteryReq": 0,
     "description": "Seeker of knowledge. Keeper of history. Daring researcher of Leverian lore. Dante composes arcane tales to support allies and devastate enemies.",
-    "imageUrl": "https://cdn.warframestat.us/img/dante-43d70fb91a.png",
+    "imageUrl": "https://cdn.warframestat.us/img/Pagemaster.png",
     "wikiUrl": "https://wiki.warframe.com/w/Dante",
     "health": 300,
     "shield": 150,
@@ -3027,11 +3117,11 @@
     "abilities": [
       {
         "name": "Noctua",
-        "description": "Open Noctua, Dante’s Exalted Tome, and unleash a tale of woe upon his enemies."
+        "description": "Open Noctua, Dante's Exalted Tome, and unleash a tale of woe upon his enemies."
       },
       {
         "name": "Light Verse",
-        "description": "Dante's vitalizing composition grants him and his allies Overguard and increases their Health."
+        "description": "Dante's vitalizing composition grants him and his allies Overguard and restores their Health."
       },
       {
         "name": "Dark Verse",
@@ -3105,7 +3195,7 @@
     "slug": "ember",
     "masteryReq": 0,
     "description": "Harness the power of fire. Ember’s heat deals high damage. She keeps a cool head when the battle is hot.",
-    "imageUrl": "https://cdn.warframestat.us/img/ember-338265ce88.png",
+    "imageUrl": "https://cdn.warframestat.us/img/Ember.png",
     "wikiUrl": "https://wiki.warframe.com/w/Ember",
     "health": 270,
     "shield": 270,
@@ -3204,7 +3294,7 @@
     "slug": "ember-prime",
     "masteryReq": 0,
     "description": "Ember Prime offers the same potential for wanton destruction as Ember but provides unique mod polarities, allowing for greater customization.",
-    "imageUrl": "https://cdn.warframestat.us/img/ember-prime-e978f28a35.png",
+    "imageUrl": "https://cdn.warframestat.us/img/EmberPrime.png",
     "wikiUrl": "https://wiki.warframe.com/w/Ember%2FPrime",
     "health": 270,
     "shield": 365,
@@ -3452,7 +3542,7 @@
     "slug": "equinox",
     "masteryReq": 0,
     "description": "Equinox rises from the edge of day and night. Her Day form offers offensive support while her Night form offers defensive support. She thrives between realms.",
-    "imageUrl": "https://cdn.warframestat.us/img/equinox-ae1572be82.png",
+    "imageUrl": "https://cdn.warframestat.us/img/Equinox.png",
     "wikiUrl": "https://wiki.warframe.com/w/Equinox",
     "health": 270,
     "shield": 270,
@@ -3546,7 +3636,7 @@
     "slug": "equinox-prime",
     "masteryReq": 0,
     "description": "Night and Day in final balance; the graceful perfection of the one that walks the borders.",
-    "imageUrl": "https://cdn.warframestat.us/img/equinox-prime-9fbe947b57.png",
+    "imageUrl": "https://cdn.warframestat.us/img/EquinoxPrime.png",
     "wikiUrl": "https://wiki.warframe.com/w/Equinox%2FPrime",
     "health": 365,
     "shield": 270,
@@ -3928,7 +4018,7 @@
     "slug": "excalibur",
     "masteryReq": 0,
     "description": "Excalibur epitomizes the warrior spirit. His master swordsmanship deals high damage. He is the embodiment of martial excellence.",
-    "imageUrl": "https://cdn.warframestat.us/img/excalibur-2621a69bfa.png",
+    "imageUrl": "https://cdn.warframestat.us/img/Excalibur.png",
     "wikiUrl": "https://wiki.warframe.com/w/Excalibur",
     "health": 270,
     "shield": 270,
@@ -4032,7 +4122,7 @@
     "slug": "excalibur-prime",
     "masteryReq": 0,
     "description": "Excalibur Prime is the epitome of mobility and offense, and features the same abilities as Excalibur, but has unique mod polarities installed allowing for greater customization.",
-    "imageUrl": "https://cdn.warframestat.us/img/excalibur-prime-6d56b10bbf.png",
+    "imageUrl": "https://cdn.warframestat.us/img/ExcaliburPrime.png",
     "wikiUrl": "https://wiki.warframe.com/w/Excalibur%2FPrime",
     "health": 270,
     "shield": 270,
@@ -4097,7 +4187,7 @@
     "slug": "excalibur-umbra",
     "masteryReq": 0,
     "description": "From the shadow of the long night emerges a new Excalibur.",
-    "imageUrl": "https://cdn.warframestat.us/img/excalibur-umbra-d421af56c1.png",
+    "imageUrl": "https://cdn.warframestat.us/img/ExcaliburUmbra.png",
     "wikiUrl": "https://wiki.warframe.com/w/Excalibur_Umbra",
     "health": 270,
     "shield": 270,
@@ -4186,7 +4276,7 @@
     "slug": "follie",
     "masteryReq": 0,
     "description": "Follie, the merry, macabre Shadowgrapher, brings ink to life. Support her squad and control enemy crowds with a myriad of versatile sketches and tricks.",
-    "imageUrl": "https://cdn.warframestat.us/img/follie-2c6d732813.png",
+    "imageUrl": "https://cdn.warframestat.us/img/Inkblot.png",
     "wikiUrl": "https://wiki.warframe.com/w/Follie",
     "health": 485,
     "shield": 225,
@@ -4211,7 +4301,7 @@
         "description": "Tie nearby enemies to floating balloons that douse them with Inkblot. Pop the balloons to send them crashing to the ground, splashing damage on nearby enemies."
       }
     ],
-    "passiveDescription": "INKBLOT: Follie's abilities coat enemies in ink that slows their movement by |SLOW|% for a few seconds. Afflicted enemies have a |CHANCE|% chance to drop Health and Energy Orbs.",
+    "passiveDescription": "INKBLOT: Follie's abilities coat enemies in ink that slows their movement by |SLOW|% for |DURATION|s. Afflicted enemies have a |CHANCE|% chance to drop Health and Energy Orbs.",
     "isPrime": false,
     "variantType": null,
     "variants": [],
@@ -4274,7 +4364,7 @@
     "slug": "frost",
     "masteryReq": 0,
     "description": "When Frost steps onto the battlefield, enemies experience a chill. Frost’s attacks control crowds, protect objectives, and increase survivability. Wield the biting cold.",
-    "imageUrl": "https://cdn.warframestat.us/img/frost-620cddb4a6.png",
+    "imageUrl": "https://cdn.warframestat.us/img/Frost.png",
     "wikiUrl": "https://wiki.warframe.com/w/Frost",
     "health": 270,
     "shield": 455,
@@ -4373,7 +4463,7 @@
     "slug": "frost-prime",
     "masteryReq": 0,
     "description": "Frost Prime has the same chilling abilities as Frost but provides unique mod polarities, allowing for greater customization.",
-    "imageUrl": "https://cdn.warframestat.us/img/frost-prime-f177de2e0c.png",
+    "imageUrl": "https://cdn.warframestat.us/img/FrostPrime.png",
     "wikiUrl": "https://wiki.warframe.com/w/Frost%2FPrime",
     "health": 270,
     "shield": 550,
@@ -4622,7 +4712,7 @@
     "slug": "gara",
     "masteryReq": 0,
     "description": "Enemies are made fragile by Gara’s deadly touch. Gara’s vitric abilities provide her and her allies with survivability and deal high damage. Shatter the foe.",
-    "imageUrl": "https://cdn.warframestat.us/img/gara-b2089c43f8.png",
+    "imageUrl": "https://cdn.warframestat.us/img/Gara.png",
     "wikiUrl": "https://wiki.warframe.com/w/Gara",
     "health": 270,
     "shield": 270,
@@ -4662,6 +4752,12 @@
         "type": "Market",
         "method": "Acquisto diretto",
         "detail": "225 Platinum"
+      },
+      {
+        "type": "Bounty",
+        "method": "Cephalon Simaris",
+        "detail": "Cephalon Simaris, Complete Saya's Vigil",
+        "chance": "10000.00%"
       },
       {
         "type": "Bounty",
@@ -4728,7 +4824,7 @@
     "slug": "gara-prime",
     "masteryReq": 0,
     "description": "Continue the legend of the glass-armored warrior Gara. Dominate the battlefield with the power and purity of crystal.",
-    "imageUrl": "https://cdn.warframestat.us/img/gara-prime-faf70dfd7c.png",
+    "imageUrl": "https://cdn.warframestat.us/img/GaraPrime.png",
     "wikiUrl": "https://wiki.warframe.com/w/Gara%2FPrime",
     "health": 345,
     "shield": 270,
@@ -5133,7 +5229,7 @@
     "slug": "garuda",
     "masteryReq": 0,
     "description": "Death’s crimson maiden sharpens her talons. Garuda weaponizes the blood of her foes to deal high damage. Sanguine beauty complements her deadly power.",
-    "imageUrl": "https://cdn.warframestat.us/img/garuda-5e3cc04493.png",
+    "imageUrl": "https://cdn.warframestat.us/img/Garuda.png",
     "wikiUrl": "https://wiki.warframe.com/w/Garuda",
     "health": 270,
     "shield": 270,
@@ -5173,6 +5269,12 @@
         "type": "Market",
         "method": "Acquisto diretto",
         "detail": "325 Platinum"
+      },
+      {
+        "type": "Bounty",
+        "method": "Cephalon Simaris",
+        "detail": "Cephalon Simaris, Complete Vox Solaris (Quest)",
+        "chance": "10000.00%"
       },
       {
         "type": "Bounty",
@@ -5246,7 +5348,7 @@
     "slug": "garuda-prime",
     "masteryReq": 0,
     "description": "White, gold and deepest scarlet, the queen of gore in full regalia.",
-    "imageUrl": "https://cdn.warframestat.us/img/garuda-prime-2c4ce210a0.png",
+    "imageUrl": "https://cdn.warframestat.us/img/GarudaPrime.png",
     "wikiUrl": "https://wiki.warframe.com/w/Garuda%2FPrime",
     "health": 270,
     "shield": 270,
@@ -5663,7 +5765,7 @@
     "slug": "gauss",
     "masteryReq": 0,
     "description": "Take charge with the Saint of Altra. Gauss is fast, deals high damage, and has strong survivability. Movement charges his powerful battery, so never stop moving.",
-    "imageUrl": "https://cdn.warframestat.us/img/gauss-8060019853.png",
+    "imageUrl": "https://cdn.warframestat.us/img/Gauss.png",
     "wikiUrl": "https://wiki.warframe.com/w/Gauss",
     "health": 270,
     "shield": 455,
@@ -5762,7 +5864,7 @@
     "slug": "gauss-prime",
     "masteryReq": 0,
     "description": "Quicksilver takes form. Gauss Prime brooks no talk of defeat.",
-    "imageUrl": "https://cdn.warframestat.us/img/gauss-prime-170a77a036.png",
+    "imageUrl": "https://cdn.warframestat.us/img/GaussPrime.png",
     "wikiUrl": "https://wiki.warframe.com/w/Gauss%2FPrime",
     "health": 270,
     "shield": 550,
@@ -6227,7 +6329,7 @@
     "slug": "grendel",
     "masteryReq": 0,
     "description": "Grendel sees every battlefield as a smorgasbord. His insatiable appetite rewards him with high survivability. Enemies will be eaten. And regurgitated.",
-    "imageUrl": "https://cdn.warframestat.us/img/grendel-4d1c382605.png",
+    "imageUrl": "https://cdn.warframestat.us/img/Grendel.png",
     "wikiUrl": "https://wiki.warframe.com/w/Grendel",
     "health": 1095,
     "shield": 95,
@@ -6321,7 +6423,7 @@
     "slug": "grendel-prime",
     "masteryReq": 0,
     "description": "Primal. Insatiable. Grendel Prime devours all who oppose him.",
-    "imageUrl": "https://cdn.warframestat.us/img/grendel-prime-e23d41072d.png",
+    "imageUrl": "https://cdn.warframestat.us/img/GrendelPrime.png",
     "wikiUrl": "https://wiki.warframe.com/w/Grendel%2FPrime",
     "health": 1095,
     "shield": 95,
@@ -6595,7 +6697,7 @@
       {
         "name": "Systems",
         "fullName": "Grendel Prime Systems",
-        "ducats": 100,
+        "ducats": 65,
         "tradable": true,
         "relics": [
           {
@@ -6655,7 +6757,7 @@
     "slug": "gyre",
     "masteryReq": 0,
     "description": "Annihilate enemies with the conductivity of coils and transmitters. Gyre’s electric attacks provide crowd control. She is the embodiment of elegant theory.",
-    "imageUrl": "https://cdn.warframestat.us/img/gyre-b17b2d4464.png",
+    "imageUrl": "https://cdn.warframestat.us/img/Gyre.png",
     "wikiUrl": "https://wiki.warframe.com/w/Gyre",
     "health": 270,
     "shield": 550,
@@ -6773,7 +6875,7 @@
     "slug": "gyre-prime",
     "masteryReq": 0,
     "description": "Gilded circuits spark and energize frenetic movements that echo through the ages. Dance into eternity with Gyre Prime.",
-    "imageUrl": "https://cdn.warframestat.us/img/gyre-prime-f8b507d90e.png",
+    "imageUrl": "https://cdn.warframestat.us/img/GyrePrime.png",
     "wikiUrl": "https://wiki.warframe.com/w/Gyre%2FPrime",
     "health": 345,
     "shield": 640,
@@ -6822,6 +6924,18 @@
         "ducats": 45,
         "tradable": true,
         "relics": [
+          {
+            "relic": "Lith Q3",
+            "era": "Lith",
+            "code": "Q3",
+            "rarity": "Uncommon",
+            "chances": {
+              "Intact": 11,
+              "Exceptional": 13,
+              "Flawless": 17,
+              "Radiant": 20
+            }
+          },
           {
             "relic": "Neo T10",
             "era": "Neo",
@@ -6883,9 +6997,33 @@
         "tradable": true,
         "relics": [
           {
+            "relic": "Meso E7",
+            "era": "Meso",
+            "code": "E7",
+            "rarity": "Uncommon",
+            "chances": {
+              "Radiant": 16.67,
+              "Flawless": 20,
+              "Exceptional": 23.33,
+              "Intact": 25.33
+            }
+          },
+          {
             "relic": "Meso V14",
             "era": "Meso",
             "code": "V14",
+            "rarity": "Uncommon",
+            "chances": {
+              "Radiant": 16.67,
+              "Flawless": 20,
+              "Exceptional": 23.33,
+              "Intact": 25.33
+            }
+          },
+          {
+            "relic": "Meso Y2",
+            "era": "Meso",
+            "code": "Y2",
             "rarity": "Uncommon",
             "chances": {
               "Radiant": 16.67,
@@ -6913,7 +7051,7 @@
     "slug": "harrow",
     "masteryReq": 0,
     "description": "Achieve redemption through vengeance. The monastic Harrow increases damage to support allies. Defy enemies and ascend.",
-    "imageUrl": "https://cdn.warframestat.us/img/harrow-7f74b91fce.png",
+    "imageUrl": "https://cdn.warframestat.us/img/Harrow.png",
     "wikiUrl": "https://wiki.warframe.com/w/Harrow",
     "health": 270,
     "shield": 455,
@@ -6953,6 +7091,12 @@
         "type": "Market",
         "method": "Acquisto diretto",
         "detail": "225 Platinum"
+      },
+      {
+        "type": "Bounty",
+        "method": "Cephalon Simaris",
+        "detail": "Cephalon Simaris, Complete Chains of Harrow",
+        "chance": "10000.00%"
       },
       {
         "type": "Bounty",
@@ -7044,7 +7188,7 @@
     "slug": "harrow-prime",
     "masteryReq": 0,
     "description": "The Inquisitor Eternal arises, hallowed by the Void, preaching a gospel of iron and flame.",
-    "imageUrl": "https://cdn.warframestat.us/img/harrow-prime-8237c36a69.png",
+    "imageUrl": "https://cdn.warframestat.us/img/HarrowPrime.png",
     "wikiUrl": "https://wiki.warframe.com/w/Harrow%2FPrime",
     "health": 270,
     "shield": 640,
@@ -7497,7 +7641,7 @@
     "slug": "hildryn",
     "masteryReq": 0,
     "description": "Strength is Hildryn’s virtue. Her unique high-damage abilities are powered by her Shields, which can be recharged with Energy. Hildryn proves that a strong offense is a good defense.",
-    "imageUrl": "https://cdn.warframestat.us/img/hildryn-ceaeb4320d.png",
+    "imageUrl": "https://cdn.warframestat.us/img/IronFrame.png",
     "wikiUrl": "https://wiki.warframe.com/w/Hildryn",
     "health": 180,
     "shield": 1280,
@@ -7537,6 +7681,12 @@
         "type": "Market",
         "method": "Acquisto diretto",
         "detail": "325 Platinum"
+      },
+      {
+        "type": "Bounty",
+        "method": "Vox Solaris",
+        "detail": "Vox Solaris, Agent",
+        "chance": "10000.00%"
       },
       {
         "type": "Bounty",
@@ -7591,7 +7741,7 @@
     "slug": "hildryn-prime",
     "masteryReq": 0,
     "description": "Hildryn Prime proves that power is discipline’s reward.",
-    "imageUrl": "https://cdn.warframestat.us/img/hildryn-prime-20937cebe2.png",
+    "imageUrl": "https://cdn.warframestat.us/img/HildrynPrime.png",
     "wikiUrl": "https://wiki.warframe.com/w/Hildryn%2FPrime",
     "health": 270,
     "shield": 1380,
@@ -8020,7 +8170,7 @@
     "slug": "hydroid",
     "masteryReq": 0,
     "description": "Hydroid summons the power of the ocean depths. He provides crowd control with aqueous attacks. His enemies will meet a watery demise.",
-    "imageUrl": "https://cdn.warframestat.us/img/hydroid-e97d6abb00.png",
+    "imageUrl": "https://cdn.warframestat.us/img/Hydroid.png",
     "wikiUrl": "https://wiki.warframe.com/w/Hydroid",
     "health": 270,
     "shield": 365,
@@ -8125,7 +8275,7 @@
     "slug": "hydroid-prime",
     "masteryReq": 0,
     "description": "Command the ocean’s fury with this king of gold and silver. Featuring altered mod polarities for greater customization.",
-    "imageUrl": "https://cdn.warframestat.us/img/hydroid-prime-718aec2104.png",
+    "imageUrl": "https://cdn.warframestat.us/img/HydroidPrime.png",
     "wikiUrl": "https://wiki.warframe.com/w/Hydroid%2FPrime",
     "health": 270,
     "shield": 550,
@@ -8483,7 +8633,7 @@
     "slug": "inaros",
     "masteryReq": 0,
     "description": "Inaros commands the fearsome desert. He survives like the ever-shifting sands that empower him. Legend recalls Inaros as the Fear-Eater.",
-    "imageUrl": "https://cdn.warframestat.us/img/inaros-826f62196f.png",
+    "imageUrl": "https://cdn.warframestat.us/img/Inaros.png",
     "wikiUrl": "https://wiki.warframe.com/w/Inaros",
     "health": 2110,
     "shield": 0,
@@ -8523,6 +8673,12 @@
         "type": "Market",
         "method": "Acquisto diretto",
         "detail": "225 Platinum"
+      },
+      {
+        "type": "Bounty",
+        "method": "Cephalon Simaris",
+        "detail": "Cephalon Simaris, Complete Sands of Inaros",
+        "chance": "10000.00%"
       }
     ],
     "components": [
@@ -8571,7 +8727,7 @@
     "slug": "inaros-prime",
     "masteryReq": 0,
     "description": "Rise, eternal, to cast the fear of Inaros into them. Featuring altered mod polarities for greater customization.",
-    "imageUrl": "https://cdn.warframestat.us/img/inaros-prime-f6689c5568.png",
+    "imageUrl": "https://cdn.warframestat.us/img/InarosPrime.png",
     "wikiUrl": "https://wiki.warframe.com/w/Inaros%2FPrime",
     "health": 2215,
     "shield": 0,
@@ -8988,7 +9144,7 @@
     "slug": "ivara",
     "masteryReq": 0,
     "description": "The huntress draws her bow. Ivara is stealth itself. Her enemies live in fear of her sudden attacks.",
-    "imageUrl": "https://cdn.warframestat.us/img/ivara-d0be78df04.png",
+    "imageUrl": "https://cdn.warframestat.us/img/Ivara.png",
     "wikiUrl": "https://wiki.warframe.com/w/Ivara",
     "health": 180,
     "shield": 270,
@@ -9219,7 +9375,7 @@
     "slug": "ivara-prime",
     "masteryReq": 0,
     "description": "As regal and lethal as a nighttime wood, this is the queen of the hunt in her ultimate form.",
-    "imageUrl": "https://cdn.warframestat.us/img/ivara-prime-1be20f1393.png",
+    "imageUrl": "https://cdn.warframestat.us/img/IvaraPrime.png",
     "wikiUrl": "https://wiki.warframe.com/w/Ivara%2FPrime",
     "health": 180,
     "shield": 455,
@@ -9612,7 +9768,7 @@
     "slug": "jade",
     "masteryReq": 0,
     "description": "Become enraptured by the song of devastation. Through her, the Jade Light can be a force of destruction or a source of support.",
-    "imageUrl": "https://cdn.warframestat.us/img/jade-d88fcb42ca.png",
+    "imageUrl": "https://cdn.warframestat.us/img/Jade.png",
     "wikiUrl": "https://wiki.warframe.com/w/Jade",
     "health": 365,
     "shield": 450,
@@ -9702,7 +9858,7 @@
     "slug": "khora",
     "masteryReq": 0,
     "description": "Khora is red in whip and claw. She works together with her Kavat companion, Venari, to deal high damage and provide crowd control. Two bodies, one will.",
-    "imageUrl": "https://cdn.warframestat.us/img/khora-2062e830c0.png",
+    "imageUrl": "https://cdn.warframestat.us/img/Khora.png",
     "wikiUrl": "https://wiki.warframe.com/w/Khora",
     "health": 365,
     "shield": 270,
@@ -9801,7 +9957,7 @@
     "slug": "khora-prime",
     "masteryReq": 0,
     "description": "A harmony of mistress and monster. The gilded huntress and her loyal Kavat, Venari, dominate the battlefield with their will.",
-    "imageUrl": "https://cdn.warframestat.us/img/khora-prime-29d9f8a9d7.png",
+    "imageUrl": "https://cdn.warframestat.us/img/KhoraPrime.png",
     "wikiUrl": "https://wiki.warframe.com/w/Khora%2FPrime",
     "health": 365,
     "shield": 365,
@@ -10170,7 +10326,7 @@
     "slug": "koumei",
     "masteryReq": 0,
     "description": "Test your luck with the dice-maiden. Koumei weaves fate to unleash damage and ensure her survival. To the virtuous, she is an oracle. To the wicked, a perilous game of chance.",
-    "imageUrl": "https://cdn.warframestat.us/img/koumei-6cf94f7516.png",
+    "imageUrl": "https://cdn.warframestat.us/img/Koumei.png",
     "wikiUrl": "https://wiki.warframe.com/w/Koumei",
     "health": 344,
     "shield": 122,
@@ -10188,7 +10344,7 @@
       },
       {
         "name": "Omamori",
-        "description": "Surround yourself with Omamori Charms, each with a chance to have enemy attacks heal you instead of damage you. The number of charms is determined by Koumei’s dice roll.\n\nA roll of triple sixes grants invulnerability for the duration of your Omamori Charms."
+        "description": "Surround yourself with Omamori Charms, each with a chance to have enemy attacks heal you instead of damage you. The number of charms is determined by Koumei's dice roll.\n\nA roll of triple sixes grants invulnerability for the duration of your Omamori Charms."
       },
       {
         "name": "Bunraku",
@@ -10265,7 +10421,7 @@
     "slug": "kullervo",
     "masteryReq": 0,
     "description": "Kullervo answers for his sins and the sins of others. His daggers and melee prowess deal high damage. Seize the power of treachery to slake his thirst for revenge.",
-    "imageUrl": "https://cdn.warframestat.us/img/kullervo-994239dee1.png",
+    "imageUrl": "https://cdn.warframestat.us/img/PaxDuviricus.png",
     "wikiUrl": "https://wiki.warframe.com/w/Kullervo",
     "health": 1005,
     "shield": 0,
@@ -10354,7 +10510,7 @@
     "slug": "lavos",
     "masteryReq": 0,
     "description": "The serpents of Lavos encourage him as he transmutes the battlefield. He uses Toxin, Cold, Electricity, and Heat to deal elemental damage. Harness the power of the dark alchemist.",
-    "imageUrl": "https://cdn.warframestat.us/img/lavos-aea18ae52f.png",
+    "imageUrl": "https://cdn.warframestat.us/img/Lavos.png",
     "wikiUrl": "https://wiki.warframe.com/w/Lavos",
     "health": 540,
     "shield": 270,
@@ -10394,6 +10550,12 @@
         "type": "Market",
         "method": "Acquisto diretto",
         "detail": "325 Platinum"
+      },
+      {
+        "type": "Bounty",
+        "method": "Entrati (Father)",
+        "detail": "Entrati (Father), Acquaintance",
+        "chance": "10000.00%"
       },
       {
         "type": "Bounty",
@@ -10448,7 +10610,7 @@
     "slug": "lavos-prime",
     "masteryReq": 0,
     "description": "Some Warframes were Prime from the start. Others ascended. Lavos, the master of transmutation, bowed to no one as he forged his own path to valor.",
-    "imageUrl": "https://cdn.warframestat.us/img/lavos-prime-90a6c16d29.png",
+    "imageUrl": "https://cdn.warframestat.us/img/LavosPrime.png",
     "wikiUrl": "https://wiki.warframe.com/w/Lavos%2FPrime",
     "health": 600,
     "shield": 310,
@@ -10520,6 +10682,30 @@
               "Flawless": 17,
               "Radiant": 20
             }
+          },
+          {
+            "relic": "Lith C14",
+            "era": "Lith",
+            "code": "C14",
+            "rarity": "Uncommon",
+            "chances": {
+              "Intact": 11,
+              "Exceptional": 13,
+              "Flawless": 17,
+              "Radiant": 20
+            }
+          },
+          {
+            "relic": "Neo A16",
+            "era": "Neo",
+            "code": "A16",
+            "rarity": "Uncommon",
+            "chances": {
+              "Intact": 11,
+              "Exceptional": 13,
+              "Flawless": 17,
+              "Radiant": 20
+            }
           }
         ]
       },
@@ -10542,9 +10728,33 @@
             }
           },
           {
+            "relic": "Axi D6",
+            "era": "Axi",
+            "code": "D6",
+            "rarity": "Uncommon",
+            "chances": {
+              "Radiant": 16.67,
+              "Flawless": 20,
+              "Exceptional": 23.33,
+              "Intact": 25.33
+            }
+          },
+          {
             "relic": "Lith G14",
             "era": "Lith",
             "code": "G14",
+            "rarity": "Uncommon",
+            "chances": {
+              "Radiant": 16.67,
+              "Flawless": 20,
+              "Exceptional": 23.33,
+              "Intact": 25.33
+            }
+          },
+          {
+            "relic": "Lith T14",
+            "era": "Lith",
+            "code": "T14",
             "rarity": "Uncommon",
             "chances": {
               "Radiant": 16.67,
@@ -10586,9 +10796,33 @@
             }
           },
           {
+            "relic": "Axi P10",
+            "era": "Axi",
+            "code": "P10",
+            "rarity": "Uncommon",
+            "chances": {
+              "Intact": 11,
+              "Exceptional": 13,
+              "Flawless": 17,
+              "Radiant": 20
+            }
+          },
+          {
             "relic": "Meso A8",
             "era": "Meso",
             "code": "A8",
+            "rarity": "Uncommon",
+            "chances": {
+              "Intact": 11,
+              "Exceptional": 13,
+              "Flawless": 17,
+              "Radiant": 20
+            }
+          },
+          {
+            "relic": "Neo N24",
+            "era": "Neo",
+            "code": "N24",
             "rarity": "Uncommon",
             "chances": {
               "Intact": 11,
@@ -10640,6 +10874,30 @@
               "Exceptional": 4,
               "Flawless": 6
             }
+          },
+          {
+            "relic": "Meso L4",
+            "era": "Meso",
+            "code": "L4",
+            "rarity": "Uncommon",
+            "chances": {
+              "Radiant": 10,
+              "Intact": 2,
+              "Exceptional": 4,
+              "Flawless": 6
+            }
+          },
+          {
+            "relic": "Meso L5",
+            "era": "Meso",
+            "code": "L5",
+            "rarity": "Uncommon",
+            "chances": {
+              "Radiant": 10,
+              "Intact": 2,
+              "Exceptional": 4,
+              "Flawless": 6
+            }
           }
         ]
       }
@@ -10661,7 +10919,7 @@
     "slug": "limbo",
     "masteryReq": 0,
     "description": "Master the rift between shadow and substance. Limbo disrupts time-space to provide crowd control. He is at home where others struggle with what is real.",
-    "imageUrl": "https://cdn.warframestat.us/img/limbo-c107f3bcc2.png",
+    "imageUrl": "https://cdn.warframestat.us/img/Limbo.png",
     "wikiUrl": "https://wiki.warframe.com/w/Limbo",
     "health": 270,
     "shield": 180,
@@ -10706,6 +10964,12 @@
         "type": "Blueprint",
         "method": "Market Blueprint",
         "detail": "35000 Credits"
+      },
+      {
+        "type": "Bounty",
+        "method": "Cephalon Simaris",
+        "detail": "Cephalon Simaris, Complete The Limbo Theorem",
+        "chance": "10000.00%"
       }
     ],
     "components": [
@@ -10754,7 +11018,7 @@
     "slug": "limbo-prime",
     "masteryReq": 0,
     "description": "Dance between realms with this golden rift walker. Featuring altered mod polarities for greater customization.",
-    "imageUrl": "https://cdn.warframestat.us/img/limbo-prime-7449a6c1ce.png",
+    "imageUrl": "https://cdn.warframestat.us/img/LimboPrime.png",
     "wikiUrl": "https://wiki.warframe.com/w/Limbo%2FPrime",
     "health": 270,
     "shield": 270,
@@ -11160,7 +11424,7 @@
     "slug": "loki",
     "masteryReq": 0,
     "description": "Loki knows the art of deception. The trickster employs stealth to sabotage enemies. Sow confusion.",
-    "imageUrl": "https://cdn.warframestat.us/img/loki-04905b317a.png",
+    "imageUrl": "https://cdn.warframestat.us/img/Loki.png",
     "wikiUrl": "https://wiki.warframe.com/w/Loki",
     "health": 180,
     "shield": 180,
@@ -11170,7 +11434,7 @@
     "abilities": [
       {
         "name": "Decoy",
-        "description": "Loki deploys a holographic copy of himself that draws enemy fire and absorbs a portion of nearby enemy health and shields."
+        "description": "Loki deploys a holographic copy of himself that draws enemy fire. The decoy gains health and shield based on enemies nearby."
       },
       {
         "name": "Invisibility",
@@ -11259,7 +11523,7 @@
     "slug": "loki-prime",
     "masteryReq": 0,
     "description": "Confuse, deceive and destroy with Loki Prime. Featuring altered mod polarities for greater customization.",
-    "imageUrl": "https://cdn.warframestat.us/img/loki-prime-5b192774c4.png",
+    "imageUrl": "https://cdn.warframestat.us/img/LokiPrime.png",
     "wikiUrl": "https://wiki.warframe.com/w/Loki%2FPrime",
     "health": 180,
     "shield": 180,
@@ -11269,7 +11533,7 @@
     "abilities": [
       {
         "name": "Decoy",
-        "description": "Loki deploys a holographic copy of himself that draws enemy fire and absorbs a portion of nearby enemy health and shields."
+        "description": "Loki deploys a holographic copy of himself that draws enemy fire. The decoy gains health and shield based on enemies nearby."
       },
       {
         "name": "Invisibility",
@@ -11461,7 +11725,7 @@
     "slug": "mag",
     "masteryReq": 0,
     "description": "Take down your enemies with magnetic force. Mag alters magnetic fields to provide crowd control and strip enemy defenses. Few can resist her attraction or her repulsion.",
-    "imageUrl": "https://cdn.warframestat.us/img/mag-1a461f5a07.png",
+    "imageUrl": "https://cdn.warframestat.us/img/Mag.png",
     "wikiUrl": "https://wiki.warframe.com/w/Mag",
     "health": 180,
     "shield": 455,
@@ -11560,7 +11824,7 @@
     "slug": "mag-prime",
     "masteryReq": 0,
     "description": "The exquisite Mag Prime offers the same abilities as Mag but with unique mod polarities for greater customization.",
-    "imageUrl": "https://cdn.warframestat.us/img/mag-prime-a3d6c2f9ba.png",
+    "imageUrl": "https://cdn.warframestat.us/img/MagPrime.png",
     "wikiUrl": "https://wiki.warframe.com/w/Mag%2FPrime",
     "health": 270,
     "shield": 455,
@@ -11845,7 +12109,7 @@
     "slug": "mesa",
     "masteryReq": 0,
     "description": "The gunslinger has a steady deadly hand. Each shot deals high damage. Mesa is the fastest draw in the realm.",
-    "imageUrl": "https://cdn.warframestat.us/img/mesa-30651569ff.png",
+    "imageUrl": "https://cdn.warframestat.us/img/Mesa.png",
     "wikiUrl": "https://wiki.warframe.com/w/Mesa",
     "health": 365,
     "shield": 180,
@@ -11939,7 +12203,7 @@
     "slug": "mesa-prime",
     "masteryReq": 0,
     "description": "Cast a long shadow with this lethal enforcer. Featuring altered mod polarities for greater customization.",
-    "imageUrl": "https://cdn.warframestat.us/img/mesa-prime-f912b57a14.png",
+    "imageUrl": "https://cdn.warframestat.us/img/MesaPrime.png",
     "wikiUrl": "https://wiki.warframe.com/w/Mesa%2FPrime",
     "health": 400,
     "shield": 180,
@@ -12357,7 +12621,7 @@
     "slug": "mirage",
     "masteryReq": 0,
     "description": "Mirage’s sleight of hand complements her might. Her dazzled foes take heavy damage. Doppelgangers, lasers, and traps are elements of her stagecraft.",
-    "imageUrl": "https://cdn.warframestat.us/img/mirage-83f6195ffb.png",
+    "imageUrl": "https://cdn.warframestat.us/img/Mirage.png",
     "wikiUrl": "https://wiki.warframe.com/w/Mirage",
     "health": 200,
     "shield": 200,
@@ -12397,6 +12661,12 @@
         "type": "Market",
         "method": "Acquisto diretto",
         "detail": "275 Platinum"
+      },
+      {
+        "type": "Bounty",
+        "method": "Cephalon Simaris",
+        "detail": "Cephalon Simaris, Complete Hidden Messages",
+        "chance": "10000.00%"
       }
     ],
     "components": [
@@ -12445,7 +12715,7 @@
     "slug": "mirage-prime",
     "masteryReq": 0,
     "description": "Dazzle the opposition with this golden master of illusion and mayhem. Featuring altered mod polarities allow for greater customization.",
-    "imageUrl": "https://cdn.warframestat.us/img/mirage-prime-96a31c01da.png",
+    "imageUrl": "https://cdn.warframestat.us/img/MiragePrime.png",
     "wikiUrl": "https://wiki.warframe.com/w/Mirage%2FPrime",
     "health": 200,
     "shield": 310,
@@ -12839,7 +13109,7 @@
     "slug": "nekros",
     "masteryReq": 0,
     "description": "There is a reaper whose name is Nekros. He provides deathly crowd control. Erstwhile enemies become allies when Nekros calls up recruits from the dead.",
-    "imageUrl": "https://cdn.warframestat.us/img/nekros-61cb2c9f69.png",
+    "imageUrl": "https://cdn.warframestat.us/img/Nekros.png",
     "wikiUrl": "https://wiki.warframe.com/w/Nekros",
     "health": 270,
     "shield": 235,
@@ -12944,7 +13214,7 @@
     "slug": "nekros-prime",
     "masteryReq": 0,
     "description": "Death's new master. Featuring altered mod polarities allow for greater customization.",
-    "imageUrl": "https://cdn.warframestat.us/img/nekros-prime-4f3e86be2a.png",
+    "imageUrl": "https://cdn.warframestat.us/img/NekrosPrime.png",
     "wikiUrl": "https://wiki.warframe.com/w/Nekros%2FPrime",
     "health": 270,
     "shield": 455,
@@ -13325,7 +13595,7 @@
     "slug": "nezha",
     "masteryReq": 0,
     "description": "The mercurial firemonger protects the innocent. Nezha’s multifaceted tactics give him high survivability as he inflicts damage and provides crowd control. His fire is the clarion of hope.",
-    "imageUrl": "https://cdn.warframestat.us/img/nezha-39ab6803c6.png",
+    "imageUrl": "https://cdn.warframestat.us/img/Nezha.png",
     "wikiUrl": "https://wiki.warframe.com/w/Nezha",
     "health": 365,
     "shield": 135,
@@ -13418,7 +13688,7 @@
     "slug": "nezha-prime",
     "masteryReq": 0,
     "description": "Behold: the Scion of the Burning Wind, now before you in most courtly accoutrement. Featuring altered mod polarities for greater customization.",
-    "imageUrl": "https://cdn.warframestat.us/img/nezha-prime-b5e9ddf42b.png",
+    "imageUrl": "https://cdn.warframestat.us/img/NezhaPrime.png",
     "wikiUrl": "https://wiki.warframe.com/w/Nezha%2FPrime",
     "health": 365,
     "shield": 135,
@@ -13859,9 +14129,9 @@
     "slug": "nidus",
     "masteryReq": 0,
     "description": "Nidus draws strength from the Infestation. It bolsters him with survivability as he deals high damage and provides crowd control. Plague your enemies.",
-    "imageUrl": "https://cdn.warframestat.us/img/nidus-02067c4ce9.png",
+    "imageUrl": "https://cdn.warframestat.us/img/Nidus.png",
     "wikiUrl": "https://wiki.warframe.com/w/Nidus",
-    "health": 455,
+    "health": 675,
     "shield": 0,
     "armor": 350,
     "energy": 100,
@@ -13877,7 +14147,7 @@
       },
       {
         "name": "Parasitic Link",
-        "description": "Bind to a target with parasitic link. When cast on an ally, both the host and Nidus have their Ability Strength increased. Linked enemies take some of the damage inflicted on Nidus."
+        "description": "Bind to a target with parasitic link. When cast on an ally, both the host and Nidus have their Ability Strength and Weapon Damage increased. Linked enemies take some of the damage inflicted on Nidus."
       },
       {
         "name": "Ravenous",
@@ -13899,6 +14169,12 @@
         "type": "Market",
         "method": "Acquisto diretto",
         "detail": "225 Platinum"
+      },
+      {
+        "type": "Bounty",
+        "method": "Cephalon Simaris",
+        "detail": "Cephalon Simaris, Complete The Glast Gambit",
+        "chance": "10000.00%"
       },
       {
         "type": "Bounty",
@@ -13960,9 +14236,9 @@
     "slug": "nidus-prime",
     "masteryReq": 0,
     "description": "Mutation is endless. The ravening plague-bearer returns in a long-unseen form, seething with a primal strain of the Infestation.",
-    "imageUrl": "https://cdn.warframestat.us/img/nidus-prime-c1781ebcc9.png",
+    "imageUrl": "https://cdn.warframestat.us/img/NidusPrime.png",
     "wikiUrl": "https://wiki.warframe.com/w/Nidus%2FPrime",
-    "health": 550,
+    "health": 825,
     "shield": 0,
     "armor": 425,
     "energy": 140,
@@ -13978,7 +14254,7 @@
       },
       {
         "name": "Parasitic Link",
-        "description": "Bind to a target with parasitic link. When cast on an ally, both the host and Nidus have their Ability Strength increased. Linked enemies take some of the damage inflicted on Nidus."
+        "description": "Bind to a target with parasitic link. When cast on an ally, both the host and Nidus have their Ability Strength and Weapon Damage increased. Linked enemies take some of the damage inflicted on Nidus."
       },
       {
         "name": "Ravenous",
@@ -13997,9 +14273,9 @@
     ],
     "acquisition": [
       {
-        "type": "Market",
-        "method": "Acquisto diretto",
-        "detail": "375 Platinum"
+        "type": "Void Relic",
+        "method": "Void Fissure",
+        "detail": "Ottieni i componenti dalle Void Relics"
       }
     ],
     "components": [
@@ -14365,7 +14641,7 @@
     "slug": "nokko",
     "masteryReq": 0,
     "description": "Spring into action with Nokko! With his strong roots and an array of tricky fungi this young defender will quickly grow on you",
-    "imageUrl": "https://cdn.warframestat.us/img/nokko-519627ee77.png",
+    "imageUrl": "https://cdn.warframestat.us/img/Nokko.png",
     "wikiUrl": "https://wiki.warframe.com/w/Nokko",
     "health": 150,
     "shield": 300,
@@ -14379,7 +14655,7 @@
       },
       {
         "name": "Brightbonnet",
-        "description": "Release a rejuvenating mushroom that emits a radial pulse, giving Nokko and his allies’ <ENERGY> Energy and applying a buff to Ability Strength that lasts for a short time."
+        "description": "Release a rejuvenating mushroom that emits a radial pulse, giving Nokko and his allies' <ENERGY> Energy and applying a buff to Ability Strength that lasts for a short time."
       },
       {
         "name": "Reroot",
@@ -14483,7 +14759,7 @@
     "slug": "nova",
     "masteryReq": 0,
     "description": "Harness antimatter. Nova uses antiparticles to provide crowd control and amplify damage output. She obliterates enemies by destabilizing matter itself.",
-    "imageUrl": "https://cdn.warframestat.us/img/nova-1f908986f1.png",
+    "imageUrl": "https://cdn.warframestat.us/img/Nova.png",
     "wikiUrl": "https://wiki.warframe.com/w/Nova",
     "health": 270,
     "shield": 180,
@@ -14582,7 +14858,7 @@
     "slug": "nova-prime",
     "masteryReq": 0,
     "description": "Nova Prime wreaks devastation on her enemies using volatile antimatter. Featuring altered mod polarities for greater customization.",
-    "imageUrl": "https://cdn.warframestat.us/img/nova-prime-2345192401.png",
+    "imageUrl": "https://cdn.warframestat.us/img/NovaPrime.png",
     "wikiUrl": "https://wiki.warframe.com/w/Nova%2FPrime",
     "health": 270,
     "shield": 270,
@@ -14867,7 +15143,7 @@
     "slug": "nyx",
     "masteryReq": 0,
     "description": "Psychic attacks make Nyx a dangerous foe. She reaches into enemy consciousness to provide crowd control and turn their attacks back on them. Such manipulation can turn the tide of battle.",
-    "imageUrl": "https://cdn.warframestat.us/img/nyx-b6f1ec8736.png",
+    "imageUrl": "https://cdn.warframestat.us/img/Nyx.png",
     "wikiUrl": "https://wiki.warframe.com/w/Nyx",
     "health": 270,
     "shield": 270,
@@ -14966,7 +15242,7 @@
     "slug": "nyx-prime",
     "masteryReq": 0,
     "description": "Infiltrate the minds of your enemies with Nyx Prime. Featuring altered mod polarities for greater customization.",
-    "imageUrl": "https://cdn.warframestat.us/img/nyx-prime-b16b670098.png",
+    "imageUrl": "https://cdn.warframestat.us/img/NyxPrime.png",
     "wikiUrl": "https://wiki.warframe.com/w/Nyx%2FPrime",
     "health": 270,
     "shield": 365,
@@ -15215,7 +15491,7 @@
     "slug": "oberon",
     "masteryReq": 0,
     "description": "Healing and suffering do Oberon’s bidding. His command of the natural world supports allies. Boon to his friends, bane of his foes.",
-    "imageUrl": "https://cdn.warframestat.us/img/oberon-61900220ad.png",
+    "imageUrl": "https://cdn.warframestat.us/img/Oberon.png",
     "wikiUrl": "https://wiki.warframe.com/w/Oberon",
     "health": 365,
     "shield": 270,
@@ -15368,7 +15644,7 @@
     "slug": "oberon-prime",
     "masteryReq": 0,
     "description": "Protect the balance with this regal forest guardian. Featuring altered mod polarities for greater customization.",
-    "imageUrl": "https://cdn.warframestat.us/img/oberon-prime-71fc40c9ca.png",
+    "imageUrl": "https://cdn.warframestat.us/img/OberonPrime.png",
     "wikiUrl": "https://wiki.warframe.com/w/Oberon%2FPrime",
     "health": 365,
     "shield": 270,
@@ -15762,7 +16038,7 @@
     "slug": "octavia",
     "masteryReq": 0,
     "description": "Octavia turns bass, beat, and melody into a symphony of devastation. The music of her Mandachord gives her high survivability and supports allies. Her composition means the enemy’s destruction.",
-    "imageUrl": "https://cdn.warframestat.us/img/octavia-d57837e36e.png",
+    "imageUrl": "https://cdn.warframestat.us/img/Octavia.png",
     "wikiUrl": "https://wiki.warframe.com/w/Octavia",
     "health": 270,
     "shield": 180,
@@ -15802,6 +16078,12 @@
         "type": "Market",
         "method": "Acquisto diretto",
         "detail": "225 Platinum"
+      },
+      {
+        "type": "Bounty",
+        "method": "Cephalon Simaris",
+        "detail": "Cephalon Simaris, Complete Octavia's Anthem",
+        "chance": "10000.00%"
       },
       {
         "type": "Bounty",
@@ -15875,7 +16157,7 @@
     "slug": "octavia-prime",
     "masteryReq": 0,
     "description": "Strike up a symphony of destruction with the mistress of music, Octavia, in her grandest and most spectacular form. Featuring altered mod polarities for greater customization.",
-    "imageUrl": "https://cdn.warframestat.us/img/octavia-prime-93e1ad02f0.png",
+    "imageUrl": "https://cdn.warframestat.us/img/OctaviaPrime.png",
     "wikiUrl": "https://wiki.warframe.com/w/Octavia%2FPrime",
     "health": 270,
     "shield": 270,
@@ -16268,7 +16550,7 @@
     "slug": "oraxia",
     "masteryReq": 0,
     "description": "Sinister grace interwoven with lethal versatility; the evolution of a perfect predator. Fear's name is Oraxia.",
-    "imageUrl": "https://cdn.warframestat.us/img/oraxia-8a9e4aab09.png",
+    "imageUrl": "https://cdn.warframestat.us/img/Oraxia.png",
     "wikiUrl": "https://wiki.warframe.com/w/Oraxia",
     "health": 575,
     "shield": 125,
@@ -16358,11 +16640,59 @@
     "aura": "madurai"
   },
   {
+    "name": "Orion & Sirius",
+    "slug": "orion-sirius",
+    "masteryReq": 0,
+    "description": "Wield the power of the stars in a constant battle for supremacy. The dueling sons, Sirius & Orion, occupy the space of a single Warframe, jockeying for position to rain cosmic destruction upon foes.",
+    "imageUrl": "https://cdn.warframestat.us/img/OrionSirius.png",
+    "wikiUrl": "https://wiki.warframe.com/w/Orion",
+    "health": 350,
+    "shield": 270,
+    "armor": 300,
+    "energy": 200,
+    "sprint": 1.15,
+    "abilities": [
+      {
+        "name": "Gravitic Slash",
+        "description": "Repel enemies with Orion's sinister scythe, dealing <DT_SLASH_COLOR>Slash Damage and Status Effect while reducing shields and armor.\n\n(HOLD) Swap to Sirius and use Coronal Ejection."
+      },
+      {
+        "name": "Astral Shell",
+        "description": "Envelop Orion in an Astral Shell. Upon taking damage the shell becomes a decoy that draws fire until it's destroyed.\n\n(HOLD) Swap to Sirius and use Jade Stars."
+      },
+      {
+        "name": "Event Horizon",
+        "description": "Orion forms a drifting black hole, trapping enemies within its gravity. Hitting the black hole with Gravitic Slash or Coronal Ejection will extend its duration and change its trajectory: Gravitic Slash will direct it away from Orion, and Coronal Ejection will pull it towards Sirius.\n\n(HOLD) Swap to Sirius and use Light's Sanctuary."
+      },
+      {
+        "name": "Celestial Clash",
+        "description": "Sirius & Orion take to the skies in a cosmic duel. Each attack consumes a Constellation Star to inflict colossal collateral <DT_EXPLOSION_COLOR>Blast damage. Match the star's color to the Warframes color to gain increased Critical Chance.\n\n|LEFT_ATTACK| Sirius attacks\n|RIGHT_ATTACK| Orion attacks\n\nGenerate Constellation Stars by using abilities. No more than two stars of the same color can be added in a row."
+      }
+    ],
+    "passiveDescription": "Swapping between them grants |EFFICIENCY|% Ability Efficiency for the next |COUNT| casts.\n\nWhen below 50 energy, Sirius & Orion will steal energy from each other.",
+    "isPrime": false,
+    "variantType": null,
+    "variants": [],
+    "acquisition": [],
+    "components": [],
+    "buildTime": null,
+    "buildPrice": null,
+    "vaulted": false,
+    "sex": "Male",
+    "introduced": "Update 43.0",
+    "polarities": [
+      "vazarin",
+      "madurai",
+      "aura"
+    ],
+    "aura": "naramon"
+  },
+  {
     "name": "Protea",
     "slug": "protea",
     "masteryReq": 0,
     "description": "Protea knows all about protection. Her vast arsenal inflicts damage and provides ally support. She can even manipulate time itself.",
-    "imageUrl": "https://cdn.warframestat.us/img/protea-69a74795e8.png",
+    "imageUrl": "https://cdn.warframestat.us/img/Odalisk.png",
     "wikiUrl": "https://wiki.warframe.com/w/Protea",
     "health": 270,
     "shield": 455,
@@ -16407,6 +16737,12 @@
         "type": "Blueprint",
         "method": "Market Blueprint",
         "detail": "35000 Credits"
+      },
+      {
+        "type": "Bounty",
+        "method": "Cephalon Simaris",
+        "detail": "Cephalon Simaris, Complete The Deadlock Protocol",
+        "chance": "10000.00%"
       },
       {
         "type": "Bounty",
@@ -16473,7 +16809,7 @@
     "slug": "protea-prime",
     "masteryReq": 0,
     "description": "Behold the child of two fathers. Protea Prime once fulfilled Parvos Granum's vision of a time-wielding guardian. Now she upholds the Tenno ideal of defending the defenseless.",
-    "imageUrl": "https://cdn.warframestat.us/img/protea-prime-86cbc2b038.png",
+    "imageUrl": "https://cdn.warframestat.us/img/ProteaPrime.png",
     "wikiUrl": "https://wiki.warframe.com/w/Protea%2FPrime",
     "health": 270,
     "shield": 455,
@@ -16839,7 +17175,7 @@
     ],
     "buildTime": 259200,
     "buildPrice": 25000,
-    "vaulted": false,
+    "vaulted": true,
     "sex": "Female",
     "introduced": "Hotfix 35.5.9",
     "polarities": [
@@ -16854,7 +17190,7 @@
     "slug": "qorvex",
     "masteryReq": 0,
     "description": "Albrecht Entrati designed Qorvex to protect a Chosen Operator from the unique hazards of his lab. A Crucible Core gives Qorvex high survivability as he provides crowd control.",
-    "imageUrl": "https://cdn.warframestat.us/img/qorvex-ec9d170e8b.png",
+    "imageUrl": "https://cdn.warframestat.us/img/Qorvex.png",
     "wikiUrl": "https://wiki.warframe.com/w/Qorvex",
     "health": 600,
     "shield": 200,
@@ -16961,7 +17297,7 @@
     "slug": "revenant",
     "masteryReq": 0,
     "description": "Macabre spectral power has risen. Infused with the essence of the Eidolon, Revenant has strong survivability and deals high damage. Enemies become his thralls.",
-    "imageUrl": "https://cdn.warframestat.us/img/revenant-c9bd7cfbcc.png",
+    "imageUrl": "https://cdn.warframestat.us/img/Revenant.png",
     "wikiUrl": "https://wiki.warframe.com/w/Revenant",
     "health": 270,
     "shield": 635,
@@ -17001,6 +17337,12 @@
         "type": "Market",
         "method": "Acquisto diretto",
         "detail": "325 Platinum"
+      },
+      {
+        "type": "Bounty",
+        "method": "Cephalon Simaris",
+        "detail": "Cephalon Simaris, Complete Mask of the Revenant",
+        "chance": "10000.00%"
       },
       {
         "type": "Bounty",
@@ -17079,7 +17421,7 @@
     "slug": "revenant-prime",
     "masteryReq": 0,
     "description": "The lost one rises. Reify the essence of the Eidolon as you wield Revenant Prime’s power.",
-    "imageUrl": "https://cdn.warframestat.us/img/revenant-prime-a5be34cbf2.png",
+    "imageUrl": "https://cdn.warframestat.us/img/RevenantPrime.png",
     "wikiUrl": "https://wiki.warframe.com/w/Revenant%2FPrime",
     "health": 270,
     "shield": 825,
@@ -17496,7 +17838,7 @@
     "slug": "rhino",
     "masteryReq": 0,
     "description": "Rhino packs a punch. He boasts high survivability and crowd control. The wise would do well to stand clear when he charges.",
-    "imageUrl": "https://cdn.warframestat.us/img/rhino-87af2466b6.png",
+    "imageUrl": "https://cdn.warframestat.us/img/Rhino.png",
     "wikiUrl": "https://wiki.warframe.com/w/Rhino",
     "health": 270,
     "shield": 455,
@@ -17602,7 +17944,7 @@
     "slug": "rhino-prime",
     "masteryReq": 0,
     "description": "Takes Rhino's ground-shaking abilities to the next level with altered mod polarities that offer greater customization.",
-    "imageUrl": "https://cdn.warframestat.us/img/rhino-prime-7142165571.png",
+    "imageUrl": "https://cdn.warframestat.us/img/RhinoPrime.png",
     "wikiUrl": "https://wiki.warframe.com/w/Rhino%2FPrime",
     "health": 270,
     "shield": 455,
@@ -17839,7 +18181,7 @@
     "slug": "saryn",
     "masteryReq": 0,
     "description": "Toxicity is Saryn’s strength. Her serpentine powers deal heavy damage. For Saryn, venom is a virtue.",
-    "imageUrl": "https://cdn.warframestat.us/img/saryn-88c1d4da08.png",
+    "imageUrl": "https://cdn.warframestat.us/img/Saryn.png",
     "wikiUrl": "https://wiki.warframe.com/w/Saryn",
     "health": 365,
     "shield": 270,
@@ -17938,7 +18280,7 @@
     "slug": "saryn-prime",
     "masteryReq": 0,
     "description": "A golden blossom conceals deadly nectar. Featuring altered mod polarities for greater customization.",
-    "imageUrl": "https://cdn.warframestat.us/img/saryn-prime-8703933001.png",
+    "imageUrl": "https://cdn.warframestat.us/img/SarynPrime.png",
     "wikiUrl": "https://wiki.warframe.com/w/Saryn%2FPrime",
     "health": 365,
     "shield": 270,
@@ -18391,7 +18733,7 @@
     "slug": "sevagoth",
     "masteryReq": 0,
     "description": "No longer adrift in the Void, Sevagoth has returned. He and his Shadow deal heavy damage and have high survivability. They are sustained by the reaping of wayward souls.",
-    "imageUrl": "https://cdn.warframestat.us/img/sevagoth-9264d64897.png",
+    "imageUrl": "https://cdn.warframestat.us/img/Wraith.png",
     "wikiUrl": "https://wiki.warframe.com/w/Sevagoth",
     "health": 270,
     "shield": 235,
@@ -18431,6 +18773,12 @@
         "type": "Market",
         "method": "Acquisto diretto",
         "detail": "325 Platinum"
+      },
+      {
+        "type": "Bounty",
+        "method": "Cephalon Simaris",
+        "detail": "Cephalon Simaris, Complete Call of the Tempestarii",
+        "chance": "10000.00%"
       },
       {
         "type": "Bounty",
@@ -18497,7 +18845,7 @@
     "slug": "sevagoth-prime",
     "masteryReq": 0,
     "description": "The gilded helmsman emerges from the tempest, his shadow a lure for doomed souls.",
-    "imageUrl": "https://cdn.warframestat.us/img/sevagoth-prime-5f34bf2dba.png",
+    "imageUrl": "https://cdn.warframestat.us/img/SevagothPrime.png",
     "wikiUrl": "https://wiki.warframe.com/w/Sevagoth%2FPrime",
     "health": 270,
     "shield": 270,
@@ -18546,6 +18894,18 @@
         "ducats": 45,
         "tradable": true,
         "relics": [
+          {
+            "relic": "Axi Y3",
+            "era": "Axi",
+            "code": "Y3",
+            "rarity": "Uncommon",
+            "chances": {
+              "Intact": 11,
+              "Exceptional": 13,
+              "Flawless": 17,
+              "Radiant": 20
+            }
+          },
           {
             "relic": "Axi Z2",
             "era": "Axi",
@@ -18649,6 +19009,18 @@
               "Exceptional": 4,
               "Flawless": 6
             }
+          },
+          {
+            "relic": "Neo S20",
+            "era": "Neo",
+            "code": "S20",
+            "rarity": "Uncommon",
+            "chances": {
+              "Radiant": 10,
+              "Intact": 2,
+              "Exceptional": 4,
+              "Flawless": 6
+            }
           }
         ]
       },
@@ -18719,6 +19091,18 @@
             }
           },
           {
+            "relic": "Meso L4",
+            "era": "Meso",
+            "code": "L4",
+            "rarity": "Uncommon",
+            "chances": {
+              "Radiant": 16.67,
+              "Flawless": 20,
+              "Exceptional": 23.33,
+              "Intact": 25.33
+            }
+          },
+          {
             "relic": "Neo K9",
             "era": "Neo",
             "code": "K9",
@@ -18766,6 +19150,18 @@
             "relic": "Lith C12",
             "era": "Lith",
             "code": "C12",
+            "rarity": "Uncommon",
+            "chances": {
+              "Radiant": 16.67,
+              "Flawless": 20,
+              "Exceptional": 23.33,
+              "Intact": 25.33
+            }
+          },
+          {
+            "relic": "Lith C14",
+            "era": "Lith",
+            "code": "C14",
             "rarity": "Uncommon",
             "chances": {
               "Radiant": 16.67,
@@ -18827,7 +19223,7 @@
     ],
     "buildTime": 259200,
     "buildPrice": 25000,
-    "vaulted": false,
+    "vaulted": true,
     "sex": "Male",
     "introduced": "Update 36.1",
     "polarities": [
@@ -18838,11 +19234,101 @@
     "aura": null
   },
   {
+    "name": "Sirius & Orion",
+    "slug": "sirius-orion",
+    "masteryReq": 0,
+    "description": "Wield the power of the stars in a constant battle for supremacy. The dueling sons, Sirius & Orion, occupy the space of a single Warframe, jockeying for position to rain cosmic destruction upon foes.",
+    "imageUrl": "https://cdn.warframestat.us/img/SiriusOrion.png",
+    "wikiUrl": "https://wiki.warframe.com/w/Sirius",
+    "health": 475,
+    "shield": 355,
+    "armor": 160,
+    "energy": 200,
+    "sprint": 1.15,
+    "abilities": [
+      {
+        "name": "Coronal Ejection",
+        "description": "Hurl Sirius' Jade Light infused scythe, dealing <DT_FIRE_COLOR>Heat Damage while collecting any pickups in its path.\n\n(HOLD) Swap to Orion and use Gravitic Slash."
+      },
+      {
+        "name": "Jade Stars",
+        "description": "Sirius conjures Jade Light motes that slowly regenerate over time. Attacking enemies launches the motes, dealing <DT_FIRE_COLOR>Heat Damage and Status Effect.\n\n(HOLD) Swap to Orion and use Astral Shell."
+      },
+      {
+        "name": "Light's Sanctuary",
+        "description": "Sirius creates a well of light that heals and revives allies, while reducing incoming damage. The well slowly grows in size and power.\n\n(HOLD) Swap to Orion and use Event Horizon."
+      },
+      {
+        "name": "Celestial Clash",
+        "description": "Sirius & Orion take to the skies in a cosmic duel. Each attack consumes a Constellation Star to inflict colossal collateral <DT_EXPLOSION_COLOR>Blast damage. Match the star's color to the Warframes color to gain increased Critical Chance.\n\n|LEFT_ATTACK| Sirius attacks\n|RIGHT_ATTACK| Orion attacks\n\nGenerate Constellation Stars by using abilities. No more than two stars of the same color can be added in a row."
+      }
+    ],
+    "passiveDescription": "Swapping between them grants |EFFICIENCY|% Ability Efficiency for the next |COUNT| casts.\n\nWhen below 50 energy, Sirius & Orion will steal energy from each other.",
+    "isPrime": false,
+    "variantType": null,
+    "variants": [],
+    "acquisition": [
+      {
+        "type": "Bounty",
+        "method": "Uranus/Scoria's Angel (Skirmish)",
+        "detail": "Uranus/Scoria's Angel (Skirmish)",
+        "chance": "1429.00%"
+      },
+      {
+        "type": "Bounty",
+        "method": "Uranus/The Kuva Wytch (Skirmish)",
+        "detail": "Uranus/The Kuva Wytch (Skirmish)",
+        "chance": "1429.00%"
+      }
+    ],
+    "components": [
+      {
+        "name": "Blueprint",
+        "fullName": "Sirius & Orion Blueprint",
+        "ducats": null,
+        "tradable": false,
+        "relics": []
+      },
+      {
+        "name": "Chassis",
+        "fullName": "Sirius & Orion Chassis",
+        "ducats": null,
+        "tradable": false,
+        "relics": []
+      },
+      {
+        "name": "Neuroptics",
+        "fullName": "Sirius & Orion Neuroptics",
+        "ducats": null,
+        "tradable": false,
+        "relics": []
+      },
+      {
+        "name": "Systems",
+        "fullName": "Sirius & Orion Systems",
+        "ducats": null,
+        "tradable": false,
+        "relics": []
+      }
+    ],
+    "buildTime": 259200,
+    "buildPrice": 25000,
+    "vaulted": false,
+    "sex": "Male",
+    "introduced": "Update 43.0",
+    "polarities": [
+      "vazarin",
+      "madurai",
+      "aura"
+    ],
+    "aura": "vazarin"
+  },
+  {
     "name": "Styanax",
     "slug": "styanax",
     "masteryReq": 0,
     "description": "Styanax never wonders how many enemies he will face, only where he can find them. The hoplite deals high damage. Enemies tremble before his spear and shield.",
-    "imageUrl": "https://cdn.warframestat.us/img/styanax-09419fb39f.png",
+    "imageUrl": "https://cdn.warframestat.us/img/Styanax.png",
     "wikiUrl": "https://wiki.warframe.com/w/Styanax",
     "health": 270,
     "shield": 825,
@@ -18870,12 +19356,24 @@
     "passiveDescription": "Styanax's critical chance increases with his shields and doubles for spearguns.",
     "isPrime": false,
     "variantType": null,
-    "variants": [],
+    "variants": [
+      {
+        "name": "Styanax Prime",
+        "slug": "styanax-prime",
+        "type": "Prime"
+      }
+    ],
     "acquisition": [
       {
         "type": "Market",
         "method": "Acquisto diretto",
         "detail": "175 Platinum"
+      },
+      {
+        "type": "Bounty",
+        "method": "Kahl's Garrison (Chipper)",
+        "detail": "Kahl's Garrison (Chipper), Home",
+        "chance": "10000.00%"
       }
     ],
     "components": [
@@ -18920,11 +19418,152 @@
     "aura": "naramon"
   },
   {
+    "name": "Styanax Prime",
+    "slug": "styanax-prime",
+    "masteryReq": 0,
+    "description": "Shield of the innocent. Spear of justice. Styanax Prime holds the line in defiance of tyranny.",
+    "imageUrl": "https://cdn.warframestat.us/img/StyanaxPrime.png",
+    "wikiUrl": "https://wiki.warframe.com/w/Styanax%2FPrime",
+    "health": 270,
+    "shield": 925,
+    "armor": 265,
+    "energy": 215,
+    "sprint": 1,
+    "abilities": [
+      {
+        "name": "Axios Javelin",
+        "description": "Throw an Axios Javelin. When the javelin impales an enemy against a wall, surrounding enemies are pulled into the area and suffer a burst of damage."
+      },
+      {
+        "name": "Tharros Strike",
+        "description": "Summon Tharros, the shield of Styanax. Swing Tharros to repel enemies and reduce their shields and armor. Styanax regenerates health for every enemy struck."
+      },
+      {
+        "name": "Rally Point",
+        "description": "Draw enemy attention to Styanax. His resolve uplifts him and nearby allies, regenerating the squad's energy over time. Styanax and his allies also regenerate shields for every kill assist they contribute."
+      },
+      {
+        "name": "Final Stand",
+        "description": "Exude might and valor. Rise into the air and throw a barrage of Axios Javelins. The javelins deal damage to nearby enemies wherever they land. Direct hits to enemies deal greater damage."
+      }
+    ],
+    "passiveDescription": "Styanax's critical chance increases with his shields and doubles for spearguns.",
+    "isPrime": true,
+    "variantType": "Prime",
+    "variants": [
+      {
+        "name": "Styanax",
+        "slug": "styanax",
+        "type": "Base"
+      }
+    ],
+    "acquisition": [
+      {
+        "type": "Void Relic",
+        "method": "Void Fissure",
+        "detail": "Ottieni i componenti dalle Void Relics"
+      }
+    ],
+    "components": [
+      {
+        "name": "Blueprint",
+        "fullName": "Styanax Prime Blueprint",
+        "ducats": 15,
+        "tradable": true,
+        "relics": [
+          {
+            "relic": "Axi A21",
+            "era": "Axi",
+            "code": "A21",
+            "rarity": "Uncommon",
+            "chances": {
+              "Radiant": 16.67,
+              "Flawless": 20,
+              "Exceptional": 23.33,
+              "Intact": 25.33
+            }
+          }
+        ]
+      },
+      {
+        "name": "Chassis",
+        "fullName": "Styanax Prime Chassis",
+        "ducats": 45,
+        "tradable": true,
+        "relics": [
+          {
+            "relic": "Meso Y2",
+            "era": "Meso",
+            "code": "Y2",
+            "rarity": "Uncommon",
+            "chances": {
+              "Intact": 11,
+              "Exceptional": 13,
+              "Flawless": 17,
+              "Radiant": 20
+            }
+          }
+        ]
+      },
+      {
+        "name": "Neuroptics",
+        "fullName": "Styanax Prime Neuroptics",
+        "ducats": 100,
+        "tradable": true,
+        "relics": [
+          {
+            "relic": "Lith S18",
+            "era": "Lith",
+            "code": "S18",
+            "rarity": "Uncommon",
+            "chances": {
+              "Radiant": 10,
+              "Intact": 2,
+              "Exceptional": 4,
+              "Flawless": 6
+            }
+          }
+        ]
+      },
+      {
+        "name": "Systems",
+        "fullName": "Styanax Prime Systems",
+        "ducats": 45,
+        "tradable": true,
+        "relics": [
+          {
+            "relic": "Neo Y1",
+            "era": "Neo",
+            "code": "Y1",
+            "rarity": "Uncommon",
+            "chances": {
+              "Intact": 11,
+              "Exceptional": 13,
+              "Flawless": 17,
+              "Radiant": 20
+            }
+          }
+        ]
+      }
+    ],
+    "buildTime": 259200,
+    "buildPrice": 25000,
+    "vaulted": false,
+    "sex": "Male",
+    "introduced": "Update 43.0",
+    "polarities": [
+      "vazarin",
+      "naramon",
+      "naramon"
+    ],
+    "aura": "naramon"
+  },
+  {
     "name": "Temple",
     "slug": "temple",
     "masteryReq": 0,
     "description": "Blazing with glamor and armed with an Infested guitar, Lizzie, Temple’s power chords light the flames of revolution.",
-    "imageUrl": "https://cdn.warframestat.us/img/temple-c3d2feb7ae.png",
+    "imageUrl": "https://cdn.warframestat.us/img/Temple.png",
     "wikiUrl": "https://wiki.warframe.com/w/Temple",
     "health": 405,
     "shield": 225,
@@ -19012,7 +19651,7 @@
     "slug": "titania",
     "masteryReq": 0,
     "description": "Titania’s fairy-like appearance belies her formidable regal power. The enchantress deals high damage and provides crowd control. She forces opponents to pay homage or perish.",
-    "imageUrl": "https://cdn.warframestat.us/img/titania-dd20b18d5b.png",
+    "imageUrl": "https://cdn.warframestat.us/img/Titania.png",
     "wikiUrl": "https://wiki.warframe.com/w/Titania",
     "health": 270,
     "shield": 270,
@@ -19052,6 +19691,12 @@
         "type": "Market",
         "method": "Acquisto diretto",
         "detail": "275 Platinum"
+      },
+      {
+        "type": "Bounty",
+        "method": "Cephalon Simaris",
+        "detail": "Cephalon Simaris, Complete The Silver Grove",
+        "chance": "10000.00%"
       }
     ],
     "components": [
@@ -19100,7 +19745,7 @@
     "slug": "titania-prime",
     "masteryReq": 0,
     "description": "Tempting and terrifying, this is Titania in her ultimate form.",
-    "imageUrl": "https://cdn.warframestat.us/img/titania-prime-7a328a3d8a.png",
+    "imageUrl": "https://cdn.warframestat.us/img/TitaniaPrime.png",
     "wikiUrl": "https://wiki.warframe.com/w/Titania%2FPrime",
     "health": 365,
     "shield": 270,
@@ -19530,7 +20175,7 @@
     "slug": "trinity",
     "masteryReq": 0,
     "description": "Trinity embodies redemption and health. Her extraordinary healing powers support allies. Where others destroy, she restores.",
-    "imageUrl": "https://cdn.warframestat.us/img/trinity-b59556a37b.png",
+    "imageUrl": "https://cdn.warframestat.us/img/Trinity.png",
     "wikiUrl": "https://wiki.warframe.com/w/Trinity",
     "health": 270,
     "shield": 270,
@@ -19629,7 +20274,7 @@
     "slug": "trinity-prime",
     "masteryReq": 0,
     "description": "Become the bastion that defends allies using powerful healing abilities with Trinity Prime. Featuring altered mod polarities for greater customization.",
-    "imageUrl": "https://cdn.warframestat.us/img/trinity-prime-aa68b6373d.png",
+    "imageUrl": "https://cdn.warframestat.us/img/TrinityPrime.png",
     "wikiUrl": "https://wiki.warframe.com/w/Trinity%2FPrime",
     "health": 270,
     "shield": 455,
@@ -20047,7 +20692,7 @@
     "slug": "uriel",
     "masteryReq": 0,
     "description": "To fight as the Heretic of Xata is to have demons at your back. Uriel incinerates foes with searing brimstone, and commands three fiendish summons to do his devil’s work.",
-    "imageUrl": "https://cdn.warframestat.us/img/uriel-f39d1dadc6.png",
+    "imageUrl": "https://cdn.warframestat.us/img/Demonframe.png",
     "wikiUrl": "https://wiki.warframe.com/w/Uriel",
     "health": 566,
     "shield": 566,
@@ -20135,7 +20780,7 @@
     "slug": "valkyr",
     "masteryReq": 0,
     "description": "Valkyr was modified into a highly motivated and fearsome killer. She is adept at dealing damage and surviving. Her battle cry strikes terror into all who hear it.",
-    "imageUrl": "https://cdn.warframestat.us/img/valkyr-c1f7e5d2ab.png",
+    "imageUrl": "https://cdn.warframestat.us/img/Valkyr.png",
     "wikiUrl": "https://wiki.warframe.com/w/Valkyr",
     "health": 650,
     "shield": 135,
@@ -20234,7 +20879,7 @@
     "slug": "valkyr-prime",
     "masteryReq": 0,
     "description": "A proud fighter emerges unscarred by time or malice. Featuring altered mod polarities allow for greater customization.",
-    "imageUrl": "https://cdn.warframestat.us/img/valkyr-prime-354cd87f77.png",
+    "imageUrl": "https://cdn.warframestat.us/img/ValkyrPrime.png",
     "wikiUrl": "https://wiki.warframe.com/w/Valkyr%2FPrime",
     "health": 650,
     "shield": 135,
@@ -20675,7 +21320,7 @@
     "slug": "vauban",
     "masteryReq": 0,
     "description": "Vauban is the model of innovative technology. He deploys clever inventions to provide crowd control. His tenacity and focus make him formidable.",
-    "imageUrl": "https://cdn.warframestat.us/img/vauban-c95db9ee09.png",
+    "imageUrl": "https://cdn.warframestat.us/img/Vauban.png",
     "wikiUrl": "https://wiki.warframe.com/w/Vauban",
     "health": 270,
     "shield": 180,
@@ -20768,7 +21413,7 @@
     "slug": "vauban-prime",
     "masteryReq": 0,
     "description": "Transform the battlefield into a weapon with this gilded tactician. Features unique mod polarities for extended customization.",
-    "imageUrl": "https://cdn.warframestat.us/img/vauban-prime-f9c539bdde.png",
+    "imageUrl": "https://cdn.warframestat.us/img/VaubanPrime.png",
     "wikiUrl": "https://wiki.warframe.com/w/Vauban%2FPrime",
     "health": 270,
     "shield": 270,
@@ -21096,7 +21741,7 @@
     "slug": "volt",
     "masteryReq": 0,
     "description": "Electricity flows through Volt. His attacks deal high damage. Enemies will be shocked.",
-    "imageUrl": "https://cdn.warframestat.us/img/volt-9ad956c441.png",
+    "imageUrl": "https://cdn.warframestat.us/img/Volt.png",
     "wikiUrl": "https://wiki.warframe.com/w/Volt",
     "health": 270,
     "shield": 455,
@@ -21189,7 +21834,7 @@
     "slug": "volt-prime",
     "masteryReq": 0,
     "description": "A glorious warrior from the past, Volt Prime features the same abilities as Volt but with unique mod polarities for greater customization.",
-    "imageUrl": "https://cdn.warframestat.us/img/volt-prime-dd65a6befd.png",
+    "imageUrl": "https://cdn.warframestat.us/img/VoltPrime.png",
     "wikiUrl": "https://wiki.warframe.com/w/Volt%2FPrime",
     "health": 270,
     "shield": 455,
@@ -21450,7 +22095,7 @@
     "slug": "voruna",
     "masteryReq": 0,
     "description": "Four beasts, one heart. Voruna's loyal wolf pack makes for a deadly combination of strength and stealth. Beware the monstrous howl that heralds fangs of vengeance.",
-    "imageUrl": "https://cdn.warframestat.us/img/voruna-83e8799edc.png",
+    "imageUrl": "https://cdn.warframestat.us/img/Voruna.png",
     "wikiUrl": "https://wiki.warframe.com/w/Voruna",
     "health": 455,
     "shield": 270,
@@ -21478,7 +22123,13 @@
     "passiveDescription": "Voruna never fights alone. In mission, hold Abilities to call upon each wolf’s unique Passive power.",
     "isPrime": false,
     "variantType": null,
-    "variants": [],
+    "variants": [
+      {
+        "name": "Voruna Prime",
+        "slug": "voruna-prime",
+        "type": "Prime"
+      }
+    ],
     "acquisition": [
       {
         "type": "Market",
@@ -21547,11 +22198,188 @@
     "aura": "vazarin"
   },
   {
+    "name": "Voruna Prime",
+    "slug": "voruna-prime",
+    "masteryReq": 0,
+    "description": "Splendor and ferocity reach their savage apex in Voruna Prime. Though exalted by Orokin gold, she is more feral than ever.",
+    "imageUrl": "https://cdn.warframestat.us/img/VorunaPrime.png",
+    "wikiUrl": "https://wiki.warframe.com/w/Voruna%2FPrime",
+    "health": 455,
+    "shield": 270,
+    "armor": 265,
+    "energy": 130,
+    "sprint": 1.2,
+    "abilities": [
+      {
+        "name": "Shroud Of Dynar",
+        "description": "(TAP) Dynar shrouds Voruna with invisibility and accelerates her speed. Invisibility ends when Voruna attacks. For a short time after invisibility ends, melee attacks have increased Critical Damage, Status Chance, Critical Chance and inflict <DT_SLASH_COLOR>Slash Status Effects. Melee kill an enemy during this time to extend the melee buff once per cast.\n\n(HOLD) Dynar guards Voruna, increasing her Parkour Velocity."
+      },
+      {
+        "name": "Fangs Of Raksh",
+        "description": "(TAP) Raksh's fangs tear into your enemies. 5 random Status Effects are applied at 10 Stacks each on an enemy. On target's death, spread the Status Effects to other nearby enemies.\n\n(HOLD) Raksh guards Voruna with Status Effect resistance."
+      },
+      {
+        "name": "Lycath's Hunt",
+        "description": "(TAP) Lycath hunts to sustain the pack. Enemies killed by melee attacks drop health orbs and enemies killed by headshots drop energy orbs. Increase the duration of Lycath’s hunt by killing enemies affected by 5 or more Status Effects.\n\n(HOLD) Lycath guards Voruna with increased Heavy Attack efficiency."
+      },
+      {
+        "name": "Ulfrun's Descent",
+        "description": "(TAP) Voruna drops to all fours and prepares 5 brutal charges that lock onto enemies. Ulfrun, the most powerful wolf, leads the attack as Voruna dashes toward her target. The pack deals increased damage to targets and nearby enemies that are inflicted by Status Effects. Lethal attacks double the damage of Voruna's remaining charges.\n\n(HOLD) Ulfrun guards Voruna. If Voruna falls during this time, Ulfrun dies in her place."
+      }
+    ],
+    "passiveDescription": "Voruna never fights alone. In mission, hold Abilities to call upon each wolf’s unique Passive power.",
+    "isPrime": true,
+    "variantType": "Prime",
+    "variants": [
+      {
+        "name": "Voruna",
+        "slug": "voruna",
+        "type": "Base"
+      }
+    ],
+    "acquisition": [
+      {
+        "type": "Void Relic",
+        "method": "Void Fissure",
+        "detail": "Ottieni i componenti dalle Void Relics"
+      }
+    ],
+    "components": [
+      {
+        "name": "Blueprint",
+        "fullName": "Voruna Prime Blueprint",
+        "ducats": 100,
+        "tradable": true,
+        "relics": [
+          {
+            "relic": "Axi V14",
+            "era": "Axi",
+            "code": "V14",
+            "rarity": "Uncommon",
+            "chances": {
+              "Radiant": 10,
+              "Intact": 2,
+              "Exceptional": 4,
+              "Flawless": 6
+            }
+          }
+        ]
+      },
+      {
+        "name": "Chassis",
+        "fullName": "Voruna Prime Chassis",
+        "ducats": 45,
+        "tradable": true,
+        "relics": [
+          {
+            "relic": "Axi A21",
+            "era": "Axi",
+            "code": "A21",
+            "rarity": "Uncommon",
+            "chances": {
+              "Intact": 11,
+              "Exceptional": 13,
+              "Flawless": 17,
+              "Radiant": 20
+            }
+          },
+          {
+            "relic": "Lith N19",
+            "era": "Lith",
+            "code": "N19",
+            "rarity": "Uncommon",
+            "chances": {
+              "Intact": 11,
+              "Exceptional": 13,
+              "Flawless": 17,
+              "Radiant": 20
+            }
+          }
+        ]
+      },
+      {
+        "name": "Neuroptics",
+        "fullName": "Voruna Prime Neuroptics",
+        "ducats": 45,
+        "tradable": true,
+        "relics": [
+          {
+            "relic": "Meso A12",
+            "era": "Meso",
+            "code": "A12",
+            "rarity": "Uncommon",
+            "chances": {
+              "Intact": 11,
+              "Exceptional": 13,
+              "Flawless": 17,
+              "Radiant": 20
+            }
+          },
+          {
+            "relic": "Meso D8",
+            "era": "Meso",
+            "code": "D8",
+            "rarity": "Uncommon",
+            "chances": {
+              "Intact": 11,
+              "Exceptional": 13,
+              "Flawless": 17,
+              "Radiant": 20
+            }
+          }
+        ]
+      },
+      {
+        "name": "Systems",
+        "fullName": "Voruna Prime Systems",
+        "ducats": 100,
+        "tradable": true,
+        "relics": [
+          {
+            "relic": "Lith V11",
+            "era": "Lith",
+            "code": "V11",
+            "rarity": "Uncommon",
+            "chances": {
+              "Radiant": 10,
+              "Intact": 2,
+              "Exceptional": 4,
+              "Flawless": 6
+            }
+          },
+          {
+            "relic": "Neo V11",
+            "era": "Neo",
+            "code": "V11",
+            "rarity": "Uncommon",
+            "chances": {
+              "Radiant": 10,
+              "Intact": 2,
+              "Exceptional": 4,
+              "Flawless": 6
+            }
+          }
+        ]
+      }
+    ],
+    "buildTime": 259200,
+    "buildPrice": 25000,
+    "vaulted": false,
+    "sex": "Female",
+    "introduced": "Hotfix 42.0.6",
+    "polarities": [
+      "madurai",
+      "madurai",
+      "vazarin"
+    ],
+    "aura": "vazarin"
+  },
+  {
     "name": "Wisp",
     "slug": "wisp",
     "masteryReq": 0,
     "description": "Wisp floats between the material and the ethereal. She accesses multiple dimensions to support her allies. Her countenance is mysterious and enigmatic.",
-    "imageUrl": "https://cdn.warframestat.us/img/wisp-a046bb62f4.png",
+    "imageUrl": "https://cdn.warframestat.us/img/Wisp.png",
     "wikiUrl": "https://wiki.warframe.com/w/Wisp",
     "health": 270,
     "shield": 180,
@@ -21645,7 +22473,7 @@
     "slug": "wisp-prime",
     "masteryReq": 0,
     "description": "Wisp Prime’s gilded splendor haunts the battlefield. Allies welcome her interdimensional beauty.",
-    "imageUrl": "https://cdn.warframestat.us/img/wisp-prime-7a898e071d.png",
+    "imageUrl": "https://cdn.warframestat.us/img/WispPrime.png",
     "wikiUrl": "https://wiki.warframe.com/w/Wisp%2FPrime",
     "health": 270,
     "shield": 270,
@@ -22038,7 +22866,7 @@
     "slug": "wukong",
     "masteryReq": 0,
     "description": "The simian warrior is a mountain of strength. Wukong deals heavy damage and has high survivability. His quick trickster tactics are unforgettable.",
-    "imageUrl": "https://cdn.warframestat.us/img/wukong-bbc641319b.png",
+    "imageUrl": "https://cdn.warframestat.us/img/Wukong.png",
     "wikiUrl": "https://wiki.warframe.com/w/Wukong",
     "health": 455,
     "shield": 270,
@@ -22131,7 +22959,7 @@
     "slug": "wukong-prime",
     "masteryReq": 0,
     "description": "The trickster-warrior ascends to his ultimate incarnation. ",
-    "imageUrl": "https://cdn.warframestat.us/img/wukong-prime-4e1c56fd43.png",
+    "imageUrl": "https://cdn.warframestat.us/img/WukongPrime.png",
     "wikiUrl": "https://wiki.warframe.com/w/Wukong%2FPrime",
     "health": 455,
     "shield": 345,
@@ -22572,7 +23400,7 @@
     "slug": "xaku",
     "masteryReq": 0,
     "description": "Broken Warframes adrift in the Void converged to create Xaku. Together, they deal high damage. Xaku proves that the sum of the whole is greater than its parts.",
-    "imageUrl": "https://cdn.warframestat.us/img/xaku-8fb3ad2779.png",
+    "imageUrl": "https://cdn.warframestat.us/img/BrokenFrame.png",
     "wikiUrl": "https://wiki.warframe.com/w/Xaku",
     "health": 269,
     "shield": 239,
@@ -22612,6 +23440,12 @@
         "type": "Market",
         "method": "Acquisto diretto",
         "detail": "325 Platinum"
+      },
+      {
+        "type": "Bounty",
+        "method": "Cephalon Simaris",
+        "detail": "Cephalon Simaris, Complete Heart of Deimos",
+        "chance": "10000.00%"
       },
       {
         "type": "Bounty",
@@ -22684,7 +23518,7 @@
     "slug": "xaku-prime",
     "masteryReq": 0,
     "description": "The child of war and void is reborn in gold. That which was once shattered may rise stronger than that which was never broken.",
-    "imageUrl": "https://cdn.warframestat.us/img/xaku-prime-f6213dd36f.png",
+    "imageUrl": "https://cdn.warframestat.us/img/XakuPrime.png",
     "wikiUrl": "https://wiki.warframe.com/w/Xaku%2FPrime",
     "health": 269,
     "shield": 263,
@@ -22802,6 +23636,18 @@
             }
           },
           {
+            "relic": "Neo C9",
+            "era": "Neo",
+            "code": "C9",
+            "rarity": "Uncommon",
+            "chances": {
+              "Intact": 11,
+              "Exceptional": 13,
+              "Flawless": 17,
+              "Radiant": 20
+            }
+          },
+          {
             "relic": "Neo G8",
             "era": "Neo",
             "code": "G8",
@@ -22817,6 +23663,18 @@
             "relic": "Neo K9",
             "era": "Neo",
             "code": "K9",
+            "rarity": "Uncommon",
+            "chances": {
+              "Intact": 11,
+              "Exceptional": 13,
+              "Flawless": 17,
+              "Radiant": 20
+            }
+          },
+          {
+            "relic": "Neo V11",
+            "era": "Neo",
+            "code": "V11",
             "rarity": "Uncommon",
             "chances": {
               "Intact": 11,
@@ -22870,9 +23728,33 @@
             }
           },
           {
+            "relic": "Meso A10",
+            "era": "Meso",
+            "code": "A10",
+            "rarity": "Uncommon",
+            "chances": {
+              "Radiant": 16.67,
+              "Flawless": 20,
+              "Exceptional": 23.33,
+              "Intact": 25.33
+            }
+          },
+          {
             "relic": "Meso E6",
             "era": "Meso",
             "code": "E6",
+            "rarity": "Uncommon",
+            "chances": {
+              "Radiant": 16.67,
+              "Flawless": 20,
+              "Exceptional": 23.33,
+              "Intact": 25.33
+            }
+          },
+          {
+            "relic": "Meso K8",
+            "era": "Meso",
+            "code": "K8",
             "rarity": "Uncommon",
             "chances": {
               "Radiant": 16.67,
@@ -22938,9 +23820,33 @@
             }
           },
           {
+            "relic": "Axi S20",
+            "era": "Axi",
+            "code": "S20",
+            "rarity": "Uncommon",
+            "chances": {
+              "Intact": 11,
+              "Exceptional": 13,
+              "Flawless": 17,
+              "Radiant": 20
+            }
+          },
+          {
             "relic": "Lith A10",
             "era": "Lith",
             "code": "A10",
+            "rarity": "Uncommon",
+            "chances": {
+              "Intact": 11,
+              "Exceptional": 13,
+              "Flawless": 17,
+              "Radiant": 20
+            }
+          },
+          {
+            "relic": "Lith A12",
+            "era": "Lith",
+            "code": "A12",
             "rarity": "Uncommon",
             "chances": {
               "Intact": 11,
@@ -22981,7 +23887,7 @@
     "slug": "yareli",
     "masteryReq": 0,
     "description": "The waverider can unleash a flood of destruction on the battlefield. Yareli’s aqueous attacks deal high damage. Surf’s up. Enemies down.",
-    "imageUrl": "https://cdn.warframestat.us/img/yareli-3b577c5064.png",
+    "imageUrl": "https://cdn.warframestat.us/img/Yareli.png",
     "wikiUrl": "https://wiki.warframe.com/w/Yareli",
     "health": 270,
     "shield": 455,
@@ -23021,6 +23927,12 @@
         "type": "Market",
         "method": "Acquisto diretto",
         "detail": "325 Platinum"
+      },
+      {
+        "type": "Bounty",
+        "method": "Cephalon Simaris",
+        "detail": "Cephalon Simaris, Complete The Waverider",
+        "chance": "10000.00%"
       }
     ],
     "components": [
@@ -23069,7 +23981,7 @@
     "slug": "yareli-prime",
     "masteryReq": 0,
     "description": "The Waverider arises, reborn from the ocean foam. In her original Orokin-era splendor she embodies the undying vigor of youth.",
-    "imageUrl": "https://cdn.warframestat.us/img/yareli-prime-c4dbed6caa.png",
+    "imageUrl": "https://cdn.warframestat.us/img/YareliPrime.png",
     "wikiUrl": "https://wiki.warframe.com/w/Yareli%2FPrime",
     "health": 270,
     "shield": 550,
@@ -23119,6 +24031,18 @@
         "tradable": true,
         "relics": [
           {
+            "relic": "Meso D8",
+            "era": "Meso",
+            "code": "D8",
+            "rarity": "Uncommon",
+            "chances": {
+              "Intact": 11,
+              "Exceptional": 13,
+              "Flawless": 17,
+              "Radiant": 20
+            }
+          },
+          {
             "relic": "Meso P17",
             "era": "Meso",
             "code": "P17",
@@ -23134,6 +24058,18 @@
             "relic": "Neo A14",
             "era": "Neo",
             "code": "A14",
+            "rarity": "Uncommon",
+            "chances": {
+              "Intact": 11,
+              "Exceptional": 13,
+              "Flawless": 17,
+              "Radiant": 20
+            }
+          },
+          {
+            "relic": "Neo T11",
+            "era": "Neo",
+            "code": "T11",
             "rarity": "Uncommon",
             "chances": {
               "Intact": 11,
@@ -23185,6 +24121,30 @@
               "Exceptional": 23.33,
               "Intact": 25.33
             }
+          },
+          {
+            "relic": "Neo A16",
+            "era": "Neo",
+            "code": "A16",
+            "rarity": "Uncommon",
+            "chances": {
+              "Radiant": 16.67,
+              "Flawless": 20,
+              "Exceptional": 23.33,
+              "Intact": 25.33
+            }
+          },
+          {
+            "relic": "Neo V11",
+            "era": "Neo",
+            "code": "V11",
+            "rarity": "Uncommon",
+            "chances": {
+              "Radiant": 16.67,
+              "Flawless": 20,
+              "Exceptional": 23.33,
+              "Intact": 25.33
+            }
           }
         ]
       },
@@ -23198,6 +24158,18 @@
             "relic": "Axi Y2",
             "era": "Axi",
             "code": "Y2",
+            "rarity": "Uncommon",
+            "chances": {
+              "Radiant": 10,
+              "Intact": 2,
+              "Exceptional": 4,
+              "Flawless": 6
+            }
+          },
+          {
+            "relic": "Axi Y3",
+            "era": "Axi",
+            "code": "Y3",
             "rarity": "Uncommon",
             "chances": {
               "Radiant": 10,
@@ -23229,6 +24201,18 @@
               "Exceptional": 4,
               "Flawless": 6
             }
+          },
+          {
+            "relic": "Meso Y2",
+            "era": "Meso",
+            "code": "Y2",
+            "rarity": "Uncommon",
+            "chances": {
+              "Radiant": 10,
+              "Intact": 2,
+              "Exceptional": 4,
+              "Flawless": 6
+            }
           }
         ]
       },
@@ -23241,6 +24225,18 @@
           {
             "relic": "Axi Y1",
             "era": "Axi",
+            "code": "Y1",
+            "rarity": "Uncommon",
+            "chances": {
+              "Radiant": 10,
+              "Intact": 2,
+              "Exceptional": 4,
+              "Flawless": 6
+            }
+          },
+          {
+            "relic": "Neo Y1",
+            "era": "Neo",
             "code": "Y1",
             "rarity": "Uncommon",
             "chances": {
@@ -23270,7 +24266,7 @@
     "slug": "zephyr",
     "masteryReq": 0,
     "description": "Command the power of the wind. Zephyr’s cyclonic abilities protect her, deal high damage, and provide crowd control. She swoops in from above and leaves a path of destruction.",
-    "imageUrl": "https://cdn.warframestat.us/img/zephyr-02db9643ed.png",
+    "imageUrl": "https://cdn.warframestat.us/img/Zephyr.png",
     "wikiUrl": "https://wiki.warframe.com/w/Zephyr",
     "health": 455,
     "shield": 455,
@@ -23363,7 +24359,7 @@
     "slug": "zephyr-prime",
     "masteryReq": 0,
     "description": "Take to the skies with this golden bird of destruction.",
-    "imageUrl": "https://cdn.warframestat.us/img/zephyr-prime-c777d1497b.png",
+    "imageUrl": "https://cdn.warframestat.us/img/ZephyrPrime.png",
     "wikiUrl": "https://wiki.warframe.com/w/Zephyr%2FPrime",
     "health": 455,
     "shield": 455,

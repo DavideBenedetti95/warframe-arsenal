@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-04-03T20:04:53.869Z",
+  "lastUpdated": "2026-06-28T20:22:41.910Z",
   "sourceUrl": "https://warframe-web-assets.nyc3.cdn.digitaloceanspaces.com/uploads/cms/hnfvc0o3jnfvc873njb03enrf56.html",
   "activeRelics": {
-    "Lith D7": [
+    "Lith Q3": [
       {
         "mission": "Final Stage",
         "rotation": null,
@@ -64,7 +64,7 @@
         "chance": 14.29
       }
     ],
-    "Lith E2": [
+    "Lith A12": [
       {
         "mission": "Mercury/Suisei (Spy)",
         "rotation": "Rotation B",
@@ -188,7 +188,7 @@
         "chance": 14.29
       }
     ],
-    "Lith N18": [
+    "Lith T14": [
       {
         "mission": "Mercury/Suisei (Spy)",
         "rotation": "Rotation B",
@@ -312,7 +312,7 @@
         "chance": 14.29
       }
     ],
-    "Lith L7": [
+    "Lith S18": [
       {
         "mission": "Mercury/Suisei (Spy)",
         "rotation": "Rotation B",
@@ -374,7 +374,7 @@
         "chance": 14.29
       }
     ],
-    "Lith Q2": [
+    "Lith V11": [
       {
         "mission": "Mercury/Suisei (Spy)",
         "rotation": "Rotation B",
@@ -436,7 +436,7 @@
         "chance": 14.29
       }
     ],
-    "Meso V11": [
+    "Meso D8": [
       {
         "mission": "Mars/Olympus (Disruption)",
         "rotation": "Rotation C",
@@ -560,7 +560,7 @@
         "chance": 12.18
       }
     ],
-    "Meso Y1": [
+    "Meso A12": [
       {
         "mission": "Mars/Olympus (Disruption)",
         "rotation": "Rotation C",
@@ -684,7 +684,7 @@
         "chance": 12.18
       }
     ],
-    "Meso P17": [
+    "Meso Y2": [
       {
         "mission": "Mars/Olympus (Disruption)",
         "rotation": "Rotation C",
@@ -746,7 +746,7 @@
         "chance": 12.18
       }
     ],
-    "Meso V12": [
+    "Meso V15": [
       {
         "mission": "Jupiter/Io (Defense)",
         "rotation": "Rotation A",
@@ -808,7 +808,7 @@
         "chance": 10.17
       }
     ],
-    "Meso V14": [
+    "Meso K8": [
       {
         "mission": "Höllvania/Legacyte Harvest (Legacyte Harvest)",
         "rotation": "Rotation C",
@@ -870,7 +870,7 @@
         "chance": 12.18
       }
     ],
-    "Meso A9": [
+    "Meso L5": [
       {
         "mission": "Mars/Olympus (Disruption)",
         "rotation": "Rotation C",
@@ -1118,7 +1118,7 @@
         "chance": 14.29
       }
     ],
-    "Neo P9": [
+    "Neo A16": [
       {
         "mission": "Stage 2, Stage 3 of 4, and Stage 3 of 5",
         "rotation": null,
@@ -1180,7 +1180,7 @@
         "chance": 14.29
       }
     ],
-    "Neo C6": [
+    "Neo T11": [
       {
         "mission": "Jupiter/Callisto (Interception)",
         "rotation": "Rotation C",
@@ -1242,7 +1242,7 @@
         "chance": 12.5
       }
     ],
-    "Neo O3": [
+    "Neo V12": [
       {
         "mission": "Höllvania/Legacyte Harvest (Legacyte Harvest)",
         "rotation": "Rotation C",
@@ -1304,7 +1304,7 @@
         "chance": 13.56
       }
     ],
-    "Neo K9": [
+    "Neo C8": [
       {
         "mission": "Jupiter/Callisto (Interception)",
         "rotation": "Rotation C",
@@ -1366,7 +1366,7 @@
         "chance": 12.5
       }
     ],
-    "Neo D9": [
+    "Neo Y1": [
       {
         "mission": "Jupiter/Callisto (Interception)",
         "rotation": "Rotation C",
@@ -1428,7 +1428,7 @@
         "chance": 12.5
       }
     ],
-    "Neo T10": [
+    "Neo C9": [
       {
         "mission": "Jupiter/Callisto (Interception)",
         "rotation": "Rotation C",
@@ -1490,7 +1490,7 @@
         "chance": 12.5
       }
     ],
-    "Axi S18": [
+    "Axi S20": [
       {
         "mission": "Pluto/Cerberus (Interception)",
         "rotation": "Rotation B",
@@ -1552,7 +1552,7 @@
         "chance": 14.29
       }
     ],
-    "Axi P8": [
+    "Axi D6": [
       {
         "mission": "Pluto/Cerberus (Interception)",
         "rotation": "Rotation B",
@@ -1614,7 +1614,7 @@
         "chance": 14.29
       }
     ],
-    "Axi C10": [
+    "Axi V14": [
       {
         "mission": "Pluto/Cerberus (Interception)",
         "rotation": "Rotation B",
@@ -1738,7 +1738,7 @@
         "chance": 14.29
       }
     ],
-    "Axi Y1": [
+    "Axi A21": [
       {
         "mission": "Pluto/Cerberus (Interception)",
         "rotation": "Rotation B",
@@ -1800,7 +1800,7 @@
         "chance": 14.29
       }
     ],
-    "Axi A20": [
+    "Axi A22": [
       {
         "mission": "Pluto/Cerberus (Interception)",
         "rotation": "Rotation B",
@@ -1862,7 +1862,7 @@
         "chance": 14.29
       }
     ],
-    "Axi N13": [
+    "Axi P10": [
       {
         "mission": "Pluto/Cerberus (Interception)",
         "rotation": "Rotation B",
@@ -2112,6 +2112,7 @@
     "Axi A18",
     "Axi A19",
     "Axi A2",
+    "Axi A20",
     "Axi A3",
     "Axi A4",
     "Axi A5",
@@ -2129,6 +2130,8 @@
     "Axi B8",
     "Axi B9",
     "Axi C1",
+    "Axi C10",
+    "Axi C11",
     "Axi C2",
     "Axi C3",
     "Axi C4",
@@ -2201,6 +2204,7 @@
     "Axi N10",
     "Axi N11",
     "Axi N12",
+    "Axi N13",
     "Axi N2",
     "Axi N3",
     "Axi N4",
@@ -2222,6 +2226,7 @@
     "Axi P5",
     "Axi P6",
     "Axi P7",
+    "Axi P8",
     "Axi P9",
     "Axi R1",
     "Axi R2",
@@ -2236,6 +2241,7 @@
     "Axi S15",
     "Axi S16",
     "Axi S17",
+    "Axi S18",
     "Axi S19",
     "Axi S2",
     "Axi S3",
@@ -2272,7 +2278,9 @@
     "Axi W2",
     "Axi W3",
     "Axi W4",
+    "Axi Y1",
     "Axi Y2",
+    "Axi Y3",
     "Axi Z1",
     "Axi Z2",
     "Lith A1",
@@ -2302,6 +2310,7 @@
     "Lith C11",
     "Lith C12",
     "Lith C13",
+    "Lith C14",
     "Lith C2",
     "Lith C3",
     "Lith C4",
@@ -2315,7 +2324,9 @@
     "Lith D4",
     "Lith D5",
     "Lith D6",
+    "Lith D7",
     "Lith E1",
+    "Lith E2",
     "Lith F1",
     "Lith F2",
     "Lith F3",
@@ -2360,6 +2371,7 @@
     "Lith L4",
     "Lith L5",
     "Lith L6",
+    "Lith L7",
     "Lith M1",
     "Lith M10",
     "Lith M2",
@@ -2379,6 +2391,8 @@
     "Lith N15",
     "Lith N16",
     "Lith N17",
+    "Lith N18",
+    "Lith N19",
     "Lith N2",
     "Lith N3",
     "Lith N4",
@@ -2401,6 +2415,7 @@
     "Lith P8",
     "Lith P9",
     "Lith Q1",
+    "Lith Q2",
     "Lith R1",
     "Lith R2",
     "Lith R3",
@@ -2457,6 +2472,7 @@
     "Lith Z3",
     "Lith Z4",
     "Meso A1",
+    "Meso A10",
     "Meso A11",
     "Meso A2",
     "Meso A3",
@@ -2465,6 +2481,7 @@
     "Meso A6",
     "Meso A7",
     "Meso A8",
+    "Meso A9",
     "Meso B1",
     "Meso B10",
     "Meso B2",
@@ -2498,6 +2515,7 @@
     "Meso E4",
     "Meso E5",
     "Meso E6",
+    "Meso E7",
     "Meso F1",
     "Meso F2",
     "Meso F3",
@@ -2533,6 +2551,7 @@
     "Meso L1",
     "Meso L2",
     "Meso L3",
+    "Meso L4",
     "Meso M1",
     "Meso M2",
     "Meso M3",
@@ -2568,6 +2587,7 @@
     "Meso P14",
     "Meso P15",
     "Meso P16",
+    "Meso P17",
     "Meso P2",
     "Meso P3",
     "Meso P4",
@@ -2607,6 +2627,9 @@
     "Meso T8",
     "Meso V1",
     "Meso V10",
+    "Meso V11",
+    "Meso V12",
+    "Meso V14",
     "Meso V2",
     "Meso V3",
     "Meso V4",
@@ -2620,6 +2643,7 @@
     "Meso W3",
     "Meso W4",
     "Meso W5",
+    "Meso Y1",
     "Meso Z1",
     "Meso Z2",
     "Meso Z3",
@@ -2655,6 +2679,7 @@
     "Neo C3",
     "Neo C4",
     "Neo C5",
+    "Neo C6",
     "Neo D1",
     "Neo D10",
     "Neo D2",
@@ -2664,6 +2689,7 @@
     "Neo D6",
     "Neo D7",
     "Neo D8",
+    "Neo D9",
     "Neo E1",
     "Neo E2",
     "Neo E3",
@@ -2696,6 +2722,7 @@
     "Neo K6",
     "Neo K7",
     "Neo K8",
+    "Neo K9",
     "Neo L1",
     "Neo L2",
     "Neo L3",
@@ -2722,6 +2749,7 @@
     "Neo N21",
     "Neo N22",
     "Neo N23",
+    "Neo N24",
     "Neo N3",
     "Neo N4",
     "Neo N5",
@@ -2731,7 +2759,9 @@
     "Neo N9",
     "Neo O1",
     "Neo O2",
+    "Neo O3",
     "Neo P1",
+    "Neo P10",
     "Neo P2",
     "Neo P3",
     "Neo P4",
@@ -2739,6 +2769,7 @@
     "Neo P6",
     "Neo P7",
     "Neo P8",
+    "Neo P9",
     "Neo Q1",
     "Neo R1",
     "Neo R2",
@@ -2757,6 +2788,7 @@
     "Neo S18",
     "Neo S19",
     "Neo S2",
+    "Neo S20",
     "Neo S3",
     "Neo S5",
     "Neo S6",
@@ -2764,6 +2796,7 @@
     "Neo S8",
     "Neo S9",
     "Neo T1",
+    "Neo T10",
     "Neo T2",
     "Neo T3",
     "Neo T4",
@@ -2774,6 +2807,7 @@
     "Neo T9",
     "Neo V1",
     "Neo V10",
+    "Neo V11",
     "Neo V2",
     "Neo V3",
     "Neo V4",

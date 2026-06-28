@@ -54,6 +54,7 @@ export default function Footer() {
         </div>
         
         <div className="footer__copyright">
+          <p className="footer__update">Updated for: Update 43: Jade Shadows: Constellations</p>
           <p>© {new Date().getFullYear()} Warframe Arsenal - Fan Project</p>
           <p className="footer__note">Not affiliated with Digital Extremes Ltd.</p>
         </div>
